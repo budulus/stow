@@ -1,0 +1,37 @@
+#!/bin/bash
+# Copyright (C) 2014 Alexander Keller <github@nycroth.com>
+# Modified to handle VPN status
+
+INTERFACE="${BLOCK_INSTANCE:-wlp3s0}"  # Use wlp3s0 as default if no block instance provided
+VPN_INTERFACE="tun0"  # Change this to your VPN interface (e.g., tun0 or another)
+
+# Check if the wireless interface exists (skip the operstate check)
+if [[ ! -d /sys/class/net/${INTERFACE}/wireless ]]; then
+    exit
+fi
+
+# Get Wi-Fi signal quality
+QUALITY=$(grep $INTERFACE /proc/net/wireless | awk '{ print int($3 * 100 / 70) }')
+
+# Get VPN status
+VPN_CONNECTED=$(ip link show "$VPN_INTERFACE" > /dev/null 2>&1 && echo "yes" || echo "no")
+
+# If VPN is not connected, don't output anything and exit
+if [[ "$VPN_CONNECTED" = "no" ]]; then
+    exit 0
+fi
+
+# Output Wi-Fi signal quality with VPN status
+echo "Wi-Fi: $QUALITY% | VPN: Connected"  # Full text (with VPN status)
+echo "$QUALITY%"  # Short text (Wi-Fi signal quality only)
+
+# Color coding based on signal quality
+if [[ $QUALITY -ge 80 ]]; then
+    echo "#00FF00"  # Green for good signal
+elif [[ $QUALITY -lt 80 && $QUALITY -ge 60 ]]; then
+    echo "#FFF600"  # Yellow for moderate signal
+elif [[ $QUALITY -lt 60 && $QUALITY -ge 40 ]]; then
+    echo "#FFAE00"  # Orange for weak signal
+else
+    echo "#FF0000"  # Red for poor signal
+fi
