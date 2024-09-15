@@ -1,0 +1,115 @@
+Received: from GWS01.d.ethz.ch (82.130.70.78) by CAS22.d.ethz.ch
+ (172.31.51.112) with Microsoft SMTP Server (TLS) id 14.1.339.1; Mon, 19 Sep
+ 2011 12:51:50 +0200
+Received: from edge20.ethz.ch (82.130.99.26) by gws01.d.ethz.ch
+ (129.132.178.238) with Microsoft SMTP Server (TLS) id 8.2.254.0; Mon, 19 Sep
+ 2011 12:51:49 +0200
+Received: from phil2.ethz.ch (129.132.202.240) by edge20.ethz.ch
+ (82.130.99.26) with Microsoft SMTP Server id 14.1.339.1; Mon, 19 Sep 2011
+ 12:51:49 +0200
+Received: from mail-yw0-f52.google.com ([209.85.213.52])	by phil2.ethz.ch with
+ esmtp (Exim 4.69)	(envelope-from <jonas.fankhauser@gmail.com>)	id
+ 1R5bS0-0007Rl-84	for hopf@imes.mavt.ethz.ch; Mon, 19 Sep 2011 12:51:49 +0200
+Received: by ywp31 with SMTP id 31so24742636ywp.39        for
+ <hopf@imes.mavt.ethz.ch>; Mon, 19 Sep 2011 03:51:47 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=gamma;
+        h=mime-version:in-reply-to:references:date:message-id:subject:from:to
+         :content-type;
+        bh=GZBfIXRMG/H6NZgqzRirEyBofg6IbEEd4nNtqlvVYSM=;
+        b=Svg/mqQJzu6WPy8tg7kxSnzFGzDBM1wodq4akN29hyzEPYNJ+Wt3ixYEhHnwIjCXF2
+         XVt8Xmv8WmQxWBc9b6c2aEjsaq3YgHG5W2Kblh1Q1/IhsOJFMktCPoFJcBtfnNxKZb2t
+         IB2snTp5ajbr08/YkmvioAUcuP/TCNdM20U8g=
+Received: by 10.101.181.17 with SMTP id i17mr1573827anp.97.1316429507711; Mon,
+ 19 Sep 2011 03:51:47 -0700 (PDT)
+Received: by 10.100.4.4 with HTTP; Mon, 19 Sep 2011 03:51:47 -0700 (PDT)
+Received: by 10.100.4.4 with HTTP; Mon, 19 Sep 2011 03:51:47 -0700 (PDT)
+In-Reply-To: <4074476F6FE9EF4DBCC2D0ADEA25FCA40A6136@MBX12.d.ethz.ch>
+References: <4074476F6FE9EF4DBCC2D0ADEA25FCA40A6136@MBX12.d.ethz.ch>
+Date: Mon, 19 Sep 2011 12:51:47 +0200
+Message-ID: <CAFjAa1WrTEZAV1T=hw9thW5-yUc2LEYROLNaJak0t91WyP9jdA@mail.gmail.com>
+Subject: Re:
+From: Jonas Fankhauser <jonas.fankhauser@gmail.com>
+To: Hopf Raoul <hopf@imes.mavt.ethz.ch>
+Content-Type: multipart/alternative; boundary="001636c92add2dd4cc04ad4921e8"
+X-Filter-Node: phil2.ethz.ch
+X-Spam-Level:
+X-Spam-Status: hits=-0.7 tests=FREEMAIL_FROM,HTML_MESSAGE,RCVD_IN_DNSWL_LOW,SPF_PASS,T_DKIM_INVALID
+X-Spam-Flag: NO
+Return-Path: jonas.fankhauser@gmail.com
+X-MS-Exchange-Organization-AuthSource: edge20.ethz.ch
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Exchange-Organization-AVStamp-Mailbox: SMEXkv@];843700;0;This mail has
+ been scanned by Trend Micro ScanMail for Microsoft Exchange;
+X-MS-Exchange-Organization-SCL: 0
+MIME-Version: 1.0
+
+--001636c92add2dd4cc04ad4921e8
+Content-Type: text/plain; charset="ISO-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+Hallo Raoul,
+
+Merci viu mau! I chumme g=E4rn mau vrbi!
+I ha ou scho e frag: Sicherheitsvorl=E4sig s=F6u me nid ga, oder?
+
+Gruess Jonas
+Am 19.09.2011 12:43 schrieb "Hopf Raoul" <hopf@imes.mavt.ethz.ch>:
+> Hey Jonas,
+>
+> ...willkomm=E4 ar ETH ;) Falls frage hesch zu irgendwas, chasch jederzit =
+bi
+mir im B=FCro verbicho: es isch ds CLA, ds komische Geb=E4ude mitte Glaslam=
+elle
+g=E4g=E4n=FCber vom Maschinelabor, G-Stock, B=FCro G21.2
+>
+>
+> Guete Start u Gruess, Raoul
+>
+> ----------------------------------------------
+> Raoul Hopf
+> Institute of Mechanical Systems
+> ETH Zurich
+> ----------------------------------------------
+> CLA G21.2
+> Tannenstrasse 3
+> 8092 Z=FCrich
+> Switzerland
+>
+>
+> +41 44 632 28 86 phone
+> +41 44 632 11 45 fax
+> ---------------------------------------------
+> hopf@imes.mavt.ethz.ch<mailto:hopf@imes.mavt.ethz.ch>
+> www.zfm.ethz.ch<http://www.zfm.ethz.ch/>
+>
+
+--001636c92add2dd4cc04ad4921e8
+Content-Type: text/html; charset="ISO-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-=
+1"><p>Hallo Raoul, </p>
+<p>Merci viu mau! I chumme g=E4rn mau vrbi! <br>
+I ha ou scho e frag: Sicherheitsvorl=E4sig s=F6u me nid ga, oder? </p>
+<p>Gruess Jonas</p>
+<div class=3D"gmail_quote">Am 19.09.2011 12:43 schrieb &quot;Hopf  Raoul&qu=
+ot; &lt;<a href=3D"mailto:hopf@imes.mavt.ethz.ch">hopf@imes.mavt.ethz.ch</a=
+>&gt;:<br type=3D"attribution">&gt; Hey Jonas,<br>&gt; <br>&gt; ...willkomm=
+=E4 ar ETH ;) Falls frage hesch zu irgendwas, chasch jederzit bi mir im B=
+=FCro verbicho: es isch ds CLA, ds komische Geb=E4ude mitte Glaslamelle g=
+=E4g=E4n=FCber vom Maschinelabor, G-Stock, B=FCro G21.2<br>
+&gt; <br>&gt; <br>&gt; Guete Start u Gruess, Raoul<br>&gt; <br>&gt; -------=
+---------------------------------------<br>&gt; Raoul Hopf<br>&gt; Institut=
+e of Mechanical Systems<br>&gt; ETH Zurich<br>&gt; ------------------------=
+----------------------<br>
+&gt; CLA G21.2<br>&gt; Tannenstrasse 3<br>&gt; 8092 Z=FCrich<br>&gt; Switze=
+rland<br>&gt; <br>&gt; <br>&gt; &#43;41 44 632 28 86 phone<br>&gt; &#43;41 =
+44 632 11 45 fax<br>&gt; ---------------------------------------------<br>&=
+gt; <a href=3D"mailto:hopf@imes.mavt.ethz.ch">hopf@imes.mavt.ethz.ch</a>&lt=
+;mailto:<a href=3D"mailto:hopf@imes.mavt.ethz.ch">hopf@imes.mavt.ethz.ch</a=
+>&gt;<br>
+&gt; <a href=3D"http://www.zfm.ethz.ch">www.zfm.ethz.ch</a>&lt;<a href=3D"h=
+ttp://www.zfm.ethz.ch/">http://www.zfm.ethz.ch/</a>&gt;<br>&gt; <br></div>
+
+--001636c92add2dd4cc04ad4921e8--

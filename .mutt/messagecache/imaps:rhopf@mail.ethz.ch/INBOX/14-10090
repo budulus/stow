@@ -1,0 +1,58 @@
+Received: from edge20.ethz.ch (82.130.99.26) by CAS11.d.ethz.ch
+ (172.31.38.211) with Microsoft SMTP Server (TLS) id 14.1.339.1; Tue, 18 Oct
+ 2011 10:20:52 +0200
+Received: from bernie-new.ethz.ch (82.130.118.56) by edge20.ethz.ch
+ (82.130.99.26) with Microsoft SMTP Server id 14.1.339.1; Tue, 18 Oct 2011
+ 10:20:50 +0200
+Received: from phil4.ethz.ch ([129.132.202.247] helo=vphil1.ethz.ch)	by
+ bernie-new.ethz.ch with esmtp (Exim 4.69)	(envelope-from
+ <mkrausch@stanford.edu>)	id 1RG4un-0000uU-UK; Tue, 18 Oct 2011 10:20:49 +0200
+Received: from smtp1.stanford.edu ([171.67.219.81] helo=smtp.stanford.edu)	by
+ vphil1.ethz.ch with esmtp (Exim 4.69)	(envelope-from <mkrausch@stanford.edu>)
+	id 1RG4ue-0004Xp-Fg; Tue, 18 Oct 2011 10:20:44 +0200
+Received: from smtp.stanford.edu (localhost.localdomain [127.0.0.1])	by
+ localhost (Postfix) with SMTP id E9E8A4704AF;	Tue, 18 Oct 2011 01:20:38 -0700
+ (PDT)
+Received: from public-docking-hg-2-093.ethz.ch
+ (public-docking-hg-2-093.ethz.ch [129.132.247.93])	(using TLSv1 with cipher
+ AES128-SHA (128/128 bits))	(No client certificate requested)	(Authenticated
+ sender: mkrausch)	by smtp.stanford.edu (Postfix) with ESMTPSA id 71B2C470479;
+	Tue, 18 Oct 2011 01:20:36 -0700 (PDT)
+Content-Type: text/plain; charset="us-ascii"
+Subject: Lab Meeting in usual room
+From: rausch <mkrausch@stanford.edu>
+In-Reply-To: <F72AEB75-2001-4B9E-8F0C-426A450C12E4@stanford.edu>
+Date: Tue, 18 Oct 2011 10:18:36 +0200
+Content-Transfer-Encoding: 7bit
+Message-ID: <F4DD75D1-55F6-40B5-ACDB-1248CCB6021B@stanford.edu>
+References: <C435DA10-DFDF-4942-B8A0-A449B63741F6@imes.mavt.ethz.ch> <4B418237-2B37-4F94-95E6-F496305BDB9D@imes.mavt.ethz.ch> <34DD6FEC-C393-4B13-A313-23E1AAA168A0@imes.mavt.ethz.ch> <F72AEB75-2001-4B9E-8F0C-426A450C12E4@stanford.edu>
+To: Badir Sabrina <badir@imes.mavt.ethz.ch>, Weickenmeier Johannes
+	<weickenmeier@imes.mavt.ethz.ch>, Maurer Manfred Matthias
+	<maurer@imes.mavt.ethz.ch>, Farine Marc <farine@imes.mavt.ethz.ch>, "Perrini
+ Michela" <perrini@imes.mavt.ethz.ch>, =?iso-8859-1?Q?Dal_H=FCsn=FC?=
+	<dal@imes.mavt.ethz.ch>, =?iso-8859-1?Q?Lak=E4mper_Stefan?=
+	<lakaemper@imes.mavt.ethz.ch>, Mauri Arabella <mauri@imes.mavt.ethz.ch>,
+	"Hopf Raoul" <hopf@imes.mavt.ethz.ch>, =?iso-8859-1?Q?B=FCrzle_Wilfried?=
+	<buerzle@imes.mavt.ethz.ch>, <roehrnbauer@imes.mavt.ethz.ch>,
+	<ekuhl@stanford.edu>
+X-Mailer: Apple Mail (2.1244.3)
+X-Filter-Node: vphil1.ethz.ch
+X-Spam-Level: --
+X-Spam-Status: hits=-2.8 tests=RCVD_IN_DNSWL_MED,RP_MATCHES_RCVD,SPF_PASS
+X-Spam-Flag: NO
+Return-Path: mkrausch@stanford.edu
+X-MS-Exchange-Organization-AuthSource: edge20.ethz.ch
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Exchange-Organization-AVStamp-Mailbox: SMEXkv@];850500;0;This mail has
+ been scanned by Trend Micro ScanMail for Microsoft Exchange;
+X-MS-Exchange-Organization-SCL: 0
+MIME-Version: 1.0
+
+Hey Everyone,
+
+the lab meeting will find place today in the kitchen at 1pm!
+
+Best,
+
+Manuel
+

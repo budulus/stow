@@ -1,0 +1,104 @@
+Received: from MBX12.d.ethz.ch ([fe80::fcbd:f3f9:2031:cf24]) by
+ CAS11.d.ethz.ch ([fe80::ecc9:4e2d:b26b:1614%10]) with mapi id 14.01.0339.001;
+ Mon, 17 Oct 2011 13:37:00 +0200
+From: "Gessat  Michael" <mgessat@ethz.ch>
+To: "Hopf  Raoul" <hopf@imes.mavt.ethz.ch>
+Subject: AW: Patentantrag
+Thread-Topic: Patentantrag
+Thread-Index: AcyCehG9M1AZhMrNTVORN1SNX0W5kwKRvG3g
+X-MS-Exchange-MessageSentRepresentingType: 1
+Date: Mon, 17 Oct 2011 13:36:59 +0200
+Message-ID: <87BB32727DCCE548949DE8407E66DF39060EA4B2@MBX12.d.ethz.ch>
+References: <4074476F6FE9EF4DBCC2D0ADEA25FCA41A9A5D@MBX12.d.ethz.ch>
+In-Reply-To: <4074476F6FE9EF4DBCC2D0ADEA25FCA41A9A5D@MBX12.d.ethz.ch>
+Accept-Language: de-DE, de-CH, en-US
+Content-Language: de-DE
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-AuthSource: CAS11.d.ethz.ch
+X-MS-Has-Attach:
+X-MS-Exchange-Organization-SCL: -1
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Hi Raoul
+
+> Ich werde dann jetzt nach Publikationen von Stent-Modellierungen suchen.
+
+Hast Du schon eine (kurze) Liste von Publikationen zusammengestellt?
+
+
+LG
+Michael
+
+-----Urspr=FCngliche Nachricht-----
+Von: Hopf Raoul [mailto:hopf@imes.mavt.ethz.ch]
+Gesendet: Dienstag, 4. Oktober 2011 11:43
+An: Gessat Michael; Mazza Edoardo
+Betreff: Patentantrag
+
+Lieber Edo, Lieber Michael,
+
+
+
+Ich habe den Antrag und Edoardos Erweiterungen durchgelesen. F=FCr mich sie=
+ht es eigentlich sehr gut aus. Hier noch einige Gedanken.
+
+
+
+
+A 3)
+
+
+- Bei der Schemen-Skizze steht "Strain Map" in der letzten Box, nach dem Pf=
+eil "Inverse Mechanics", da sollte wohl "Stress Field" oder so stehen, da d=
+ies ja unser gew=FCnschte Output ist. Vielleicht k=F6nnte man sogar noch ei=
+ne weitere Box "Tissue Reactions" mit einem Doppelpfeil zum "Stress Field" =
+des Stents machen, da dieser Interpretationsschritt ja eigentlich auch ein =
+zentraler Gedanke in diesem Konzept ist.
+
+
+
+C 1)
+
+
+- Ich denke hier k=F6nnte man noch einen weiteren Schritt anh=E4ngen, welch=
+er auch aus Edoardos Kommentar im Punkt C 7) hervorgeht  und bereits diskut=
+iert wurde: Das "Problem" ist nat=FCrlich, dass ein Mediziner mit einem sch=
+=F6nen Spannungsvektorfeld gar nichts anfangen kann. Von mir aus gesehen, k=
+=F6nnte der "Standard-User-Output" einer solchen Software aus 2 Teilen best=
+ehen:
+
+
+1) Vergleichsparameter/Indikatoren, welche die mechanische Situation beurte=
+ilen (aus: Spannungsspitzen, globale Verteilung der Kr=E4fte usw.)
+
+
+2) Grafische Darstellung der "Problemzonen" (Bsp. Spannungspitzen <--->  ke=
+in Kontakt)
+
+
+Mir scheint die M=F6glichkeit der Evaluation solcher (robusten) Indikatoren=
+ ein Knackpunkt f=FCr die praktische Umsetzbarkeit des Verfahrens. Welche P=
+arameter - und ob sie =FCberhaupt mit gen=FCgender Aussagekraft erzeugt wer=
+den k=F6nnen, muss nat=FCrlich dann mit umfangreichen statistischen Tests g=
+epr=FCft werden (Ich denke jetzt besonders an den Stent mit den zwei Extrem=
+situationen AV-Block und mangelnde Haftung, wie wir es bereits besprochen h=
+aben..). Ich dachte einfach, da dies die Schnittstelle zu den Medizinern da=
+rstellt und somit das kommerzielle Potential stark beeinflusst, w=E4re es v=
+ielleicht gut, so etwas auch als "End-Output-Vision" zu erw=E4hnen.
+
+
+
+Ich werde dann jetzt nach Publikationen von Stent-Modellierungen suchen.
+
+
+
+
+Liebe Gr=FCsse,
+
+
+Raoul

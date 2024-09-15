@@ -1,0 +1,42 @@
+Received: from GWS01.d.ethz.ch (82.130.70.78) by CAS21.d.ethz.ch
+ (172.31.51.111) with Microsoft SMTP Server (TLS) id 14.1.289.1; Fri, 19 Aug
+ 2011 11:48:50 +0200
+Received: from edge10.ethz.ch (82.130.75.186) by gws01.d.ethz.ch
+ (129.132.178.238) with Microsoft SMTP Server (TLS) id 8.2.254.0; Fri, 19 Aug
+ 2011 11:48:50 +0200
+Received: from phil2.ethz.ch (129.132.202.240) by edge10.ethz.ch
+ (82.130.75.186) with Microsoft SMTP Server id 14.1.289.1; Fri, 19 Aug 2011
+ 11:48:44 +0200
+Received: from mail-fx0-f52.google.com ([209.85.161.52])	by phil2.ethz.ch with
+ esmtp (Exim 4.69)	(envelope-from <marc.immer@gmail.com>)	id 1QuLh3-0003TB-7k
+	for hopf@imes.mavt.ethz.ch; Fri, 19 Aug 2011 11:48:50 +0200
+Received: by fxd18 with SMTP id 18so3198024fxd.39        for
+ <hopf@imes.mavt.ethz.ch>; Fri, 19 Aug 2011 02:48:49 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=gamma;
+        h=from:mime-version:date:message-id:subject:to:content-type;
+        bh=47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=;
+        b=o2U10ZC/CXUN/qXGDbv0YE2pFxqL9KhaGw61kq8MA/4832P2bwwnUBix5DZ4G6Rjov
+         EQ015Z0ZQ3BIvwAbfcGjMzZMt/FkJebFtd/Bi6SSpVDW5mfhMDIl3oNUu31BpLHyKkzb
+         BmcY0ldfrTlaET/tP2tlFem5Yqn5DthBFxCyQ=
+Received: by 10.223.85.145 with SMTP id o17mr2698785fal.16.1313747329235; Fri,
+ 19 Aug 2011 02:48:49 -0700 (PDT)
+From: Marc Immer <marc.immer@gmail.com>
+Date: Fri, 19 Aug 2011 11:49:13 +0200
+Message-ID: <2819875593971116002@unknownmsgid>
+Subject: Watsup
+To: Hopf Raoul <hopf@imes.mavt.ethz.ch>
+Content-Type: text/plain; charset="ISO-8859-1"
+X-Filter-Node: phil2.ethz.ch
+X-Spam-Level:
+X-Spam-Status: hits=-0.7 tests=FREEMAIL_FROM,RCVD_IN_DNSWL_LOW,SPF_PASS,TVD_SPACE_RATIO,T_DKIM_INVALID
+X-Spam-Flag: NO
+Return-Path: marc.immer@gmail.com
+X-MS-Exchange-Organization-AVStamp-Mailbox: SMEXawoY;836500;0;This mail has
+ been scanned by Trend Micro ScanMail for Microsoft Exchange;
+X-MS-Exchange-Organization-SCL: 0
+X-MS-Exchange-Organization-AuthSource: edge10.ethz.ch
+X-MS-Exchange-Organization-AuthAs: Anonymous
+MIME-Version: 1.0
+
+

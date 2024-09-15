@@ -1,0 +1,2957 @@
+Received: from mailm217.d.ethz.ch (2001:67c:10ec:5603::31) by
+ mailm115.d.ethz.ch (2001:67c:10ec:5602::27) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256) id
+ 15.1.2507.39 via Mailbox Transport; Tue, 3 Sep 2024 12:50:52 +0200
+Received: from mailm111.d.ethz.ch (2001:67c:10ec:5602::23) by
+ mailm217.d.ethz.ch (2001:67c:10ec:5603::31) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256) id
+ 15.1.2507.39; Tue, 3 Sep 2024 12:50:52 +0200
+Received: from mailg210.ethz.ch (2001:67c:10ec:5606::21) by mailm111.d.ethz.ch
+ (2001:67c:10ec:5602::23) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256) id 15.1.2507.39 via Frontend
+ Transport; Tue, 3 Sep 2024 12:50:52 +0200
+Received: from ethz.ch (129.132.198.196) by mailg210.ethz.ch (129.132.198.194)
+ with Microsoft SMTP Server id 15.1.2507.39; Tue, 3 Sep 2024 12:50:46 +0200
+Received: from [127.0.0.1] (helo=localhost.localdomain)
+	by mailcleaner stage4 with esmtp 
+	with id 1slR7c-00000000CPV-04Wq 
+	for <hopf@imes.mavt.ethz.ch> 
+	from <01020191b7821ace-2e318dd8-46c1-4dbc-88a8-10f16db44ff4-000000@eu-west-1.amazonses.com>;
+	Tue, 03 Sep 2024 12:50:52 +0200
+Authentication-Results: mc4.ethz.ch;
+	iprev=pass (a4-17.smtp-out.eu-west-1.amazonses.com) smtp.remote-ip=54.240.4.17;
+	spf=pass smtp.mailfrom=eu-west-1.amazonses.com;
+	dkim=pass header.d=amazonses.com header.s=uku4taia5b5tsbglxyj6zym32efj7xqv header.a=rsa-sha256;
+	dmarc=none header.from=projektneptun.ch
+Received: from a4-17.smtp-out.eu-west-1.amazonses.com ([54.240.4.17])
+	by ethz.ch stage1 with esmtps 
+	(Exim MailCleaner) 
+	id 1slR7T-00000000CLU-2D4i 
+	for <hopf@imes.mavt.ethz.ch> 
+	from <01020191b7821ace-2e318dd8-46c1-4dbc-88a8-10f16db44ff4-000000@eu-west-1.amazonses.com>;
+	Tue, 03 Sep 2024 12:50:43 +0200
+X-MailCleaner-SPF: pass
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=uku4taia5b5tsbglxyj6zym32efj7xqv; d=amazonses.com; t=1725360642;
+	h=Date:To:From:Reply-To:Subject:Message-ID:List-Unsubscribe:MIME-Version:Content-Type:Content-Transfer-Encoding:Feedback-ID;
+	bh=Ehf96HmjCK0rJc/83UwYwx4lZKltPQoQr4CnFYUCP6M=;
+	b=dWCwsnmNAB2Z42WZJ2BBvIZ3DrDwIW1pKvSQxVbPeldLbMo+3MI73k4nKtwv//qL
+	8SIoTQbPshFy+zUWuyJfzGTxhAJcx29lcUV6fmRes8WS0wcRSrKc7rSa4y8Ya8CGyol
+	pTvuBbS80Y1KDV2h76oxROA7A7/Mb00Nz8jf0sO4=
+Date: Tue, 3 Sep 2024 10:50:42 +0000
+To: Raoul Hopf <hopf@imes.mavt.ethz.ch>
+From: Projekt Neptun <kontakt@projektneptun.ch>
+Reply-To: Projekt Neptun <kontakt@projektneptun.ch>
+Message-ID: <01020191b7821ace-2e318dd8-46c1-4dbc-88a8-10f16db44ff4-000000@eu-west-1.amazonses.com>
+X-Mailer: Sendy (https://sendy.co)
+List-Unsubscribe: <https://ssdvm1.ethz.ch/sendy/unsubscribe/pQRig892UE5UjhRbSr7gQkIUTxV3ASsY8923UNQGngwI763tw/N5jlVhW0WCPhuI75ESv2SQ/cqHuekQZz7BaXhA6du72763w>
+Content-Type: multipart/alternative;
+	boundary="b1_eae1ec6ebafab77330480f2c1924f6e4"
+Content-Transfer-Encoding: 8bit
+Feedback-ID: ::1.eu-west-1.Kk0CTrLiIg1vH8c17HRLx2FZ4xd1TREyNKgorDmc+Cw=:AmazonSES
+X-SES-Outgoing: 2024.09.03-54.240.4.17
+X-Newsl: is newsletter (10.1/5.0) position : 0, not decisive
+X-MailCleaner-MachineLearning: not applied (50%)
+X-NiceBayes: is not spam (50%) position : 3, not decisive
+X-Spamc: is not spam (-2.2/5.0) position : 7, ham decisive
+X-MailCleaner-Information: Please contact servicedesk@id.ethz.ch for more information
+X-MailCleaner-ID: 1slR7T-00000000CLp-2tDS
+X-MailCleaner: Found to be clean
+X-MailCleaner-SpamCheck: not spam, newslisted by system, Newsl (score=10.1, required=5.0,
+	MC_EN_UNSUBSCRIBE=1, MC_NEWS_HLISTUNSUB2=1, MC_NEWS_URINEWSL=2,
+	MC_NEWS_URIUNSUB=2, MC_WORDS_NEWSL_UNSUBSCRIBISH=2,
+	MC_WORD_FR_SUBSCRIBE=0.5, MC_WORD_NEWSLETTER=1.5,
+	MC_WORD_SUBSCRIBISH=0.1, position : 0, not decisive),
+	MachineLearning (not applied (50%), position : 2, not decisive),
+	NiceBayes (50%, position : 3, not decisive), Spamc (score=-2.2,
+	required=5.0, RCVD_IN_RP_SAFE -2.0, EZ_FHA_exception 0.0,
+	URIBL_BLOCKED 0.0, HTML_MESSAGE 0.0, T_FRT_PROFILE2 0.0,
+	ezNeg_neptun -15, BOTNET_IPINHOSTNAME 1.0, EZ_FHA_amazonses 0.0,
+	DKIM_SIGNED 0.6, MC_CLIENT_CERT_NONE 0.1, MC_SPF_PASS -0.0,
+	EthURLa 0.0, T_FRT_PROFILE1 0.0, RCVD_IN_MSPIKE_H2 -0.0,
+	DKIM_VALID -0.3, EZURL 0.0, RCVD_IN_RP_CERTIFIED -3.0,
+	ezSXbWantTo016 15, RCVD_IN_DNSWL_NONE -0.0, EthURLb 0.0,
+	RCVD_IN_RP_RNBL 1.3, position : 7, ham decisive)
+Subject: =?UTF-8?Q?Die_Neptun_Wave_Herbst_ist_da_/_The_Neptun_Wave_Fall_is_here_/_?=
+ =?UTF-8?Q?Neptun_Wave_automne_est_l=C3=A0!?=
+X-Auto-Response-Suppress: DR, NDR, RN, NRN, OOF, AutoReply
+X-MailCleaner-ReportURL: https://mailcleaner.ethz.ch/rs.php
+Return-Path: 01020191b7821ace-2e318dd8-46c1-4dbc-88a8-10f16db44ff4-000000@eu-west-1.amazonses.com
+X-MS-Exchange-Organization-Network-Message-Id: f82359ea-1c9e-4f60-6d57-08dccc064453
+X-MS-Exchange-Organization-AVStamp-Mailbox: SMEXJnq?;1956700;0;This mail has
+ been scanned by Trend Micro ScanMail for Microsoft Exchange;
+X-MS-Exchange-Organization-SCL: 0
+X-MS-Exchange-Organization-AuthSource: mailg210.ethz.ch
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:05.8022477
+X-MS-Exchange-Processed-By-BccFoldering: 15.01.2507.039
+MIME-Version: 1.0
+
+--b1_eae1ec6ebafab77330480f2c1924f6e4
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+<english version below / version française ci-dessous>
+
+ 
+
+Finde jetzt das geeignete Arbeitsgerät für Studium, Arbeit oder Unterricht sowie ein breites Angebot an Zubehör.
+Das Projekt Neptun bietet bei allen Geräten zudem...
+
+Qualität & Evaluation | Garantie | Support | Ersatzgeräte | neutrale Beratung
+
+  
+
+    
+
+    
+	   
+  
+      
+    
+    
+        
+            
+        
+    
+        
+          
+            8 - 16 % Rabatt auf Apple
+          
+          Profitiere von tollen Rabatten auf MacBooks (Pro & Air), iPads, iMac, Mac mini, Mac Studio und Mac Pros. 
+
+          
+            
+              
+                
+                  Zum Apple Angebot
+                
+              
+            
+
+          
+        
+    
+    
+
+    
+
+    
+	   
+  
+      
+    
+    
+        
+            
+        
+    
+        
+          
+            Ausgewählte Lenovo ThinkPad Modelle der T, X und P-Reihen
+          
+          Von mobilen Convertibles bis zu leistungsfähigen Workstations: Das breite Angebot an Laptopmodellen von Lenovo beinhaltet eine 3-jährige, internationale Garantie. Bei der aktuellen Generation der Lenovo Laptopmodelle ist die Unfallschutzversicherung (ADP) ebenfalls dabei!
+
+          
+            
+              
+                
+                  Zum Lenovo Angebot
+                
+              
+            
+
+          
+        
+    
+    
+
+    
+
+    
+	   
+  
+      
+    
+    
+        
+            
+        
+    
+        
+          
+            Ausgewählte, für deine Ausbildung konfigurierte HP Elite & ZBooks
+          
+          Alle unsere HP Laptopmodelle sind im Hinblick auf deine Ausbildung und den täglichen, mobilen Einsatz im Unterricht ausgewählt. Du sparst beim Preis, musst dabei aber nicht auf Qualität und Garantieleistungen verzichten: Eine 3-jährige, internationale Garantie ist im Preis inbegriffen.
+
+          
+            
+              
+                
+                  Zum HP Angebot
+                
+              
+            
+
+          
+        
+    
+    
+
+    
+
+    
+	   
+  
+      
+    
+    
+        
+            
+        
+    
+        
+          
+            Attraktive Rabatte auf Microsoft Surface for Business
+          
+          Profitiere von attraktiven Rabatten auf ausgewählte Microsoft Surface for Business Modelle, inklusive 2 Jahre international gültiger Microsoft Herstellergarantie. 
+
+          
+            
+              
+                
+                  Zum Microsoft Angebot
+                
+              
+            
+
+          
+        
+    
+    
+
+    
+
+    
+	   
+  
+      
+    
+    
+        
+            
+        
+    
+        
+          
+            Exklusive Rabatte auf Samsung Tablets, Smartphones, Wearables und vieles mehr!
+          
+          Profitiere von attraktiven Rabatten auf Tablets, Smartphones, Watches, Buds3, Speichermedien und diversen Haushaltsgeräten von Samsung!
+
+          
+            
+              
+                
+                  Zum Samsung Angebot
+                
+              
+            
+
+          
+        
+    
+    
+
+    
+
+    
+	   
+  
+      
+    
+      
+      
+      
+    
+
+    
+
+    
+	   
+  
+      
+    
+    
+        
+            
+        
+    
+        
+          
+            Get to the next Level! Mit unserem Gaming Angebot von Joule Performance, Samsung & Logitech
+          
+          So einzigartig wie du! Stelle deinen eigenen Gaming-PC von Joule Performance zusammen, geniesse epische Abenteuer auf den Gamingmonitoren von Samsung und kontrolliere das Geschehen mit den Peripheriegeräten von Logitech Gaming. 
+
+          
+            
+              
+                
+                  Zum Gaming Angebot
+                
+              
+            
+
+          
+        
+    
+    
+
+    
+
+    
+	   
+  
+      
+    
+    
+        
+            
+        
+    
+        
+          
+            Neu dabei! 10% auf Asus NUC und Desktop Workstations von Joule Performance!
+          
+          Neu kannst du im Konfigurator bei Joule Performance auch Asus NUCs und Desktop Workstations selber konfigurieren. Du profitierst dabei immer vom Neptun-Rabatt von 10%!
+
+          
+            
+              
+                
+                  Zum Angebot
+                
+              
+            
+
+          
+        
+    
+    
+
+    
+
+    
+	   
+  
+      
+    
+    
+        
+            
+        
+    
+        
+          
+            Bambu Lab 3D Drucker von 3DStore.ch
+          
+          Lass deiner Fantasie freien Lauf und gebe deinen Ideen Form. Profitiere von exklusiven Rabatten auf die 3D-Drucker und alle Filamente von Bambu Lab.
+
+          
+            
+              
+                
+                  Zu den 3D-Druckern
+                
+              
+            
+
+          
+        
+    
+    
+
+    
+
+    
+	   
+  
+      
+    
+      
+        
+      
+      
+      
+        
+      
+    
+
+    
+
+    
+	   
+  
+      
+    
+    
+        
+            
+        
+    
+        
+          
+            Bis zu 75 % Rabatt für immer, auf ausgewählte yallo Abos
+          
+          Profitiere für immer von exklusiven Rabatten und spare bis zu 75 % auf Mobile- und Daten-Abos von yallo! Mit yallo hast du keine Mindestvertragslaufzeit und die Aktivierungsgebühr ist geschenkt!
+
+          
+            
+              
+                
+                  Zum yallo Angebot
+                
+              
+            
+
+          
+        
+    
+    
+
+    
+
+    
+	   
+  
+      
+    
+    
+        
+            
+        
+    
+        
+          
+            Peripherie-Angebote für einen gut ausgestatteten Arbeitsplatz
+          
+          Statte deinen Arbeitsplatz mit passendem Zubehör zu top Konditionen aus. Bei uns findest du Dell Monitore und Peripheriegeräte von Logitech und 3DConnexion, sowie Audioprodukte von Marshall, Final und Jabra! Und viele Weitere spannende Zubehörangebote wie Epson Drucker, Dockingstations und unsere bewährten Laptopsleeves von Dicota.
+
+          
+            
+              
+                
+                  Zum Zubehör
+                
+              
+            
+
+          
+        
+    
+    
+
+    
+
+    
+	   
+  
+      
+    
+      
+      
+      
+    
+
+    
+
+    
+	   
+  
+      
+    
+      
+        
+      
+      
+      
+        
+      
+    
+
+    
+
+    
+	   
+  
+      
+    
+      
+      
+      
+    
+
+    
+
+    
+	   
+  
+      
+  
+    <version française ci-dessous>
+
+ 
+
+Find the right device for university, work or lessons and a wide range of accessories.
+Projekt Neptun offers with all products...
+
+Quality & evaluation | Warranty | Support | Replacements | impartial Advice
+
+  
+
+    
+
+    
+	   
+  
+      
+    
+    
+        
+            
+        
+    
+        
+          
+            8 - 16 % discount on Apple products
+          
+          Enjoy amazing discounts on MacBooks (Pro & Air), iPads, iMac, Mac mini, Mac Studio and Mac Pro models. 
+
+          
+            
+              
+                
+                  To the Apple offer
+                
+              
+            
+
+          
+        
+    
+    
+
+    
+
+    
+	   
+  
+      
+    
+    
+        
+            
+        
+    
+        
+          
+            Selected Lenovo ThinkPad models of the T, X and P series
+          
+          Von mobilen Convertibles bis zu leistungsfähigen Workstations: Das breite Angebot an Laptopmodellen von Lenovo beinhaltet eine 3-jährige, internationale Garantie. Bei der aktuellen Generation der Lenovo Laptopmodelle ist die Unfallschutzversicherung (ADP) ebenfalls dabei!
+
+          
+            
+              
+                
+                  To the Lenovo offer
+                
+              
+            
+
+          
+        
+    
+    
+
+    
+
+    
+	   
+  
+      
+    
+    
+        
+            
+        
+    
+        
+          
+            Specially for your education configured HP Elite & Z Books
+          
+          All our HP Notebook models have been selected with your education in mind, and for their daily and mobile use in the classroom. You save on price, but you don't have to sacrifice quality and warranty benefits: a 3-year international warranty is included in the price.
+
+          
+            
+              
+                
+                  To the HP offer
+                
+              
+            
+
+          
+        
+    
+    
+
+    
+
+    
+	   
+  
+      
+    
+    
+        
+            
+        
+    
+        
+          
+            Attractive discounts on Microsoft Surface for Business
+          
+          Take advantage of attractive discounts on Microsoft Surface for Business Laptops, including a 2-year international Microsoft manufacturer's warranty. 
+
+          
+            
+              
+                
+                  To the Microsoft offer
+                
+              
+            
+
+          
+        
+    
+    
+
+    
+
+    
+	   
+  
+      
+    
+    
+        
+            
+        
+    
+        
+          
+            Exclusive discounts on Samsung tablets, smartphones, wearables and more!
+          
+          Benefit from our discounts on a wide range of Samsung products. Tablets, smartphones (with the new flip and fold models), watches, buds3, storage media and household appliances are in the offer!
+
+          
+            
+              
+                
+                  To the Samsung offer
+                
+              
+            
+
+          
+        
+    
+    
+
+    
+
+    
+	   
+  
+      
+    
+      
+      
+      
+    
+
+    
+
+    
+	   
+  
+      
+    
+    
+        
+            
+        
+    
+        
+          
+            Get to the next Level! Our new gaming offer by Joule Performance, Samsung and Logitech will blow your mind!
+          
+          As unique as you are! Build your own gaming PC from Joule Performance, enjoy epic adventures on Samsung gaming monitors and control the action with peripherals from Logitech Gaming.
+
+          
+            
+              
+                
+                  To the gaming offer
+                
+              
+            
+
+          
+        
+    
+    
+
+    
+
+    
+	   
+  
+      
+    
+    
+        
+            
+        
+    
+        
+          
+            New to the range! 10% on Asus NUC and desktop workstations by Joule Performance!
+          
+          You can now also configure Asus NUCs and desktop workstations yourself in the configurator at Joule Performance. You always benefit from the Neptun discount of 10%!
+
+          
+            
+              
+                
+                  To the offer
+                
+              
+            
+
+          
+        
+    
+    
+
+    
+
+    
+	   
+  
+      
+    
+    
+        
+            
+        
+    
+        
+          
+            Bambu Lab 3D printer by 3DStore.ch - Now also discount on materials!
+          
+          Let your imagination run wild and give shape to your ideas. Benefit from exclusive discounts on 3D printers and all filament by Bambu Lab.
+
+          
+            
+              
+                
+                  To the 3D printers
+                
+              
+            
+
+          
+        
+    
+    
+
+    
+
+    
+	   
+  
+      
+    
+      
+        
+      
+      
+      
+        
+      
+    
+
+    
+
+    
+	   
+  
+      
+    
+    
+        
+            
+        
+    
+        
+          
+            Up to 75 % discount forever, on selected yallo subscriptions
+          
+          Profitiere für immer von exklusiven Rabatten und spare bis zu 75 % auf Mobile- und Daten-Abos von yallo! Mit yallo hast du keine Mindestvertragslaufzeit und die Aktivierungsgebühr ist geschenkt!
+
+Benefit from exclusive discounts forever and save up to 75 % on mobile & data subscriptions from yallo! With yallo you have no minimum contract period and the activation fee is free!
+
+          
+            
+              
+                
+                  To the yallo offer
+                
+              
+            
+
+          
+        
+    
+    
+
+    
+
+    
+	   
+  
+      
+    
+    
+        
+            
+        
+    
+        
+          
+            Accessory offers for a well-equipped workplace
+          
+          Equip your workplace with the right accessories at great prices. You'll find Dell monitors and peripherals from Logitech and 3DConnexion, as well as audio products from Marshall, Final and Jabra! And many other exciting accessories such as Epson printers, docking stations and our tried and tested laptop sleeves from Dicota.
+
+          
+            
+              
+                
+                  To the accessories
+                
+              
+            
+
+          
+        
+    
+    
+
+    
+
+    
+	   
+  
+      
+    
+      
+      
+      
+    
+
+    
+
+    
+	   
+  
+      
+    
+      
+      
+      
+    
+
+    
+
+    
+	   
+  
+      
+    
+      
+      
+      
+    
+
+    
+
+    
+	   
+  
+      
+  
+    Trouve maintenant l'ordinateur portable approprié pour les études, travail et tes leçons ainsi qu'une large gamme d'accessoires.
+Projekt Neptun offre avec tous nos produit...
+
+Qualité & évaluation | garantie | support | remplacements | conseils neutre
+
+  
+
+    
+
+    
+	   
+  
+      
+    
+    
+        
+            
+        
+    
+        
+          
+            8 - 16 % de réduction sur Apple
+          
+          Profite de superbes réductions sur les MacBooks (Pro & Air), iPads, iMac, Mac mini, Mac Studio et Mac Pro. Pour les Alumni des rabais plus bas sont appliqués.
+
+          
+            
+              
+                
+                  Vers l'offre Apple
+                
+              
+            
+
+          
+        
+    
+    
+
+    
+
+    
+	   
+  
+      
+    
+    
+        
+            
+        
+    
+        
+          
+            Des modèles Lenovo ThinkPad selectés des series T, X et P 
+          
+          Des convertibles mobiles aux puissantes stations de travail : la large gamme de modèles d'ordinateurs portables de Lenovo comprend une garantie internationale de 3 ans. Pour la génération actuelle de modèles d'ordinateurs portables Lenovo, l'assurance protection contre les accidents (ADP) est également incluse !
+
+          
+            
+              
+                
+                  Vers l'offre Lenovo
+                
+              
+            
+
+          
+        
+    
+    
+
+    
+
+    
+	   
+  
+      
+    
+    
+        
+            
+        
+    
+        
+          
+            Spécialement pour votre éducation configuré: HP Elite & Z Books
+          
+          Tous nos modèles d'ordinateurs portables HP ont été sélectionnés en fonction de ton éducation et de leur utilisation quotidienne et mobile en classe. Tu économises sur le prix, mais tu ne dois pas pour autant renoncer à la qualité et aux prestations de garantie : Une garantie internationale de 3 ans est incluse dans le prix.
+
+          
+            
+              
+                
+                  Vers l'offre HP
+                
+              
+            
+
+          
+        
+    
+    
+
+    
+
+    
+	   
+  
+      
+    
+    
+        
+            
+        
+    
+        
+          
+            Rabais attractifs sur Microsoft Surface for Business
+          
+          Profite de rabais attractifs sur Microsoft Surface for Business, y compris 2 ans de garantie de fabricant internationale Microsoft.
+
+          
+            
+              
+                
+                  Vers l'offre Microsoft
+                
+              
+            
+
+          
+        
+    
+    
+
+    
+
+    
+	   
+  
+      
+    
+    
+        
+            
+        
+    
+        
+          
+            Réductions exclusives sur les tablettes, les smartphones, les produits portables et bien plus encore !
+          
+          Profitez de nos réductions sur une large gamme de produits Samsung. Tablettes, smartphones (avec les nouveaux modèles flip et fold), montres, buds3, supports de stockage et appareils électroménagers font partie de l'offre !
+
+          
+            
+              
+                
+                  Vers l'offre Samsung
+                
+              
+            
+
+          
+        
+    
+    
+
+    
+
+    
+	   
+  
+      
+    
+      
+      
+      
+    
+
+    
+
+    
+	   
+  
+      
+    
+    
+        
+            
+        
+    
+        
+          
+            Get to the next Level! Avec notre nouvelle offre gaming by Joule Performance, Samsung and Logitech!
+          
+          As unique as you are! Build your own gaming PC from Joule Performance, enjoy epic adventures on Samsung gaming monitors and control the action with peripherals from Logitech Gaming.
+
+Aussi unique que toi ! Construise ton propre PC de jeu avec Joule Performance, vive des aventures épiques sur les moniteurs de jeu Samsung et contrôle l'action avec les périphériques de Logitech Gaming.
+
+          
+            
+              
+                
+                  Vers l'offre gaming
+                
+              
+            
+
+          
+        
+    
+    
+
+    
+
+    
+	   
+  
+      
+    
+    
+        
+            
+        
+    
+        
+          
+            Nouveau dans la gamme ! 10% sur Asus NUC et stations de travail par Joule Performance !
+          
+          Tu peux maintenant configurer toi-même les NUC et les stations de travail de bureau Asus dans le configurateur de Joule Performance. Tu continueras à bénéficier du rabais Neptune de 10% !
+
+          
+            
+              
+                
+                  Vers l'offre
+                
+              
+            
+
+          
+        
+    
+    
+
+    
+
+    
+	   
+  
+      
+    
+    
+        
+            
+        
+    
+        
+          
+            Bambu Lab 3D imprimeurs de 3DStore.ch - Maitenant même de rabbais sur tout le matériel! 
+          
+          Laisse libre cours à ton imagination et donne forme à tes idées. Bénéficie de remises exclusives sur les imprimantes à 3D et tous les filament Bambu Lab.
+
+          
+            
+              
+                
+                  Vers les imprimeurs 3D
+                
+              
+            
+
+          
+        
+    
+    
+
+    
+
+    
+	   
+  
+      
+    
+      
+        
+      
+      
+      
+        
+      
+    
+
+    
+
+    
+	   
+  
+      
+    
+    
+        
+            
+        
+    
+        
+          
+            Jusqu'à 75 % de réduction pour toujours, sur une sélection d'abonnements yallo
+          
+          Profite pour toujours de remises exclusives et économise jusqu'à 75 % sur les abonnements mobiles et data de yallo ! Avec yallo, tu n'as pas de durée minimale de contrat et les frais d'activation sont offerts !
+
+          
+            
+              
+                
+                  Vers l'offre yallo
+                
+              
+            
+
+          
+        
+    
+    
+
+    
+
+    
+	   
+  
+      
+    
+    
+        
+            
+        
+    
+        
+          
+            Offres d'accessoires pour une copie de poste de travail bien équipée
+          
+          Équipez votre lieu de travail avec les bons accessoires à des prix avantageux. Vous trouverez des écrans Dell et des périphériques de Logitech et 3DConnexion, ainsi que des produits audio de Marshall, Final et Jabra ! Et bien d'autres accessoires intéressants tels que les imprimantes Epson, les stations d'accueil et nos housses pour ordinateurs portables Dicota, qui ont fait leurs preuves.
+
+          
+            
+              
+                
+                  Vers les accessoires
+
+
+--b1_eae1ec6ebafab77330480f2c1924f6e4
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html><html lang=3D"en" xmlns=3D"https://www.w3.org/1999/xhtml" xm=
+lns:o=3D"urn:schemas-microsoft-com:office:office"><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8"><m=
+eta name=3D"viewport" content=3D"width=3Ddevice-width,initial-scale=3D1"><m=
+eta name=3D"x-apple-disable-message-reformatting">
+	<title>Die Neptun Wave Herbst ist offen / The Neptun Wave Fall is open / N=
+eptun Wave automne est ouverte</title>
+	<!--[if mso]>
+    <style>
+        table {border-collapse:collapse;border-spacing:0;border:none;margin=
+:0;}
+        div, td {padding:0;}
+        div {margin:0 !important;}
+    </style>
+    <noscript>
+        <xml>
+            <o:OfficeDocumentSettings>
+            <o:PixelsPerInch>96</o:PixelsPerInch>
+            </o:OfficeDocumentSettings>
+        </xml>
+    </noscript>
+    <![endif]-->
+	<style type=3D"text/css">table, td, div, h1, p {
+            font-family: 'Open Sans', Arial, sans-serif;
+        }
+    		a {
+            text-decoration: none;
+            color: #1f74b9;
+        }
+        .content-primary a {
+          color: #fff;
+          text-decoration: underline;
+        }
+        .content-success a {
+          color: #fff;
+          text-decoration: underline;
+        }
+        .content-danger a {
+          color: #fff;
+          text-decoration: underline;
+        }
+        .content-dark a {
+          color: #fff;
+          text-decoration: underline;
+        }
+	</style>
+</head>
+<body style=3D"margin:0;padding:0;word-spacing:normal;background-color:#E0E=
+DF5;">
+<div aria-roledescription=3D"email" lang=3D"en" role=3D"article" style=3D"t=
+ext-size-adjust:100%;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100=
+%;background-color:#E0EDF5;">
+<table role=3D"presentation" style=3D"width:100%;border:none;border-spacing=
+:0;">
+	<tbody>
+		<tr>
+			<td align=3D"center" style=3D"padding:0;"><!--[if mso]>
+        <table role=3D"presentation" align=3D"center" width=3D"600" style=
+=3D"width:600px;">
+        <tr>
+        <td>
+        <![endif]-->
+			<table role=3D"presentation" style=3D"width:94%;max-width:600px;border:n=
+one;border-spacing:0;text-align:left;font-family:'Open Sans',Arial,sans-ser=
+if;font-size:16px;line-height:22px;color:#363636;">
+				<tbody>
+					<tr>
+						<td style=3D"padding:40px 30px 30px 30px;text-align:center;font-size:=
+24px;font-weight:bold;"><a href=3D"https://ssdvm1.ethz.ch/sendy/l/9N8no3763=
+OO3B9j9drTDJgRg/d3LrWxl9DLdv8spqanjoIA/cqHuekQZz7BaXhA6du72763w" style=3D"t=
+ext-decoration:none;"><img alt=3D"Logo" src=3D"https://projektneptun.ch/_re=
+sources/themes/ss-theme/dist/favicons/android-chrome-192x192.png" style=3D"=
+max-width:200px" width=3D"165"></a></td>
+					</tr>
+					<tr>
+						<td style=3D"padding:0;font-size:24px;line-height:28px;font-weight:bo=
+ld;"><a href=3D"https://ssdvm1.ethz.ch/sendy/l/9N8no3763OO3B9j9drTDJgRg/mYw=
+Bmxnt0NzK763y6nGM35Ew/cqHuekQZz7BaXhA6du72763w" style=3D"text-decoration:no=
+ne;"><img alt=3D"" src=3D"https://projektneptun.ch/assets/Newsletter/Titelb=
+anner-Newsletter-DE__ScaleMaxWidthWzE2MDBd.png" style=3D"width:100%;height:=
+auto;display:block;border:none;text-decoration:none;color:#363636;" width=
+=3D"1600"> </a></td>
+					</tr>
+					<tr>
+						<td style=3D"padding:0;font-size:24px;line-height:28px;font-weight:bo=
+ld;"><img alt=3D"" src=3D"https://projektneptun.ch/assets/Newsletter/Design=
+-ohne-Titel1__ScaleMaxWidthWzE2MDBd.png" style=3D"width:100%;height:auto;di=
+splay:block;border:none;text-decoration:none;color:#363636;" width=3D"1600"=
+></td>
+					</tr>
+					<tr>
+						<td style=3D"padding:30px;background-color:#fff;color:#000;border-bot=
+tom:1px solid #f0f0f5;border-color:rgba(201,201,207,.35);">
+						<p style=3D"margin-top: 0px; margin-bottom: 0px; text-align: center;"=
+><em>english version below / version fran=C3=A7aise ci-dessous</em></p>
+
+						<p style=3D"margin-top: 0px; margin-bottom: 0px; text-align: center;"=
+>&nbsp;</p>
+
+						<p style=3D"margin-top: 0px; margin-bottom: 0px; text-align: center;"=
+><em>Wird der Newsletter nicht korrekt angezeigt? / Is the newsletter not d=
+isplayed correctly? / La newsletter ne s'affiche pas correctement ?</em><br=
+>
+						<a class=3D"webvers" href=3D"https://ssdvm1.ethz.ch/sendy/w/9N8no3763=
+OO3B9j9drTDJgRg/N5jlVhW0WCPhuI75ESv2SQ/cqHuekQZz7BaXhA6du72763w" style=3D"c=
+olor:#363636;text-decoration:underline;">Web version</a></p>
+
+						<p style=3D"margin-top: 0px; margin-bottom: 0px; text-align: center;"=
+>&nbsp;</p>
+
+						<h4 style=3D"margin-top: 0px; margin-bottom: 14px; font-size: 18px; l=
+ine-height: 23px; font-weight: bold; letter-spacing: -0.02em; text-align: c=
+enter;">Finde jetzt das geeignete Arbeitsger=C3=A4t f=C3=BCr Studium, Arbei=
+t oder Unterricht sowie ein breites Angebot an Zubeh=C3=B6r.</h4>
+
+						<p style=3D"text-align: center;">Das Projekt Neptun bietet bei allen =
+Ger=C3=A4ten zudem...</p>
+
+						<p style=3D"text-align: center;">Qualit=C3=A4t &amp; Evaluation | Gar=
+antie | Support | Ersatzger=C3=A4te | neutrale Beratung</p>
+						</td>
+					</tr>
+					<tr>
+						<td style=3D"padding:35px 30px 11px 30px;font-size:0;background-color=
+:#ffffff;border-bottom:1px solid #f0f0f5;border-color:rgba(201,201,207,.35)=
+;"><!--[if mso]>
+    <table role=3D"presentation" width=3D"100%">
+    <tr>
+    <td style=3D"width:145px;" align=3D"left" valign=3D"top">
+    <![endif]-->
+						<div class=3D"col-sml" style=3D"display:inline-block;width:100%;max-w=
+idth:145px;vertical-align:top;text-align:left;font-family:'Open Sans'Arial,=
+sans-serif;font-size:14px;color:#363636;"><img alt=3D"apple logo nl" src=3D=
+"https://projektneptun.ch/assets/Newsletter/apple-logo-nl__ScaleMaxWidthWzY=
+wMF0.png" style=3D"width:80%;max-width:115px;margin-bottom:20px;" width=3D"=
+115"></div>
+						<!--[if mso]>
+    </td>
+    <td style=3D"width:395px;padding-bottom:20px;" valign=3D"top">
+    <![endif]-->
+
+						<div class=3D"col-lge" style=3D"display:inline-block;width:100%;max-w=
+idth:395px;vertical-align:top;padding-bottom:20px;font-family:'Open Sans'Ar=
+ial,sans-serif;font-size:16px;line-height:22px;color:#363636;">
+						<h3 style=3D"margin-top:0px;margin-bottom:18px;">8 - 16 % Rabatt auf =
+Apple</h3>
+
+						<p style=3D"margin-top:0;margin-bottom:18px;">Profitiere von tollen R=
+abatten auf MacBooks (Pro &amp; Air), iPads, iMac, Mac mini, Mac Studio und=
+ Mac Pros.</p>
+
+						<p style=3D"margin:0;"><a href=3D"https://ssdvm1.ethz.ch/sendy/l/9N8n=
+o3763OO3B9j9drTDJgRg/4hORDbO7892fVTmEMRP892frTA/cqHuekQZz7BaXhA6du72763w" s=
+tyle=3D"background: #1f74b9;; text-decoration: none; padding: 10px 25px; co=
+lor: #ffffff; border-radius: 4px; display:inline-block; mso-padding-alt:0;t=
+ext-underline-color:#1f74b9;"><!--[if mso]><i style=3D"letter-spacing: 25px=
+;mso-font-width:-100%;mso-text-raise:20pt">=C2=A0</i><![endif]--> <span sty=
+le=3D"mso-text-raise:10pt;font-weight:bold;">Zum Apple Angebot</span> <!--[=
+if mso]><i style=3D"letter-spacing: 25px;mso-font-width:-100%">=C2=A0</i><!=
+[endif]--> </a></p>
+						</div>
+						<!--[if mso]>
+    </td>
+    </tr>
+    </table>
+    <![endif]--></td>
+					</tr>
+					<tr>
+						<td style=3D"padding:35px 30px 11px 30px;font-size:0;background-color=
+:#ffffff;border-bottom:1px solid #f0f0f5;border-color:rgba(201,201,207,.35)=
+;"><!--[if mso]>
+    <table role=3D"presentation" width=3D"100%">
+    <tr>
+    <td style=3D"width:145px;" align=3D"left" valign=3D"top">
+    <![endif]-->
+						<div class=3D"col-sml" style=3D"display:inline-block;width:100%;max-w=
+idth:145px;vertical-align:top;text-align:left;font-family:'Open Sans'Arial,=
+sans-serif;font-size:14px;color:#363636;"><img alt=3D"H22 NL Lenovo" src=3D=
+"https://projektneptun.ch/assets/Newsletter/H22-NL-Lenovo__ScaleMaxWidthWzY=
+wMF0.png" style=3D"width:80%;max-width:115px;margin-bottom:20px;" width=3D"=
+115"></div>
+						<!--[if mso]>
+    </td>
+    <td style=3D"width:395px;padding-bottom:20px;" valign=3D"top">
+    <![endif]-->
+
+						<div class=3D"col-lge" style=3D"display:inline-block;width:100%;max-w=
+idth:395px;vertical-align:top;padding-bottom:20px;font-family:'Open Sans'Ar=
+ial,sans-serif;font-size:16px;line-height:22px;color:#363636;">
+						<h3 style=3D"margin-top:0px;margin-bottom:18px;">Ausgew=C3=A4hlte Len=
+ovo ThinkPad Modelle der T, X und P-Reihen</h3>
+
+						<p style=3D"margin-top:0;margin-bottom:18px;">Von mobilen Convertible=
+s bis zu leistungsf=C3=A4higen Workstations: Das breite Angebot an Laptopmo=
+dellen von Lenovo beinhaltet eine 3-j=C3=A4hrige, internationale Garantie. =
+Bei der aktuellen Generation der Lenovo Laptopmodelle ist die Unfallschutzv=
+ersicherung (ADP) ebenfalls dabei!</p>
+
+						<p style=3D"margin:0;"><a href=3D"https://ssdvm1.ethz.ch/sendy/l/9N8n=
+o3763OO3B9j9drTDJgRg/d9zgzpceuoykFqXJwoasUg/cqHuekQZz7BaXhA6du72763w" style=
+=3D"background: #1f74b9;; text-decoration: none; padding: 10px 25px; color:=
+ #ffffff; border-radius: 4px; display:inline-block; mso-padding-alt:0;text-=
+underline-color:#1f74b9;"><!--[if mso]><i style=3D"letter-spacing: 25px;mso=
+-font-width:-100%;mso-text-raise:20pt">=C2=A0</i><![endif]--> <span style=
+=3D"mso-text-raise:10pt;font-weight:bold;">Zum Lenovo Angebot</span> <!--[i=
+f mso]><i style=3D"letter-spacing: 25px;mso-font-width:-100%">=C2=A0</i><![=
+endif]--> </a></p>
+						</div>
+						<!--[if mso]>
+    </td>
+    </tr>
+    </table>
+    <![endif]--></td>
+					</tr>
+					<tr>
+						<td style=3D"padding:35px 30px 11px 30px;font-size:0;background-color=
+:#ffffff;border-bottom:1px solid #f0f0f5;border-color:rgba(201,201,207,.35)=
+;"><!--[if mso]>
+    <table role=3D"presentation" width=3D"100%">
+    <tr>
+    <td style=3D"width:145px;" align=3D"left" valign=3D"top">
+    <![endif]-->
+						<div class=3D"col-sml" style=3D"display:inline-block;width:100%;max-w=
+idth:145px;vertical-align:top;text-align:left;font-family:'Open Sans'Arial,=
+sans-serif;font-size:14px;color:#363636;"><img alt=3D"H22 NL HP" src=3D"htt=
+ps://projektneptun.ch/assets/Newsletter/H22-NL-HP__ScaleMaxWidthWzYwMF0.png=
+" style=3D"width:80%;max-width:115px;margin-bottom:20px;" width=3D"115"></d=
+iv>
+						<!--[if mso]>
+    </td>
+    <td style=3D"width:395px;padding-bottom:20px;" valign=3D"top">
+    <![endif]-->
+
+						<div class=3D"col-lge" style=3D"display:inline-block;width:100%;max-w=
+idth:395px;vertical-align:top;padding-bottom:20px;font-family:'Open Sans'Ar=
+ial,sans-serif;font-size:16px;line-height:22px;color:#363636;">
+						<h3 style=3D"margin-top:0px;margin-bottom:18px;">Ausgew=C3=A4hlte, f=
+=C3=BCr deine Ausbildung konfigurierte HP Elite &amp; ZBooks</h3>
+
+						<p style=3D"margin-top:0;margin-bottom:18px;">Alle unsere HP Laptopmo=
+delle sind im Hinblick auf deine Ausbildung und den t=C3=A4glichen, mobilen=
+ Einsatz im Unterricht ausgew=C3=A4hlt. Du sparst beim Preis, musst dabei a=
+ber nicht auf Qualit=C3=A4t und Garantieleistungen verzichten: Eine 3-j=C3=
+=A4hrige, internationale Garantie ist im Preis inbegriffen.</p>
+
+						<p style=3D"margin:0;"><a href=3D"https://ssdvm1.ethz.ch/sendy/l/9N8n=
+o3763OO3B9j9drTDJgRg/892qz95Os3Dc96J3URLyAxcg/cqHuekQZz7BaXhA6du72763w" sty=
+le=3D"background: #1f74b9;; text-decoration: none; padding: 10px 25px; colo=
+r: #ffffff; border-radius: 4px; display:inline-block; mso-padding-alt:0;tex=
+t-underline-color:#1f74b9;"><!--[if mso]><i style=3D"letter-spacing: 25px;m=
+so-font-width:-100%;mso-text-raise:20pt">=C2=A0</i><![endif]--> <span style=
+=3D"mso-text-raise:10pt;font-weight:bold;">Zum HP Angebot</span> <!--[if ms=
+o]><i style=3D"letter-spacing: 25px;mso-font-width:-100%">=C2=A0</i><![endi=
+f]--> </a></p>
+						</div>
+						<!--[if mso]>
+    </td>
+    </tr>
+    </table>
+    <![endif]--></td>
+					</tr>
+					<tr>
+						<td style=3D"padding:35px 30px 11px 30px;font-size:0;background-color=
+:#ffffff;border-bottom:1px solid #f0f0f5;border-color:rgba(201,201,207,.35)=
+;"><!--[if mso]>
+    <table role=3D"presentation" width=3D"100%">
+    <tr>
+    <td style=3D"width:145px;" align=3D"left" valign=3D"top">
+    <![endif]-->
+						<div class=3D"col-sml" style=3D"display:inline-block;width:100%;max-w=
+idth:145px;vertical-align:top;text-align:left;font-family:'Open Sans'Arial,=
+sans-serif;font-size:14px;color:#363636;"><img alt=3D"H22 NL MSFT" src=3D"h=
+ttps://projektneptun.ch/assets/Newsletter/H22-NL-MSFT__ScaleMaxWidthWzYwMF0=
+.png" style=3D"width:80%;max-width:115px;margin-bottom:20px;" width=3D"115"=
+></div>
+						<!--[if mso]>
+    </td>
+    <td style=3D"width:395px;padding-bottom:20px;" valign=3D"top">
+    <![endif]-->
+
+						<div class=3D"col-lge" style=3D"display:inline-block;width:100%;max-w=
+idth:395px;vertical-align:top;padding-bottom:20px;font-family:'Open Sans'Ar=
+ial,sans-serif;font-size:16px;line-height:22px;color:#363636;">
+						<h3 style=3D"margin-top:0px;margin-bottom:18px;">Attraktive Rabatte a=
+uf Microsoft Surface for Business</h3>
+
+						<p style=3D"margin-top:0;margin-bottom:18px;">Profitiere von attrakti=
+ven Rabatten auf ausgew=C3=A4hlte Microsoft Surface for Business Modelle, i=
+nklusive 2 Jahre international g=C3=BCltiger Microsoft Herstellergarantie.<=
+/p>
+
+						<p style=3D"margin:0;"><a href=3D"https://ssdvm1.ethz.ch/sendy/l/9N8n=
+o3763OO3B9j9drTDJgRg/nY8eR09lK4WkjWzktWvVQg/cqHuekQZz7BaXhA6du72763w" style=
+=3D"background: #1f74b9;; text-decoration: none; padding: 10px 25px; color:=
+ #ffffff; border-radius: 4px; display:inline-block; mso-padding-alt:0;text-=
+underline-color:#1f74b9;"><!--[if mso]><i style=3D"letter-spacing: 25px;mso=
+-font-width:-100%;mso-text-raise:20pt">=C2=A0</i><![endif]--> <span style=
+=3D"mso-text-raise:10pt;font-weight:bold;">Zum Microsoft Angebot</span> <!-=
+-[if mso]><i style=3D"letter-spacing: 25px;mso-font-width:-100%">=C2=A0</i>=
+<![endif]--> </a></p>
+						</div>
+						<!--[if mso]>
+    </td>
+    </tr>
+    </table>
+    <![endif]--></td>
+					</tr>
+					<tr>
+						<td style=3D"padding:35px 30px 11px 30px;font-size:0;background-color=
+:#ffffff;border-bottom:1px solid #f0f0f5;border-color:rgba(201,201,207,.35)=
+;"><!--[if mso]>
+    <table role=3D"presentation" width=3D"100%">
+    <tr>
+    <td style=3D"width:145px;" align=3D"left" valign=3D"top">
+    <![endif]-->
+						<div class=3D"col-sml" style=3D"display:inline-block;width:100%;max-w=
+idth:145px;vertical-align:top;text-align:left;font-family:'Open Sans'Arial,=
+sans-serif;font-size:14px;color:#363636;"><img alt=3D"H22 NL Samsung" src=
+=3D"https://projektneptun.ch/assets/Newsletter/H22-NL-Samsung__ScaleMaxWidt=
+hWzYwMF0.png" style=3D"width:80%;max-width:115px;margin-bottom:20px;" width=
+=3D"115"></div>
+						<!--[if mso]>
+    </td>
+    <td style=3D"width:395px;padding-bottom:20px;" valign=3D"top">
+    <![endif]-->
+
+						<div class=3D"col-lge" style=3D"display:inline-block;width:100%;max-w=
+idth:395px;vertical-align:top;padding-bottom:20px;font-family:'Open Sans'Ar=
+ial,sans-serif;font-size:16px;line-height:22px;color:#363636;">
+						<h3 style=3D"margin-top:0px;margin-bottom:18px;">Exklusive Rabatte au=
+f Samsung Tablets, Smartphones, Wearables und vieles mehr!</h3>
+
+						<p style=3D"margin-top:0;margin-bottom:18px;">Profitiere von attrakti=
+ven Rabatten auf Tablets, Smartphones, Watches, Buds3, Speichermedien und d=
+iversen Haushaltsger=C3=A4ten von Samsung!</p>
+
+						<p style=3D"margin:0;"><a href=3D"https://ssdvm1.ethz.ch/sendy/l/9N8n=
+o3763OO3B9j9drTDJgRg/kJGEcrpD1WlVVRXBeF4ThA/cqHuekQZz7BaXhA6du72763w" style=
+=3D"background: #1f74b9;; text-decoration: none; padding: 10px 25px; color:=
+ #ffffff; border-radius: 4px; display:inline-block; mso-padding-alt:0;text-=
+underline-color:#1f74b9;"><!--[if mso]><i style=3D"letter-spacing: 25px;mso=
+-font-width:-100%;mso-text-raise:20pt">=C2=A0</i><![endif]--> <span style=
+=3D"mso-text-raise:10pt;font-weight:bold;">Zum Samsung Angebot</span> <!--[=
+if mso]><i style=3D"letter-spacing: 25px;mso-font-width:-100%">=C2=A0</i><!=
+[endif]--> </a></p>
+						</div>
+						<!--[if mso]>
+    </td>
+    </tr>
+    </table>
+    <![endif]--></td>
+					</tr>
+					<tr>
+						<td style=3D"padding:0;font-size:24px;line-height:28px;font-weight:bo=
+ld;"><img alt=3D"" src=3D"https://projektneptun.ch/assets/Newsletter/Screen=
+shot-2024-08-31-153510__ScaleMaxWidthWzE2MDBd.png" style=3D"width:100%;heig=
+ht:auto;display:block;border:none;text-decoration:none;color:#363636;" widt=
+h=3D"1600"></td>
+					</tr>
+					<tr>
+						<td style=3D"padding:35px 30px 11px 30px;font-size:0;background-color=
+:#ffffff;border-bottom:1px solid #f0f0f5;border-color:rgba(201,201,207,.35)=
+;"><!--[if mso]>
+    <table role=3D"presentation" width=3D"100%">
+    <tr>
+    <td style=3D"width:145px;" align=3D"left" valign=3D"top">
+    <![endif]-->
+						<div class=3D"col-sml" style=3D"display:inline-block;width:100%;max-w=
+idth:145px;vertical-align:top;text-align:left;font-family:'Open Sans'Arial,=
+sans-serif;font-size:14px;color:#363636;"><img alt=3D"gaming fs24 main 800x=
+440 nb" src=3D"https://projektneptun.ch/assets/Sections/Banner/gaming_fs24_=
+main_800x440_nb__ScaleMaxWidthWzYwMF0.png" style=3D"width:80%;max-width:115=
+px;margin-bottom:20px;" width=3D"115"></div>
+						<!--[if mso]>
+    </td>
+    <td style=3D"width:395px;padding-bottom:20px;" valign=3D"top">
+    <![endif]-->
+
+						<div class=3D"col-lge" style=3D"display:inline-block;width:100%;max-w=
+idth:395px;vertical-align:top;padding-bottom:20px;font-family:'Open Sans'Ar=
+ial,sans-serif;font-size:16px;line-height:22px;color:#363636;">
+						<h3 style=3D"margin-top:0px;margin-bottom:18px;">Get to the next Leve=
+l! Mit unserem Gaming Angebot von Joule Performance, Samsung &amp; Logitech=
+</h3>
+
+						<p style=3D"margin-top:0;margin-bottom:18px;">So einzigartig wie du! =
+Stelle deinen eigenen Gaming-PC von Joule Performance zusammen, geniesse ep=
+ische Abenteuer auf den Gamingmonitoren von Samsung und kontrolliere das Ge=
+schehen mit den Peripherieger=C3=A4ten von Logitech Gaming.</p>
+
+						<p style=3D"margin:0;"><a href=3D"https://ssdvm1.ethz.ch/sendy/l/9N8n=
+o3763OO3B9j9drTDJgRg/l9X8EXScniqFVbOllE5X6A/cqHuekQZz7BaXhA6du72763w" style=
+=3D"background: #1f74b9;; text-decoration: none; padding: 10px 25px; color:=
+ #ffffff; border-radius: 4px; display:inline-block; mso-padding-alt:0;text-=
+underline-color:#1f74b9;"><!--[if mso]><i style=3D"letter-spacing: 25px;mso=
+-font-width:-100%;mso-text-raise:20pt">=C2=A0</i><![endif]--> <span style=
+=3D"mso-text-raise:10pt;font-weight:bold;">Zum Gaming Angebot</span> <!--[i=
+f mso]><i style=3D"letter-spacing: 25px;mso-font-width:-100%">=C2=A0</i><![=
+endif]--> </a></p>
+						</div>
+						<!--[if mso]>
+    </td>
+    </tr>
+    </table>
+    <![endif]--></td>
+					</tr>
+					<tr>
+						<td style=3D"padding:35px 30px 11px 30px;font-size:0;background-color=
+:#ffffff;border-bottom:1px solid #f0f0f5;border-color:rgba(201,201,207,.35)=
+;"><!--[if mso]>
+    <table role=3D"presentation" width=3D"100%">
+    <tr>
+    <td style=3D"width:145px;" align=3D"left" valign=3D"top">
+    <![endif]-->
+						<div class=3D"col-sml" style=3D"display:inline-block;width:100%;max-w=
+idth:145px;vertical-align:top;text-align:left;font-family:'Open Sans'Arial,=
+sans-serif;font-size:14px;color:#363636;"><img alt=3D"NL joule performance =
+kreislogo card workstation asus nuc 1x1 nb1" src=3D"https://projektneptun.c=
+h/assets/Newsletter/NL_joule_performance_kreislogo_card_workstation_asus_nu=
+c_1x1_nb1__ScaleMaxWidthWzYwMF0.png" style=3D"width:80%;max-width:115px;mar=
+gin-bottom:20px;" width=3D"115"></div>
+						<!--[if mso]>
+    </td>
+    <td style=3D"width:395px;padding-bottom:20px;" valign=3D"top">
+    <![endif]-->
+
+						<div class=3D"col-lge" style=3D"display:inline-block;width:100%;max-w=
+idth:395px;vertical-align:top;padding-bottom:20px;font-family:'Open Sans'Ar=
+ial,sans-serif;font-size:16px;line-height:22px;color:#363636;">
+						<h3 style=3D"margin-top:0px;margin-bottom:18px;">Neu dabei! 10% auf A=
+sus NUC und Desktop Workstations von Joule Performance!</h3>
+
+						<p style=3D"margin-top:0;margin-bottom:18px;">Neu kannst du im Konfig=
+urator bei Joule Performance auch Asus NUCs und Desktop Workstations selber=
+ konfigurieren. Du profitierst dabei immer vom Neptun-Rabatt von 10%!</p>
+
+						<p style=3D"margin:0;"><a href=3D"https://ssdvm1.ethz.ch/sendy/l/9N8n=
+o3763OO3B9j9drTDJgRg/d3LrWxl9DLdv8spqanjoIA/cqHuekQZz7BaXhA6du72763w" style=
+=3D"background: #1f74b9;; text-decoration: none; padding: 10px 25px; color:=
+ #ffffff; border-radius: 4px; display:inline-block; mso-padding-alt:0;text-=
+underline-color:#1f74b9;"><!--[if mso]><i style=3D"letter-spacing: 25px;mso=
+-font-width:-100%;mso-text-raise:20pt">=C2=A0</i><![endif]--> <span style=
+=3D"mso-text-raise:10pt;font-weight:bold;">Zum Angebot</span> <!--[if mso]>=
+<i style=3D"letter-spacing: 25px;mso-font-width:-100%">=C2=A0</i><![endif]-=
+-> </a></p>
+						</div>
+						<!--[if mso]>
+    </td>
+    </tr>
+    </table>
+    <![endif]--></td>
+					</tr>
+					<tr>
+						<td style=3D"padding:35px 30px 11px 30px;font-size:0;background-color=
+:#ffffff;border-bottom:1px solid #f0f0f5;border-color:rgba(201,201,207,.35)=
+;"><!--[if mso]>
+    <table role=3D"presentation" width=3D"100%">
+    <tr>
+    <td style=3D"width:145px;" align=3D"left" valign=3D"top">
+    <![endif]-->
+						<div class=3D"col-sml" style=3D"display:inline-block;width:100%;max-w=
+idth:145px;vertical-align:top;text-align:left;font-family:'Open Sans'Arial,=
+sans-serif;font-size:14px;color:#363636;"><img alt=3D"logo partner 3dstore =
+notext 1x1 nb" src=3D"https://projektneptun.ch/assets/Newsletter/logo_partn=
+er_3dstore_notext_1x1_nb__ScaleMaxWidthWzYwMF0.png" style=3D"width:80%;max-=
+width:115px;margin-bottom:20px;" width=3D"115"></div>
+						<!--[if mso]>
+    </td>
+    <td style=3D"width:395px;padding-bottom:20px;" valign=3D"top">
+    <![endif]-->
+
+						<div class=3D"col-lge" style=3D"display:inline-block;width:100%;max-w=
+idth:395px;vertical-align:top;padding-bottom:20px;font-family:'Open Sans'Ar=
+ial,sans-serif;font-size:16px;line-height:22px;color:#363636;">
+						<h3 style=3D"margin-top:0px;margin-bottom:18px;">Bambu Lab 3D Drucker=
+ von 3DStore.ch</h3>
+
+						<p style=3D"margin-top:0;margin-bottom:18px;">Lass deiner Fantasie fr=
+eien Lauf und gebe deinen Ideen Form. Profitiere von exklusiven Rabatten au=
+f die 3D-Drucker und alle Filamente von Bambu Lab.</p>
+
+						<p style=3D"margin:0;"><a href=3D"https://ssdvm1.ethz.ch/sendy/l/9N8n=
+o3763OO3B9j9drTDJgRg/85jjp0oXyIHwssISzBJMQQ/cqHuekQZz7BaXhA6du72763w" style=
+=3D"background: #1f74b9;; text-decoration: none; padding: 10px 25px; color:=
+ #ffffff; border-radius: 4px; display:inline-block; mso-padding-alt:0;text-=
+underline-color:#1f74b9;"><!--[if mso]><i style=3D"letter-spacing: 25px;mso=
+-font-width:-100%;mso-text-raise:20pt">=C2=A0</i><![endif]--> <span style=
+=3D"mso-text-raise:10pt;font-weight:bold;">Zu den 3D-Druckern</span> <!--[i=
+f mso]><i style=3D"letter-spacing: 25px;mso-font-width:-100%">=C2=A0</i><![=
+endif]--> </a></p>
+						</div>
+						<!--[if mso]>
+    </td>
+    </tr>
+    </table>
+    <![endif]--></td>
+					</tr>
+					<tr>
+						<td style=3D"padding:0;font-size:24px;line-height:28px;font-weight:bo=
+ld;"><a href=3D"https://ssdvm1.ethz.ch/sendy/l/9N8no3763OO3B9j9drTDJgRg/Sae=
+IJfXoi5uYZCkzBQlLuQ/cqHuekQZz7BaXhA6du72763w" style=3D"text-decoration:none=
+;"><img alt=3D"" src=3D"https://projektneptun.ch/assets/Sections/Banner/c4e=
+c5bad-d297-4496-a7c6-8d28705a318f_Yallo_Super_Sale_web_1__ScaleMaxWidthWzE2=
+MDBd.jpg" style=3D"width:100%;height:auto;display:block;border:none;text-de=
+coration:none;color:#363636;" width=3D"1600"> </a></td>
+					</tr>
+					<tr>
+						<td style=3D"padding:35px 30px 11px 30px;font-size:0;background-color=
+:#ffffff;border-bottom:1px solid #f0f0f5;border-color:rgba(201,201,207,.35)=
+;"><!--[if mso]>
+    <table role=3D"presentation" width=3D"100%">
+    <tr>
+    <td style=3D"width:145px;" align=3D"left" valign=3D"top">
+    <![endif]-->
+						<div class=3D"col-sml" style=3D"display:inline-block;width:100%;max-w=
+idth:145px;vertical-align:top;text-align:left;font-family:'Open Sans'Arial,=
+sans-serif;font-size:14px;color:#363636;"><img alt=3D"H22 NL yallo" src=3D"=
+https://projektneptun.ch/assets/Newsletter/H22-NL-yallo__ScaleMaxWidthWzYwM=
+F0.png" style=3D"width:80%;max-width:115px;margin-bottom:20px;" width=3D"11=
+5"></div>
+						<!--[if mso]>
+    </td>
+    <td style=3D"width:395px;padding-bottom:20px;" valign=3D"top">
+    <![endif]-->
+
+						<div class=3D"col-lge" style=3D"display:inline-block;width:100%;max-w=
+idth:395px;vertical-align:top;padding-bottom:20px;font-family:'Open Sans'Ar=
+ial,sans-serif;font-size:16px;line-height:22px;color:#363636;">
+						<h3 style=3D"margin-top:0px;margin-bottom:18px;">Bis zu 75 % Rabatt f=
+=C3=BCr immer, auf ausgew=C3=A4hlte yallo Abos</h3>
+
+						<p style=3D"margin-top:0;margin-bottom:18px;">Profitiere f=C3=BCr imm=
+er von exklusiven Rabatten und spare bis zu 75 % auf Mobile- und Daten-Abos=
+ von yallo! Mit yallo hast du keine Mindestvertragslaufzeit und die Aktivie=
+rungsgeb=C3=BChr ist geschenkt!</p>
+
+						<p style=3D"margin:0;"><a href=3D"https://ssdvm1.ethz.ch/sendy/l/9N8n=
+o3763OO3B9j9drTDJgRg/SaeIJfXoi5uYZCkzBQlLuQ/cqHuekQZz7BaXhA6du72763w" style=
+=3D"background: #1f74b9;; text-decoration: none; padding: 10px 25px; color:=
+ #ffffff; border-radius: 4px; display:inline-block; mso-padding-alt:0;text-=
+underline-color:#1f74b9;"><!--[if mso]><i style=3D"letter-spacing: 25px;mso=
+-font-width:-100%;mso-text-raise:20pt">=C2=A0</i><![endif]--> <span style=
+=3D"mso-text-raise:10pt;font-weight:bold;">Zum yallo Angebot</span> <!--[if=
+ mso]><i style=3D"letter-spacing: 25px;mso-font-width:-100%">=C2=A0</i><![e=
+ndif]--> </a></p>
+						</div>
+						<!--[if mso]>
+    </td>
+    </tr>
+    </table>
+    <![endif]--></td>
+					</tr>
+					<tr>
+						<td style=3D"padding:35px 30px 11px 30px;font-size:0;background-color=
+:#ffffff;border-bottom:1px solid #f0f0f5;border-color:rgba(201,201,207,.35)=
+;"><!--[if mso]>
+    <table role=3D"presentation" width=3D"100%">
+    <tr>
+    <td style=3D"width:145px;" align=3D"left" valign=3D"top">
+    <![endif]-->
+						<div class=3D"col-sml" style=3D"display:inline-block;width:100%;max-w=
+idth:145px;vertical-align:top;text-align:left;font-family:'Open Sans'Arial,=
+sans-serif;font-size:14px;color:#363636;"><img alt=3D"NL H23 Accessories Zu=
+behoer quadv1" src=3D"https://projektneptun.ch/assets/Newsletter/NL-H23-Acc=
+essories-Zubehoer-quadv1__ScaleMaxWidthWzYwMF0.png" style=3D"width:80%;max-=
+width:115px;margin-bottom:20px;" width=3D"115"></div>
+						<!--[if mso]>
+    </td>
+    <td style=3D"width:395px;padding-bottom:20px;" valign=3D"top">
+    <![endif]-->
+
+						<div class=3D"col-lge" style=3D"display:inline-block;width:100%;max-w=
+idth:395px;vertical-align:top;padding-bottom:20px;font-family:'Open Sans'Ar=
+ial,sans-serif;font-size:16px;line-height:22px;color:#363636;">
+						<h3 style=3D"margin-top:0px;margin-bottom:18px;">Peripherie-Angebote =
+f=C3=BCr einen gut ausgestatteten Arbeitsplatz</h3>
+
+						<p style=3D"margin-top:0;margin-bottom:18px;">Statte deinen Arbeitspl=
+atz mit passendem Zubeh=C3=B6r zu top Konditionen aus. Bei uns findest du D=
+ell Monitore und Peripherieger=C3=A4te von Logitech und 3DConnexion, sowie =
+Audioprodukte von Marshall, Final und Jabra! Und viele Weitere spannende Zu=
+beh=C3=B6rangebote wie Epson Drucker, Dockingstations und unsere bew=C3=A4h=
+rten Laptopsleeves von Dicota.</p>
+
+						<p style=3D"margin:0;"><a href=3D"https://ssdvm1.ethz.ch/sendy/l/9N8n=
+o3763OO3B9j9drTDJgRg/P4SaajeGUZVCF2FiR8JQxQ/cqHuekQZz7BaXhA6du72763w" style=
+=3D"background: #1f74b9;; text-decoration: none; padding: 10px 25px; color:=
+ #ffffff; border-radius: 4px; display:inline-block; mso-padding-alt:0;text-=
+underline-color:#1f74b9;"><!--[if mso]><i style=3D"letter-spacing: 25px;mso=
+-font-width:-100%;mso-text-raise:20pt">=C2=A0</i><![endif]--> <span style=
+=3D"mso-text-raise:10pt;font-weight:bold;">Zum Zubeh=C3=B6r</span> <!--[if =
+mso]><i style=3D"letter-spacing: 25px;mso-font-width:-100%">=C2=A0</i><![en=
+dif]--> </a></p>
+						</div>
+						<!--[if mso]>
+    </td>
+    </tr>
+    </table>
+    <![endif]--></td>
+					</tr>
+					<tr>
+						<td style=3D"padding:0;font-size:24px;line-height:28px;font-weight:bo=
+ld;"><img alt=3D"" src=3D"https://projektneptun.ch/assets/Newsletter/Screen=
+shot-2024-08-31-133022__ScaleMaxWidthWzE2MDBd.png" style=3D"width:100%;heig=
+ht:auto;display:block;border:none;text-decoration:none;color:#363636;" widt=
+h=3D"1600"></td>
+					</tr>
+					<tr>
+						<td style=3D"padding:0;font-size:24px;line-height:28px;font-weight:bo=
+ld;"><a href=3D"https://ssdvm1.ethz.ch/sendy/l/9N8no3763OO3B9j9drTDJgRg/36l=
+WOcQhhsXL8926sWQzJETg/cqHuekQZz7BaXhA6du72763w" style=3D"text-decoration:no=
+ne;"><img alt=3D"" src=3D"https://projektneptun.ch/assets/Newsletter/Titelb=
+anner-Newsletter-EN__ScaleMaxWidthWzE2MDBd.png" style=3D"width:100%;height:=
+auto;display:block;border:none;text-decoration:none;color:#363636;" width=
+=3D"1600"> </a></td>
+					</tr>
+					<tr>
+						<td style=3D"padding:0;font-size:24px;line-height:28px;font-weight:bo=
+ld;"><img alt=3D"" src=3D"https://projektneptun.ch/assets/Newsletter/Design=
+-ohne-Titel1__ScaleMaxWidthWzE2MDBd.png" style=3D"width:100%;height:auto;di=
+splay:block;border:none;text-decoration:none;color:#363636;" width=3D"1600"=
+></td>
+					</tr>
+					<tr>
+						<td style=3D"padding:30px;background-color:#fff;color:#000;border-bot=
+tom:1px solid #f0f0f5;border-color:rgba(201,201,207,.35);">
+						<p style=3D"margin-top: 0px; margin-bottom: 0px; text-align: center;"=
+><em>version fran=C3=A7aise ci-dessous</em></p>
+
+						<p style=3D"margin-top: 0px; margin-bottom: 0px; text-align: center;"=
+>&nbsp;</p>
+
+						<h4 style=3D"margin-top: 0px; margin-bottom: 14px; font-size: 18px; l=
+ine-height: 23px; font-weight: bold; letter-spacing: -0.02em; text-align: c=
+enter;">Find the right device for university, work or lessons and a wide ra=
+nge of accessories.</h4>
+
+						<p style=3D"text-align: center;">Projekt Neptun offers with all produ=
+cts...</p>
+
+						<p style=3D"text-align: center;">Quality &amp; evaluation | Warranty =
+| Support | Replacements | impartial Advice</p>
+						</td>
+					</tr>
+					<tr>
+						<td style=3D"padding:35px 30px 11px 30px;font-size:0;background-color=
+:#ffffff;border-bottom:1px solid #f0f0f5;border-color:rgba(201,201,207,.35)=
+;"><!--[if mso]>
+    <table role=3D"presentation" width=3D"100%">
+    <tr>
+    <td style=3D"width:145px;" align=3D"left" valign=3D"top">
+    <![endif]-->
+						<div class=3D"col-sml" style=3D"display:inline-block;width:100%;max-w=
+idth:145px;vertical-align:top;text-align:left;font-family:'Open Sans'Arial,=
+sans-serif;font-size:14px;color:#363636;"><img alt=3D"apple logo nl" src=3D=
+"https://projektneptun.ch/assets/Newsletter/apple-logo-nl__ScaleMaxWidthWzY=
+wMF0.png" style=3D"width:80%;max-width:115px;margin-bottom:20px;" width=3D"=
+115"></div>
+						<!--[if mso]>
+    </td>
+    <td style=3D"width:395px;padding-bottom:20px;" valign=3D"top">
+    <![endif]-->
+
+						<div class=3D"col-lge" style=3D"display:inline-block;width:100%;max-w=
+idth:395px;vertical-align:top;padding-bottom:20px;font-family:'Open Sans'Ar=
+ial,sans-serif;font-size:16px;line-height:22px;color:#363636;">
+						<h3 style=3D"margin-top:0px;margin-bottom:18px;">8 - 16 % discount on=
+ Apple products</h3>
+
+						<p style=3D"margin-top:0;margin-bottom:18px;">Enjoy amazing discounts=
+ on MacBooks (Pro &amp; Air), iPads, iMac, Mac mini, Mac Studio and Mac Pro=
+ models.</p>
+
+						<p style=3D"margin:0;"><a href=3D"https://ssdvm1.ethz.ch/sendy/l/9N8n=
+o3763OO3B9j9drTDJgRg/ier9fIa892uLAZeJPAPz0YAA/cqHuekQZz7BaXhA6du72763w" sty=
+le=3D"background: #1f74b9;; text-decoration: none; padding: 10px 25px; colo=
+r: #ffffff; border-radius: 4px; display:inline-block; mso-padding-alt:0;tex=
+t-underline-color:#1f74b9;"><!--[if mso]><i style=3D"letter-spacing: 25px;m=
+so-font-width:-100%;mso-text-raise:20pt">=C2=A0</i><![endif]--> <span style=
+=3D"mso-text-raise:10pt;font-weight:bold;">To the Apple offer</span> <!--[i=
+f mso]><i style=3D"letter-spacing: 25px;mso-font-width:-100%">=C2=A0</i><![=
+endif]--> </a></p>
+						</div>
+						<!--[if mso]>
+    </td>
+    </tr>
+    </table>
+    <![endif]--></td>
+					</tr>
+					<tr>
+						<td style=3D"padding:35px 30px 11px 30px;font-size:0;background-color=
+:#ffffff;border-bottom:1px solid #f0f0f5;border-color:rgba(201,201,207,.35)=
+;"><!--[if mso]>
+    <table role=3D"presentation" width=3D"100%">
+    <tr>
+    <td style=3D"width:145px;" align=3D"left" valign=3D"top">
+    <![endif]-->
+						<div class=3D"col-sml" style=3D"display:inline-block;width:100%;max-w=
+idth:145px;vertical-align:top;text-align:left;font-family:'Open Sans'Arial,=
+sans-serif;font-size:14px;color:#363636;"><img alt=3D"H22 NL Lenovo" src=3D=
+"https://projektneptun.ch/assets/Newsletter/H22-NL-Lenovo__ScaleMaxWidthWzY=
+wMF0.png" style=3D"width:80%;max-width:115px;margin-bottom:20px;" width=3D"=
+115"></div>
+						<!--[if mso]>
+    </td>
+    <td style=3D"width:395px;padding-bottom:20px;" valign=3D"top">
+    <![endif]-->
+
+						<div class=3D"col-lge" style=3D"display:inline-block;width:100%;max-w=
+idth:395px;vertical-align:top;padding-bottom:20px;font-family:'Open Sans'Ar=
+ial,sans-serif;font-size:16px;line-height:22px;color:#363636;">
+						<h3 style=3D"margin-top:0px;margin-bottom:18px;">Selected Lenovo Thin=
+kPad models of the T, X and P series</h3>
+
+						<p style=3D"margin-top:0;margin-bottom:18px;">Von mobilen Convertible=
+s bis zu leistungsf=C3=A4higen Workstations: Das breite Angebot an Laptopmo=
+dellen von Lenovo beinhaltet eine 3-j=C3=A4hrige, internationale Garantie. =
+Bei der aktuellen Generation der Lenovo Laptopmodelle ist die Unfallschutzv=
+ersicherung (ADP) ebenfalls dabei!</p>
+
+						<p style=3D"margin:0;"><a href=3D"https://ssdvm1.ethz.ch/sendy/l/9N8n=
+o3763OO3B9j9drTDJgRg/maIkGGtC301LFE0lJbGZDQ/cqHuekQZz7BaXhA6du72763w" style=
+=3D"background: #1f74b9;; text-decoration: none; padding: 10px 25px; color:=
+ #ffffff; border-radius: 4px; display:inline-block; mso-padding-alt:0;text-=
+underline-color:#1f74b9;"><!--[if mso]><i style=3D"letter-spacing: 25px;mso=
+-font-width:-100%;mso-text-raise:20pt">=C2=A0</i><![endif]--> <span style=
+=3D"mso-text-raise:10pt;font-weight:bold;">To the Lenovo offer</span> <!--[=
+if mso]><i style=3D"letter-spacing: 25px;mso-font-width:-100%">=C2=A0</i><!=
+[endif]--> </a></p>
+						</div>
+						<!--[if mso]>
+    </td>
+    </tr>
+    </table>
+    <![endif]--></td>
+					</tr>
+					<tr>
+						<td style=3D"padding:35px 30px 11px 30px;font-size:0;background-color=
+:#ffffff;border-bottom:1px solid #f0f0f5;border-color:rgba(201,201,207,.35)=
+;"><!--[if mso]>
+    <table role=3D"presentation" width=3D"100%">
+    <tr>
+    <td style=3D"width:145px;" align=3D"left" valign=3D"top">
+    <![endif]-->
+						<div class=3D"col-sml" style=3D"display:inline-block;width:100%;max-w=
+idth:145px;vertical-align:top;text-align:left;font-family:'Open Sans'Arial,=
+sans-serif;font-size:14px;color:#363636;"><img alt=3D"H22 NL HP" src=3D"htt=
+ps://projektneptun.ch/assets/Newsletter/H22-NL-HP__ScaleMaxWidthWzYwMF0.png=
+" style=3D"width:80%;max-width:115px;margin-bottom:20px;" width=3D"115"></d=
+iv>
+						<!--[if mso]>
+    </td>
+    <td style=3D"width:395px;padding-bottom:20px;" valign=3D"top">
+    <![endif]-->
+
+						<div class=3D"col-lge" style=3D"display:inline-block;width:100%;max-w=
+idth:395px;vertical-align:top;padding-bottom:20px;font-family:'Open Sans'Ar=
+ial,sans-serif;font-size:16px;line-height:22px;color:#363636;">
+						<h3 style=3D"margin-top:0px;margin-bottom:18px;">Specially for your e=
+ducation configured HP Elite &amp; Z Books</h3>
+
+						<p style=3D"margin-top:0;margin-bottom:18px;">All our HP Notebook mod=
+els have been selected with your education in mind, and for their daily and=
+ mobile use in the classroom. You save on price, but you don't have to sacr=
+ifice quality and warranty benefits: a 3-year international warranty is inc=
+luded in the price.</p>
+
+						<p style=3D"margin:0;"><a href=3D"https://ssdvm1.ethz.ch/sendy/l/9N8n=
+o3763OO3B9j9drTDJgRg/B2azJl5NmkfehcjTiNsWgQ/cqHuekQZz7BaXhA6du72763w" style=
+=3D"background: #1f74b9;; text-decoration: none; padding: 10px 25px; color:=
+ #ffffff; border-radius: 4px; display:inline-block; mso-padding-alt:0;text-=
+underline-color:#1f74b9;"><!--[if mso]><i style=3D"letter-spacing: 25px;mso=
+-font-width:-100%;mso-text-raise:20pt">=C2=A0</i><![endif]--> <span style=
+=3D"mso-text-raise:10pt;font-weight:bold;">To the HP offer</span> <!--[if m=
+so]><i style=3D"letter-spacing: 25px;mso-font-width:-100%">=C2=A0</i><![end=
+if]--> </a></p>
+						</div>
+						<!--[if mso]>
+    </td>
+    </tr>
+    </table>
+    <![endif]--></td>
+					</tr>
+					<tr>
+						<td style=3D"padding:35px 30px 11px 30px;font-size:0;background-color=
+:#ffffff;border-bottom:1px solid #f0f0f5;border-color:rgba(201,201,207,.35)=
+;"><!--[if mso]>
+    <table role=3D"presentation" width=3D"100%">
+    <tr>
+    <td style=3D"width:145px;" align=3D"left" valign=3D"top">
+    <![endif]-->
+						<div class=3D"col-sml" style=3D"display:inline-block;width:100%;max-w=
+idth:145px;vertical-align:top;text-align:left;font-family:'Open Sans'Arial,=
+sans-serif;font-size:14px;color:#363636;"><img alt=3D"H22 NL MSFT" src=3D"h=
+ttps://projektneptun.ch/assets/Newsletter/H22-NL-MSFT__ScaleMaxWidthWzYwMF0=
+.png" style=3D"width:80%;max-width:115px;margin-bottom:20px;" width=3D"115"=
+></div>
+						<!--[if mso]>
+    </td>
+    <td style=3D"width:395px;padding-bottom:20px;" valign=3D"top">
+    <![endif]-->
+
+						<div class=3D"col-lge" style=3D"display:inline-block;width:100%;max-w=
+idth:395px;vertical-align:top;padding-bottom:20px;font-family:'Open Sans'Ar=
+ial,sans-serif;font-size:16px;line-height:22px;color:#363636;">
+						<h3 style=3D"margin-top:0px;margin-bottom:18px;">Attractive discounts=
+ on Microsoft Surface for Business</h3>
+
+						<p style=3D"margin-top:0;margin-bottom:18px;">Take advantage of attra=
+ctive discounts on Microsoft Surface for Business Laptops, including a 2-ye=
+ar international Microsoft manufacturer's warranty.</p>
+
+						<p style=3D"margin:0;"><a href=3D"https://ssdvm1.ethz.ch/sendy/l/9N8n=
+o3763OO3B9j9drTDJgRg/uugSlOGtNieW763rsjWfhw892Q/cqHuekQZz7BaXhA6du72763w" s=
+tyle=3D"background: #1f74b9;; text-decoration: none; padding: 10px 25px; co=
+lor: #ffffff; border-radius: 4px; display:inline-block; mso-padding-alt:0;t=
+ext-underline-color:#1f74b9;"><!--[if mso]><i style=3D"letter-spacing: 25px=
+;mso-font-width:-100%;mso-text-raise:20pt">=C2=A0</i><![endif]--> <span sty=
+le=3D"mso-text-raise:10pt;font-weight:bold;">To the Microsoft offer</span> =
+<!--[if mso]><i style=3D"letter-spacing: 25px;mso-font-width:-100%">=C2=A0<=
+/i><![endif]--> </a></p>
+						</div>
+						<!--[if mso]>
+    </td>
+    </tr>
+    </table>
+    <![endif]--></td>
+					</tr>
+					<tr>
+						<td style=3D"padding:35px 30px 11px 30px;font-size:0;background-color=
+:#ffffff;border-bottom:1px solid #f0f0f5;border-color:rgba(201,201,207,.35)=
+;"><!--[if mso]>
+    <table role=3D"presentation" width=3D"100%">
+    <tr>
+    <td style=3D"width:145px;" align=3D"left" valign=3D"top">
+    <![endif]-->
+						<div class=3D"col-sml" style=3D"display:inline-block;width:100%;max-w=
+idth:145px;vertical-align:top;text-align:left;font-family:'Open Sans'Arial,=
+sans-serif;font-size:14px;color:#363636;"><img alt=3D"H22 NL Samsung" src=
+=3D"https://projektneptun.ch/assets/Newsletter/H22-NL-Samsung__ScaleMaxWidt=
+hWzYwMF0.png" style=3D"width:80%;max-width:115px;margin-bottom:20px;" width=
+=3D"115"></div>
+						<!--[if mso]>
+    </td>
+    <td style=3D"width:395px;padding-bottom:20px;" valign=3D"top">
+    <![endif]-->
+
+						<div class=3D"col-lge" style=3D"display:inline-block;width:100%;max-w=
+idth:395px;vertical-align:top;padding-bottom:20px;font-family:'Open Sans'Ar=
+ial,sans-serif;font-size:16px;line-height:22px;color:#363636;">
+						<h3 style=3D"margin-top:0px;margin-bottom:18px;">Exclusive discounts =
+on Samsung tablets, smartphones, wearables and more!</h3>
+
+						<p style=3D"margin-top:0;margin-bottom:18px;">Benefit from our discou=
+nts on a wide range of Samsung products. Tablets, smartphones (with the new=
+ flip and fold models), watches, buds3, storage media and household applian=
+ces are in the offer!</p>
+
+						<p style=3D"margin:0;"><a href=3D"https://ssdvm1.ethz.ch/sendy/l/9N8n=
+o3763OO3B9j9drTDJgRg/JiHmClsjvvJuCnffjz3MOw/cqHuekQZz7BaXhA6du72763w" style=
+=3D"background: #1f74b9;; text-decoration: none; padding: 10px 25px; color:=
+ #ffffff; border-radius: 4px; display:inline-block; mso-padding-alt:0;text-=
+underline-color:#1f74b9;"><!--[if mso]><i style=3D"letter-spacing: 25px;mso=
+-font-width:-100%;mso-text-raise:20pt">=C2=A0</i><![endif]--> <span style=
+=3D"mso-text-raise:10pt;font-weight:bold;">To the Samsung offer</span> <!--=
+[if mso]><i style=3D"letter-spacing: 25px;mso-font-width:-100%">=C2=A0</i><=
+![endif]--> </a></p>
+						</div>
+						<!--[if mso]>
+    </td>
+    </tr>
+    </table>
+    <![endif]--></td>
+					</tr>
+					<tr>
+						<td style=3D"padding:0;font-size:24px;line-height:28px;font-weight:bo=
+ld;"><img alt=3D"" src=3D"https://projektneptun.ch/assets/Newsletter/Screen=
+shot-2024-08-31-153510__ScaleMaxWidthWzE2MDBd.png" style=3D"width:100%;heig=
+ht:auto;display:block;border:none;text-decoration:none;color:#363636;" widt=
+h=3D"1600"></td>
+					</tr>
+					<tr>
+						<td style=3D"padding:35px 30px 11px 30px;font-size:0;background-color=
+:#ffffff;border-bottom:1px solid #f0f0f5;border-color:rgba(201,201,207,.35)=
+;"><!--[if mso]>
+    <table role=3D"presentation" width=3D"100%">
+    <tr>
+    <td style=3D"width:145px;" align=3D"left" valign=3D"top">
+    <![endif]-->
+						<div class=3D"col-sml" style=3D"display:inline-block;width:100%;max-w=
+idth:145px;vertical-align:top;text-align:left;font-family:'Open Sans'Arial,=
+sans-serif;font-size:14px;color:#363636;"><img alt=3D"gaming fs24 main 800x=
+440 nb" src=3D"https://projektneptun.ch/assets/Sections/Banner/gaming_fs24_=
+main_800x440_nb__ScaleMaxWidthWzYwMF0.png" style=3D"width:80%;max-width:115=
+px;margin-bottom:20px;" width=3D"115"></div>
+						<!--[if mso]>
+    </td>
+    <td style=3D"width:395px;padding-bottom:20px;" valign=3D"top">
+    <![endif]-->
+
+						<div class=3D"col-lge" style=3D"display:inline-block;width:100%;max-w=
+idth:395px;vertical-align:top;padding-bottom:20px;font-family:'Open Sans'Ar=
+ial,sans-serif;font-size:16px;line-height:22px;color:#363636;">
+						<h3 style=3D"margin-top:0px;margin-bottom:18px;">Get to the next Leve=
+l! Our new gaming offer by Joule Performance, Samsung and Logitech will blo=
+w your mind!</h3>
+
+						<p style=3D"margin-top:0;margin-bottom:18px;">As unique as you are! B=
+uild your own gaming PC from Joule Performance, enjoy epic adventures on Sa=
+msung gaming monitors and control the action with peripherals from Logitech=
+ Gaming.</p>
+
+						<p style=3D"margin:0;"><a href=3D"https://ssdvm1.ethz.ch/sendy/l/9N8n=
+o3763OO3B9j9drTDJgRg/WVZX892nxJYKCWZ8vrBj892m763Q/cqHuekQZz7BaXhA6du72763w"=
+ style=3D"background: #1f74b9;; text-decoration: none; padding: 10px 25px; =
+color: #ffffff; border-radius: 4px; display:inline-block; mso-padding-alt:0=
+;text-underline-color:#1f74b9;"><!--[if mso]><i style=3D"letter-spacing: 25=
+px;mso-font-width:-100%;mso-text-raise:20pt">=C2=A0</i><![endif]--> <span s=
+tyle=3D"mso-text-raise:10pt;font-weight:bold;">To the gaming offer</span> <=
+!--[if mso]><i style=3D"letter-spacing: 25px;mso-font-width:-100%">=C2=A0</=
+i><![endif]--> </a></p>
+						</div>
+						<!--[if mso]>
+    </td>
+    </tr>
+    </table>
+    <![endif]--></td>
+					</tr>
+					<tr>
+						<td style=3D"padding:35px 30px 11px 30px;font-size:0;background-color=
+:#ffffff;border-bottom:1px solid #f0f0f5;border-color:rgba(201,201,207,.35)=
+;"><!--[if mso]>
+    <table role=3D"presentation" width=3D"100%">
+    <tr>
+    <td style=3D"width:145px;" align=3D"left" valign=3D"top">
+    <![endif]-->
+						<div class=3D"col-sml" style=3D"display:inline-block;width:100%;max-w=
+idth:145px;vertical-align:top;text-align:left;font-family:'Open Sans'Arial,=
+sans-serif;font-size:14px;color:#363636;"><img alt=3D"NL joule performance =
+kreislogo card workstation asus nuc 1x1 nb1" src=3D"https://projektneptun.c=
+h/assets/Newsletter/NL_joule_performance_kreislogo_card_workstation_asus_nu=
+c_1x1_nb1__ScaleMaxWidthWzYwMF0.png" style=3D"width:80%;max-width:115px;mar=
+gin-bottom:20px;" width=3D"115"></div>
+						<!--[if mso]>
+    </td>
+    <td style=3D"width:395px;padding-bottom:20px;" valign=3D"top">
+    <![endif]-->
+
+						<div class=3D"col-lge" style=3D"display:inline-block;width:100%;max-w=
+idth:395px;vertical-align:top;padding-bottom:20px;font-family:'Open Sans'Ar=
+ial,sans-serif;font-size:16px;line-height:22px;color:#363636;">
+						<h3 style=3D"margin-top:0px;margin-bottom:18px;">New to the range! 10=
+% on Asus NUC and desktop workstations by Joule Performance!</h3>
+
+						<p style=3D"margin-top:0;margin-bottom:18px;">You can now also config=
+ure Asus NUCs and desktop workstations yourself in the configurator at Joul=
+e Performance. You always benefit from the Neptun discount of 10%!</p>
+
+						<p style=3D"margin:0;"><a href=3D"https://ssdvm1.ethz.ch/sendy/l/9N8n=
+o3763OO3B9j9drTDJgRg/d3LrWxl9DLdv8spqanjoIA/cqHuekQZz7BaXhA6du72763w" style=
+=3D"background: #1f74b9;; text-decoration: none; padding: 10px 25px; color:=
+ #ffffff; border-radius: 4px; display:inline-block; mso-padding-alt:0;text-=
+underline-color:#1f74b9;"><!--[if mso]><i style=3D"letter-spacing: 25px;mso=
+-font-width:-100%;mso-text-raise:20pt">=C2=A0</i><![endif]--> <span style=
+=3D"mso-text-raise:10pt;font-weight:bold;">To the offer</span> <!--[if mso]=
+><i style=3D"letter-spacing: 25px;mso-font-width:-100%">=C2=A0</i><![endif]=
+--> </a></p>
+						</div>
+						<!--[if mso]>
+    </td>
+    </tr>
+    </table>
+    <![endif]--></td>
+					</tr>
+					<tr>
+						<td style=3D"padding:35px 30px 11px 30px;font-size:0;background-color=
+:#ffffff;border-bottom:1px solid #f0f0f5;border-color:rgba(201,201,207,.35)=
+;"><!--[if mso]>
+    <table role=3D"presentation" width=3D"100%">
+    <tr>
+    <td style=3D"width:145px;" align=3D"left" valign=3D"top">
+    <![endif]-->
+						<div class=3D"col-sml" style=3D"display:inline-block;width:100%;max-w=
+idth:145px;vertical-align:top;text-align:left;font-family:'Open Sans'Arial,=
+sans-serif;font-size:14px;color:#363636;"><img alt=3D"logo partner 3dstore =
+notext 1x1 nb" src=3D"https://projektneptun.ch/assets/Newsletter/logo_partn=
+er_3dstore_notext_1x1_nb__ScaleMaxWidthWzYwMF0.png" style=3D"width:80%;max-=
+width:115px;margin-bottom:20px;" width=3D"115"></div>
+						<!--[if mso]>
+    </td>
+    <td style=3D"width:395px;padding-bottom:20px;" valign=3D"top">
+    <![endif]-->
+
+						<div class=3D"col-lge" style=3D"display:inline-block;width:100%;max-w=
+idth:395px;vertical-align:top;padding-bottom:20px;font-family:'Open Sans'Ar=
+ial,sans-serif;font-size:16px;line-height:22px;color:#363636;">
+						<h3 style=3D"margin-top:0px;margin-bottom:18px;">Bambu Lab 3D printer=
+ by 3DStore.ch - Now also discount on materials!</h3>
+
+						<p style=3D"margin-top:0;margin-bottom:18px;">Let your imagination ru=
+n wild and give shape to your ideas. Benefit from exclusive discounts on 3D=
+ printers and all filament by Bambu Lab.</p>
+
+						<p style=3D"margin:0;"><a href=3D"https://ssdvm1.ethz.ch/sendy/l/9N8n=
+o3763OO3B9j9drTDJgRg/m892Fb0m2NgYaJLe1zBUJ59Q/cqHuekQZz7BaXhA6du72763w" sty=
+le=3D"background: #1f74b9;; text-decoration: none; padding: 10px 25px; colo=
+r: #ffffff; border-radius: 4px; display:inline-block; mso-padding-alt:0;tex=
+t-underline-color:#1f74b9;"><!--[if mso]><i style=3D"letter-spacing: 25px;m=
+so-font-width:-100%;mso-text-raise:20pt">=C2=A0</i><![endif]--> <span style=
+=3D"mso-text-raise:10pt;font-weight:bold;">To the 3D printers</span> <!--[i=
+f mso]><i style=3D"letter-spacing: 25px;mso-font-width:-100%">=C2=A0</i><![=
+endif]--> </a></p>
+						</div>
+						<!--[if mso]>
+    </td>
+    </tr>
+    </table>
+    <![endif]--></td>
+					</tr>
+					<tr>
+						<td style=3D"padding:0;font-size:24px;line-height:28px;font-weight:bo=
+ld;"><a href=3D"https://ssdvm1.ethz.ch/sendy/l/9N8no3763OO3B9j9drTDJgRg/Tn5=
+pjFyEqJ7LcXLz763jA5763w/cqHuekQZz7BaXhA6du72763w" style=3D"text-decoration:=
+none;"><img alt=3D"" src=3D"https://projektneptun.ch/assets/Sections/Banner=
+/c4ec5bad-d297-4496-a7c6-8d28705a318f_Yallo_Super_Sale_web_1__ScaleMaxWidth=
+WzE2MDBd.jpg" style=3D"width:100%;height:auto;display:block;border:none;tex=
+t-decoration:none;color:#363636;" width=3D"1600"> </a></td>
+					</tr>
+					<tr>
+						<td style=3D"padding:35px 30px 11px 30px;font-size:0;background-color=
+:#ffffff;border-bottom:1px solid #f0f0f5;border-color:rgba(201,201,207,.35)=
+;"><!--[if mso]>
+    <table role=3D"presentation" width=3D"100%">
+    <tr>
+    <td style=3D"width:145px;" align=3D"left" valign=3D"top">
+    <![endif]-->
+						<div class=3D"col-sml" style=3D"display:inline-block;width:100%;max-w=
+idth:145px;vertical-align:top;text-align:left;font-family:'Open Sans'Arial,=
+sans-serif;font-size:14px;color:#363636;"><img alt=3D"H22 NL yallo" src=3D"=
+https://projektneptun.ch/assets/Newsletter/H22-NL-yallo__ScaleMaxWidthWzYwM=
+F0.png" style=3D"width:80%;max-width:115px;margin-bottom:20px;" width=3D"11=
+5"></div>
+						<!--[if mso]>
+    </td>
+    <td style=3D"width:395px;padding-bottom:20px;" valign=3D"top">
+    <![endif]-->
+
+						<div class=3D"col-lge" style=3D"display:inline-block;width:100%;max-w=
+idth:395px;vertical-align:top;padding-bottom:20px;font-family:'Open Sans'Ar=
+ial,sans-serif;font-size:16px;line-height:22px;color:#363636;">
+						<h3 style=3D"margin-top:0px;margin-bottom:18px;">Up to 75 % discount =
+forever, on selected yallo subscriptions</h3>
+
+						<p style=3D"margin-top:0;margin-bottom:18px;">Profitiere f=C3=BCr imm=
+er von exklusiven Rabatten und spare bis zu 75 % auf Mobile- und Daten-Abos=
+ von yallo! Mit yallo hast du keine Mindestvertragslaufzeit und die Aktivie=
+rungsgeb=C3=BChr ist geschenkt!<br>
+						Benefit from exclusive discounts forever and save up to 75 % on mobil=
+e &amp; data subscriptions from yallo! With yallo you have no minimum contr=
+act period and the activation fee is free!</p>
+
+						<p style=3D"margin:0;"><a href=3D"https://ssdvm1.ethz.ch/sendy/l/9N8n=
+o3763OO3B9j9drTDJgRg/SaeIJfXoi5uYZCkzBQlLuQ/cqHuekQZz7BaXhA6du72763w" style=
+=3D"background: #1f74b9;; text-decoration: none; padding: 10px 25px; color:=
+ #ffffff; border-radius: 4px; display:inline-block; mso-padding-alt:0;text-=
+underline-color:#1f74b9;"><!--[if mso]><i style=3D"letter-spacing: 25px;mso=
+-font-width:-100%;mso-text-raise:20pt">=C2=A0</i><![endif]--> <span style=
+=3D"mso-text-raise:10pt;font-weight:bold;">To the yallo offer</span> <!--[i=
+f mso]><i style=3D"letter-spacing: 25px;mso-font-width:-100%">=C2=A0</i><![=
+endif]--> </a></p>
+						</div>
+						<!--[if mso]>
+    </td>
+    </tr>
+    </table>
+    <![endif]--></td>
+					</tr>
+					<tr>
+						<td style=3D"padding:35px 30px 11px 30px;font-size:0;background-color=
+:#ffffff;border-bottom:1px solid #f0f0f5;border-color:rgba(201,201,207,.35)=
+;"><!--[if mso]>
+    <table role=3D"presentation" width=3D"100%">
+    <tr>
+    <td style=3D"width:145px;" align=3D"left" valign=3D"top">
+    <![endif]-->
+						<div class=3D"col-sml" style=3D"display:inline-block;width:100%;max-w=
+idth:145px;vertical-align:top;text-align:left;font-family:'Open Sans'Arial,=
+sans-serif;font-size:14px;color:#363636;"><img alt=3D"NL H23 Accessories Zu=
+behoer quadv1" src=3D"https://projektneptun.ch/assets/Newsletter/NL-H23-Acc=
+essories-Zubehoer-quadv1__ScaleMaxWidthWzYwMF0.png" style=3D"width:80%;max-=
+width:115px;margin-bottom:20px;" width=3D"115"></div>
+						<!--[if mso]>
+    </td>
+    <td style=3D"width:395px;padding-bottom:20px;" valign=3D"top">
+    <![endif]-->
+
+						<div class=3D"col-lge" style=3D"display:inline-block;width:100%;max-w=
+idth:395px;vertical-align:top;padding-bottom:20px;font-family:'Open Sans'Ar=
+ial,sans-serif;font-size:16px;line-height:22px;color:#363636;">
+						<h3 style=3D"margin-top:0px;margin-bottom:18px;">Accessory offers for=
+ a well-equipped workplace</h3>
+
+						<p style=3D"margin-top:0;margin-bottom:18px;">Equip your workplace wi=
+th the right accessories at great prices. You'll find Dell monitors and per=
+ipherals from Logitech and 3DConnexion, as well as audio products from Mars=
+hall, Final and Jabra! And many other exciting accessories such as Epson pr=
+inters, docking stations and our tried and tested laptop sleeves from Dicot=
+a.</p>
+
+						<p style=3D"margin:0;"><a href=3D"https://ssdvm1.ethz.ch/sendy/l/9N8n=
+o3763OO3B9j9drTDJgRg/pOk763RUCA1I3Xu776370bI1AA/cqHuekQZz7BaXhA6du72763w" s=
+tyle=3D"background: #1f74b9;; text-decoration: none; padding: 10px 25px; co=
+lor: #ffffff; border-radius: 4px; display:inline-block; mso-padding-alt:0;t=
+ext-underline-color:#1f74b9;"><!--[if mso]><i style=3D"letter-spacing: 25px=
+;mso-font-width:-100%;mso-text-raise:20pt">=C2=A0</i><![endif]--> <span sty=
+le=3D"mso-text-raise:10pt;font-weight:bold;">To the accessories</span> <!--=
+[if mso]><i style=3D"letter-spacing: 25px;mso-font-width:-100%">=C2=A0</i><=
+![endif]--> </a></p>
+						</div>
+						<!--[if mso]>
+    </td>
+    </tr>
+    </table>
+    <![endif]--></td>
+					</tr>
+					<tr>
+						<td style=3D"padding:0;font-size:24px;line-height:28px;font-weight:bo=
+ld;"><img alt=3D"" src=3D"https://projektneptun.ch/assets/Newsletter/Screen=
+shot-2024-08-31-133022__ScaleMaxWidthWzE2MDBd.png" style=3D"width:100%;heig=
+ht:auto;display:block;border:none;text-decoration:none;color:#363636;" widt=
+h=3D"1600"></td>
+					</tr>
+					<tr>
+						<td style=3D"padding:0;font-size:24px;line-height:28px;font-weight:bo=
+ld;"><img alt=3D"" src=3D"https://projektneptun.ch/assets/Newsletter/Titelb=
+anner-Newsletter-FR__ScaleMaxWidthWzE2MDBd.png" style=3D"width:100%;height:=
+auto;display:block;border:none;text-decoration:none;color:#363636;" width=
+=3D"1600"></td>
+					</tr>
+					<tr>
+						<td style=3D"padding:0;font-size:24px;line-height:28px;font-weight:bo=
+ld;"><img alt=3D"" src=3D"https://projektneptun.ch/assets/Newsletter/Design=
+-ohne-Titel1__ScaleMaxWidthWzE2MDBd.png" style=3D"width:100%;height:auto;di=
+splay:block;border:none;text-decoration:none;color:#363636;" width=3D"1600"=
+></td>
+					</tr>
+					<tr>
+						<td style=3D"padding:30px;background-color:#fff;color:#000;border-bot=
+tom:1px solid #f0f0f5;border-color:rgba(201,201,207,.35);">
+						<h4 style=3D"margin-top: 0px; margin-bottom: 14px; font-size: 18px; l=
+ine-height: 23px; font-weight: bold; letter-spacing: -0.02em; text-align: c=
+enter;">Trouve maintenant l'ordinateur portable appropri=C3=A9 pour les =C3=
+=A9tudes, travail et tes le=C3=A7ons ainsi qu'une large gamme d'accessoires=
+.</h4>
+
+						<p style=3D"text-align: center;">Projekt Neptun offre avec tous nos p=
+roduit...</p>
+
+						<p style=3D"text-align: center;">Qualit=C3=A9 &amp; =C3=A9valuation |=
+ garantie | support | remplacements | conseils neutre</p>
+						</td>
+					</tr>
+					<tr>
+						<td style=3D"padding:35px 30px 11px 30px;font-size:0;background-color=
+:#ffffff;border-bottom:1px solid #f0f0f5;border-color:rgba(201,201,207,.35)=
+;"><!--[if mso]>
+    <table role=3D"presentation" width=3D"100%">
+    <tr>
+    <td style=3D"width:145px;" align=3D"left" valign=3D"top">
+    <![endif]-->
+						<div class=3D"col-sml" style=3D"display:inline-block;width:100%;max-w=
+idth:145px;vertical-align:top;text-align:left;font-family:'Open Sans'Arial,=
+sans-serif;font-size:14px;color:#363636;"><img alt=3D"apple logo nl" src=3D=
+"https://projektneptun.ch/assets/Newsletter/apple-logo-nl__ScaleMaxWidthWzY=
+wMF0.png" style=3D"width:80%;max-width:115px;margin-bottom:20px;" width=3D"=
+115"></div>
+						<!--[if mso]>
+    </td>
+    <td style=3D"width:395px;padding-bottom:20px;" valign=3D"top">
+    <![endif]-->
+
+						<div class=3D"col-lge" style=3D"display:inline-block;width:100%;max-w=
+idth:395px;vertical-align:top;padding-bottom:20px;font-family:'Open Sans'Ar=
+ial,sans-serif;font-size:16px;line-height:22px;color:#363636;">
+						<h3 style=3D"margin-top:0px;margin-bottom:18px;">8 - 16 % de r=C3=A9d=
+uction sur Apple</h3>
+
+						<p style=3D"margin-top:0;margin-bottom:18px;">Profite de superbes r=
+=C3=A9ductions sur les MacBooks (Pro &amp; Air), iPads, iMac, Mac mini, Mac=
+ Studio et Mac Pro. Pour les Alumni des rabais plus bas sont appliqu=C3=A9s=
+.</p>
+
+						<p style=3D"margin:0;"><a href=3D"https://ssdvm1.ethz.ch/sendy/l/9N8n=
+o3763OO3B9j9drTDJgRg/XuANhvfiJkbN2mBhgdkPrA/cqHuekQZz7BaXhA6du72763w" style=
+=3D"background: #1f74b9;; text-decoration: none; padding: 10px 25px; color:=
+ #ffffff; border-radius: 4px; display:inline-block; mso-padding-alt:0;text-=
+underline-color:#1f74b9;"><!--[if mso]><i style=3D"letter-spacing: 25px;mso=
+-font-width:-100%;mso-text-raise:20pt">=C2=A0</i><![endif]--> <span style=
+=3D"mso-text-raise:10pt;font-weight:bold;">Vers l'offre Apple</span> <!--[i=
+f mso]><i style=3D"letter-spacing: 25px;mso-font-width:-100%">=C2=A0</i><![=
+endif]--> </a></p>
+						</div>
+						<!--[if mso]>
+    </td>
+    </tr>
+    </table>
+    <![endif]--></td>
+					</tr>
+					<tr>
+						<td style=3D"padding:35px 30px 11px 30px;font-size:0;background-color=
+:#ffffff;border-bottom:1px solid #f0f0f5;border-color:rgba(201,201,207,.35)=
+;"><!--[if mso]>
+    <table role=3D"presentation" width=3D"100%">
+    <tr>
+    <td style=3D"width:145px;" align=3D"left" valign=3D"top">
+    <![endif]-->
+						<div class=3D"col-sml" style=3D"display:inline-block;width:100%;max-w=
+idth:145px;vertical-align:top;text-align:left;font-family:'Open Sans'Arial,=
+sans-serif;font-size:14px;color:#363636;"><img alt=3D"H22 NL Lenovo" src=3D=
+"https://projektneptun.ch/assets/Newsletter/H22-NL-Lenovo__ScaleMaxWidthWzY=
+wMF0.png" style=3D"width:80%;max-width:115px;margin-bottom:20px;" width=3D"=
+115"></div>
+						<!--[if mso]>
+    </td>
+    <td style=3D"width:395px;padding-bottom:20px;" valign=3D"top">
+    <![endif]-->
+
+						<div class=3D"col-lge" style=3D"display:inline-block;width:100%;max-w=
+idth:395px;vertical-align:top;padding-bottom:20px;font-family:'Open Sans'Ar=
+ial,sans-serif;font-size:16px;line-height:22px;color:#363636;">
+						<h3 style=3D"margin-top:0px;margin-bottom:18px;">Des mod=C3=A8les Len=
+ovo ThinkPad select=C3=A9s des series T, X et P</h3>
+
+						<p style=3D"margin-top:0;margin-bottom:18px;">Des convertibles mobile=
+s aux puissantes stations de travail : la large gamme de mod=C3=A8les d'ord=
+inateurs portables de Lenovo comprend une garantie internationale de 3 ans.=
+ Pour la g=C3=A9n=C3=A9ration actuelle de mod=C3=A8les d'ordinateurs portab=
+les Lenovo, l'assurance protection contre les accidents (ADP) est =C3=A9gal=
+ement incluse !</p>
+
+						<p style=3D"margin:0;"><a href=3D"https://ssdvm1.ethz.ch/sendy/l/9N8n=
+o3763OO3B9j9drTDJgRg/CQaHIeBDCWJXZgN763EgKEOw/cqHuekQZz7BaXhA6du72763w" sty=
+le=3D"background: #1f74b9;; text-decoration: none; padding: 10px 25px; colo=
+r: #ffffff; border-radius: 4px; display:inline-block; mso-padding-alt:0;tex=
+t-underline-color:#1f74b9;"><!--[if mso]><i style=3D"letter-spacing: 25px;m=
+so-font-width:-100%;mso-text-raise:20pt">=C2=A0</i><![endif]--> <span style=
+=3D"mso-text-raise:10pt;font-weight:bold;">Vers l'offre Lenovo</span> <!--[=
+if mso]><i style=3D"letter-spacing: 25px;mso-font-width:-100%">=C2=A0</i><!=
+[endif]--> </a></p>
+						</div>
+						<!--[if mso]>
+    </td>
+    </tr>
+    </table>
+    <![endif]--></td>
+					</tr>
+					<tr>
+						<td style=3D"padding:35px 30px 11px 30px;font-size:0;background-color=
+:#ffffff;border-bottom:1px solid #f0f0f5;border-color:rgba(201,201,207,.35)=
+;"><!--[if mso]>
+    <table role=3D"presentation" width=3D"100%">
+    <tr>
+    <td style=3D"width:145px;" align=3D"left" valign=3D"top">
+    <![endif]-->
+						<div class=3D"col-sml" style=3D"display:inline-block;width:100%;max-w=
+idth:145px;vertical-align:top;text-align:left;font-family:'Open Sans'Arial,=
+sans-serif;font-size:14px;color:#363636;"><img alt=3D"H22 NL HP" src=3D"htt=
+ps://projektneptun.ch/assets/Newsletter/H22-NL-HP__ScaleMaxWidthWzYwMF0.png=
+" style=3D"width:80%;max-width:115px;margin-bottom:20px;" width=3D"115"></d=
+iv>
+						<!--[if mso]>
+    </td>
+    <td style=3D"width:395px;padding-bottom:20px;" valign=3D"top">
+    <![endif]-->
+
+						<div class=3D"col-lge" style=3D"display:inline-block;width:100%;max-w=
+idth:395px;vertical-align:top;padding-bottom:20px;font-family:'Open Sans'Ar=
+ial,sans-serif;font-size:16px;line-height:22px;color:#363636;">
+						<h3 style=3D"margin-top:0px;margin-bottom:18px;">Sp=C3=A9cialement po=
+ur votre =C3=A9ducation configur=C3=A9: HP Elite &amp; Z Books</h3>
+
+						<p style=3D"margin-top:0;margin-bottom:18px;">Tous nos mod=C3=A8les d=
+'ordinateurs portables HP ont =C3=A9t=C3=A9 s=C3=A9lectionn=C3=A9s en fonct=
+ion de ton =C3=A9ducation et de leur utilisation quotidienne et mobile en c=
+lasse. Tu =C3=A9conomises sur le prix, mais tu ne dois pas pour autant reno=
+ncer =C3=A0 la qualit=C3=A9 et aux prestations de garantie : Une garantie i=
+nternationale de 3 ans est incluse dans le prix.</p>
+
+						<p style=3D"margin:0;"><a href=3D"https://ssdvm1.ethz.ch/sendy/l/9N8n=
+o3763OO3B9j9drTDJgRg/B2azJl5NmkfehcjTiNsWgQ/cqHuekQZz7BaXhA6du72763w" style=
+=3D"background: #1f74b9;; text-decoration: none; padding: 10px 25px; color:=
+ #ffffff; border-radius: 4px; display:inline-block; mso-padding-alt:0;text-=
+underline-color:#1f74b9;"><!--[if mso]><i style=3D"letter-spacing: 25px;mso=
+-font-width:-100%;mso-text-raise:20pt">=C2=A0</i><![endif]--> <span style=
+=3D"mso-text-raise:10pt;font-weight:bold;">Vers l'offre HP</span> <!--[if m=
+so]><i style=3D"letter-spacing: 25px;mso-font-width:-100%">=C2=A0</i><![end=
+if]--> </a></p>
+						</div>
+						<!--[if mso]>
+    </td>
+    </tr>
+    </table>
+    <![endif]--></td>
+					</tr>
+					<tr>
+						<td style=3D"padding:35px 30px 11px 30px;font-size:0;background-color=
+:#ffffff;border-bottom:1px solid #f0f0f5;border-color:rgba(201,201,207,.35)=
+;"><!--[if mso]>
+    <table role=3D"presentation" width=3D"100%">
+    <tr>
+    <td style=3D"width:145px;" align=3D"left" valign=3D"top">
+    <![endif]-->
+						<div class=3D"col-sml" style=3D"display:inline-block;width:100%;max-w=
+idth:145px;vertical-align:top;text-align:left;font-family:'Open Sans'Arial,=
+sans-serif;font-size:14px;color:#363636;"><img alt=3D"H22 NL MSFT" src=3D"h=
+ttps://projektneptun.ch/assets/Newsletter/H22-NL-MSFT__ScaleMaxWidthWzYwMF0=
+.png" style=3D"width:80%;max-width:115px;margin-bottom:20px;" width=3D"115"=
+></div>
+						<!--[if mso]>
+    </td>
+    <td style=3D"width:395px;padding-bottom:20px;" valign=3D"top">
+    <![endif]-->
+
+						<div class=3D"col-lge" style=3D"display:inline-block;width:100%;max-w=
+idth:395px;vertical-align:top;padding-bottom:20px;font-family:'Open Sans'Ar=
+ial,sans-serif;font-size:16px;line-height:22px;color:#363636;">
+						<h3 style=3D"margin-top:0px;margin-bottom:18px;">Rabais attractifs su=
+r Microsoft Surface for Business</h3>
+
+						<p style=3D"margin-top:0;margin-bottom:18px;">Profite de rabais attra=
+ctifs sur Microsoft Surface for Business, y compris 2 ans de garantie de fa=
+bricant internationale Microsoft.</p>
+
+						<p style=3D"margin:0;"><a href=3D"https://ssdvm1.ethz.ch/sendy/l/9N8n=
+o3763OO3B9j9drTDJgRg/WFesDRNKj892uHSWghWFYkbw/cqHuekQZz7BaXhA6du72763w" sty=
+le=3D"background: #1f74b9;; text-decoration: none; padding: 10px 25px; colo=
+r: #ffffff; border-radius: 4px; display:inline-block; mso-padding-alt:0;tex=
+t-underline-color:#1f74b9;"><!--[if mso]><i style=3D"letter-spacing: 25px;m=
+so-font-width:-100%;mso-text-raise:20pt">=C2=A0</i><![endif]--> <span style=
+=3D"mso-text-raise:10pt;font-weight:bold;">Vers l'offre Microsoft</span> <!=
+--[if mso]><i style=3D"letter-spacing: 25px;mso-font-width:-100%">=C2=A0</i=
+><![endif]--> </a></p>
+						</div>
+						<!--[if mso]>
+    </td>
+    </tr>
+    </table>
+    <![endif]--></td>
+					</tr>
+					<tr>
+						<td style=3D"padding:35px 30px 11px 30px;font-size:0;background-color=
+:#ffffff;border-bottom:1px solid #f0f0f5;border-color:rgba(201,201,207,.35)=
+;"><!--[if mso]>
+    <table role=3D"presentation" width=3D"100%">
+    <tr>
+    <td style=3D"width:145px;" align=3D"left" valign=3D"top">
+    <![endif]-->
+						<div class=3D"col-sml" style=3D"display:inline-block;width:100%;max-w=
+idth:145px;vertical-align:top;text-align:left;font-family:'Open Sans'Arial,=
+sans-serif;font-size:14px;color:#363636;"><img alt=3D"H22 NL Samsung" src=
+=3D"https://projektneptun.ch/assets/Newsletter/H22-NL-Samsung__ScaleMaxWidt=
+hWzYwMF0.png" style=3D"width:80%;max-width:115px;margin-bottom:20px;" width=
+=3D"115"></div>
+						<!--[if mso]>
+    </td>
+    <td style=3D"width:395px;padding-bottom:20px;" valign=3D"top">
+    <![endif]-->
+
+						<div class=3D"col-lge" style=3D"display:inline-block;width:100%;max-w=
+idth:395px;vertical-align:top;padding-bottom:20px;font-family:'Open Sans'Ar=
+ial,sans-serif;font-size:16px;line-height:22px;color:#363636;">
+						<h3 style=3D"margin-top:0px;margin-bottom:18px;">R=C3=A9ductions excl=
+usives sur les tablettes, les smartphones, les produits portables et bien p=
+lus encore !</h3>
+
+						<p style=3D"margin-top:0;margin-bottom:18px;">Profitez de nos r=C3=A9=
+ductions sur une large gamme de produits Samsung. Tablettes, smartphones (a=
+vec les nouveaux mod=C3=A8les flip et fold), montres, buds3, supports de st=
+ockage et appareils =C3=A9lectrom=C3=A9nagers font partie de l'offre !</p>
+
+						<p style=3D"margin:0;"><a href=3D"https://ssdvm1.ethz.ch/sendy/l/9N8n=
+o3763OO3B9j9drTDJgRg/z9SBhXH1d8GAkswfOO1bWA/cqHuekQZz7BaXhA6du72763w" style=
+=3D"background: #1f74b9;; text-decoration: none; padding: 10px 25px; color:=
+ #ffffff; border-radius: 4px; display:inline-block; mso-padding-alt:0;text-=
+underline-color:#1f74b9;"><!--[if mso]><i style=3D"letter-spacing: 25px;mso=
+-font-width:-100%;mso-text-raise:20pt">=C2=A0</i><![endif]--> <span style=
+=3D"mso-text-raise:10pt;font-weight:bold;">Vers l'offre Samsung</span> <!--=
+[if mso]><i style=3D"letter-spacing: 25px;mso-font-width:-100%">=C2=A0</i><=
+![endif]--> </a></p>
+						</div>
+						<!--[if mso]>
+    </td>
+    </tr>
+    </table>
+    <![endif]--></td>
+					</tr>
+					<tr>
+						<td style=3D"padding:0;font-size:24px;line-height:28px;font-weight:bo=
+ld;"><img alt=3D"" src=3D"https://projektneptun.ch/assets/Newsletter/Screen=
+shot-2024-08-31-153510__ScaleMaxWidthWzE2MDBd.png" style=3D"width:100%;heig=
+ht:auto;display:block;border:none;text-decoration:none;color:#363636;" widt=
+h=3D"1600"></td>
+					</tr>
+					<tr>
+						<td style=3D"padding:35px 30px 11px 30px;font-size:0;background-color=
+:#ffffff;border-bottom:1px solid #f0f0f5;border-color:rgba(201,201,207,.35)=
+;"><!--[if mso]>
+    <table role=3D"presentation" width=3D"100%">
+    <tr>
+    <td style=3D"width:145px;" align=3D"left" valign=3D"top">
+    <![endif]-->
+						<div class=3D"col-sml" style=3D"display:inline-block;width:100%;max-w=
+idth:145px;vertical-align:top;text-align:left;font-family:'Open Sans'Arial,=
+sans-serif;font-size:14px;color:#363636;"><img alt=3D"gaming fs24 main 800x=
+440 nb" src=3D"https://projektneptun.ch/assets/Sections/Banner/gaming_fs24_=
+main_800x440_nb__ScaleMaxWidthWzYwMF0.png" style=3D"width:80%;max-width:115=
+px;margin-bottom:20px;" width=3D"115"></div>
+						<!--[if mso]>
+    </td>
+    <td style=3D"width:395px;padding-bottom:20px;" valign=3D"top">
+    <![endif]-->
+
+						<div class=3D"col-lge" style=3D"display:inline-block;width:100%;max-w=
+idth:395px;vertical-align:top;padding-bottom:20px;font-family:'Open Sans'Ar=
+ial,sans-serif;font-size:16px;line-height:22px;color:#363636;">
+						<h3 style=3D"margin-top:0px;margin-bottom:18px;">Get to the next Leve=
+l! Avec notre nouvelle offre gaming by Joule Performance, Samsung and Logit=
+ech!</h3>
+
+						<p style=3D"margin-top:0;margin-bottom:18px;">As unique as you are! B=
+uild your own gaming PC from Joule Performance, enjoy epic adventures on Sa=
+msung gaming monitors and control the action with peripherals from Logitech=
+ Gaming.<br>
+						Aussi unique que toi ! Construise ton propre PC de jeu avec Joule Per=
+formance, vive des aventures =C3=A9piques sur les moniteurs de jeu Samsung =
+et contr=C3=B4le l'action avec les p=C3=A9riph=C3=A9riques de Logitech Gami=
+ng.</p>
+
+						<p style=3D"margin:0;"><a href=3D"https://ssdvm1.ethz.ch/sendy/l/9N8n=
+o3763OO3B9j9drTDJgRg/7ip0cl273ECFqWVOsXfwow/cqHuekQZz7BaXhA6du72763w" style=
+=3D"background: #1f74b9;; text-decoration: none; padding: 10px 25px; color:=
+ #ffffff; border-radius: 4px; display:inline-block; mso-padding-alt:0;text-=
+underline-color:#1f74b9;"><!--[if mso]><i style=3D"letter-spacing: 25px;mso=
+-font-width:-100%;mso-text-raise:20pt">=C2=A0</i><![endif]--> <span style=
+=3D"mso-text-raise:10pt;font-weight:bold;">Vers l'offre gaming</span> <!--[=
+if mso]><i style=3D"letter-spacing: 25px;mso-font-width:-100%">=C2=A0</i><!=
+[endif]--> </a></p>
+						</div>
+						<!--[if mso]>
+    </td>
+    </tr>
+    </table>
+    <![endif]--></td>
+					</tr>
+					<tr>
+						<td style=3D"padding:35px 30px 11px 30px;font-size:0;background-color=
+:#ffffff;border-bottom:1px solid #f0f0f5;border-color:rgba(201,201,207,.35)=
+;"><!--[if mso]>
+    <table role=3D"presentation" width=3D"100%">
+    <tr>
+    <td style=3D"width:145px;" align=3D"left" valign=3D"top">
+    <![endif]-->
+						<div class=3D"col-sml" style=3D"display:inline-block;width:100%;max-w=
+idth:145px;vertical-align:top;text-align:left;font-family:'Open Sans'Arial,=
+sans-serif;font-size:14px;color:#363636;"><img alt=3D"NL joule performance =
+kreislogo card workstation asus nuc 1x1 nb1" src=3D"https://projektneptun.c=
+h/assets/Newsletter/NL_joule_performance_kreislogo_card_workstation_asus_nu=
+c_1x1_nb1__ScaleMaxWidthWzYwMF0.png" style=3D"width:80%;max-width:115px;mar=
+gin-bottom:20px;" width=3D"115"></div>
+						<!--[if mso]>
+    </td>
+    <td style=3D"width:395px;padding-bottom:20px;" valign=3D"top">
+    <![endif]-->
+
+						<div class=3D"col-lge" style=3D"display:inline-block;width:100%;max-w=
+idth:395px;vertical-align:top;padding-bottom:20px;font-family:'Open Sans'Ar=
+ial,sans-serif;font-size:16px;line-height:22px;color:#363636;">
+						<h3 style=3D"margin-top:0px;margin-bottom:18px;">Nouveau dans la gamm=
+e ! 10% sur Asus NUC et stations de travail par Joule Performance !</h3>
+
+						<p style=3D"margin-top:0;margin-bottom:18px;">Tu peux maintenant conf=
+igurer toi-m=C3=AAme les NUC et les stations de travail de bureau Asus dans=
+ le configurateur de Joule Performance. Tu continueras =C3=A0 b=C3=A9n=C3=
+=A9ficier du rabais Neptune de 10% !</p>
+
+						<p style=3D"margin:0;"><a href=3D"https://ssdvm1.ethz.ch/sendy/l/9N8n=
+o3763OO3B9j9drTDJgRg/d3LrWxl9DLdv8spqanjoIA/cqHuekQZz7BaXhA6du72763w" style=
+=3D"background: #1f74b9;; text-decoration: none; padding: 10px 25px; color:=
+ #ffffff; border-radius: 4px; display:inline-block; mso-padding-alt:0;text-=
+underline-color:#1f74b9;"><!--[if mso]><i style=3D"letter-spacing: 25px;mso=
+-font-width:-100%;mso-text-raise:20pt">=C2=A0</i><![endif]--> <span style=
+=3D"mso-text-raise:10pt;font-weight:bold;">Vers l'offre</span> <!--[if mso]=
+><i style=3D"letter-spacing: 25px;mso-font-width:-100%">=C2=A0</i><![endif]=
+--> </a></p>
+						</div>
+						<!--[if mso]>
+    </td>
+    </tr>
+    </table>
+    <![endif]--></td>
+					</tr>
+					<tr>
+						<td style=3D"padding:35px 30px 11px 30px;font-size:0;background-color=
+:#ffffff;border-bottom:1px solid #f0f0f5;border-color:rgba(201,201,207,.35)=
+;"><!--[if mso]>
+    <table role=3D"presentation" width=3D"100%">
+    <tr>
+    <td style=3D"width:145px;" align=3D"left" valign=3D"top">
+    <![endif]-->
+						<div class=3D"col-sml" style=3D"display:inline-block;width:100%;max-w=
+idth:145px;vertical-align:top;text-align:left;font-family:'Open Sans'Arial,=
+sans-serif;font-size:14px;color:#363636;"><img alt=3D"logo partner 3dstore =
+notext 1x1 nb" src=3D"https://projektneptun.ch/assets/Newsletter/logo_partn=
+er_3dstore_notext_1x1_nb__ScaleMaxWidthWzYwMF0.png" style=3D"width:80%;max-=
+width:115px;margin-bottom:20px;" width=3D"115"></div>
+						<!--[if mso]>
+    </td>
+    <td style=3D"width:395px;padding-bottom:20px;" valign=3D"top">
+    <![endif]-->
+
+						<div class=3D"col-lge" style=3D"display:inline-block;width:100%;max-w=
+idth:395px;vertical-align:top;padding-bottom:20px;font-family:'Open Sans'Ar=
+ial,sans-serif;font-size:16px;line-height:22px;color:#363636;">
+						<h3 style=3D"margin-top:0px;margin-bottom:18px;">Bambu Lab 3D imprime=
+urs de 3DStore.ch - Maitenant m=C3=AAme de rabbais sur tout le mat=C3=A9rie=
+l!</h3>
+
+						<p style=3D"margin-top:0;margin-bottom:18px;">Laisse libre cours =C3=
+=A0 ton imagination et donne forme =C3=A0 tes id=C3=A9es. B=C3=A9n=C3=A9fic=
+ie de remises exclusives sur les imprimantes =C3=A0 3D et tous les filament=
+ Bambu Lab.</p>
+
+						<p style=3D"margin:0;"><a href=3D"https://ssdvm1.ethz.ch/sendy/l/9N8n=
+o3763OO3B9j9drTDJgRg/BoI46y2AHrkKl6CHZk6qOg/cqHuekQZz7BaXhA6du72763w" style=
+=3D"background: #1f74b9;; text-decoration: none; padding: 10px 25px; color:=
+ #ffffff; border-radius: 4px; display:inline-block; mso-padding-alt:0;text-=
+underline-color:#1f74b9;"><!--[if mso]><i style=3D"letter-spacing: 25px;mso=
+-font-width:-100%;mso-text-raise:20pt">=C2=A0</i><![endif]--> <span style=
+=3D"mso-text-raise:10pt;font-weight:bold;">Vers les imprimeurs 3D</span> <!=
+--[if mso]><i style=3D"letter-spacing: 25px;mso-font-width:-100%">=C2=A0</i=
+><![endif]--> </a></p>
+						</div>
+						<!--[if mso]>
+    </td>
+    </tr>
+    </table>
+    <![endif]--></td>
+					</tr>
+					<tr>
+						<td style=3D"padding:0;font-size:24px;line-height:28px;font-weight:bo=
+ld;"><a href=3D"https://ssdvm1.ethz.ch/sendy/l/9N8no3763OO3B9j9drTDJgRg/Tn5=
+pjFyEqJ7LcXLz763jA5763w/cqHuekQZz7BaXhA6du72763w" style=3D"text-decoration:=
+none;"><img alt=3D"" src=3D"https://projektneptun.ch/assets/Sections/Banner=
+/c4ec5bad-d297-4496-a7c6-8d28705a318f_Yallo_Super_Sale_web_1__ScaleMaxWidth=
+WzE2MDBd.jpg" style=3D"width:100%;height:auto;display:block;border:none;tex=
+t-decoration:none;color:#363636;" width=3D"1600"> </a></td>
+					</tr>
+					<tr>
+						<td style=3D"padding:35px 30px 11px 30px;font-size:0;background-color=
+:#ffffff;border-bottom:1px solid #f0f0f5;border-color:rgba(201,201,207,.35)=
+;"><!--[if mso]>
+    <table role=3D"presentation" width=3D"100%">
+    <tr>
+    <td style=3D"width:145px;" align=3D"left" valign=3D"top">
+    <![endif]-->
+						<div class=3D"col-sml" style=3D"display:inline-block;width:100%;max-w=
+idth:145px;vertical-align:top;text-align:left;font-family:'Open Sans'Arial,=
+sans-serif;font-size:14px;color:#363636;"><img alt=3D"H22 NL yallo" src=3D"=
+https://projektneptun.ch/assets/Newsletter/H22-NL-yallo__ScaleMaxWidthWzYwM=
+F0.png" style=3D"width:80%;max-width:115px;margin-bottom:20px;" width=3D"11=
+5"></div>
+						<!--[if mso]>
+    </td>
+    <td style=3D"width:395px;padding-bottom:20px;" valign=3D"top">
+    <![endif]-->
+
+						<div class=3D"col-lge" style=3D"display:inline-block;width:100%;max-w=
+idth:395px;vertical-align:top;padding-bottom:20px;font-family:'Open Sans'Ar=
+ial,sans-serif;font-size:16px;line-height:22px;color:#363636;">
+						<h3 style=3D"margin-top:0px;margin-bottom:18px;">Jusqu'=C3=A0 75 % de=
+ r=C3=A9duction pour toujours, sur une s=C3=A9lection d'abonnements yallo</=
+h3>
+
+						<p style=3D"margin-top:0;margin-bottom:18px;">Profite pour toujours d=
+e remises exclusives et =C3=A9conomise jusqu'=C3=A0 75 % sur les abonnement=
+s mobiles et data de yallo ! Avec yallo, tu n'as pas de dur=C3=A9e minimale=
+ de contrat et les frais d'activation sont offerts !</p>
+
+						<p style=3D"margin:0;"><a href=3D"https://ssdvm1.ethz.ch/sendy/l/9N8n=
+o3763OO3B9j9drTDJgRg/Gl4c3cF1jK892bCGTni711iw/cqHuekQZz7BaXhA6du72763w" sty=
+le=3D"background: #1f74b9;; text-decoration: none; padding: 10px 25px; colo=
+r: #ffffff; border-radius: 4px; display:inline-block; mso-padding-alt:0;tex=
+t-underline-color:#1f74b9;"><!--[if mso]><i style=3D"letter-spacing: 25px;m=
+so-font-width:-100%;mso-text-raise:20pt">=C2=A0</i><![endif]--> <span style=
+=3D"mso-text-raise:10pt;font-weight:bold;">Vers l'offre yallo</span> <!--[i=
+f mso]><i style=3D"letter-spacing: 25px;mso-font-width:-100%">=C2=A0</i><![=
+endif]--> </a></p>
+						</div>
+						<!--[if mso]>
+    </td>
+    </tr>
+    </table>
+    <![endif]--></td>
+					</tr>
+					<tr>
+						<td style=3D"padding:35px 30px 11px 30px;font-size:0;background-color=
+:#ffffff;border-bottom:1px solid #f0f0f5;border-color:rgba(201,201,207,.35)=
+;"><!--[if mso]>
+    <table role=3D"presentation" width=3D"100%">
+    <tr>
+    <td style=3D"width:145px;" align=3D"left" valign=3D"top">
+    <![endif]-->
+						<div class=3D"col-sml" style=3D"display:inline-block;width:100%;max-w=
+idth:145px;vertical-align:top;text-align:left;font-family:'Open Sans'Arial,=
+sans-serif;font-size:14px;color:#363636;"><img alt=3D"NL H23 Accessories Zu=
+behoer quadv1" src=3D"https://projektneptun.ch/assets/Newsletter/NL-H23-Acc=
+essories-Zubehoer-quadv1__ScaleMaxWidthWzYwMF0.png" style=3D"width:80%;max-=
+width:115px;margin-bottom:20px;" width=3D"115"></div>
+						<!--[if mso]>
+    </td>
+    <td style=3D"width:395px;padding-bottom:20px;" valign=3D"top">
+    <![endif]-->
+
+						<div class=3D"col-lge" style=3D"display:inline-block;width:100%;max-w=
+idth:395px;vertical-align:top;padding-bottom:20px;font-family:'Open Sans'Ar=
+ial,sans-serif;font-size:16px;line-height:22px;color:#363636;">
+						<h3 style=3D"margin-top:0px;margin-bottom:18px;">Offres d'accessoires=
+ pour une copie de poste de travail bien =C3=A9quip=C3=A9e</h3>
+
+						<p style=3D"margin-top:0;margin-bottom:18px;">=C3=89quipez votre lieu=
+ de travail avec les bons accessoires =C3=A0 des prix avantageux. Vous trou=
+verez des =C3=A9crans Dell et des p=C3=A9riph=C3=A9riques de Logitech et 3D=
+Connexion, ainsi que des produits audio de Marshall, Final et Jabra ! Et bi=
+en d'autres accessoires int=C3=A9ressants tels que les imprimantes Epson, l=
+es stations d'accueil et nos housses pour ordinateurs portables Dicota, qui=
+ ont fait leurs preuves.</p>
+
+						<p style=3D"margin:0;"><a href=3D"https://ssdvm1.ethz.ch/sendy/l/9N8n=
+o3763OO3B9j9drTDJgRg/PKnEB763PPwYVVKW66HM0H8w/cqHuekQZz7BaXhA6du72763w" sty=
+le=3D"background: #1f74b9;; text-decoration: none; padding: 10px 25px; colo=
+r: #ffffff; border-radius: 4px; display:inline-block; mso-padding-alt:0;tex=
+t-underline-color:#1f74b9;"><!--[if mso]><i style=3D"letter-spacing: 25px;m=
+so-font-width:-100%;mso-text-raise:20pt">=C2=A0</i><![endif]--> <span style=
+=3D"mso-text-raise:10pt;font-weight:bold;">Vers les accessoires</span> <!--=
+[if mso]><i style=3D"letter-spacing: 25px;mso-font-width:-100%">=C2=A0</i><=
+![endif]--> </a></p>
+						</div>
+						<!--[if mso]>
+    </td>
+    </tr>
+    </table>
+    <![endif]--></td>
+					</tr>
+					<tr>
+						<td style=3D"padding:30px;text-align:center;font-size:12px;background=
+-color:#cbd3da;color:#363636;"><a href=3D"https://ssdvm1.ethz.ch/sendy/l/9N=
+8no3763OO3B9j9drTDJgRg/6yRm5hU7639599UJ77yuPJCg/cqHuekQZz7BaXhA6du72763w"><=
+img alt=3D"Instagram" height=3D"18" src=3D"https://projektneptun.ch/assets/=
+nep-insta.png" style=3D"width: auto; height: 18px;"> </a> &nbsp;&nbsp;&nbsp=
+;&nbsp; <a href=3D"https://ssdvm1.ethz.ch/sendy/l/9N8no3763OO3B9j9drTDJgRg/=
+PyJwx7jjnlU4kgixzmUfhA/cqHuekQZz7BaXhA6du72763w"> <img alt=3D"Facebook" hei=
+ght=3D"18" src=3D"https://www.projektneptun.ch/assets/99c202e268/nep-face.p=
+ng" style=3D"width: auto; height: 18px;"> </a> &nbsp;&nbsp;&nbsp;&nbsp; <a =
+href=3D"https://ssdvm1.ethz.ch/sendy/l/9N8no3763OO3B9j9drTDJgRg/RR2dHSNV8dn=
+NkN763OwV5Vug/cqHuekQZz7BaXhA6du72763w"> <img alt=3D"Twitter" height=3D"18"=
+ src=3D"https://www.projektneptun.ch/assets/a47a40549e/nep-twitter.png" sty=
+le=3D"width: auto; height: 18px;"> </a> &nbsp;&nbsp;&nbsp; <a href=3D"https=
+://ssdvm1.ethz.ch/sendy/l/9N8no3763OO3B9j9drTDJgRg/HttfymVzAZzrDReWJEfE763A=
+/cqHuekQZz7BaXhA6du72763w"> <img alt=3D"Youtube" height=3D"16" src=3D"https=
+://www.projektneptun.ch/assets/nep-youtube.png" style=3D"width: 22px; heigh=
+t: 16px;"> </a>
+						<p style=3D"margin:0;font-size:14px;line-height:20px;margin-top:15px;=
+">=C2=A9 SSD, Z=C3=BCrich 2024<br>
+						<a class=3D"webvers" href=3D"https://ssdvm1.ethz.ch/sendy/w/9N8no3763=
+OO3B9j9drTDJgRg/N5jlVhW0WCPhuI75ESv2SQ/cqHuekQZz7BaXhA6du72763w" style=3D"c=
+olor:#363636;text-decoration:underline;">Web version</a> &nbsp;|&nbsp; <a c=
+lass=3D"unsub" href=3D"https://ssdvm1.ethz.ch/sendy/unsubscribe/pQRig892UE5=
+UjhRbSr7gQkIUTxV3ASsY8923UNQGngwI763tw/N5jlVhW0WCPhuI75ESv2SQ/cqHuekQZz7BaX=
+hA6du72763w" style=3D"color:#363636;text-decoration:underline;">Unsubscribe=
+</a></p>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<!--[if mso]>
+        </td>
+        </tr>
+        </table>
+        <![endif]--></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</body>
+</html>
+<img src=3D"https://ssdvm1.ethz.ch/sendy/t/cqHuekQZz7BaXhA6du72763w/9N8no37=
+63OO3B9j9drTDJgRg" alt=3D"" style=3D"width:1px;height:1px;">
+
+
+--b1_eae1ec6ebafab77330480f2c1924f6e4--

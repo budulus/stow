@@ -1,0 +1,213 @@
+Received: from edge20.ethz.ch (82.130.99.26) by CAS10.d.ethz.ch
+ (172.31.38.210) with Microsoft SMTP Server (TLS) id 14.1.339.1; Wed, 14 Sep
+ 2011 15:33:33 +0200
+Received: from phil2.ethz.ch (129.132.202.240) by edge20.ethz.ch
+ (82.130.99.26) with Microsoft SMTP Server id 14.1.339.1; Wed, 14 Sep 2011
+ 15:33:33 +0200
+Received: from mail-fx0-f52.google.com ([209.85.161.52])	by phil2.ethz.ch with
+ esmtp (Exim 4.69)	(envelope-from <808930@gmail.com>)	id 1R3pae-00089p-8h	for
+ hopf@imes.mavt.ethz.ch; Wed, 14 Sep 2011 15:33:33 +0200
+Received: by fxe23 with SMTP id 23so2690472fxe.39        for
+ <hopf@imes.mavt.ethz.ch>; Wed, 14 Sep 2011 06:33:24 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=gamma;
+        h=mime-version:in-reply-to:references:date:message-id:subject:from:to
+         :content-type;
+        bh=3kLC8jYfuKxk2W3KvILtutQPidbPQijuAhuFHLVM/d4=;
+        b=I8cdCeVRwJJLyCGTQHBnkTrlD1fLMiMifFgKItlF25j9wFBE4Va0PIEyTF0g+jWoJp
+         t2mpwuzpunFd7e6xKoV/zTVxNNXy4y940vTJ5ZAxYTIIy4CgsOm9Lr/CluLISicnFMC1
+         N8PBKp5tzpLhWmA3KyX41ZA1EQEBlxTVB7Vxs=
+Received: by 10.223.34.13 with SMTP id j13mr703523fad.1.1316007204334; Wed, 14
+ Sep 2011 06:33:24 -0700 (PDT)
+Received: by 10.223.120.65 with HTTP; Wed, 14 Sep 2011 06:33:23 -0700 (PDT)
+In-Reply-To: <EEF50B54-E3C2-4A26-8B5F-F930DE689EDA@imes.mavt.ethz.ch>
+References: <EEF50B54-E3C2-4A26-8B5F-F930DE689EDA@imes.mavt.ethz.ch>
+Date: Wed, 14 Sep 2011 15:33:23 +0200
+Message-ID: <CAOF+YKyAX027qZOdkHrR-WuZ_FE-2Bt5FHyzDXQhKTJxWzPncA@mail.gmail.com>
+Subject: Re: ^^
+From: dominique koevoets <808930@gmail.com>
+To: Hopf Raoul <hopf@imes.mavt.ethz.ch>
+Content-Type: multipart/alternative; boundary="0015174734beefab0204ace6cd58"
+X-Filter-Node: phil2.ethz.ch
+X-Spam-Level:
+X-Spam-Status: hits=0.4 tests=EZ_WON015,FREEMAIL_ENVFROM_END_DIGIT,FREEMAIL_FROM,HTML_MESSAGE,RCVD_IN_DNSWL_LOW,SPF_PASS,T_DKIM_INVALID
+X-Spam-Flag: NO
+Return-Path: 808930@gmail.com
+X-MS-Exchange-Organization-AuthSource: edge20.ethz.ch
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Exchange-Organization-AVStamp-Mailbox: SMEXawoY;842700;0;This mail has
+ been scanned by Trend Micro ScanMail for Microsoft Exchange;
+X-MS-Exchange-Organization-SCL: 0
+MIME-Version: 1.0
+
+--0015174734beefab0204ace6cd58
+Content-Type: text/plain; charset="windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+So, seems you are screwed indeed:
+
+Swisscom has a nice scam going on, many providers have had the same, but
+summer 2010 in EU a law has been pushed through on limits on data-bills. Of=
+c
+Swiss not in the EU, so the law doesn't go for Swiss. Swisscom still works
+the scam by having many sneaky ways to up your data:
+
+*For example:**
+Actually I had Swisscom, got a 600chf something bill-
+Reason, the stupid phone was using "data" to install in the background
+updates + once I said to use wireless, I put mode data to off-
+The stupid device still used DATA instead.
+I called Swisscom to let them know how crap is it that despite me turning
+off DATA it's still automatically activate. They suggested to buy a data
+option "just in case"....*
+*Or this one:*
+*The technical support confirmed that the bill amounted to 28.6Mb due to th=
+e
+fact that Swisscom roaming partnerships force Swisscom to charge a minimum
+of 30kb per session (up to a minimum of 300kb per session!!!), and they
+consider a session each time the telephone connects to the GPRS network, so
+this means that each time that I was checking Google Maps I was being bille=
+d
+300kb even if I was using 1kb or 2kb maximum, a shameful ripoff. Even if I
+kept complaining about this fact pointing out that it=92s not my problem th=
+at
+Swisscom has such a bad partnership deals of which I were not warned about
+at any time, I had to pay the 240Chf extra. *
+
+So people get enormous databills, and at some point they go complain and ge=
+t
+an *unlimited-package-suggestion* (what they also are after.) In your case,
+you didnt complain, they CALLED you to friendly offer the scam after upping
+your bills...
+
+Then you find ALL kinds of companies on the internet that throttle, slow
+down the heavier users. Unlimited data is a lie: you can't get unlimited
+data, the more you use, the more they will slow you down after some amount.
+(Even to 5% of normal speed) Some companies say they don't, but they have a
+speedcap to start with, so everybody has a bit slower than normal, and as
+soon as you go over their invisible data-barrier, they will shut down ports=
+,
+lower bandwidth and such jokes.)
+
+*There is 2 ways to contradict them, even legally speaking:
+
+1) If they SAY they offer unlimited data, they are still lying. They
+obviously see the loophole "You can access unlimited, it is just so tardslo=
+w
+that you won't get much." But, that is not a loophole at all. If they have
+an offer of unlimited data, and everybody takes that offer (hypotetically)
+NOBODY woud have much data anymore. So they can't possibly deliver it at
+all, still they say they do.
+
+2) Unlimited means "as much as u want/ all you can eat" they LIMIT your
+speed, so they LIMIT your data. *
+
+For real. Go get them! Har!
+
+Here is a nice anology to screw up your workbreak:
+You pay 10e for a nice breakfast buffet. However, you can only fill your
+plate once, you can't stack up or go for seconds. If you do, they will
+charge 100e for the next plate. The breakfast buffet is from 7am to 10am.
+Then you think: wow Im still hungry after the first plate, but it is very
+expensive, you now what? Ill take the offer to pay 40e for the buffet, whic=
+h
+says I can have unlimited plates of the lovely shit they offer! So next day
+you go to the breakfast at 7am, anticipating on a binging spree. Yummie! Yo=
+u
+get your first plate, it was very yummie, so you go for a second plate.
+Omnomnom. But, when you want to get your second plate, you see a huuuuge
+line in front of the buffettable. When it is your turn, it is unfortunaly
+10am and the buffet is closed. You ended up paying 40e for only one plate.
+
+You see this shit everywhere:
+- unlimited sushi eating for 2 hrs: they are tard slow at the service, the
+expensive dishes cost extra anyway, yes "sushi" is unlimited, but only this
+and that and that one.
+- unlimited carpaccio for all the time you want: the first plate is
+delicious, the quality of the second plate is so bad you dont want a third.
+And ofc, you cant get more if you dont finish your former plate.
+
+pfff oh and there is nothing in their terms of service to state otherwise,
+so they really DONT have a loophole.
+
+
+x
+
+--0015174734beefab0204ace6cd58
+Content-Type: text/html; charset="windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DWindows-1=
+252">So, seems you are screwed indeed:<br><br>Swisscom has a nice scam goin=
+g on, many providers have had the same, but summer 2010 in EU a law has bee=
+n pushed through on limits on data-bills. Ofc Swiss not in the EU, so the l=
+aw doesn't go for Swiss. Swisscom still works the scam by having many sneak=
+y ways to up your data:<br>
+<br><u>For example:</u><i><br>Actually I had Swisscom, got a 600chf somethi=
+ng bill-<br>
+Reason, the stupid phone was using &quot;data&quot; to install in the backg=
+round=20
+updates &#43; once I said to use wireless, I put mode data to off-<br>
+The stupid device still used DATA instead.<br>
+I called Swisscom to let them know how crap is it that despite me=20
+turning off DATA it's still automatically activate. <b>They suggested to=20
+buy a data option &quot;just in case&quot;....</b></i><br><u>Or this one:</=
+u><br><i>The technical support confirmed that the=20
+bill amounted to 28.6Mb due to the fact that Swisscom roaming=20
+partnerships force Swisscom to charge a minimum of 30kb per session (up=20
+to a minimum of 300kb per session!!!), and they consider a=20
+session each time the telephone connects to the GPRS network, so this=20
+means that each time that I was checking Google Maps I was=20
+being billed 300kb even if I was using 1kb or 2kb maximum, a shameful=20
+ripoff.
+Even if I kept complaining about this fact pointing out that it=92s not
+ my problem that Swisscom has such a bad partnership deals of which I=20
+were not warned about at any time, I had to pay the 240Chf extra. </i><br><=
+br>
+So people get enormous databills, and at some point they go complain and
+ get an <b>unlimited-package-suggestion</b> (what they also are after.) In =
+your
+ case, you didnt complain, they CALLED you to friendly offer the scam=20
+after upping your bills...<br><br>Then you find ALL kinds of companies on t=
+he internet that throttle, slow down the heavier users. Unlimited data is a=
+ lie: you can't get unlimited data, the more you use, the more they will sl=
+ow you down after some amount. (Even to 5% of normal speed) Some companies =
+say they don't, but they have a speedcap to start with, so everybody has a =
+bit slower than normal, and as soon as you go over their invisible data-bar=
+rier, they will shut down ports, lower bandwidth and such jokes.) <br>
+<br><b><u><span style=3D"color: rgb(102, 0, 204);">There is 2 ways to contr=
+adict them, even legally speaking: </span></u><br><br style=3D"color: rgb(1=
+02, 0, 204);"><span style=3D"color: rgb(102, 0, 204);">1) If they SAY they =
+offer unlimited data, they are still lying. They obviously see the loophole=
+ &quot;You can access unlimited, it is just so tardslow that you won't get =
+much.&quot; But, that is not a loophole at all. If they have an offer of un=
+limited data, and everybody takes that offer (hypotetically) NOBODY woud ha=
+ve much data anymore. So they can't possibly deliver it at all, still they =
+say they do. </span><br style=3D"color: rgb(102, 0, 204);">
+<br style=3D"color: rgb(102, 0, 204);"><span style=3D"color: rgb(102, 0, 20=
+4);">2) Unlimited means &quot;as much as u want/ all you can eat&quot; they=
+ LIMIT your speed, so they LIMIT your data. </span></b><br><br>For real. Go=
+ get them! Har! <br>
+<br>Here is a nice anology to screw up your workbreak:<br>You pay 10e for a=
+ nice breakfast buffet. However, you can only fill your plate once, you can=
+'t stack up or go for seconds. If you do, they will charge 100e for the nex=
+t plate. The breakfast buffet is from 7am to 10am. Then you think: wow Im s=
+till hungry after the first plate, but it is very expensive, you now what? =
+Ill take the offer to pay 40e for the buffet, which says I can have unlimit=
+ed plates of the lovely shit they offer! So next day you go to the breakfas=
+t at 7am, anticipating on a binging spree. Yummie! You get your first plate=
+, it was very yummie, so you go for a second plate. Omnomnom. But, when you=
+ want to get your second plate, you see a huuuuge line in front of the buff=
+ettable. When it is your turn, it is unfortunaly 10am and the buffet is clo=
+sed. You ended up paying 40e for only one plate.<br>
+<br>You see this shit everywhere:<br>- unlimited sushi eating for 2 hrs: th=
+ey are tard slow at the service, the expensive dishes cost extra anyway, ye=
+s &quot;sushi&quot; is unlimited, but only this and that and that one. <br>
+- unlimited carpaccio for all the time you want: the first plate is delicio=
+us, the quality of the second plate is so bad you dont want a third. And of=
+c, you cant get more if you dont finish your former plate. <br><br>pfff oh =
+and there is nothing in their terms of service to state otherwise, so they =
+really DONT have a loophole. <br>
+<br><br>x<br>
+
+--0015174734beefab0204ace6cd58--

@@ -1,0 +1,142 @@
+Received: from MBX11.d.ethz.ch ([fe80::25ef:802e:3bf1:31e5]) by
+ CAS22.d.ethz.ch ([fe80::dd0e:466a:b055:c090%10]) with mapi id 14.01.0339.001;
+ Tue, 13 Sep 2011 18:03:02 +0200
+From: "Mazza  Edoardo" <mazza@imes.mavt.ethz.ch>
+To: "Gessat  Michael" <gessat@vision.ee.ethz.ch>, "Kuhl  Ellen"
+	<ekuhl@stanford.edu>
+CC: "Gessat  Michael" <mgessat@ethz.ch>, "Hopf  Raoul"
+	<hopf@imes.mavt.ethz.ch>, "Kuhl  Ellen" <kuhl@imes.mavt.ethz.ch>
+Subject: RE: hm....
+Thread-Topic: hm....
+Thread-Index:
+	AcxuzauqbSQTFDZHSeOD37tk3NcW/wAPwSHhAAOTcxAAvgctCP//5ssAgAAIaICAAEfIrw==
+X-MS-Exchange-MessageSentRepresentingType: 1
+Date: Tue, 13 Sep 2011 18:03:01 +0200
+Message-ID: <58750D97EBD3E646B266E730A0CB3FF3EA4002@MBX11.d.ethz.ch>
+References: <87BB32727DCCE548949DE8407E66DF3905FADA8A@MBX12.d.ethz.ch>
+ <58750D97EBD3E646B266E730A0CB3FF3E9FC5D@MBX11.d.ethz.ch>,<000801cc6f1b$3ee077c0$bca16740$@ee.ethz.ch>
+ <58750D97EBD3E646B266E730A0CB3FF3EA3E48@MBX11.d.ethz.ch>
+ <140CFD3B-7619-417A-80A0-33EEF11491FD@stanford.edu>,<00d201cc721b$78beb7b0$6a3c2710$@ee.ethz.ch>
+In-Reply-To: <00d201cc721b$78beb7b0$6a3c2710$@ee.ethz.ch>
+Accept-Language: en-GB, de-CH, en-US
+Content-Language: en-GB
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-AuthSource: CAS22.d.ethz.ch
+X-MS-Has-Attach:
+X-MS-Exchange-Organization-SCL: -1
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+Content-Type: text/plain; charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Danke Ellen!
+
+________________________________________
+From: Michael Gessat [gessat@vision.ee.ethz.ch]
+Sent: 13 September 2011 15:45
+To: Kuhl  Ellen; Mazza  Edoardo
+Cc: Gessat  Michael; Hopf  Raoul; Kuhl  Ellen
+Subject: AW: hm....
+
+Gut, dann bin ich wie geplant am Montag bei Euch.
+
+-----Urspr=FCngliche Nachricht-----
+Von: Ellen Kuhl [mailto:ekuhl@stanford.edu]
+Gesendet: Dienstag, 13. September 2011 15:16
+An: Mazza Edoardo
+Cc: Gessat Michael; Hopf Raoul; Kuhl Ellen
+Betreff: Re: hm....
+
+... fuer mich sieht das so aus, als wuerden die hier einige wenige globale
+kinematische Groessen des Stents mit globalen Kraeften vergleichen. Das
+ansich ist hilfreich, und koennte auch als globale Validierung von Edo's
+Methode dienen. Lokale Maxima und Minima gibt es hier allerdings nicht, ebe=
+n
+einfach nur eine integrale Methode, schnell, gute Ueberschlagsberechnung,
+aber nicht wirklich lokal hochaufgeloest.
+
+Wenn ich Edo richtig verstanden habe, dann wollt Ihr eine inverse
+Modellierung mit Kontinuumsmechanik und FEM nachschalten, das wuerde lokale
+Spannungsspitzen vorhersagen und lokale Dehnungsmaxima, eben allgemein
+Kontourplots fuer Feldgroessen. Wenn man soetwas "umsonst" mitbekommt, waer=
+e
+das natuerlich genial!
+
+Klar, Montag um 16 Uhr passt.
+Ellen
+
+
+
+On Sep 13, 2011, at 5:47 AM, Mazza Edoardo wrote:
+
+> ich glaube nicht wirklich, dass diese leute das gleiche machen.
+> Ziel und Methoden sind eindeutig unterschiedlich!
+> Wir sollten das besprechen.
+> Ellen: k=F6nnten wir Deine Meinung dazu haben? Wir haben geplant am n=E4c=
+hsten
+Montag um 4 dar=FCber zu sprechen. H=E4ttest Du Zeit?
+> HG
+> Edo
+>
+> ________________________________________
+> From: Michael Gessat [gessat@vision.ee.ethz.ch]
+> Sent: 09 September 2011 20:06
+> To: Mazza  Edoardo
+> Subject: AW: hm....
+>
+> Ja, habs aus Versehen nur an Raoul geschickt. Hier sind beide, es ist im
+> Grunde das gleiche 2x, einmal in vitro, einmal in vivo gemessen
+>
+> Sieht f=FCr mich so aus, als haben die uns knapp abgeh=E4ngt. =C4rgerlich=
+.
+>
+> Gr=FCsse,
+> Michael
+>
+> -----Urspr=FCngliche Nachricht-----
+> Von: Mazza Edoardo [mailto:mazza@imes.mavt.ethz.ch]
+> Gesendet: Freitag, 9. September 2011 18:25
+> An: Gessat Michael; Hopf Raoul
+> Betreff: RE: hm....
+>
+>
+>
+> wenn es so ist...sind wir wenige monate zu sp=E4t...!
+>
+> hast du das paper gefunden?
+>
+> HG edoardo
+>
+>
+>
+> ________________________________
+> From: Gessat Michael
+> Sent: 09 September 2011 10:51
+> To: Mazza Edoardo; Hopf Raoul
+> Subject: hm....
+>
+> http://www.sciencedirect.com/science/article/pii/S1051044310010183
+> Ich habe bisher nur den Abstract, das Paper versuche ich noch zu bekommen=
+.
+> Aber ich f=FCrchte, die sind verflucht nah dran=85
+>
+>
+> --
+> Dr.-Ing. Michael GESSAT
+> University Hospital Zurich, Div. of Cardiac and Vascular Surgery,
+> ETH Zurich, Computer Vision Laboratory
+>
+> mail:
+> Institut f=FCr Bildverarbeitung
+> ETH Z=FCrich, ETF D 113.1
+> Sternwartstrasse 7
+> 8092 Z=FCrich
+> Switzerland
+>
+> phone:  +41 44 63 20566
+> email:
+gessat@vision.ee.ethz.ch<mailto:gessat@vision.ee.ethz.ch><sdarticle.pdf><sd=
+a
+rticle.pdf>

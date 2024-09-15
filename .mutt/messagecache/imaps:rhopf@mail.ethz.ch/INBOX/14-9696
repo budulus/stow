@@ -1,0 +1,39 @@
+Received: from edge10.ethz.ch (82.130.75.186) by CAS20.d.ethz.ch
+ (172.31.51.110) with Microsoft SMTP Server (TLS) id 14.1.339.1; Fri, 7 Oct
+ 2011 11:17:21 +0200
+Received: from phil1.ethz.ch (129.132.202.242) by edge10.ethz.ch
+ (82.130.75.186) with Microsoft SMTP Server id 14.1.339.1; Fri, 7 Oct 2011
+ 11:17:20 +0200
+Received: from mail-ey0-f180.google.com ([209.85.215.180])	by phil1.ethz.ch
+ with esmtp (Exim 4.69)	(envelope-from <marc.immer@gmail.com>)	id
+ 1RC6YS-0001Kn-4e	for hopf@imes.mavt.ethz.ch; Fri, 07 Oct 2011 11:17:21 +0200
+Received: by eya25 with SMTP id 25so752844eya.39        for
+ <hopf@imes.mavt.ethz.ch>; Fri, 07 Oct 2011 02:17:20 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=gamma;
+        h=from:mime-version:date:message-id:subject:to:content-type;
+        bh=YLbKSlU8bn5B8MGDf6Z9qOpDC2SkR6qI3zNiFTujV0k=;
+        b=PRryHsBxMw/UNgxhfh9w+6e16+TWkrX00VZ4wWuWYk7lP/N1IybISfSQX4xco8uH+I
+         YyxFisNaREU/sk6lAVeycNvgRtuaUsZKHwLsP2mi/LO5LJfugcNXT7tIYIKtLc2q1QnZ
+         V5C/ve37S5tf1DfzlWILHcU8yGybRo8rrde0k=
+Received: by 10.223.88.148 with SMTP id a20mr9601792fam.28.1317979039977; Fri,
+ 07 Oct 2011 02:17:19 -0700 (PDT)
+From: Marc Immer <marc.immer@gmail.com>
+Date: Fri, 7 Oct 2011 11:17:59 +0200
+Message-ID: <3762563958033031202@unknownmsgid>
+Subject: Mac
+To: Hopf Raoul <hopf@imes.mavt.ethz.ch>
+Content-Type: text/plain; charset="ISO-8859-1"
+X-Filter-Node: phil1.ethz.ch
+X-Spam-Level:
+X-Spam-Status: hits=-0.7 tests=FREEMAIL_FROM,RCVD_IN_DNSWL_LOW,SPF_PASS,T_DKIM_INVALID
+X-Spam-Flag: NO
+Return-Path: marc.immer@gmail.com
+X-MS-Exchange-Organization-AuthSource: edge10.ethz.ch
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Exchange-Organization-AVStamp-Mailbox: SMEXkv@];847700;0;This mail has
+ been scanned by Trend Micro ScanMail for Microsoft Exchange;
+X-MS-Exchange-Organization-SCL: 0
+MIME-Version: 1.0
+
+Os isch bschtellt :)

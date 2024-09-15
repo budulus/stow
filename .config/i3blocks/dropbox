@@ -1,5 +1,5 @@
 OUTPUT=`dropbox status | head -1`
-TEXT="O"
+TEXT=""
 
 if echo $OUTPUT | grep -q '^Up to date' ; then
     COLOR="#00FF00"

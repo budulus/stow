@@ -1,0 +1,60 @@
+Received: from edge20.ethz.ch (82.130.99.26) by CAS11.d.ethz.ch
+ (172.31.38.211) with Microsoft SMTP Server (TLS) id 14.1.289.1; Tue, 19 Jul
+ 2011 18:27:52 +0200
+Received: from phil1.ethz.ch (129.132.202.242) by edge20.ethz.ch
+ (82.130.99.26) with Microsoft SMTP Server id 14.1.289.1; Tue, 19 Jul 2011
+ 18:27:50 +0200
+Received: from mail-fx0-f54.google.com ([209.85.161.54])	by phil1.ethz.ch with
+ esmtp (Exim 4.69)	(envelope-from <808930@gmail.com>)	id 1QjD9D-0002Yd-3L	for
+ hopf@imes.mavt.ethz.ch; Tue, 19 Jul 2011 18:27:51 +0200
+Received: by fxe4 with SMTP id 4so262696fxe.13        for
+ <hopf@imes.mavt.ethz.ch>; Tue, 19 Jul 2011 09:27:50 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=gamma;
+        h=mime-version:in-reply-to:references:date:message-id:subject:from:to
+         :content-type;
+        bh=PRpqumE5qgIRIzwbxLO0U/9Zfg86a9xzwPQ8Trs/JGI=;
+        b=Ci44IFxBQKnItTtxR+JdVALDxrAYpAvvOILp7AqdcPo5xcdM+vN/IEW4NVkmU5o0Yy
+         ZgZEkv3iu/gVaIpvJ6Z18Xr01x6mURlgclSpm0ZMGtfGLuGh632vIkrPynz1mFpp6SR9
+         CBGFY0yX7wjCuNE2uRgn+JSeZVPQWauxGdLSw=
+Received: by 10.223.13.198 with SMTP id d6mr12026926faa.119.1311092870730;
+ Tue, 19 Jul 2011 09:27:50 -0700 (PDT)
+Received: by 10.223.124.203 with HTTP; Tue, 19 Jul 2011 09:27:50 -0700 (PDT)
+In-Reply-To: <D20382DA-9F46-490F-98FF-C580834BB700@imes.mavt.ethz.ch>
+References: <D20382DA-9F46-490F-98FF-C580834BB700@imes.mavt.ethz.ch>
+Date: Tue, 19 Jul 2011 18:27:50 +0200
+Message-ID: <CAOF+YKx-Lz_QbiYcdPYP7Vshf3RhWnhrQhfBiDTLx0fnaa=+mg@mail.gmail.com>
+Subject: Re: lol
+From: dominique koevoets <808930@gmail.com>
+To: Hopf Raoul <hopf@imes.mavt.ethz.ch>
+Content-Type: multipart/alternative; boundary="001517476102d3d3a904a86e9882"
+X-Filter-Node: phil1.ethz.ch
+X-Spam-Level: *
+X-Spam-Status: hits=1.1 tests=DKIM_SIGNED,DKIM_VALID,DKIM_VALID_AU,FREEMAIL_ENVFROM_END_DIGIT,FREEMAIL_FROM,HTML_IMAGE_ONLY_08,HTML_MESSAGE,RCVD_IN_DNSWL_LOW,SPF_PASS,T_REMOTE_IMAGE
+X-Spam-Flag: NO
+Return-Path: 808930@gmail.com
+X-MS-Exchange-Organization-AuthSource: edge20.ethz.ch
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Exchange-Organization-AVStamp-Mailbox: SMEXawoY;829700;0;This mail has
+ been scanned by Trend Micro ScanMail for Microsoft Exchange;
+X-MS-Exchange-Organization-SCL: 0
+MIME-Version: 1.0
+
+--001517476102d3d3a904a86e9882
+Content-Type: text/plain; charset="ISO-8859-1"
+
+2011/7/19 Hopf Raoul <hopf@imes.mavt.ethz.ch>
+
+>
+>
+>
+
+--001517476102d3d3a904a86e9882
+Content-Type: text/html; charset="ISO-8859-1"
+
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"><img src="file:///C:/Users/Eigenaar/AppData/Local/Temp/moz-screenshot.png" alt=""><br><br><div class="gmail_quote">2011/7/19 Hopf  Raoul <span dir="ltr">&lt;<a href="mailto:hopf@imes.mavt.ethz.ch">hopf@imes.mavt.ethz.ch</a>&gt;</span><br>
+<blockquote class="gmail_quote" style="margin: 0pt 0pt 0pt 0.8ex; border-left: 1px solid rgb(204, 204, 204); padding-left: 1ex;"><br>
+<br>
+</blockquote></div><br>
+
+--001517476102d3d3a904a86e9882--

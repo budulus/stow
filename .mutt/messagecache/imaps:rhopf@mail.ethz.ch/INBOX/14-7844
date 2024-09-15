@@ -1,0 +1,170 @@
+Received: from edge20.ethz.ch (82.130.99.26) by CAS10.d.ethz.ch
+ (172.31.38.210) with Microsoft SMTP Server (TLS) id 14.1.289.1; Sat, 20 Aug
+ 2011 19:13:00 +0200
+Received: from phil1.ethz.ch (129.132.202.242) by edge20.ethz.ch
+ (82.130.99.26) with Microsoft SMTP Server id 14.1.289.1; Sat, 20 Aug 2011
+ 19:12:55 +0200
+Received: from mail-qy0-f180.google.com ([209.85.216.180])	by phil1.ethz.ch
+ with esmtp (Exim 4.69)	(envelope-from <michela.perrini@gmail.com>)	id
+ 1Qup6Q-0004ck-6G; Sat, 20 Aug 2011 19:12:59 +0200
+Received: by qyk31 with SMTP id 31so2270307qyk.18        for <multiple
+ recipients>; Sat, 20 Aug 2011 10:12:57 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=gamma;
+        h=mime-version:in-reply-to:references:date:message-id:subject:from:to
+         :cc:content-type;
+        bh=s99BZTRwP4wErNWIHR0mLjfTnsEGMbtigiskRZR3lL4=;
+        b=iZaeGLTJqhwPuHmIsCNe+7ehaoLEHO4w6kCUEfTN7m2WMGVZvQ+s/aJ8NdHoTkMxzL
+         AxE1fLqNiTiXRSy0TFnd/abwtsVs3cZR8EdsjS3c8hQ3qh/o6umzKGwm0IsfMsfLoOs4
+         W3gDjeFM2kbtWDY036oVQQi7qTIQai/FnOeEQ=
+Received: by 10.224.174.209 with SMTP id u17mr386611qaz.204.1313860377032;
+ Sat, 20 Aug 2011 10:12:57 -0700 (PDT)
+Received: by 10.229.167.196 with HTTP; Sat, 20 Aug 2011 10:12:57 -0700 (PDT)
+In-Reply-To: <38F85A12-CB31-46FB-94BB-F65CC5180835@imes.mavt.ethz.ch>
+References: <58750D97EBD3E646B266E730A0CB3FF3E923CA@MBX11.d.ethz.ch>
+	<203F8DCCE906AD468E58AFADE963EA770FD48094@MBX20.d.ethz.ch>
+	<38F85A12-CB31-46FB-94BB-F65CC5180835@imes.mavt.ethz.ch>
+Date: Sat, 20 Aug 2011 19:12:57 +0200
+Message-ID: <CAP0GTdmBHY5koJ9oTmHRQfi7DSMFDFcv7H7t5Jgot9hxq058Ww@mail.gmail.com>
+Subject: Re: Whitesides and wrting a paper
+From: michela perrini <michela.perrini@gmail.com>
+To: Mauri Arabella <mauri@imes.mavt.ethz.ch>
+CC: Weickenmeier Johannes <weickenmeier@imes.mavt.ethz.ch>, Badir Sabrina
+	<badir@imes.mavt.ethz.ch>, Hopf Raoul <hopf@imes.mavt.ethz.ch>, Farine Marc
+	<farine@imes.mavt.ethz.ch>
+Content-Type: multipart/alternative; boundary="485b397dd7170eb77a04aaf2f5eb"
+X-Filter-Node: phil1.ethz.ch
+X-Spam-Level:
+X-Spam-Status: hits=-0.7 tests=FREEMAIL_FROM,HTML_MESSAGE,RCVD_IN_DNSWL_LOW,SPF_PASS,T_DKIM_INVALID
+X-Spam-Flag: NO
+Return-Path: michela.perrini@gmail.com
+X-MS-Exchange-Organization-AuthSource: edge20.ethz.ch
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Exchange-Organization-AVStamp-Mailbox: SMEXawoY;836700;0;This mail has
+ been scanned by Trend Micro ScanMail for Microsoft Exchange;
+X-MS-Exchange-Organization-SCL: 0
+MIME-Version: 1.0
+
+--485b397dd7170eb77a04aaf2f5eb
+Content-Type: text/plain; charset="ISO-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+Too late...I've been on the lake with something more engaging to read!
+Have a nice evening and weekend!
+Michela
+
+ps: Mad=F2=F2=F2=F2=F2=F2 anche qui fa troppo caldo :p
+
+2011/8/20 Mauri Arabella <mauri@imes.mavt.ethz.ch>
+
+> Leider hatte ich in Como keine E-Mail empfang...Dh ich musste Glasse esse=
+n
+> und einkaufen anstatt paper lesen... ;D
+>
+> Sch=F6nes Wochenende! LG Arabella
+>
+> Ps: Hier schmilze ich bei 38 Grad....
+>
+>
+> On 20-ago-2011, at 13:09, "Weickenmeier  Johannes" <
+> weickenmeier@imes.mavt.ethz.ch<mailto:weickenmeier@imes.mavt.ethz.ch>>
+> wrote:
+>
+> Welch tolle Wochenend-Lekt=FCre vom Chef. Oder doch lieber Sonne und Spas=
+s.
+> Hmmmm. That one is easy :)
+> Viele liebe Gr=FC=DFe. Johannes
+>
+> Sent from Windows Phone
+> ________________________________
+> From: Mazza  Edoardo
+> Sent: Samstag, 20. August 2011 10:33
+> To: Weickenmeier  Johannes; B=FCrzle  Wilfried; Roehrnbauer  Barbara; Bad=
+ir
+>  Sabrina; 'michela perrini (michela.perrini@gmail.com<mailto:
+> michela.perrini@gmail.com>)'; Hopf  Raoul; Mauri  Arabella; Farine  Marc;
+> Kress  Gerald
+> Subject: Whitesides and wrting a paper
+>
+>
+> Hoi z=E4me
+>
+> please find here an interesting article by GM Whitesides on how to write =
+a
+> paper.
+>
+> It is really worth reading, it provides interesting suggestions not only =
+on
+> writing articles but in general on organizing research work. Some of the
+> content is directly relevant for "our papers".
+>
+> Ciao
+>
+> Edo
+>
+>
+>
+
+--485b397dd7170eb77a04aaf2f5eb
+Content-Type: text/html; charset="ISO-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-=
+1">Too late...I've been on the lake with something more engaging to read!<d=
+iv>Have a nice evening and weekend!</div><div>Michela<br><div><br></div><di=
+v>ps: Mad=F2=F2=F2=F2=F2=F2 anche qui fa troppo caldo :p<br><br><div class=
+=3D"gmail_quote">
+2011/8/20 Mauri  Arabella <span dir=3D"ltr">&lt;<a href=3D"mailto:mauri@ime=
+s.mavt.ethz.ch">mauri@imes.mavt.ethz.ch</a>&gt;</span><br><blockquote class=
+=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padd=
+ing-left:1ex;">
+Leider hatte ich in Como keine E-Mail empfang...Dh ich musste Glasse essen =
+und einkaufen anstatt paper lesen... ;D<br>
+<br>
+Sch=F6nes Wochenende! LG Arabella<br>
+<br>
+Ps: Hier schmilze ich bei 38 Grad....<br>
+<div class=3D"im"><br>
+<br>
+On 20-ago-2011, at 13:09, &quot;Weickenmeier &nbsp;Johannes&quot; &lt;<a hr=
+ef=3D"mailto:weickenmeier@imes.mavt.ethz.ch">weickenmeier@imes.mavt.ethz.ch=
+</a>&lt;mailto:<a href=3D"mailto:weickenmeier@imes.mavt.ethz.ch">weickenmei=
+er@imes.mavt.ethz.ch</a>&gt;&gt; wrote:<br>
+
+<br>
+Welch tolle Wochenend-Lekt=FCre vom Chef. Oder doch lieber Sonne und Spass.=
+ Hmmmm. That one is easy :)<br>
+Viele liebe Gr=FC=DFe. Johannes<br>
+<br>
+Sent from Windows Phone<br>
+________________________________<br>
+From: Mazza &nbsp;Edoardo<br>
+Sent: Samstag, 20. August 2011 10:33<br>
+</div>To: Weickenmeier &nbsp;Johannes; B=FCrzle &nbsp;Wilfried; Roehrnbauer=
+ &nbsp;Barbara; Badir &nbsp;Sabrina; 'michela perrini (<a href=3D"mailto:mi=
+chela.perrini@gmail.com">michela.perrini@gmail.com</a>&lt;mailto:<a href=3D=
+"mailto:michela.perrini@gmail.com">michela.perrini@gmail.com</a>&gt;)'; Hop=
+f &nbsp;Raoul; Mauri &nbsp;Arabella; Farine &nbsp;Marc; Kress &nbsp;Gerald<=
+br>
+
+<div><div></div><div class=3D"h5">Subject: Whitesides and wrting a paper<br=
+>
+<br>
+<br>
+Hoi z=E4me<br>
+<br>
+please find here an interesting article by GM Whitesides on how to write a =
+paper.<br>
+<br>
+It is really worth reading, it provides interesting suggestions not only on=
+ writing articles but in general on organizing research work. Some of the c=
+ontent is directly relevant for &quot;our papers&quot;.<br>
+<br>
+Ciao<br>
+<br>
+Edo<br>
+<br>
+<br>
+</div></div></blockquote></div><br></div></div>
+
+--485b397dd7170eb77a04aaf2f5eb--

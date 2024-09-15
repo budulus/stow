@@ -1,0 +1,57 @@
+Received: from edge20.ethz.ch (82.130.99.26) by CAS20.d.ethz.ch
+ (172.31.51.110) with Microsoft SMTP Server (TLS) id 14.1.289.1; Sun, 22 May
+ 2011 10:46:45 +0200
+Received: from phil2.ethz.ch (129.132.202.240) by edge20.ethz.ch
+ (82.130.99.26) with Microsoft SMTP Server id 14.1.289.1; Sun, 22 May 2011
+ 10:46:31 +0200
+Received: from mail-gw0-f49.google.com ([74.125.83.49])	by phil2.ethz.ch with
+ esmtp (Exim 4.69)	(envelope-from <jonasfis@gmail.com>)	id 1QO4JA-0004tz-7L
+	for rhopf@ethz.ch; Sun, 22 May 2011 10:46:45 +0200
+Received: by gwb1 with SMTP id 1so2055516gwb.36        for <rhopf@ethz.ch>;
+ Sun, 22 May 2011 01:46:43 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=gamma;
+        h=domainkey-signature:mime-version:date:message-id:subject:from:to
+         :content-type;
+        bh=mNN8twrbHey+rQExFw5ZX9yCkPJAvF/A5r9CflCYsqM=;
+        b=FE0rnut5TmXmHCo8tNn/wDv0bgXZ8x4JVcMGwfPMtfaQ4YZkeCC8QfqExl8KwDL8MY
+         FqrXC+/iX2zQYlzgm7fjjw9Nn90qaLNKHcRt98Qs3MlE/ZqeGruc0YPRyamsLFRrgUc7
+         ZQ+61pp1jlNiEdrTi3ZnSP1NblUMYjjlOeOyQ=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=gmail.com; s=gamma;
+        h=mime-version:date:message-id:subject:from:to:content-type;
+        b=GSbtEdZvzFtVKZoRnnlYlxXKSN+iaiBwxptdAG7oWcZxbleuIL0x9GlXX0vU1hXbzX
+         s321wyN0XpZq5jeERdjq9ufIsaBNVzDTmE6NC0/VisZBPsIvDiBvr5MznsPGc1431Eyu
+         bqcMObWi8PPf+ahYdaOZa08MzCgYyamiuIRQc=
+Received: by 10.91.47.14 with SMTP id z14mr1881734agj.137.1306054003176; Sun,
+ 22 May 2011 01:46:43 -0700 (PDT)
+Received: by 10.90.29.9 with HTTP; Sun, 22 May 2011 01:46:43 -0700 (PDT)
+Date: Sun, 22 May 2011 10:46:43 +0200
+Message-ID: <BANLkTi=58pbYi9O7s4wf-7guAGUy4w4Fyw@mail.gmail.com>
+Subject: neuendorffffffffffffff
+From: jonas fischer <jonasfis@gmail.com>
+To: Raoul Hopf <rhopf@ethz.ch>
+Content-Type: multipart/alternative; boundary="001485f85e38eab4c204a3d964b6"
+X-Filter-Node: phil2.ethz.ch
+X-Spam-Level:
+X-Spam-Status: hits=-0.8 tests=DKIM_SIGNED,DKIM_VALID,DKIM_VALID_AU,FREEMAIL_FROM,HTML_MESSAGE,RCVD_IN_DNSWL_LOW,RFC_ABUSE_POST,SPF_PASS
+X-Spam-Flag: NO
+Return-Path: jonasfis@gmail.com
+X-MS-Exchange-Organization-AuthSource: edge20.ethz.ch
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Exchange-Organization-AVStamp-Mailbox: SMEXawoY;817100;0;This mail has
+ been scanned by Trend Micro ScanMail for Microsoft Exchange;
+X-MS-Exchange-Organization-SCL: 0
+MIME-Version: 1.0
+
+--001485f85e38eab4c204a3d964b6
+Content-Type: text/plain; charset="ISO-8859-1"
+
+dunft waaabat auf dem fenkloch......
+
+--001485f85e38eab4c204a3d964b6
+Content-Type: text/html; charset="ISO-8859-1"
+
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">dunft waaabat auf dem fenkloch......
+
+--001485f85e38eab4c204a3d964b6--

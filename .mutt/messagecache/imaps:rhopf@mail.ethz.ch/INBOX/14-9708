@@ -1,0 +1,45 @@
+Received: from GWS01.d.ethz.ch (82.130.70.78) by CAS20.d.ethz.ch
+ (172.31.51.110) with Microsoft SMTP Server (TLS) id 14.1.339.1; Fri, 7 Oct
+ 2011 12:40:21 +0200
+Received: from edge20.ethz.ch (82.130.99.26) by gws01.d.ethz.ch
+ (129.132.178.238) with Microsoft SMTP Server (TLS) id 8.2.254.0; Fri, 7 Oct
+ 2011 12:40:22 +0200
+Received: from phil1.ethz.ch (129.132.202.242) by edge20.ethz.ch
+ (82.130.99.26) with Microsoft SMTP Server id 14.1.339.1; Fri, 7 Oct 2011
+ 12:40:03 +0200
+Received: from mail-ey0-f180.google.com ([209.85.215.180])	by phil1.ethz.ch
+ with esmtp (Exim 4.69)	(envelope-from <marc.immer@gmail.com>)	id
+ 1RC7qV-0001i6-4g	for hopf@imes.mavt.ethz.ch; Fri, 07 Oct 2011 12:40:05 +0200
+Received: by eya25 with SMTP id 25so852005eya.39        for
+ <hopf@imes.mavt.ethz.ch>; Fri, 07 Oct 2011 03:40:02 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=gamma;
+        h=from:mime-version:date:message-id:subject:to:content-type
+         :content-transfer-encoding;
+        bh=OKi0qquKSCY3weCGiXtQ1OmmfUlSTBrI8ijp7aCiue8=;
+        b=uVS7OCtAVYBnGp7wl9nMJVdGbjuuBWQ5H61QjtZ4JwNnlaJj2+7gU4d5msBzQBTB6e
+         4o+BlENshYfABlgis0EtUxYivfXSqJtQm7yAV1IuhUwD2A/kKiBQ/bFLXhWRKhHmZwGF
+         soiWA/xop7Q0uupwH2DNrN79UE79tM6h/yVWs=
+Received: by 10.223.77.69 with SMTP id f5mr9975104fak.3.1317984002290; Fri, 07
+ Oct 2011 03:40:02 -0700 (PDT)
+From: Marc Immer <marc.immer@gmail.com>
+Date: Fri, 7 Oct 2011 12:39:12 +0200
+Message-ID: <-3381466939184174112@unknownmsgid>
+Subject:
+To: Hopf Raoul <hopf@imes.mavt.ethz.ch>
+Content-Type: text/plain; charset="ISO-8859-1"
+Content-Transfer-Encoding: quoted-printable
+X-Filter-Node: phil1.ethz.ch
+X-Spam-Level:
+X-Spam-Status: hits=-0.7 tests=FREEMAIL_FROM,RCVD_IN_DNSWL_LOW,SPF_PASS,T_DKIM_INVALID
+X-Spam-Flag: NO
+Return-Path: marc.immer@gmail.com
+X-MS-Exchange-Organization-AuthSource: edge20.ethz.ch
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Exchange-Organization-AVStamp-Mailbox: SMEXkv@];847700;0;This mail has
+ been scanned by Trend Micro ScanMail for Microsoft Exchange;
+X-MS-Exchange-Organization-SCL: 0
+MIME-Version: 1.0
+
+Jetz bini =E4gstra a die kak eth cho u si heis nat=FCrlech no nid!!!!
+Grrrrrr e person vor mir het grad no e dvd becho

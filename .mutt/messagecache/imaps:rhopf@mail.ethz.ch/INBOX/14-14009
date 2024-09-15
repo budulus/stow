@@ -1,0 +1,188 @@
+Received: from mail-gx0-f180.google.com (209.85.161.180) by CAS21.d.ethz.ch
+ (172.31.51.111) with Microsoft SMTP Server (TLS) id 14.1.355.2; Thu, 16 Feb
+ 2012 10:34:09 +0100
+Received: by ggnr1 with SMTP id r1so1544644ggn.39        for
+ <hopf@imes.mavt.ethz.ch>; Thu, 16 Feb 2012 01:34:07 -0800 (PST)
+Received: by 10.236.170.168 with SMTP id p28mr1767653yhl.72.1329384847939;
+ Thu, 16 Feb 2012 01:34:07 -0800 (PST)
+Received: by 10.101.91.8 with HTTP; Thu, 16 Feb 2012 01:34:07 -0800 (PST)
+In-Reply-To: <DB8478CD-0971-49FB-B334-07653D98C128@imes.mavt.ethz.ch>
+References: <CAEbX22Bjpgmw_ma5kt=Ve0iSrWuACWQp2T+bvGYbw5iwwfWJ+g@mail.gmail.com>
+	<86817B0C-9899-425C-91C6-DA7134379897@imes.mavt.ethz.ch>
+	<CAEbX22DOY_VboEsQw49PgRA2+w-C7f6CSQRA-f3KKFzPZZFxEA@mail.gmail.com>
+	<4975A2FF-6EF9-4753-8B6F-8F9A3AAEEEDB@imes.mavt.ethz.ch>
+	<CAEbX22D=xSM2WdHc5DKv1hurg4-5tqZ9WXni3y2dR3ogogN=pw@mail.gmail.com>
+	<B1D6179C-82D0-4223-B8A0-89C2B11F48E5@imes.mavt.ethz.ch>
+	<CAEbX22BZXziGM6VR1kAgSVU9iW7Upc-WNxS0gV6248WhC_Oxrw@mail.gmail.com>
+	<870E904D-151B-43B9-B98A-EC979995D126@imes.mavt.ethz.ch>
+	<CAEbX22A2aE6-ex5DAAk-qXUHP7JsHaVcs80hmbDEM_ho7t=ANQ@mail.gmail.com>
+	<A29E8786-D854-447C-8CAC-524B9EB51676@imes.mavt.ethz.ch>
+	<CAEbX22D574jrFmBK494ijSNc4_Bt-VxxOmhjzzvmTOptCJc7eA@mail.gmail.com>
+	<CAEbX22A9SUVtpNRzre+Z3=QPcZgAyL7imZxrQXQ2ubHkzACJaw@mail.gmail.com>
+	<284899A8-08E7-4A73-9B57-2E1498ABAA8E@imes.mavt.ethz.ch>
+	<CAEbX22AYMaGW-Zc5X17zYHvGdnAc4a0+2p7gA4tWnfLtQOZvqQ@mail.gmail.com>
+	<65BB65A0-6296-4E7D-8302-AF106EEE3A35@imes.mavt.ethz.ch>
+	<CAEbX22Czw1N06H7Nt9yA6y_VL+Z_Ownfh_DG5GHcQeu7ihQCFQ@mail.gmail.com>
+	<9EF676CD-0E4C-458B-B3AA-25E923AD8915@imes.mavt.ethz.ch>
+	<CAEbX22Bx6xidETsENQi7J+ojeGkkMpPeaqLMYGHAFgEU4EYk6g@mail.gmail.com>
+	<4074476F6FE9EF4DBCC2D0ADEA25FCA406DCB77B@MBX12.d.ethz.ch>
+	<CAEbX22CEOuLo2F8cRG-dWJEytKD35Tm2sUa18Ve5YyyDcPMBzg@mail.gmail.com>
+	<CAEbX22CMm7HPe_DxQuCD9k4_JzKepUKvaiOMOjPsFcKnaq8vvg@mail.gmail.com>
+	<EABF143D-896C-4A0F-8AD6-5CC959ED105F@imes.mavt.ethz.ch>
+	<CAEbX22AVZA4V7+o4hD1ARGYaLHaTGuWevR_yx=MwYDjWqbt3yg@mail.gmail.com>
+	<01E8681C-3764-451C-B254-497377B0DD55@imes.mavt.ethz.ch>
+	<CAEbX22B0KVnTXmz5xAUASxiU5LRrYARnCCogO-7dSubZjXKV4w@mail.gmail.com>
+	<4074476F6FE9EF4DBCC2D0ADEA25FCA413F8BB9A@MBX22.d.ethz.ch>
+	<CAEbX22DnEC4i6UChQ7fh23dGnMcoWvv=w1LBpjOcFSYZPhu2XQ@mail.gmail.com>
+	<1BBB59ED-94E0-43A1-9C8A-C8658FE37BD1@imes.mavt.ethz.ch>
+	<CAEbX22DvVwTqDWkqJREPVOxKagDgC=LQkOdhsp7C8psJ-Su+JQ@mail.gmail.com>
+	<67FC2888-BD5C-4B7A-ABC3-2D38D95110D0@imes.mavt.ethz.ch>
+	<CAEbX22DDnRKeBb5=hooE6hg5e0b3jiFgiSzeVhtHNS=cZ8Aa7w@mail.gmail.com>
+	<DB8478CD-0971-49FB-B334-07653D98C128@imes.mavt.ethz.ch>
+Date: Thu, 16 Feb 2012 10:34:07 +0100
+Message-ID: <CAEbX22ByraC10-vJGXUAjgyVzL5CepK5Uy5PC9-Rt1GMSBcT9w@mail.gmail.com>
+Subject: Re: Zmittag
+From: Men Wirz <mewirz@ethz.ch>
+To: Hopf Raoul <hopf@imes.mavt.ethz.ch>
+Content-Type: multipart/alternative; boundary="20cf305e2709a196f704b91187d8"
+Return-Path: mewirz@ethz.ch
+X-MS-Exchange-Organization-AuthSource: CAS21.d.ethz.ch
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 06
+X-Originating-IP: [209.85.161.180]
+X-MS-Exchange-Organization-AVStamp-Mailbox: SMEXkv@];877900;0;This mail has
+ been scanned by Trend Micro ScanMail for Microsoft Exchange;
+X-MS-Exchange-Organization-SCL: 0
+MIME-Version: 1.0
+
+--20cf305e2709a196f704b91187d8
+Content-Type: text/plain; charset="ISO-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+11:45 blueme?
+
+
+2012/2/14 Hopf Raoul <hopf@imes.mavt.ethz.ch>
+
+> oki!
+>
+> On 14.02.2012, at 11:24, "Wirz  Men" <mewirz@ethz.ch<mailto:mewirz@ethz.c=
+h>>
+> wrote:
+>
+> Donschti w=E4r mer ou am liebschte. Schribe dr Do morge no einisch zum
+> sicher ga..
+>
+> gruz
+>
+>
+>
+> 2012/2/14 Hopf Raoul <hopf@imes.mavt.ethz.ch<mailto:hopf@imes.mavt.ethz.c=
+h
+> >>
+> ja, morn oder do/fr besser
+>
+> On 14.02.2012, at 11:12, "Wirz  Men" <mewirz@ethz.ch<mailto:mewirz@ethz.c=
+h>>
+> wrote:
+>
+> > h=FCt oder sp=E4ter die Wuche mau i Mittag?
+> >
+> > gruz
+> >
+>
+>
+>
+> --
+>
+> Men Wirz
+> MSc ETH Mech. Eng.
+>
+> Institute of Energy Technology
+> Sonneggstr. 3
+> CH-8092 Zurich
+> Switzerland
+>
+> Phone: +41 (0)44 632 46 06
+>
+>
+
+
+--=20
+
+Men Wirz
+MSc ETH Mech. Eng.
+
+Institute of Energy Technology
+Sonneggstr. 3
+CH-8092 Zurich
+Switzerland
+
+Phone: +41 (0)44 632 46 06
+
+--20cf305e2709a196f704b91187d8
+Content-Type: text/html; charset="ISO-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-=
+1">11:45 blueme?<br><br><br><div class=3D"gmail_quote">2012/2/14 Hopf  Raou=
+l <span dir=3D"ltr">&lt;<a href=3D"mailto:hopf@imes.mavt.ethz.ch">hopf@imes=
+.mavt.ethz.ch</a>&gt;</span><br><blockquote class=3D"gmail_quote" style=3D"=
+margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex">
+oki!<br>
+<div class=3D"im"><br>
+On 14.02.2012, at 11:24, &quot;Wirz &nbsp;Men&quot; &lt;<a href=3D"mailto:m=
+ewirz@ethz.ch">mewirz@ethz.ch</a>&lt;mailto:<a href=3D"mailto:mewirz@ethz.c=
+h">mewirz@ethz.ch</a>&gt;&gt; wrote:<br>
+<br>
+Donschti w=E4r mer ou am liebschte. Schribe dr Do morge no einisch zum sich=
+er ga..<br>
+<br>
+gruz<br>
+<br>
+<br>
+<br>
+</div>2012/2/14 Hopf Raoul &lt;<a href=3D"mailto:hopf@imes.mavt.ethz.ch">ho=
+pf@imes.mavt.ethz.ch</a>&lt;mailto:<a href=3D"mailto:hopf@imes.mavt.ethz.ch=
+">hopf@imes.mavt.ethz.ch</a>&gt;&gt;<br>
+<div class=3D"im HOEnZb">ja, morn oder do/fr besser<br>
+<br>
+</div><div class=3D"HOEnZb"><div class=3D"h5">On 14.02.2012, at 11:12, &quo=
+t;Wirz &nbsp;Men&quot; &lt;<a href=3D"mailto:mewirz@ethz.ch">mewirz@ethz.ch=
+</a>&lt;mailto:<a href=3D"mailto:mewirz@ethz.ch">mewirz@ethz.ch</a>&gt;&gt;=
+ wrote:<br>
+
+<br>
+&gt; h=FCt oder sp=E4ter die Wuche mau i Mittag?<br>
+&gt;<br>
+&gt; gruz<br>
+&gt;<br>
+<br>
+<br>
+<br>
+--<br>
+<br>
+Men Wirz<br>
+MSc ETH Mech. Eng.<br>
+<br>
+Institute of Energy Technology<br>
+Sonneggstr. 3<br>
+CH-8092 Zurich<br>
+Switzerland<br>
+<br>
+Phone: <a href=3D"tel:%2B41%20%280%2944%20632%2046%2006" value=3D"&#43;4144=
+6324606">&#43;41 (0)44 632 46 06</a><br>
+<br>
+</div></div></blockquote></div><br><br clear=3D"all"><br>-- <br><pre style=
+=3D"font-family:tahoma,sans-serif" cols=3D"72"><font size=3D"1">Men Wirz
+MSc ETH Mech. Eng.
+
+Institute of Energy Technology
+Sonneggstr. 3
+CH-8092 Zurich
+Switzerland
+
+Phone: <a value=3D"&#43;41446324502">&#43;41 (0)44 632 46 06</a></font></pr=
+e><br>
+
+--20cf305e2709a196f704b91187d8--

@@ -1,0 +1,38 @@
+Received: from MBX10.d.ethz.ch ([169.254.1.119]) by CAS10.d.ethz.ch
+ ([fe80::cce:fc66:7b56:a06a%11]) with mapi id 14.01.0289.001; Thu, 16 Jun 2011
+ 14:25:15 +0200
+From: "Kaufmann  Stephan" <kaufmann@imes.mavt.ethz.ch>
+To: MECH_ALL <mech-all@imes.mavt.ethz.ch>
+Subject: Please review your data
+Thread-Topic: Please review your data
+Thread-Index: AcwsH25Pz7ATFfAPQpqUyGW77JV4Uw==
+X-MS-Exchange-MessageSentRepresentingType: 1
+Date: Thu, 16 Jun 2011 14:25:14 +0200
+Message-ID: <193960ECBB21594FB10C5F5B4F9FB54F0849FC95@MBX10.d.ethz.ch>
+Accept-Language: en-US, de-CH
+Content-Language: en-US
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-AuthSource: CAS10.d.ethz.ch
+X-MS-Has-Attach:
+X-Auto-Response-Suppress: DR, OOF, AutoReply
+X-MS-Exchange-Organization-SCL: -1
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+
+Hi
+
+Three users are affected by a strange loss of data which had to be restored from backup. The symptom was an almost empty K-drive, but the deletion might be more subtle. Therefore, please look over your files and (roughly) check for completeness. Please report problems to mech_it@imes.mavt.ethz.ch .
+
+Unfortunately, the reason of the problem is yet unknown. It is therefore a good idea to manually save crucial new/changed data by copying it to a USB stick every evening. (Restoring unchanged, older data is relatively simple. But current changes can fall between backups and get lost.)
+
+Sorry for this!
+
+Best regards,
+Stephan
+
+P.S.: Please inform students working on your projects.
+
+

@@ -104,19 +104,20 @@ alias ethz='oathtool --totp --base32 "PUNITGK62NRAVRBOON6H7SRT6U2GJ6EI"'
 alias i3e='code .config/i3/config'
 alias tlpgui='flatpak run com.github.d4nj1.tlpu'
 alias ..='cd ..'
-alias br="vscode .bashrc"
+alias br="vscode ~/.bashrc"
 alias ico='vscode $(fzf --preview="bat --color=always {}")'
 alias mg='mamba activate general'
 alias mutt='neomutt'
 alias phonec='nmcli dev wifi connect "placksiphone" password "EWUPOWEK"'
 alias homec='nmcli dev wifi connect "Placksi-Net" password "bagsibudu279"'
-alias ethc='nmcli dev wifi connect "eth-5" --802-11-wireless-security.key-mgmt wpa-eap --802-11-wireless-security.eap peap --802-11-wireless-security.identity "rhopf@staff-net.ethz.ch" --802-11-wireless-security.password "39Ura,Mgbcdef"'
 
 alias listwifi='nmcli dev wifi list'
+alias ea='code .mutt/aliases'
 
 # paths
 export PATH="$PATH:/home/raoul/bin"
 export PATH="$PATH:/home/raoul/scripts"
+export PATH="$PATH:/opt/nvim-linux64/bin"
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
@@ -169,3 +170,31 @@ alias ipr='function _fzf_ipr() {
     local dir=${1:-.}  # Default to current directory if none provided
     find "$dir" -type f | fzf --preview "bat --style=numbers --color=always --line-range=:500 {}" --bind "enter:execute(bat --style=numbers --color=always {})"
 }; _fzf_ipr'
+
+
+# FUNCTIONS =================================
+ethc() {
+    # Define variables
+    CON_NAME="eth-5"
+    SSID="eth-5"
+    IFACE="wlp0s20f3"
+      # Replace with your Wi-Fi interface, e.g., wlan0
+    nmcli connection delete "${CON_NAME}"
+    # Check if the connection exists
+    if nmcli -g NAME connection show "${CON_NAME}" &> /dev/null; then
+        echo "Connection '${CON_NAME}' exists. Modifying and activating it."
+    else
+        echo "Connection '${CON_NAME}' does not exist. Creating it."
+        nmcli connection add type wifi ifname "${IFACE}" con-name "${CON_NAME}" ssid "${SSID}"
+    fi
+
+    # Modify the connection with required settings
+    nmcli connection modify "${CON_NAME}" \
+        wifi-sec.key-mgmt wpa-eap \
+        802-1x.eap peap \
+        802-1x.phase2-auth mschapv2 \
+        802-1x.identity "rhopf@staff-net.ethz.ch"
+
+    # Bring up the connection
+    nmcli connection up "${CON_NAME}" --ask
+}

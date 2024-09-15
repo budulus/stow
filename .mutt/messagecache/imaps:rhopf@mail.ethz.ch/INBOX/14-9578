@@ -1,0 +1,53 @@
+Received: from edge10.ethz.ch (82.130.75.186) by CAS20.d.ethz.ch
+ (172.31.51.110) with Microsoft SMTP Server (TLS) id 14.1.339.1; Wed, 5 Oct
+ 2011 10:25:41 +0200
+Received: from vphil1.ethz.ch (129.132.202.247) by edge10.ethz.ch
+ (82.130.75.186) with Microsoft SMTP Server id 14.1.339.1; Wed, 5 Oct 2011
+ 10:25:41 +0200
+Received: from mail-dy0-f52.google.com ([209.85.220.52])	by vphil1.ethz.ch
+ with esmtp (Exim 4.69)	(envelope-from <808930@gmail.com>)	id 1RBMnI-0001xD-FO
+	for hopf@imes.mavt.ethz.ch; Wed, 05 Oct 2011 10:25:40 +0200
+Received: by dyj10 with SMTP id 10so112948dyj.39        for
+ <hopf@imes.mavt.ethz.ch>; Wed, 05 Oct 2011 01:25:36 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=gamma;
+        h=mime-version:date:message-id:subject:from:to:content-type;
+        bh=xbisl+uR7M79cAO+vcYNlpssm+aM8GvezjxOOqSy5JM=;
+        b=kr1W4PWWjNyghBoWKnbj/Rxb3nFHSR8IGnyRmKJ3jFeOYMwkJcfnfE5qVb7rPSrEJR
+         EXtno0J1n+6rr9F243lkfpUOVuC3Viv/aRsFngqXf0FnsqyNtrvHDUfXRu8+loxjUfiQ
+         F31NoAH1VBLobWOz+/f6avDZgKHxG06g9wtNQ=
+Received: by 10.223.9.133 with SMTP id l5mr3250940fal.13.1317803136035; Wed,
+ 05 Oct 2011 01:25:36 -0700 (PDT)
+Received: by 10.223.158.65 with HTTP; Wed, 5 Oct 2011 01:25:35 -0700 (PDT)
+Date: Wed, 5 Oct 2011 10:25:35 +0200
+Message-ID: <CAOF+YKztsgWeU++Q_HkX_KJu3RZpBiWwsv8LVtsqj4X=PW0S4A@mail.gmail.com>
+Subject: sigh
+From: dominique koevoets <808930@gmail.com>
+To: Hopf Raoul <hopf@imes.mavt.ethz.ch>
+Content-Type: multipart/alternative; boundary="001517476936ceaa3d04ae88f3a0"
+X-Filter-Node: vphil1.ethz.ch
+X-Spam-Level:
+X-Spam-Status: hits=-0.6 tests=FREEMAIL_ENVFROM_END_DIGIT,FREEMAIL_FROM,HTML_MESSAGE,RCVD_IN_DNSWL_LOW,SPF_PASS,T_DKIM_INVALID
+X-Spam-Flag: NO
+Return-Path: 808930@gmail.com
+X-MS-Exchange-Organization-AuthSource: edge10.ethz.ch
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Exchange-Organization-AVStamp-Mailbox: SMEXkv@];847300;0;This mail has
+ been scanned by Trend Micro ScanMail for Microsoft Exchange;
+X-MS-Exchange-Organization-SCL: 0
+MIME-Version: 1.0
+
+--001517476936ceaa3d04ae88f3a0
+Content-Type: text/plain; charset="ISO-8859-1"
+
+Im really falling asleebbbbbbb zzzzzzzzz
+
+--001517476936ceaa3d04ae88f3a0
+Content-Type: text/html; charset="ISO-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-=
+1"><div>Im really falling asleebbbbbbb zzzzzzzzz</div>
+<div>&nbsp;</div>
+
+--001517476936ceaa3d04ae88f3a0--

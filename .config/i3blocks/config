@@ -83,7 +83,7 @@ separator=false
 [dropbox]
 label=Dropbox
 markup=pango
-command=/usr/share/i3blocks/dropbox
+command=$HOME/.config/i3blocks/dropbox
 interval=5
 
 # CPU usage
@@ -92,13 +92,13 @@ interval=5
 # see the script for details.
 [cpu_usage]
 label=CPU
-interval=10
+interval=30
 min_width=CPU: 100.00%
 #separator=false
 
 [temperature]
 label=TEMP
-interval=10
+interval=30
 
 # The battery instance defaults to 0.
 [battery]

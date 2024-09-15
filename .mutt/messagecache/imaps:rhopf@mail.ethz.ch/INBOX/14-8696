@@ -1,0 +1,167 @@
+Received: from MBX11.d.ethz.ch ([fe80::25ef:802e:3bf1:31e5]) by
+ CAS10.d.ethz.ch ([fe80::cce:fc66:7b56:a06a%10]) with mapi id 14.01.0339.001;
+ Sun, 18 Sep 2011 16:13:49 +0200
+From: "Mazza  Edoardo" <mazza@imes.mavt.ethz.ch>
+To: "Gessat  Michael" <mgessat@ethz.ch>, "Hopf  Raoul"
+	<hopf@imes.mavt.ethz.ch>, "Kuhl  Ellen" <kuhl@imes.mavt.ethz.ch>
+CC: Falk Volkmar <Volkmar.Falk@usz.ch>
+Subject: zu unserem Treffen am Montag...
+Thread-Topic: zu unserem Treffen am Montag...
+Thread-Index: Acx2Cz+iSznPN1ynSDqTdf96OdANTQ==
+X-MS-Exchange-MessageSentRepresentingType: 1
+Date: Sun, 18 Sep 2011 16:13:49 +0200
+Message-ID: <58750D97EBD3E646B266E730A0CB3FF3EA7268@MBX11.d.ethz.ch>
+Accept-Language: en-GB, de-CH, en-US
+Content-Language: en-GB
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-AuthSource: CAS10.d.ethz.ch
+X-MS-Has-Attach:
+X-MS-Exchange-Organization-SCL: -1
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html dir=3D"ltr">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-=
+1">
+<style type=3D"text/css" id=3D"owaParaStyle"></style>
+</head>
+<body fpstyle=3D"1" ocsi=3D"0">
+<div style=3D"direction: ltr;font-family: Tahoma;color: #000000;font-size: =
+10pt;">
+<div>
+<div>&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;</div>
+<div>Hallo miteinander!</div>
+<div>Falls wir ein Patent anmelden m=F6chten, erwartet ETH Tansfer, dass wi=
+r das beiliegende Formular ausf=FCllen.</div>
+<div>Ich habe mir einigen Gedanken zu m=F6glichen Inhalten der versch. Absc=
+hnitten gemacht.&nbsp;</div>
+<div>Ich freue mich auf die Besprechung morgen.</div>
+<div><br>
+</div>
+</div>
+<div><br>
+</div>
+<div>Title</div>
+<div>Measurement of the stress state in soft human organs using medical dev=
+ices (stent, medical meshes)</div>
+<div><br>
+</div>
+<div>Abstract</div>
+<div>Based on a detailed characterization of the mechanical behavior of def=
+ormable medical devices (stents, medical meshes) it is possible to calculat=
+e the force field associated with any deformation of the device. The deform=
+ation state of the device after
+ implantation can be obtained from high resolution medical images. This inf=
+ormation can be combined in order to determine the local stress state in so=
+ft tissues adjacent to the medical device. Knowledge of this stress state i=
+s important for evaluation and optimization
+ of implants performance.</div>
+<div><br>
+</div>
+<div>Description:</div>
+<div><br>
+</div>
+<div>Essence of the idea: use implants as sensors to measure the local stre=
+ss state in internal organs.</div>
+<div><br>
+</div>
+<div>Problem to be solved:</div>
+<div>Biocompatibility is interpreted today as both, biochemical and biomech=
+anical compatibility. Knowledge of the stress state caused by the insertion=
+ of an implant in the adjacent biological tissue forms an integral part of =
+the evaluation of its performance.
+ Examples are:</div>
+<div>(i) Medical meshes used as mechanical support in case of pelvic floor =
+laxity (prolaps). The mismatch between deformation behavior of the mesh and=
+ the one of the surrounding tissue is considered to be the main cause of de=
+trimental effects, such as &quot;contraction&quot;,
+ &quot;erosion&quot;, [paper J. Deprest et al, IUGA].</div>
+<div>(ii) Stent devices for minimally invasive aortic valve replacement. Lo=
+cal stress enhancement in the aortic wall originating from stent insertion =
+are suspected to be the cause of ....[paper]</div>
+<div>(iii) Stent devices for aneurisms, ... a certain level of stress at th=
+e interface between stent and wall is required in order to guarantee long t=
+erm placement stability of the stent...??[paper?]</div>
+<div>Knowledge of the stress state in soft tissues adjacent to the medical =
+device is important for&nbsp;</div>
+<div>(a) Post-operative evaluation</div>
+<div>(b) Operation planning and device selection</div>
+<div>(c) Optimization of design of implants</div>
+<div>No method for determination of the stress state in soft tissues adjace=
+nt to the medical device is available today. Indirect evaluation from corre=
+sponding biomechanical simulation is impaired by significant uncertainties =
+related to the constitutive behavior
+ of biological tissues.</div>
+<div><br>
+</div>
+<div>Proposed solution:</div>
+<div>The combination of state of the art techniques for medical imaging, im=
+age analysis and features reconstruction, mechanical characterization and n=
+umerical modeling of implants enable to determine the stress state in soft =
+tissues adjacent to the medical
+ device. The process consists of the following steps:</div>
+<div>1- Medical imaging techniques (MRI, CT?) are used to obtain high resol=
+ution images of the implanted device. Recent progresses were reported conce=
+rning the visualization of medical meshes [reference] and stents [reference=
+].</div>
+<div>2- The 3D geometry of the implant is reconstructed from the MRI or CT =
+images. The feasibility of a detailed reconstruction of a stent is demonstr=
+ated in [reference].</div>
+<div>3- The mechanical behavior of the medical device is characterized by p=
+erforming a series of mechanical experiments on multiple samples of the dev=
+ices. These experiments will involve all relevant loading conditions to def=
+ine a reliable 3D constitutive/structural
+ model to simulate the mechanical response of the device.</div>
+<div>4- A numerical (finite element) model of the device is created based o=
+n (i) accurate information on the shape of the (un-deformed) device and (ii=
+) the mechanical model determined in 3.</div>
+<div>5- A numerical calculation is performed which provides the external fo=
+rce field required to deform the device from the reference configuration (4=
+) to the implanted configuration (as determined under 2).</div>
+<div>6- The force field calculated in 5 corresponds (actio-reactio principl=
+e) to the stress vector field acting on the soft tissue adjacent to the imp=
+lant.</div>
+<div><br>
+</div>
+<div>Concerning previous work:&nbsp;</div>
+<div>Paper group Palo Alto:</div>
+<div>- different objective (here: stresses in soft tissue; there: loading o=
+n stent affecting mechanical integrity of stent)</div>
+<div>- different result (here: local forces; there: global forces on stent)=
+</div>
+<div>- different methods (here: full field determination of implant deforma=
+tion, coupled with continuum mechanics model; there: extraction of structur=
+al parameters of shape change - curvature, lengthening, torsion -, coupled =
+with structural model of stent)</div>
+<div>- confirms feasibility of the idea</div>
+<div><br>
+</div>
+<div>The importance of analyzing the state of deformation of the implant af=
+ter insertion has been recognized in recent publications (in particular, of=
+ the group of Prof. Falk, co-inventor). None of the previous publications h=
+owever explicitly proposed the use
+ of the information on current implant geometry and prior knowledge on impl=
+ant's constitutive behavior for the determination of the local stress field=
+ on the adjacent biological tissue. Furthermore, a feasible procedure to ob=
+tain the local force field was never
+ proposed before.</div>
+<div><br>
+</div>
+<div>Commercial potential:</div>
+<div>The proposed procedure could be realized within an algorithm to be com=
+bined with the software available for analysis of medical images (as part o=
+f the MRI or CT system). A databank could be created with the mechanical mo=
+dels of each stent, and the creation
+ of these mechanical models could be a lucrative service provided to the co=
+mpanies producing the implants. A robust and rapid procedure for extraction=
+ of the current position of all reference points of the implanted device co=
+uld lead to a real-time visualization
+ of the corresponding stress vector field in the soft tissue.</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,520 @@
+Received: from mailm211.d.ethz.ch (2001:67c:10ec:5603::25) by
+ mailm115.d.ethz.ch (2001:67c:10ec:5602::27) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256) id
+ 15.1.2507.39 via Mailbox Transport; Tue, 27 Aug 2024 11:59:50 +0200
+Received: from mailm217.d.ethz.ch (2001:67c:10ec:5603::31) by
+ mailm211.d.ethz.ch (2001:67c:10ec:5603::25) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256) id
+ 15.1.2507.39; Tue, 27 Aug 2024 11:59:50 +0200
+Received: from mailg110.ethz.ch (2001:67c:10ec:5605::21) by mailm217.d.ethz.ch
+ (2001:67c:10ec:5603::31) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256) id 15.1.2507.39 via Frontend
+ Transport; Tue, 27 Aug 2024 11:59:50 +0200
+Received: from ethz.ch (129.132.162.69) by mailg110.ethz.ch (129.132.162.66)
+ with Microsoft SMTP Server id 15.1.2507.39; Tue, 27 Aug 2024 11:59:50 +0200
+Received: from mail-vi1eur03on2113.outbound.protection.outlook.com ([40.107.103.113] helo=EUR03-VI1-obe.outbound.protection.outlook.com)
+	by ethz.ch stage1 with esmtps 
+	(Exim MailCleaner) 
+	id 1siszG-0000000012q-38R4  
+	from <aantwi@aucampus.onmicrosoft.com>;
+	Tue, 27 Aug 2024 11:59:42 +0200
+X-MailCleaner-SPF: pass
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector10001; d=microsoft.com; cv=none;
+ b=sgHi/ljMh7KGlLC++J07vc6D+4IhWfxUJsoKr4z2Xe+oyv81hDUg1670xQNwW+X0aQVVF2VhrN2OoAGAO798ssw90AMYx7WGMZNG+o9yBHOhf1ntYd3YQa2S2GKX47TZaNzkkbIy5brZS+8iTsWsPvZhgxYH0j8JC3P/8ocGVOpqD1GMEChx2gx+UPOSWkwNJC4TLK2SCF7eLZIrgYtbBIZps0RU/33SX28pmTr+F7zYxrlwr7MEzg0kHntmyugFHFcLll8+zoU7inBauOpjWDRgTQSpmZjndIGXf9rXc9ZzoFrMyYe7gXGo+gzofpy6wMZoSuj88ENR5qpvcrG/Vg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector10001;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=mH5EJwtyGNrSI/HBTL9OTLOXZI2KJNnsHZh/GomZooc=;
+ b=pN6Vobn/I1Yhj4VIHezTiVQAiyBGfHLURvaAyLB/u+4R/vhqCP4HQVRG1T26iU6LiMqDHlEpwcRV1iZfU+5ffUfMW0Eq63KpQvsnV1dssPhs9EDhtBQNaJ2a9hHdHF+dy/Ytsj+3e+5pH05ofS+cWkDB52CqJbw6AzCDnml2cJ7tku5LprV4JaMeqv0A5Kp7+cx6BJor25zPTiMVgucUXwbZh92bEpck5EP3pFVqN6pBE8nuIXEzyoVICCFDqL8Py60iNWTc8GmbftYHXgrq+hlDrsd2GNeQdApQiriT9qv/3UYlaiNMjj5dmByr+sQj/vgTEKcEKcv4Oyq4JAT/eg==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=pass
+ smtp.mailfrom=aucampus.onmicrosoft.com; dmarc=pass action=none
+ header.from=aucampus.onmicrosoft.com; dkim=pass
+ header.d=aucampus.onmicrosoft.com; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+ d=aucampus.onmicrosoft.com; s=selector1-aucampus-onmicrosoft-com;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=mH5EJwtyGNrSI/HBTL9OTLOXZI2KJNnsHZh/GomZooc=;
+ b=wtRWKEiWdiFBBQCDLuPV39ljU45b2S+wU8g2upH9UTu1HWH3dfNJ0u8ai424GTFZSG6CGCzlvTLPzE9opNoTlIsUDwr0h63qU2egNlT8C1RSp83RWQK0Zu1YUa+GjbkYHv72phIo1s0AGMnFRRxwl9MU0OyQEnzy1QVidJ3SA/w=
+Received: from PR3P190MB0908.EURP190.PROD.OUTLOOK.COM (2603:10a6:102:88::12)
+ by PA4P190MB1312.EURP190.PROD.OUTLOOK.COM (2603:10a6:102:103::16) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.7897.25; Tue, 27 Aug
+ 2024 09:59:40 +0000
+Received: from PR3P190MB0908.EURP190.PROD.OUTLOOK.COM
+ ([fe80::bd5c:c39a:477b:5b54]) by PR3P190MB0908.EURP190.PROD.OUTLOOK.COM
+ ([fe80::bd5c:c39a:477b:5b54%4]) with mapi id 15.20.7897.021; Tue, 27 Aug 2024
+ 09:59:40 +0000
+From: Acheampong Antwi Afari <aantwi@aucampus.onmicrosoft.com>
+To: "Mazza  Edoardo" <mazza@imes.mavt.ethz.ch>, Nathan Amanquah
+	<namanquah@ashesi.edu.gh>
+CC: "Hopf  Raoul" <hopf@imes.mavt.ethz.ch>, "andrea.gomero@empa.ch"
+	<andrea.gomero@empa.ch>, Antoinette Okyere <aokyere@ashesi.edu.gh>
+Subject: Re: Exam Statics & Solid Mechanics
+Thread-Topic: Exam Statics & Solid Mechanics
+Thread-Index: Adr3fN6C8omsJlm/QVynY4fGbV6PRgAltTf3ABQgXpAAAN7M7A==
+Date: Tue, 27 Aug 2024 09:59:40 +0000
+Message-ID: <PR3P190MB0908B0EEBB5502EE71556E40E7942@PR3P190MB0908.EURP190.PROD.OUTLOOK.COM>
+References: <4dbfe7b209e44f27af7ba9b95cb9d00c@imes.mavt.ethz.ch>
+ <PR3P190MB09081D1B22D986DEA8EA2F24E78B2@PR3P190MB0908.EURP190.PROD.OUTLOOK.COM>
+ <9352a29f664149c4b1a401282f0f8663@imes.mavt.ethz.ch>
+In-Reply-To: <9352a29f664149c4b1a401282f0f8663@imes.mavt.ethz.ch>
+Accept-Language: en-US
+Content-Language: en-GB
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+msip_labels:
+authentication-results: dkim=none (message not signed)
+ header.d=none;dmarc=none action=none header.from=aucampus.onmicrosoft.com;
+x-ms-publictraffictype: Email
+x-ms-traffictypediagnostic: PR3P190MB0908:EE_|PA4P190MB1312:EE_
+x-ms-office365-filtering-correlation-id: f1687ebf-9a25-43a4-ca83-08dcc67ef79d
+x-ms-exchange-senderadcheck: 1
+x-ms-exchange-antispam-relay: 0
+x-microsoft-antispam: BCL:0;ARA:13230040|1800799024|366016|376014|38070700018;
+x-microsoft-antispam-message-info: =?koi8-r?Q?rmeqJfBVpUEbkVSROVUm1he5jyOGdMP2mbqYFt/jbLdD5fGA5zJdxQ45eqvwH+?=
+ =?koi8-r?Q?iLNKcLPfBF2RAU0nWHiT/cseergivCkcTr6d89YiFPzkHo1Vs3++AEuVNnGJbM?=
+ =?koi8-r?Q?Oh7nSEKOozvO51bMsUaHZaz7PPbb1irmYDoj08rLMKjAdaQlf0+idyfE1rn9yY?=
+ =?koi8-r?Q?iunXmCaqyYIr9XyrPEQvseBS371nmerN8j3lYdhmQxxN2HrsXlqxthVDELrSvJ?=
+ =?koi8-r?Q?6pAzQE5BBzuXpSgvPKiuQLdXANFcQ6V8PlILK8En/5AjCLpLS9b50dNqBm3VDx?=
+ =?koi8-r?Q?M2R40voJkJmdEMSUjcvfLEOvr84Ifm/8pmfnj5nrDJ9dGMuXcZlaMlm+Jpr/Et?=
+ =?koi8-r?Q?VrcT0aHRD0BtdLmGifmaEaW7DmEChGbPO+Qc3JCtXyJ2anmGo+Txs3Hd3R5f2L?=
+ =?koi8-r?Q?xM/9RhtMR1LXLf66V0LCowM+kSzLM33j7q33T4szCfxfSI4vWIRDNd+9lu0kMh?=
+ =?koi8-r?Q?B9s8j2RAH5cIaBDXt3ElPi48kLpFFkX6HbUhlDhBqPuksYiVkAZSDix/ZQDPcJ?=
+ =?koi8-r?Q?J/jHBQdzEcY+/mvUUFh3gKG1Sgb/kpGh3qHviSw7ylWDIBYQtYQiI9ER5+zhmh?=
+ =?koi8-r?Q?0fz4TBnLt7utW04+A8K3TofUHAzha/y3ZWdLLt4SPV85PLDow56xV+lrXHC7Ez?=
+ =?koi8-r?Q?dvSBjJhBBmF58O3UrAkivuWlbHl1CTtaPyUBeUosXSsgv7lH9W0fPQPttFqGS5?=
+ =?koi8-r?Q?JFgHCS6cD0FFyV4Prjpdovik8/wLnJuJbR69NiB0tLNln009pu5aP7g1vXKQGe?=
+ =?koi8-r?Q?6IJDwmYUiqt3HubWDYM6b4DOO6K3CTOgRLyMlETcspxtO3Z4UM54gZzLS6ZAz+?=
+ =?koi8-r?Q?B2XNjqm1m2VlrxtOZyUDfHv0ns4xY7EXSlpfC3/8sxbSQQvj4UbNe/nlQ3skAS?=
+ =?koi8-r?Q?odMZufZKQ07oQ2v9OYtLBa5iADeoTE2Fn8m755Ft2N9IQeURLh/+xSVtj9eJLt?=
+ =?koi8-r?Q?97QbWtcrndxn7GE21nB/3c6yp1mE5NAfQaoYyNdS6UjFrh2KunUiBMxkANdXId?=
+ =?koi8-r?Q?Tm1KBMgmxfrCA3TomskWyvtI8PBQu2eAXT7I4f+SazbQK8S4qDkmfOq3e5p3CB?=
+ =?koi8-r?Q?+0nzUxmhZHObL/O9JRYoxvXJ14UxE5blbU9oINH8Jj22a2fppH2dWmGm+/hpSZ?=
+ =?koi8-r?Q?8bFsuZl29q9vsAd1DflC6vwhoJxt8XuDJsvT9nRMl4nkiaT+XFaTG2XGxPTFy0?=
+ =?koi8-r?Q?WsU0z22gp43wu7h0ayWvBaJG+rMPNmwK7qSkCxfwsAp+ICGPE1dKNMzH6wXa01?=
+ =?koi8-r?Q?DWbrYo4rbQ4FsuXZ1sPnPEeXwwVtG0ZHSHvAs0xmEhGIVbOi7xgQos0AZ2Z3c1?=
+ =?koi8-r?Q?8nOJtUhrFppa83VxeVSniOA=3D?=
+x-forefront-antispam-report: CIP:255.255.255.255;CTRY:;LANG:en;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:PR3P190MB0908.EURP190.PROD.OUTLOOK.COM;PTR:;CAT:NONE;SFS:(13230040)(1800799024)(366016)(376014)(38070700018);DIR:OUT;SFP:1102;
+x-ms-exchange-antispam-messagedata-chunkcount: 1
+x-ms-exchange-antispam-messagedata-0: =?koi8-r?Q?3XndX3AeCjE7PceDiceU9QPpCbQ4iaK52oWEV4fIEM3bvmLjleLnvmlL1tdORf?=
+ =?koi8-r?Q?9IX1QREMc5Xc05PJ8lNsMP48Xb6+bWOUNuTDZP/lOU3zsgAO18gOrkTqKd8OvW?=
+ =?koi8-r?Q?4Mi6cHZgkpxCnVu1CPrKhQwdeQKuaLWXA+BK2MgEEw9zKK8nppbbrAQ/1ux4SY?=
+ =?koi8-r?Q?HCZN1J+slIPVPxTcg1HnFvt1J3+ZEE9eIA3FVzS8a0Dd80oMyh2U7L+1gGgXbC?=
+ =?koi8-r?Q?aWbOjy7RS1uF4EXkr59DmO5J9OrQt4r+G2Em89RVmbxPqMS2zg7G7OICHcZXXc?=
+ =?koi8-r?Q?y9QvYiocjFHUty3hquPncH7osL642Bwh5ToR559FgO4SUhdqFx0BCtBjHcdZoq?=
+ =?koi8-r?Q?gDxgs7Cilkj5JJ2OOODAHkIVKnj2NPVNLthxOB9dMjQ/Wn5B/AMrd6ctTMt/tD?=
+ =?koi8-r?Q?hZUD5ws6PSaYAnrh/jvB8vekuTRgY5zvXe/QzfPIeruZkn6REiYqvexO9bKh+A?=
+ =?koi8-r?Q?GwSAIvViu3Tg2d/ZWy4o5FCwi0z90sCRrumjrFxnzznujmSlUZ1K130LnavcB2?=
+ =?koi8-r?Q?+cuc+uta7QUTarxHb0xV9TOrB7Pa+1Ot5urWDnuOz5RIqvg1UdYKSkszXMQbTH?=
+ =?koi8-r?Q?3fxQb8RtYzXys2uUTU8MrYDzH3t8k2qXijkMNkdj+OmnLj/Jbr5OKNJHg8H1Zp?=
+ =?koi8-r?Q?sWs2pk9H9s0FpOBP46oR49Qv3FMeBVua3uRkHtVBN1qmUkKaYe2eqhOr6AHdQ1?=
+ =?koi8-r?Q?1eHIb/CcextoKKkdxeUMkIXmAFIqTv0U7JJvjzpVPtAcU/5zQL2GmUXR+FoTlD?=
+ =?koi8-r?Q?ASyG9EqwspfyyTYz1DZVz2lwoL+wmqeclWJETBFv3KCEiSdQj2lX+dU/g5nK/3?=
+ =?koi8-r?Q?AiuFArZd+Uxqy/3zi+xl9otLAjCbwgodSgRssVtYMwYeqj7SWe0z+Lt9AqLUqX?=
+ =?koi8-r?Q?i1qpi/3VDzxfVkY7kiZSKAHZ+8Gr7RD4sdwmFJPgObxM7tW7v+tCdn1uKcrnXb?=
+ =?koi8-r?Q?W5fwUcd6lOWcBJFtU95D0C7XjZnT3P7WpBeEib64hivgqhoDvT/5rSzR5aFGoU?=
+ =?koi8-r?Q?Q4228P8YhUsMGMfjl/WyQnlG3wlRuHjwQYGmm8aCEJnES8Z7qy8jQ2caGzTe7K?=
+ =?koi8-r?Q?I+/o5mXE8iGngYrxCGSDyl5fweE04rB0GO0KpzJXJl7nHpCj1sjkEVRIeIu4LN?=
+ =?koi8-r?Q?wYCgWHqetXHifmbiuJd7SSQbNEPpiii9lkJo3uHO17SQmDndT34qEVFcDggmAT?=
+ =?koi8-r?Q?hgM9afs8CHV2MiffmlKi80ub9J1YIz/DLQCv4C5asor2qIaU5ymb9LZ5bMip0g?=
+ =?koi8-r?Q?yKHkUMURY7NA/j7VZ8l3aT+dV9Ike4sDS7xRxfgccaTQizcmASBvq+9NfeB/09?=
+ =?koi8-r?Q?1egsA38nk6S/hQmkkt2uWzrb5/iMgz1k1R0UvMl7zSmw11S6xdO0qV6U/3zuA+?=
+ =?koi8-r?Q?UfmuvomVmfnU9xm6WQvhPqI3/AJXZig68FsvBymyri15TtpcJY2HntYsQ1mYVB?=
+ =?koi8-r?Q?mv1p4NHrjseCkMs+6ZR2xUgAUkXwtCc0Jhsu+YN1O4h02UvxnTToVOZf3gvGnY?=
+ =?koi8-r?Q?3dM1yZ+o7vOICxjZQpHm0jXjKKvosR5SMaqJHeVKdys8vP/YWyLpaYHcqQGNmf?=
+ =?koi8-r?Q?YwdFfZ9HHA=3D=3D?=
+Content-Type: multipart/alternative;
+	boundary="_000_PR3P190MB0908B0EEBB5502EE71556E40E7942PR3P190MB0908EURP_"
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-AuthSource: PR3P190MB0908.EURP190.PROD.OUTLOOK.COM
+X-MS-Exchange-CrossTenant-Network-Message-Id: f1687ebf-9a25-43a4-ca83-08dcc67ef79d
+X-MS-Exchange-CrossTenant-originalarrivaltime: 27 Aug 2024 09:59:40.2034
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: 6dc661f5-ee0c-460e-bdb4-034aeb3f3670
+X-MS-Exchange-CrossTenant-mailboxtype: HOSTED
+X-MS-Exchange-CrossTenant-userprincipalname: xDkmDb6j7NDfyMdap5mwSTrn3XEYEbXP3TT7jMnHrBHn3Y0m0x9R1L1+z11bdgXHT+I+0yZ07JxDqoF5bXOM6Q==
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: PA4P190MB1312
+X-Newsl: is not newsletter (-3.0/5.0) position : 0, not decisive
+X-NiceBayes: is not spam (35.53%) position : 3, not decisive
+X-Spamc: is not spam (-2.7/5.0) position : 7, ham decisive
+X-MailCleaner-Information: Please contact servicedesk@id.ethz.ch for more information
+X-MailCleaner-ID: 1siszG-0000000012t-3QyR
+X-MailCleaner: Found to be clean
+X-MailCleaner-SpamCheck: not spam, Newsl (score=-3.0, required=5.0,
+	MC_NEWS_HSBJANSWERS=-3, position : 0, not decisive),
+	NiceBayes (35.53%, position : 3, not decisive), Spamc (score=-2.7,
+	required=5.0, FREEMAIL_FROM 0.0, URIBL_BLOCKED 0.0,
+	T_KAM_HTML_FONT_INVALID 0.0, DKIM_VALID_AU -0.3,
+	RCVD_IN_DNSWL_NONE -0.0, RCVD_IN_RP_CERTIFIED -3.0, DKIM_SIGNED 0.6,
+	EthURLb 0.0, RCVD_IN_RP_SAFE -2.0, ezCEOtxtWriteBack17rb 0.5,
+	HTML_MESSAGE 0.0, DKIM_VALID -0.3, ezCEOtxtWriteBack17 0.5,
+	MC_CLIENT_CERT_VALID 0.0, RCVD_IN_MSPIKE_H2 -0.0, EZURL 0.0,
+	MC_SPF_PASS -0.0, RCVD_IN_RP_RNBL 1.3, position : 7, ham decisive)
+X-MailCleaner-ReportURL: https://mailcleaner.ethz.ch/rs.php
+Return-Path: aantwi@aucampus.onmicrosoft.com
+X-MS-Exchange-Organization-Network-Message-Id: 5026387b-c1a2-4df9-58a7-08dcc67efddf
+X-MS-Exchange-Organization-AVStamp-Mailbox: SMEXJnq?;1955300;0;This mail has
+ been scanned by Trend Micro ScanMail for Microsoft Exchange;
+X-MS-Exchange-Organization-SCL: 0
+X-MS-Exchange-Organization-AuthSource: mailg110.ethz.ch
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Exchange-Processed-By-BccFoldering: 15.01.2507.039
+MIME-Version: 1.0
+
+--_000_PR3P190MB0908B0EEBB5502EE71556E40E7942PR3P190MB0908EURP_
+Content-Type: text/plain; charset="koi8-r"
+Content-Transfer-Encoding: quoted-printable
+
+Prof,
+
+We will do it together.
+
+Regards.
+
+---
+Acheampong Antwi Afari
+Faculty =81Department of Engineering=81Ashesi University
+1 University Avenue Berekuso E/R
+Tel: +233 (0)545429332
+Phone: +233 (0)262592423
+Email: aantwi@ashesi.edu.gh<https://outlook.office.com/mail/options/mail/aa=
+ntwi@ashesi.edu.gh>/acheampong.antwiafari@gmail.com<https://outlook.office.=
+com/mail/options/mail/acheampong.antwiafari@gmail.com>
+
+
+________________________________
+From: Mazza Edoardo <mazza@imes.mavt.ethz.ch>
+Sent: Tuesday, August 27, 2024 9:35:28 AM
+To: Acheampong Antwi Afari <aantwi@aucampus.onmicrosoft.com>; Nathan Amanqu=
+ah <namanquah@ashesi.edu.gh>
+Cc: Hopf Raoul <hopf@imes.mavt.ethz.ch>; andrea.gomero@empa.ch <andrea.gome=
+ro@empa.ch>; Antoinette Okyere <aokyere@ashesi.edu.gh>
+Subject: RE: Exam Statics & Solid Mechanics
+
+
+Dear Afari
+
+will you administer the exam on Friday? Antoinette mentioned that she could=
+ also help with this.
+
+Many Thans for your feedback
+
+Edo
+
+
+
+From: Acheampong Antwi Afari <aantwi@aucampus.onmicrosoft.com>
+Sent: Dienstag, 27. August 2024 02:02
+To: Mazza Edoardo <mazza@imes.mavt.ethz.ch>; Nathan Amanquah <namanquah@ash=
+esi.edu.gh>
+Cc: Hopf Raoul <hopf@imes.mavt.ethz.ch>
+Subject: Re: Exam Statics & Solid Mechanics
+
+
+
+Hello Prof. Mazza,
+
+
+
+I think the questions are ok. The students were acquainted with the course =
+after the tutorials they had with Andrea.
+
+
+
+Regards.
+
+
+
+---
+
+Acheampong Antwi Afari
+
+Faculty =81Department of Engineering=81Ashesi University
+
+1 University Avenue Berekuso E/R
+
+Tel: +233 (0)545429332
+
+Phone: +233 (0)262592423
+
+Email: aantwi@ashesi.edu.gh<https://outlook.office.com/mail/options/mail/aa=
+ntwi@ashesi.edu.gh>/acheampong.antwiafari@gmail.com<https://outlook.office.=
+com/mail/options/mail/acheampong.antwiafari@gmail.com>
+
+
+
+________________________________
+
+From: Mazza Edoardo <mazza@imes.mavt.ethz.ch<mailto:mazza@imes.mavt.ethz.ch=
+>>
+Sent: Monday, August 26, 2024 6:01 AM
+To: Acheampong Antwi Afari <aantwi@aucampus.onmicrosoft.com<mailto:aantwi@a=
+ucampus.onmicrosoft.com>>; Nathan Amanquah <namanquah@ashesi.edu.gh<mailto:=
+namanquah@ashesi.edu.gh>>
+Cc: Hopf Raoul <hopf@imes.mavt.ethz.ch<mailto:hopf@imes.mavt.ethz.ch>>
+Subject: Exam Statics & Solid Mechanics
+
+
+
+Dear Nathan, dear Afari
+
+Enclosed the exam questions, the hand written solutions and the pre-moderat=
+ion form filled by Kim and Raphael.
+
+We will keep notes of the correction and send you the file later.
+
+Please let me know if anything is missing/unclear.
+
+Many Thanks
+
+Edo
+
+--_000_PR3P190MB0908B0EEBB5502EE71556E40E7942PR3P190MB0908EURP_
+Content-Type: text/html; charset="koi8-r"
+Content-Transfer-Encoding: quoted-printable
+
+<html><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dkoi8-r">
+</head>
+<body>
+<div>
+<div dir=3D"ltr">
+<div dir=3D"ltr">Prof,</div>
+<div dir=3D"ltr"><br>
+</div>
+<div dir=3D"ltr">We will do it together.</div>
+<div dir=3D"ltr"><br>
+</div>
+<div dir=3D"ltr">Regards.</div>
+</div>
+</div>
+<div id=3D"ms-outlook-mobile-signature">
+<div><br>
+</div>
+<div dir=3D"ltr"><span style=3D"font-size: 12pt; text-decoration: none; tex=
+t-align: left; margin-top: 0px; margin-bottom: 0px; font-family: Aptos, Apt=
+os_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; line-=
+height: 1.5; color: rgb(0, 0, 0);">---</span>
+<div style=3D"font-size: 12pt; text-decoration: none; text-align: left; mar=
+gin-top: 0px; margin-bottom: 0px; font-family: Aptos, Aptos_EmbeddedFont, A=
+ptos_MSFontService, Calibri, Helvetica, sans-serif; line-height: 1.5; color=
+: rgb(0, 0, 0);">
+Acheampong Antwi Afari</div>
+<div style=3D"font-size: 12pt; text-decoration: none; text-align: left; mar=
+gin-top: 0px; margin-bottom: 0px; font-family: Aptos, Aptos_EmbeddedFont, A=
+ptos_MSFontService, Calibri, Helvetica, sans-serif; line-height: 1.5; color=
+: rgb(0, 0, 0);">
+Faculty&nbsp;=81Department of Engineering=81Ashesi University</div>
+<div style=3D"font-size: 12pt; text-decoration: none; text-align: left; mar=
+gin-top: 0px; margin-bottom: 0px; font-family: Aptos, Aptos_EmbeddedFont, A=
+ptos_MSFontService, Calibri, Helvetica, sans-serif; line-height: 1.5; color=
+: rgb(0, 0, 0);">
+<span dir=3D"ltr" style=3D"color: currentcolor;">1 University Avenue</span>=
+<span>&nbsp;</span>Berekuso E/R</div>
+<div style=3D"font-size: 12pt; text-decoration: none; text-align: left; mar=
+gin-top: 0px; margin-bottom: 0px; font-family: Aptos, Aptos_EmbeddedFont, A=
+ptos_MSFontService, Calibri, Helvetica, sans-serif; line-height: 1.5; color=
+: rgb(0, 0, 0);">
+Tel:<span>&nbsp;</span><span dir=3D"ltr" style=3D"color: currentcolor;">&#4=
+3;233 (0)545429332</span></div>
+<div style=3D"font-size: 12pt; text-decoration: none; text-align: left; mar=
+gin-top: 0px; margin-bottom: 0px; font-family: Aptos, Aptos_EmbeddedFont, A=
+ptos_MSFontService, Calibri, Helvetica, sans-serif; line-height: 1.5; color=
+: rgb(0, 0, 0);">
+Phone:<span>&nbsp;</span><span dir=3D"ltr" style=3D"color: currentcolor;">&=
+#43;233 (0)262592423</span></div>
+<span style=3D"font-size: 12pt; text-decoration: none; text-align: left; ma=
+rgin: 0px; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Cal=
+ibri, Helvetica, sans-serif; line-height: 1.5; color: rgb(0, 0, 0);">Email:=
+<span>&nbsp;</span><a href=3D"https://outlook.office.com/mail/options/mail/=
+aantwi@ashesi.edu.gh" title=3D"aantwi@ashesi.edu.gh" data-outlook-id=3D"ca8=
+91454-ef4f-4315-b7fa-7494b2f70105" data-linkindex=3D"0" style=3D"margin: 0p=
+x; color: rgb(0, 120, 212);">aantwi@ashesi.edu.gh</a>/<u><a href=3D"https:/=
+/outlook.office.com/mail/options/mail/acheampong.antwiafari@gmail.com" titl=
+e=3D"acheampong.antwiafari@gmail.com" data-outlook-id=3D"31e7ac59-4177-4a16=
+-9331-4c869e83e492" data-linkindex=3D"1" style=3D"margin: 0px; color: rgb(0=
+, 120, 212);">acheampong.antwiafari@gmail.com</a></u></span><br style=3D"te=
+xt-decoration: none; color: rgb(0, 0, 0);">
+<br>
+<br>
+</div>
+</div>
+<hr style=3D"display:inline-block;width:98%" tabindex=3D"-1">
+<div id=3D"divRplyFwdMsg" dir=3D"ltr"><font face=3D"Calibri, sans-serif" st=
+yle=3D"font-size:11pt" color=3D"#000000"><b>From:</b> Mazza Edoardo &lt;maz=
+za@imes.mavt.ethz.ch&gt;<br>
+<b>Sent:</b> Tuesday, August 27, 2024 9:35:28 AM<br>
+<b>To:</b> Acheampong Antwi Afari &lt;aantwi@aucampus.onmicrosoft.com&gt;; =
+Nathan Amanquah &lt;namanquah@ashesi.edu.gh&gt;<br>
+<b>Cc:</b> Hopf Raoul &lt;hopf@imes.mavt.ethz.ch&gt;; andrea.gomero@empa.ch=
+ &lt;andrea.gomero@empa.ch&gt;; Antoinette Okyere &lt;aokyere@ashesi.edu.gh=
+&gt;<br>
+<b>Subject:</b> RE: Exam Statics &amp; Solid Mechanics</font>
+<div>&nbsp;</div>
+</div>
+<style>
+<!--
+@font-face
+	{font-family:"Cambria Math"}
+@font-face
+	{font-family:Calibri}
+@font-face
+	{font-family:Aptos}
+@font-face
+	{font-family:"Bodoni MT"}
+p.x_MsoNormal, li.x_MsoNormal, div.x_MsoNormal
+	{margin:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif}
+a:link, span.x_MsoHyperlink
+	{color:blue;
+	text-decoration:underline}
+p.x_xmsonormal, li.x_xmsonormal, div.x_xmsonormal
+	{margin:0cm;
+	font-size:11.0pt;
+	font-family:"Aptos",sans-serif}
+span.x_EmailStyle23
+	{font-family:"Aptos",sans-serif;
+	color:windowtext}
+.x_MsoChpDefault
+	{font-size:10.0pt}
+@page WordSection1
+	{margin:70.85pt 70.85pt 2.0cm 70.85pt}
+div.x_WordSection1
+	{}
+-->
+</style>
+<div lang=3D"DE" link=3D"blue" vlink=3D"purple" style=3D"word-wrap:break-wo=
+rd">
+<div class=3D"x_WordSection1">
+<p class=3D"x_MsoNormal"><span lang=3D"EN-US" style=3D"font-size:11.0pt; fo=
+nt-family:&quot;Aptos&quot;,sans-serif">Dear Afari</span></p>
+<p class=3D"x_MsoNormal"><span lang=3D"EN-US" style=3D"font-size:11.0pt; fo=
+nt-family:&quot;Aptos&quot;,sans-serif">will you administer the exam on Fri=
+day? Antoinette mentioned that she could also help with this.</span></p>
+<p class=3D"x_MsoNormal"><span lang=3D"EN-US" style=3D"font-size:11.0pt; fo=
+nt-family:&quot;Aptos&quot;,sans-serif">Many Thans for your feedback</span>=
+</p>
+<p class=3D"x_MsoNormal"><span lang=3D"EN-US" style=3D"font-size:11.0pt; fo=
+nt-family:&quot;Aptos&quot;,sans-serif">Edo</span></p>
+<p class=3D"x_MsoNormal"><span lang=3D"EN-US" style=3D"font-size:11.0pt; fo=
+nt-family:&quot;Aptos&quot;,sans-serif">&nbsp;</span></p>
+<div>
+<div style=3D"border:none; border-top:solid #E1E1E1 1.0pt; padding:3.0pt 0c=
+m 0cm 0cm">
+<p class=3D"x_MsoNormal"><b><span lang=3D"EN-US" style=3D"font-size:11.0pt;=
+ font-family:&quot;Calibri&quot;,sans-serif">From:</span></b><span lang=3D"=
+EN-US" style=3D"font-size:11.0pt; font-family:&quot;Calibri&quot;,sans-seri=
+f"> Acheampong Antwi Afari &lt;aantwi@aucampus.onmicrosoft.com&gt;
+<br>
+<b>Sent:</b> Dienstag, 27. August 2024 02:02<br>
+<b>To:</b> Mazza Edoardo &lt;mazza@imes.mavt.ethz.ch&gt;; Nathan Amanquah &=
+lt;namanquah@ashesi.edu.gh&gt;<br>
+<b>Cc:</b> Hopf Raoul &lt;hopf@imes.mavt.ethz.ch&gt;<br>
+<b>Subject:</b> Re: Exam Statics &amp; Solid Mechanics</span></p>
+</div>
+</div>
+<p class=3D"x_MsoNormal">&nbsp;</p>
+<div>
+<p class=3D"x_MsoNormal"><span style=3D"font-family:&quot;Aptos&quot;,sans-=
+serif; color:black">Hello Prof. Mazza,</span></p>
+</div>
+<div>
+<p class=3D"x_MsoNormal"><span style=3D"font-family:&quot;Aptos&quot;,sans-=
+serif; color:black">&nbsp;</span></p>
+</div>
+<div>
+<p class=3D"x_MsoNormal"><span style=3D"font-family:&quot;Aptos&quot;,sans-=
+serif; color:black">I think the questions are ok. The students were acquain=
+ted with the course after the tutorials they had with Andrea.</span></p>
+</div>
+<div>
+<p class=3D"x_MsoNormal"><span style=3D"font-family:&quot;Aptos&quot;,sans-=
+serif; color:black">&nbsp;</span></p>
+</div>
+<div>
+<p class=3D"x_MsoNormal"><span style=3D"font-family:&quot;Aptos&quot;,sans-=
+serif; color:black">Regards.</span></p>
+</div>
+<div>
+<p class=3D"x_MsoNormal"><span style=3D"font-family:&quot;Aptos&quot;,sans-=
+serif; color:black">&nbsp;</span></p>
+</div>
+<div id=3D"x_Signature">
+<div id=3D"x_divtagdefaultwrapper">
+<p><span style=3D"font-family:&quot;Bodoni MT&quot;,serif; color:black">---=
+</span><span style=3D"font-family:&quot;Calibri&quot;,sans-serif; color:bla=
+ck"></span></p>
+<p><span style=3D"font-family:&quot;Bodoni MT&quot;,serif; color:black">Ach=
+eampong Antwi Afari</span><span style=3D"font-family:&quot;Calibri&quot;,sa=
+ns-serif; color:black"></span></p>
+<p><span style=3D"font-family:&quot;Bodoni MT&quot;,serif; color:black">Fac=
+ulty </span><span style=3D"color:black">=81Department of Engineering=81</sp=
+an><span style=3D"font-family:&quot;Bodoni MT&quot;,serif; color:black">Ash=
+esi University</span><span style=3D"font-family:&quot;Calibri&quot;,sans-se=
+rif; color:black"></span></p>
+<p><span style=3D"font-family:&quot;Bodoni MT&quot;,serif; color:black">1 U=
+niversity Avenue Berekuso E/R</span><span style=3D"font-family:&quot;Calibr=
+i&quot;,sans-serif; color:black"></span></p>
+<p><span style=3D"font-family:&quot;Bodoni MT&quot;,serif; color:black">Tel=
+: &#43;233 (0)545429332</span><span style=3D"font-family:&quot;Calibri&quot=
+;,sans-serif; color:black"></span></p>
+<p><span style=3D"font-family:&quot;Bodoni MT&quot;,serif; color:black">Pho=
+ne: &#43;233 (0)262592423</span><span style=3D"font-family:&quot;Calibri&qu=
+ot;,sans-serif; color:black"></span></p>
+<div>
+<p class=3D"x_MsoNormal"><span style=3D"font-family:&quot;Bodoni MT&quot;,s=
+erif; color:black">Email:
+<a href=3D"https://outlook.office.com/mail/options/mail/aantwi@ashesi.edu.g=
+h" title=3D"aantwi@ashesi.edu.gh">
+aantwi@ashesi.edu.gh</a>/<u><a href=3D"https://outlook.office.com/mail/opti=
+ons/mail/acheampong.antwiafari@gmail.com" title=3D"acheampong.antwiafari@gm=
+ail.com">acheampong.antwiafari@gmail.com</a></u></span></p>
+</div>
+<p class=3D"x_MsoNormal"><span style=3D"font-family:&quot;Calibri&quot;,san=
+s-serif; color:black">&nbsp;</span></p>
+</div>
+</div>
+<div class=3D"x_MsoNormal" align=3D"center" style=3D"text-align:center">
+<hr size=3D"2" width=3D"98%" align=3D"center">
+</div>
+<div id=3D"x_divRplyFwdMsg">
+<p class=3D"x_MsoNormal"><b><span style=3D"font-size:11.0pt; font-family:&q=
+uot;Calibri&quot;,sans-serif; color:black">From:</span></b><span style=3D"f=
+ont-size:11.0pt; font-family:&quot;Calibri&quot;,sans-serif; color:black"> =
+Mazza Edoardo &lt;<a href=3D"mailto:mazza@imes.mavt.ethz.ch">mazza@imes.mav=
+t.ethz.ch</a>&gt;<br>
+<b>Sent:</b> Monday, August 26, 2024 6:01 AM<br>
+<b>To:</b> Acheampong Antwi Afari &lt;<a href=3D"mailto:aantwi@aucampus.onm=
+icrosoft.com">aantwi@aucampus.onmicrosoft.com</a>&gt;; Nathan Amanquah &lt;=
+<a href=3D"mailto:namanquah@ashesi.edu.gh">namanquah@ashesi.edu.gh</a>&gt;<=
+br>
+<b>Cc:</b> Hopf Raoul &lt;<a href=3D"mailto:hopf@imes.mavt.ethz.ch">hopf@im=
+es.mavt.ethz.ch</a>&gt;<br>
+<b>Subject:</b> Exam Statics &amp; Solid Mechanics</span> </p>
+<div>
+<p class=3D"x_MsoNormal">&nbsp;</p>
+</div>
+</div>
+<div>
+<div>
+<p class=3D"x_xmsonormal"><span lang=3D"EN-US">Dear Nathan, dear Afari</spa=
+n></p>
+<p class=3D"x_xmsonormal"><span lang=3D"EN-US">Enclosed the exam questions,=
+ the hand written solutions and the pre-moderation form filled by Kim and R=
+aphael.</span></p>
+<p class=3D"x_xmsonormal"><span lang=3D"EN-US">We will keep notes of the co=
+rrection and send you the file later.</span></p>
+<p class=3D"x_xmsonormal"><span lang=3D"EN-US">Please let me know if anythi=
+ng is missing/unclear.</span></p>
+<p class=3D"x_xmsonormal"><span lang=3D"EN-US">Many Thanks</span></p>
+<p class=3D"x_xmsonormal"><span lang=3D"EN-US">Edo</span></p>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
+
+--_000_PR3P190MB0908B0EEBB5502EE71556E40E7942PR3P190MB0908EURP_--

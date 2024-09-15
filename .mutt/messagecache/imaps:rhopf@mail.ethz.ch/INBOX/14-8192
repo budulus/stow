@@ -1,0 +1,52 @@
+Received: from edge10.ethz.ch (82.130.75.186) by CAS21.d.ethz.ch
+ (172.31.51.111) with Microsoft SMTP Server (TLS) id 14.1.289.1; Fri, 2 Sep
+ 2011 10:00:45 +0200
+Received: from vphil1.ethz.ch (129.132.202.247) by edge10.ethz.ch
+ (82.130.75.186) with Microsoft SMTP Server id 14.1.289.1; Fri, 2 Sep 2011
+ 10:00:42 +0200
+Received: from mail-pz0-f41.google.com ([209.85.210.41])	by vphil1.ethz.ch
+ with esmtp (Exim 4.69)	(envelope-from <men.wirz@gmail.com>)	id
+ 1QzOg5-000834-D4	for hopf@imes.mavt.ethz.ch; Fri, 02 Sep 2011 10:00:42 +0200
+Received: by pzk4 with SMTP id 4so5230240pzk.14        for
+ <hopf@imes.mavt.ethz.ch>; Fri, 02 Sep 2011 01:00:39 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=gamma;
+        h=mime-version:date:message-id:subject:from:to:content-type;
+        bh=OdOoiNjg8rohiazxkVFvJRLXhvUJFBvO7XDyOEhwupA=;
+        b=UyGa31cgOhmmcv0RX/O6dmK/2TZW1DuYqV7CtW2to7SPbPaaOEcXYF+1DSro264sG/
+         +D6MKjDXEkdTkztLBegLlsunyMhnJ9Om2ZKtDEwhMxOTOYp6n6Okd8NaLgBqWn8FFt01
+         q77TRbjqNE9ojBhcmww/Ccm3jLui+Bwb8GHT0=
+Received: by 10.68.25.234 with SMTP id f10mr1581948pbg.136.1314950439576; Fri,
+ 02 Sep 2011 01:00:39 -0700 (PDT)
+Received: by 10.68.71.198 with HTTP; Fri, 2 Sep 2011 01:00:39 -0700 (PDT)
+Date: Fri, 2 Sep 2011 10:00:39 +0200
+Message-ID: <CAEbX22D_8cBSMn9tqaCqupQvuS0BQRMivuKt1h5=z1VQ4bxafQ@mail.gmail.com>
+Subject: Email-Adressene
+From: Men Wirz <men.wirz@gmail.com>
+To: Hopf Raoul <hopf@imes.mavt.ethz.ch>
+Content-Type: multipart/alternative; boundary="bcaec52156ffd925ad04abf0c1a0"
+X-Filter-Node: vphil1.ethz.ch
+X-Spam-Level:
+X-Spam-Status: hits=-0.7 tests=FREEMAIL_FROM,HTML_MESSAGE,RCVD_IN_DNSWL_LOW,SPF_PASS,T_DKIM_INVALID
+X-Spam-Flag: NO
+Return-Path: men.wirz@gmail.com
+X-MS-Exchange-Organization-AuthSource: edge10.ethz.ch
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Exchange-Organization-AVStamp-Mailbox: SMEXawoY;839500;0;This mail has
+ been scanned by Trend Micro ScanMail for Microsoft Exchange;
+X-MS-Exchange-Organization-SCL: 0
+MIME-Version: 1.0
+
+--bcaec52156ffd925ad04abf0c1a0
+Content-Type: text/plain; charset="ISO-8859-1"
+
+hey,
+
+hesch du d Email-Adresse vom Kipfer?
+
+--bcaec52156ffd925ad04abf0c1a0
+Content-Type: text/html; charset="ISO-8859-1"
+
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">hey,<br><br>hesch du d Email-Adresse vom Kipfer?<br>
+
+--bcaec52156ffd925ad04abf0c1a0--

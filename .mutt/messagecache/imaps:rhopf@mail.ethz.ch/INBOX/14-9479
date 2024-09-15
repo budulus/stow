@@ -1,0 +1,72 @@
+Received: from GWS00.d.ethz.ch (82.130.70.77) by CAS21.d.ethz.ch
+ (172.31.51.111) with Microsoft SMTP Server (TLS) id 14.1.339.1; Mon, 3 Oct
+ 2011 18:05:57 +0200
+Received: from edge10.ethz.ch (82.130.75.186) by gws00.d.ethz.ch
+ (129.132.178.237) with Microsoft SMTP Server (TLS) id 8.2.254.0; Mon, 3 Oct
+ 2011 18:05:57 +0200
+Received: from phil1.ethz.ch (129.132.202.242) by edge10.ethz.ch
+ (82.130.75.186) with Microsoft SMTP Server id 14.1.339.1; Mon, 3 Oct 2011
+ 18:05:55 +0200
+Received: from mail-wy0-f180.google.com ([74.125.82.180])	by phil1.ethz.ch
+ with esmtp (Exim 4.69)	(envelope-from <marc.immer@gmail.com>)	id
+ 1RAl1c-0007cY-4l	for hopf@imes.mavt.ethz.ch; Mon, 03 Oct 2011 18:05:56 +0200
+Received: by wyh11 with SMTP id 11so5117163wyh.39        for
+ <hopf@imes.mavt.ethz.ch>; Mon, 03 Oct 2011 09:05:52 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=gamma;
+        h=mime-version:in-reply-to:references:from:date:message-id:subject:to
+         :content-type;
+        bh=/s+taLF/v1EyJu88m90DMuh8liXKBfMILAqxr3n6/Ro=;
+        b=XCdSNnEUIHtQVe2XhsxfF12rI9uc7wDXIlQTu0xrwd3FKnY1mCzX11LRGvRCCY1WUX
+         J1oQVymapJMWvN4sTnkpUBlK7YugwZnQ3wmu4UpepU4THWBojpxAJV3XAPt60UiGoK7R
+         cdAqXEQ3C5irVhpfWSuzkwg4ajg2kxoqlgcrY=
+Received: by 10.223.98.67 with SMTP id p3mr121875fan.66.1317657952068; Mon, 03
+ Oct 2011 09:05:52 -0700 (PDT)
+Received: by 10.223.85.195 with HTTP; Mon, 3 Oct 2011 09:05:32 -0700 (PDT)
+In-Reply-To: <4A4BB3BF-95DE-457A-80FA-4719809B6559@imes.mavt.ethz.ch>
+References: <4A4BB3BF-95DE-457A-80FA-4719809B6559@imes.mavt.ethz.ch>
+From: Marc Immer <marc.immer@gmail.com>
+Date: Mon, 3 Oct 2011 18:05:32 +0200
+Message-ID: <CAFwF4fNJOFKCs98O2gu3M3s8X_SNN3i1tbmHaBN+7TeGWFpV6g@mail.gmail.com>
+Subject: Re: haha
+To: Hopf Raoul <hopf@imes.mavt.ethz.ch>
+Content-Type: multipart/alternative; boundary="0015174c0c862b257004ae672643"
+X-Filter-Node: phil1.ethz.ch
+X-Spam-Level:
+X-Spam-Status: hits=-0.7 tests=FREEMAIL_FROM,HTML_MESSAGE,RCVD_IN_DNSWL_LOW,SPF_PASS,T_DKIM_INVALID
+X-Spam-Flag: NO
+Return-Path: marc.immer@gmail.com
+X-MS-Exchange-Organization-AuthSource: edge10.ethz.ch
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Exchange-Organization-AVStamp-Mailbox: SMEXkv@];846900;0;This mail has
+ been scanned by Trend Micro ScanMail for Microsoft Exchange;
+X-MS-Exchange-Organization-SCL: 0
+MIME-Version: 1.0
+
+--0015174c0c862b257004ae672643
+Content-Type: text/plain; charset="ISO-8859-1"
+
+HAHAHHAAAA
+
+On Mon, Oct 3, 2011 at 5:32 PM, Hopf Raoul <hopf@imes.mavt.ethz.ch> wrote:
+
+>
+>
+>
+
+--0015174c0c862b257004ae672643
+Content-Type: text/html; charset="ISO-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-=
+1">HAHAHHAAAA<br><br><div class=3D"gmail_quote">On Mon, Oct 3, 2011 at 5:32=
+ PM, Hopf  Raoul <span dir=3D"ltr">&lt;<a href=3D"mailto:hopf@imes.mavt.eth=
+z.ch">hopf@imes.mavt.ethz.ch</a>&gt;</span> wrote:<br><blockquote class=3D"=
+gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-=
+left:1ex;">
+
+<br>
+<br>
+</blockquote></div><br>
+
+--0015174c0c862b257004ae672643--

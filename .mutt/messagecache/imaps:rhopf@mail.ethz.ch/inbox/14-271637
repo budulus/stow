@@ -1,0 +1,817 @@
+Received: from mailm116.d.ethz.ch (2001:67c:10ec:5602::28) by
+ mailm115.d.ethz.ch (2001:67c:10ec:5602::27) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256) id
+ 15.1.2507.39 via Mailbox Transport; Tue, 27 Aug 2024 09:01:39 +0200
+Received: from mailm214.d.ethz.ch (2001:67c:10ec:5603::28) by
+ mailm116.d.ethz.ch (2001:67c:10ec:5602::28) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256) id
+ 15.1.2507.39; Tue, 27 Aug 2024 09:01:38 +0200
+Received: from mailg110.ethz.ch (2001:67c:10ec:5605::21) by mailm214.d.ethz.ch
+ (2001:67c:10ec:5603::28) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256) id 15.1.2507.39 via Frontend
+ Transport; Tue, 27 Aug 2024 09:01:38 +0200
+Received: from ethz.ch (129.132.198.196) by mailg110.ethz.ch (129.132.162.66)
+ with Microsoft SMTP Server id 15.1.2507.39; Tue, 27 Aug 2024 09:01:39 +0200
+Received: from eawag-barracuda.emp-eaw.ch ([152.88.7.196] helo=barracuda3.eawag.ch)
+	by ethz.ch stage1 with esmtps 
+	(Exim MailCleaner) 
+	id 1siqCa-00000000E4q-0ra0 
+	for <hopf@imes.mavt.ethz.ch> 
+	from <Andrea.Gomero@empa.ch>;
+	Tue, 27 Aug 2024 09:01:16 +0200
+X-MailCleaner-SPF: pass
+X-ASG-Debug-ID: 1724742075-07b3371827852bc0001-msdTq3
+Received: from ee-mbx02.ee.emp-eaw.ch (cloudrelay.eawag.ch [152.88.45.102]) by barracuda3.eawag.ch with ESMTP id MpEHvdcOqHFBSB4I (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128 verify=NO); Tue, 27 Aug 2024 09:01:15 +0200 (CEST)
+X-Barracuda-Envelope-From: Andrea.Gomero@empa.ch
+X-Barracuda-Effective-Source-IP: cloudrelay.eawag.ch[152.88.45.102]
+X-Barracuda-Apparent-Source-IP: 152.88.45.102
+Received: from ee-mbx03.ee.emp-eaw.ch (152.88.45.103) by
+ ee-mbx02.ee.emp-eaw.ch (152.88.45.102) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256) id
+ 15.1.2507.35; Tue, 27 Aug 2024 09:01:15 +0200
+Received: from ee-mbx03.ee.emp-eaw.ch ([fe80::b4e4:c48e:2d5c:5904]) by
+ ee-mbx03.ee.emp-eaw.ch ([fe80::b4e4:c48e:2d5c:5904%4]) with mapi id
+ 15.01.2507.035; Tue, 27 Aug 2024 09:01:15 +0200
+From: "Gomero Soria, Andrea" <Andrea.Gomero@empa.ch>
+To: "Mazza  Edoardo" <mazza@imes.mavt.ethz.ch>
+CC: "Hopf  Raoul" <hopf@imes.mavt.ethz.ch>, "Kromer  Daniela"
+	<dkromer@ethz.ch>, Acheampong Antwi Afari <aantwi@aucampus.onmicrosoft.com>
+Subject: AW: Statics & Solid Mechanics: Midterm, Coding Exercise and
+ Participation
+Thread-Topic: Statics & Solid Mechanics: Midterm, Coding Exercise and
+ Participation
+X-ASG-Orig-Subj: AW: Statics & Solid Mechanics: Midterm, Coding Exercise and
+ Participation
+Thread-Index: AQHa93wVovA2S7MN+EWG4Ax0P9OFWLI6rkNg
+Date: Tue, 27 Aug 2024 07:01:15 +0000
+Message-ID: <c6613b6875cd42a5a398b1372b673c87@empa.ch>
+References: <AM9P190MB1569B2DD3B16934913F52998AB882@AM9P190MB1569.EURP190.PROD.OUTLOOK.COM>
+ <260d59ca06654453a50a329b6ec774be@imes.mavt.ethz.ch>
+In-Reply-To: <260d59ca06654453a50a329b6ec774be@imes.mavt.ethz.ch>
+Accept-Language: en-US, de-CH
+Content-Language: de-DE
+X-MS-Has-Attach: yes
+X-MS-TNEF-Correlator:
+x-originating-ip: [152.88.45.51]
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature";
+	micalg=SHA1; boundary="----=_NextPart_000_0036_01DAF84E.F3DC2780"
+X-Barracuda-Connect: cloudrelay.eawag.ch[152.88.45.102]
+X-Barracuda-Start-Time: 1724742075
+X-Barracuda-Encrypted: ECDHE-RSA-AES128-GCM-SHA256
+X-Barracuda-URL: https://152.88.7.196:443/cgi-mod/mark.cgi
+X-Virus-Scanned: by bsmtpd at eawag.ch
+X-Barracuda-Scan-Msg-Size: 16778
+X-Barracuda-BRTS-Status: 1
+X-Barracuda-Bayes: INNOCENT GLOBAL 0.0000 1.0000 -2.0210
+X-Barracuda-Spam-Score: -2.02
+X-Barracuda-Spam-Status: No, SCORE=-2.02 using global scores of TAG_LEVEL=1000.0 QUARANTINE_LEVEL=1000.0 KILL_LEVEL=9.0 tests=HTML_MESSAGE
+X-Barracuda-Spam-Report: Code version 3.2, rules version 3.2.3.129616
+	Rule breakdown below
+	 pts rule name              description
+	---- ---------------------- --------------------------------------------------
+	0.00 HTML_MESSAGE           BODY: HTML included in message
+X-Newsl: is not newsletter (-3.0/5.0) position : 0, not decisive
+X-MailCleaner-MachineLearning0: is not spam (12.201851606369019%) (200728-ALL-50S) (en)
+X-MailCleaner-MachineLearning1: is not spam (3.473585844039917%) (200728-ALL-10L) (en)
+X-NiceBayes: is not spam (49.7%) position : 3, not decisive
+X-Spamc: is not spam (-3.8/5.0) position : 7, ham decisive
+X-MailCleaner-Information: Please contact servicedesk@id.ethz.ch for more information
+X-MailCleaner-ID: 1siqCa-00000000E5D-0y5p
+X-MailCleaner: Found to be clean
+X-MailCleaner-SpamCheck: not spam, Newsl (score=-3.0, required=5.0,
+	MC_NEWS_HSBJANSWERS=-3, position : 0, not decisive),
+	MachineLearning (12.201851606369019% en, position : 2, not decisive),
+	MachineLearning (3.473585844039917% en, position : 2, not decisive),
+	NiceBayes (49.7%, position : 3, not decisive), Spamc (score=-3.8,
+	required=5.0, RCVD_IN_RP_SAFE -2.0, HTML_MESSAGE 0.0,
+	RCVD_IN_RP_RNBL 1.3, MC_ML0_20 -0.3, RCVD_IN_RP_CERTIFIED -3.0,
+	MC_SPF_PASS -0.0, BAYES_05 -0.5, URIBL_BLOCKED 0.0, MC_ML1_20 -0.3,
+	MC_CLIENT_CERT_INVALID 1.0, position : 7, ham decisive)
+X-MailCleaner-ReportURL: https://mailcleaner.ethz.ch/rs.php
+Return-Path: Andrea.Gomero@empa.ch
+X-MS-Exchange-Organization-Network-Message-Id: 43573174-399e-4413-f3d6-08dcc6661930
+X-MS-Exchange-Organization-AVStamp-Mailbox: SMEXJnq?;1955300;0;This mail has
+ been scanned by Trend Micro ScanMail for Microsoft Exchange;
+X-MS-Exchange-Organization-SCL: 0
+X-MS-Exchange-Organization-AuthSource: mailg110.ethz.ch
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Exchange-Processed-By-BccFoldering: 15.01.2507.039
+MIME-Version: 1.0
+
+------=_NextPart_000_0036_01DAF84E.F3DC2780
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_001_0037_01DAF84E.F3DC2780"
+
+
+------=_NextPart_001_0037_01DAF84E.F3DC2780
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+Dear Edo,
+
+ 
+
+Regarding my time at Ashesi, I saw a lot of motivation for learning. They
+all participated at least twice, and many participated even more. We
+discussed the problems together extensively, and they asked many questions,
+fostering a very enriching discussion.
+
+ 
+
+They were motivated to explore other methods to solve some problems and
+share them with others. That is why I think everyone in the classroom
+deserves the maximum score for participation.
+
+ 
+
+Kind regards,
+
+Andrea Gomero
+
+ 
+
+ 
+
+Von: Mazza Edoardo <mazza@imes.mavt.ethz.ch> 
+Gesendet: Montag, 26. August 2024 05:52
+An: Gomero Soria, Andrea <Andrea.Gomero@empa.ch>; Kromer Daniela
+<dkromer@ethz.ch>; Acheampong Antwi Afari <aantwi@aucampus.onmicrosoft.com>
+Cc: Hopf Raoul <hopf@imes.mavt.ethz.ch>
+Betreff: Statics & Solid Mechanics: Midterm, Coding Exercise and
+Participation
+
+ 
+
+Dear Afari, 
+
+I hope all is well with the preparation. Can you please send us the results
+of the midterm as well as coding exercise for each student (in a excel
+file)?
+
+Andrea, Daniela: please let me have any your input on the participation in
+class.
+
+Regarding the final exam: I will send the file to Afari and Nathan.
+
+Thanks, kind regards
+
+Edo
+
+ 
+
+
+------=_NextPart_001_0037_01DAF84E.F3DC2780
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" =
+xmlns:o=3D"urn:schemas-microsoft-com:office:office" =
+xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" =
+xmlns=3D"http://www.w3.org/TR/REC-html40"><head><meta =
+http-equiv=3DContent-Type content=3D"text/html; =
+charset=3Dus-ascii"><meta name=3DGenerator content=3D"Microsoft Word 15 =
+(filtered medium)"><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:"Segoe UI";
+	panose-1:2 11 5 2 4 2 4 2 2 3;}
+@font-face
+	{font-family:Aptos;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:Aptos;}
+h1
+	{mso-style-priority:4;
+	mso-style-link:"\00DCberschrift 1 Zchn";
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:12.0pt;
+	margin-left:0cm;
+	line-height:120%;
+	page-break-before:always;
+	page-break-after:avoid;
+	font-size:14.0pt;
+	font-family:Aptos;}
+h2
+	{mso-style-priority:4;
+	mso-style-link:"\00DCberschrift 2 Zchn";
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:12.0pt;
+	margin-left:42.55pt;
+	text-indent:-42.55pt;
+	line-height:120%;
+	page-break-after:avoid;
+	font-size:12.0pt;
+	font-family:Aptos;
+	mso-fareast-language:DE;}
+h3
+	{mso-style-priority:4;
+	mso-style-link:"\00DCberschrift 3 Zchn";
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:12.0pt;
+	margin-left:42.55pt;
+	text-indent:-42.55pt;
+	line-height:120%;
+	page-break-after:avoid;
+	font-size:11.0pt;
+	font-family:Aptos;}
+p.MsoTitle, li.MsoTitle, div.MsoTitle
+	{mso-style-priority:5;
+	mso-style-link:"Titel Zchn";
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:12.0pt;
+	margin-left:0cm;
+	line-height:120%;
+	font-size:16.0pt;
+	font-family:Aptos;
+	font-weight:bold;}
+p.MsoBodyText, li.MsoBodyText, div.MsoBodyText
+	{mso-style-priority:99;
+	mso-style-link:"Textk\00F6rper Zchn";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:Aptos;}
+p.MsoSubtitle, li.MsoSubtitle, div.MsoSubtitle
+	{mso-style-priority:5;
+	mso-style-link:"Untertitel Zchn";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:Aptos;
+	font-weight:bold;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:purple;
+	text-decoration:underline;}
+p.MsoAutoSig, li.MsoAutoSig, div.MsoAutoSig
+	{mso-style-priority:99;
+	mso-style-link:"E-Mail-Signatur Zchn";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:Aptos;}
+p.MsoNoSpacing, li.MsoNoSpacing, div.MsoNoSpacing
+	{mso-style-priority:1;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:10.0pt;
+	font-family:"Segoe UI",sans-serif;}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+	{mso-style-priority:3;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:18.0pt;
+	margin-bottom:.0001pt;
+	mso-add-space:auto;
+	text-indent:-18.0pt;
+	mso-list:l1 level1 lfo2;
+	font-size:12.0pt;
+	font-family:Aptos;}
+p.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, =
+div.MsoListParagraphCxSpFirst
+	{mso-style-priority:3;
+	mso-style-type:export-only;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:18.0pt;
+	margin-bottom:.0001pt;
+	mso-add-space:auto;
+	text-indent:-18.0pt;
+	mso-list:l1 level1 lfo2;
+	font-size:12.0pt;
+	font-family:Aptos;}
+p.MsoListParagraphCxSpMiddle, li.MsoListParagraphCxSpMiddle, =
+div.MsoListParagraphCxSpMiddle
+	{mso-style-priority:3;
+	mso-style-type:export-only;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:18.0pt;
+	margin-bottom:.0001pt;
+	mso-add-space:auto;
+	text-indent:-18.0pt;
+	mso-list:l1 level1 lfo2;
+	font-size:12.0pt;
+	font-family:Aptos;}
+p.MsoListParagraphCxSpLast, li.MsoListParagraphCxSpLast, =
+div.MsoListParagraphCxSpLast
+	{mso-style-priority:3;
+	mso-style-type:export-only;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:18.0pt;
+	margin-bottom:.0001pt;
+	mso-add-space:auto;
+	text-indent:-18.0pt;
+	mso-list:l1 level1 lfo2;
+	font-size:12.0pt;
+	font-family:Aptos;}
+p.Aufzhlung, li.Aufzhlung, div.Aufzhlung
+	{mso-style-name:Aufz\00E4hlung;
+	mso-style-priority:2;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:17.05pt;
+	margin-bottom:.0001pt;
+	mso-add-space:auto;
+	text-indent:-17.05pt;
+	mso-list:l0 level1 lfo3;
+	font-size:12.0pt;
+	font-family:Aptos;}
+p.AufzhlungCxSpFirst, li.AufzhlungCxSpFirst, div.AufzhlungCxSpFirst
+	{mso-style-name:Aufz\00E4hlungCxSpFirst;
+	mso-style-priority:2;
+	mso-style-type:export-only;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:17.05pt;
+	margin-bottom:.0001pt;
+	mso-add-space:auto;
+	text-indent:-17.05pt;
+	mso-list:l0 level1 lfo3;
+	font-size:12.0pt;
+	font-family:Aptos;}
+p.AufzhlungCxSpMiddle, li.AufzhlungCxSpMiddle, div.AufzhlungCxSpMiddle
+	{mso-style-name:Aufz\00E4hlungCxSpMiddle;
+	mso-style-priority:2;
+	mso-style-type:export-only;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:17.05pt;
+	margin-bottom:.0001pt;
+	mso-add-space:auto;
+	text-indent:-17.05pt;
+	mso-list:l0 level1 lfo3;
+	font-size:12.0pt;
+	font-family:Aptos;}
+p.AufzhlungCxSpLast, li.AufzhlungCxSpLast, div.AufzhlungCxSpLast
+	{mso-style-name:Aufz\00E4hlungCxSpLast;
+	mso-style-priority:2;
+	mso-style-type:export-only;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:17.05pt;
+	margin-bottom:.0001pt;
+	mso-add-space:auto;
+	text-indent:-17.05pt;
+	mso-list:l0 level1 lfo3;
+	font-size:12.0pt;
+	font-family:Aptos;}
+span.berschrift1Zchn
+	{mso-style-name:"\00DCberschrift 1 Zchn";
+	mso-style-priority:4;
+	mso-style-link:"\00DCberschrift 1";
+	font-family:"Arial",sans-serif;
+	font-weight:bold;}
+span.TextkrperZchn
+	{mso-style-name:"Textk\00F6rper Zchn";
+	mso-style-priority:99;
+	mso-style-link:Textk\00F6rper;}
+span.berschrift2Zchn
+	{mso-style-name:"\00DCberschrift 2 Zchn";
+	mso-style-priority:4;
+	mso-style-link:"\00DCberschrift 2";
+	font-family:"Arial",sans-serif;
+	mso-fareast-language:DE;
+	font-weight:bold;}
+span.berschrift3Zchn
+	{mso-style-name:"\00DCberschrift 3 Zchn";
+	mso-style-priority:4;
+	mso-style-link:"\00DCberschrift 3";
+	font-family:"Arial",sans-serif;
+	font-weight:bold;}
+span.TitelZchn
+	{mso-style-name:"Titel Zchn";
+	mso-style-priority:5;
+	mso-style-link:Titel;
+	font-family:"Arial",sans-serif;
+	font-weight:bold;}
+span.UntertitelZchn
+	{mso-style-name:"Untertitel Zchn";
+	mso-style-priority:5;
+	mso-style-link:Untertitel;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+span.E-Mail-SignaturZchn
+	{mso-style-name:"E-Mail-Signatur Zchn";
+	mso-style-priority:99;
+	mso-style-link:E-Mail-Signatur;}
+p.msonormal0, li.msonormal0, div.msonormal0
+	{mso-style-name:msonormal;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+span.E-MailFormatvorlage32
+	{mso-style-type:personal;
+	font-family:Aptos;
+	color:windowtext;}
+span.E-MailFormatvorlage33
+	{mso-style-type:personal-reply;
+	font-family:"Segoe UI",sans-serif;
+	color:#1F497D;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:70.85pt 70.85pt 2.0cm 70.85pt;}
+div.WordSection1
+	{page:WordSection1;}
+/* List Definitions */
+@list l0
+	{mso-list-id:1095396785;
+	mso-list-template-ids:-239936086;}
+@list l0:level1
+	{mso-level-number-format:bullet;
+	mso-level-style-link:Aufz\00E4hlung;
+	mso-level-text:\25CF;
+	mso-level-tab-stop:17.05pt;
+	mso-level-number-position:left;
+	margin-left:17.05pt;
+	text-indent:-17.05pt;
+	font-family:"Times New Roman",serif;
+	color:windowtext;}
+@list l0:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:\25CB;
+	mso-level-tab-stop:34.05pt;
+	mso-level-number-position:left;
+	margin-left:34.05pt;
+	text-indent:-17.0pt;
+	font-family:"Times New Roman",serif;
+	color:windowtext;}
+@list l0:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\25AA;
+	mso-level-tab-stop:51.05pt;
+	mso-level-number-position:left;
+	margin-left:51.05pt;
+	text-indent:-17.0pt;
+	font-family:"Times New Roman",serif;}
+@list l0:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\25AB;
+	mso-level-tab-stop:68.05pt;
+	mso-level-number-position:left;
+	margin-left:68.05pt;
+	text-indent:-17.0pt;
+	font-family:"Times New Roman",serif;}
+@list l0:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A8;
+	mso-level-tab-stop:64.5pt;
+	mso-level-number-position:left;
+	margin-left:64.5pt;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l0:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0D8;
+	mso-level-tab-stop:82.5pt;
+	mso-level-number-position:left;
+	margin-left:82.5pt;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l0:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:100.5pt;
+	mso-level-number-position:left;
+	margin-left:100.5pt;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l0:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:118.5pt;
+	mso-level-number-position:left;
+	margin-left:118.5pt;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l0:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A8;
+	mso-level-tab-stop:136.5pt;
+	mso-level-number-position:left;
+	margin-left:136.5pt;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l1
+	{mso-list-id:1565944447;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-1747693752 1020820960 134676483 134676485 =
+134676481 134676483 134676485 134676481 134676483 134676485;}
+@list l1:level1
+	{mso-level-style-link:Listenabsatz;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:18.0pt;
+	text-indent:-18.0pt;}
+@list l1:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:54.0pt;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l1:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:90.0pt;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l1:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:126.0pt;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l1:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:162.0pt;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l1:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:198.0pt;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l1:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:234.0pt;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l1:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:270.0pt;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l1:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:306.0pt;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]--></head><body lang=3DEN-US link=3Dblue =
+vlink=3Dpurple><div class=3DWordSection1><p class=3DMsoNormal><span =
+style=3D'font-size:11.0pt;font-family:"Segoe =
+UI",sans-serif;color:#1F497D'>Dear Edo,<o:p></o:p></span></p><p =
+class=3DMsoNormal><span style=3D'font-size:11.0pt;font-family:"Segoe =
+UI",sans-serif;color:#1F497D'><o:p>&nbsp;</o:p></span></p><p =
+class=3DMsoNormal><span style=3D'font-size:11.0pt;font-family:"Segoe =
+UI",sans-serif;color:#1F497D'>Regarding my time at Ashesi, I saw a lot =
+of motivation for learning. They all participated at least twice, and =
+many participated even more. We discussed the problems together =
+extensively, and they asked many questions, fostering a very enriching =
+discussion.<o:p></o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-size:11.0pt;font-family:"Segoe =
+UI",sans-serif;color:#1F497D'><o:p>&nbsp;</o:p></span></p><p =
+class=3DMsoNormal><span style=3D'font-size:11.0pt;font-family:"Segoe =
+UI",sans-serif;color:#1F497D'>They were motivated to explore other =
+methods to solve some problems and share them with others. That is why I =
+think everyone in the classroom deserves the maximum score for =
+participation.<o:p></o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-size:11.0pt;font-family:"Segoe =
+UI",sans-serif;color:#1F497D'><o:p>&nbsp;</o:p></span></p><p =
+class=3DMsoNormal><span style=3D'font-size:11.0pt;font-family:"Segoe =
+UI",sans-serif;color:#1F497D'>Kind regards,<o:p></o:p></span></p><p =
+class=3DMsoNormal><span style=3D'font-size:11.0pt;font-family:"Segoe =
+UI",sans-serif;color:#1F497D'>Andrea Gomero<o:p></o:p></span></p><p =
+class=3DMsoNormal><span lang=3DDE-CH =
+style=3D'font-size:11.0pt;font-family:"Segoe =
+UI",sans-serif;color:#1F497D'><o:p>&nbsp;</o:p></span></p><p =
+class=3DMsoNormal><span =
+lang=3DDE-CH><o:p>&nbsp;</o:p></span></p><div><div =
+style=3D'border:none;border-top:solid #E1E1E1 1.0pt;padding:3.0pt 0cm =
+0cm 0cm'><p class=3DMsoNormal><b><span lang=3DDE =
+style=3D'font-size:11.0pt;font-family:"Calibri",sans-serif'>Von:</span></=
+b><span lang=3DDE =
+style=3D'font-size:11.0pt;font-family:"Calibri",sans-serif'> Mazza =
+Edoardo &lt;mazza@imes.mavt.ethz.ch&gt; <br><b>Gesendet:</b> Montag, 26. =
+August 2024 05:52<br><b>An:</b> Gomero Soria, Andrea =
+&lt;Andrea.Gomero@empa.ch&gt;; Kromer Daniela &lt;dkromer@ethz.ch&gt;; =
+Acheampong Antwi Afari =
+&lt;aantwi@aucampus.onmicrosoft.com&gt;<br><b>Cc:</b> Hopf Raoul =
+&lt;hopf@imes.mavt.ethz.ch&gt;<br><b>Betreff:</b> Statics &amp; Solid =
+Mechanics: Midterm, Coding Exercise and =
+Participation<o:p></o:p></span></p></div></div><p =
+class=3DMsoNormal><o:p>&nbsp;</o:p></p><div><div =
+id=3Dms-outlook-mobile-signature><p class=3DMsoNormal><span =
+style=3D'font-size:11.0pt'>Dear Afari, <o:p></o:p></span></p><p =
+class=3DMsoNormal><span style=3D'font-size:11.0pt'>I hope all is well =
+with the preparation. Can you please send us the results of the midterm =
+as well as coding exercise for each student (in a excel =
+file)?<o:p></o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-size:11.0pt'>Andrea, Daniela: please let me have any your =
+input on the participation in class.<o:p></o:p></span></p><p =
+class=3DMsoNormal><span style=3D'font-size:11.0pt'>Regarding the final =
+exam: I will send the file to Afari and Nathan.<o:p></o:p></span></p><p =
+class=3DMsoNormal><span style=3D'font-size:11.0pt'>Thanks, kind =
+regards<o:p></o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-size:11.0pt'>Edo<o:p></o:p></span></p><p =
+class=3DMsoNormal><span =
+style=3D'font-size:11.0pt'><o:p>&nbsp;</o:p></span></p></div></div></div>=
+</body></html>
+------=_NextPart_001_0037_01DAF84E.F3DC2780--
+
+------=_NextPart_000_0036_01DAF84E.F3DC2780
+Content-Type: application/pkcs7-signature; name="smime.p7s"
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="smime.p7s"
+
+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
+rFV5gKn/TRo9m0XgizuUN6bzHcV7PZ3pbt4tYxpGg8ALKHpXy105LzBNW9oeWRqnBbVsSsrWklPR
+RwOnGroo0v5faPFU+iiUs7TRE/cRk+gzvNznXjNE5uj0DqH26BTQAJRs6kHLJF2NlcbxSgWk2J0v
+EhXAMn2czB2gWKoiQ4F32ul8Kd2v3c0lmdYhg/HjizANHrH4TalbZrReGRWY8P7nd3T7epFPOrte
+v9eT7dgPdAt0wvqWyURCAQO0L5EIfQIDAQABo4IBWTCCAVUwXAYIKwYBBQUHAQEEUDBOMEwGCCsG
+AQUFBzAChkBodHRwOi8vYWlhLnN3aXNzc2lnbi5jaC9haXItNGE3ZjE3ODgtMjZiNS00OGVjLWE1
+NDctYzFjZDBiZjE3YzNkMBIGA1UdEwEB/wQIMAYBAf8CAQAwHwYDVR0gBBgwFjAIBgYEAI96AQEw
+CgYIYIV0AVkCAQwwUQYDVR0fBEowSDBGoESgQoZAaHR0cDovL2NybC5zd2lzc3NpZ24uY2gvY2Rw
+LTNlZTU1ZmQ0LTU5MzgtNDFlZS04MmRiLTMyMjNhY2VmNWMyMzAdBgNVHSUEFjAUBggrBgEFBQcD
+AgYIKwYBBQUHAwQwDgYDVR0PAQH/BAQDAgEGMB0GA1UdDgQWBBTkvsdgp4KjGOhk/OIWUwWH1Grp
+jjAfBgNVHSMEGDAWgBTMLq2JjIPjQKMlaaXqkn3SNzrHxjANBgkqhkiG9w0BAQsFAAOCAgEAXi3O
+Cx9tsq/OIL0KOvp75Rl8ocdqjaQGPUBf1osAMuGJLXEFrfl+fAl9x4fTckJbNtG4ENY0jjHLgyk5
+1WO9XVzRKIvXy8O6FHEa0f30RUJLokvRGKIiIeRWZrm2/F9KdFqJ5XhszcMJ3aNZbG2LW726D95U
+9RBl2+THbFne3+3uEWfkFCqyqY7FrUHTvsXoOzzlMFbktZ8K4Ls1iDog2fwGrOolV9PxagP2EstW
+Lw31NTTEckpLI9DvH74YgoShnyskegna+z8VRPvuFRQcM6GIgzvn+LaKUFaWupN9IUSdk4UtojBx
+NKfhOHs8uHoqgoT9w/pSPjJ2hPtBxMi3YDDCHeB0kQ28ayajyKbXzfzkh1gRbx6abGm/SKJP4JiR
+vCGJPy8BsTKsKlQZRhlUsoU2vP7uQHo4pIBA53wW9lW+JsHwqGTYEpjwr7Y9fImhwbDRkgquMSSq
+ZCZy/6iGD0EgCfiSS75J2ync9QSsnge/8BSsYoYkNwOc+yndjdjyEuVSO8a1L253eLJCiPUtiR4W
+QcjI3e8eR5KrTvmoK0oFzdmQHcXumDjkVy6aepDAcwBleHdbtkKJ9Qx/zfGU8wCI8ST5oxRHtdKK
+eW0BgGpqxRCZxfWHAfXdCecL0UkkaEPjb5pcn7wKCEWbdB1WxjUOUYoXlFL5P9Tfz8TN3m4wggbm
+MIIEzqADAgECAhQXj0gnzLshemumkBLUY2hR8tsWLTANBgkqhkiG9w0BAQsFADBTMQswCQYDVQQG
+EwJDSDEVMBMGA1UEChMMU3dpc3NTaWduIEFHMS0wKwYDVQQDEyRTd2lzc1NpZ24gUlNBIFNNSU1F
+IE5DUCBJQ0EgMjAyMiAtIDEwHhcNMjQwNjE3MDk0ODU1WhcNMjYwNjE3MDk0ODU1WjCBvDELMAkG
+A1UEBhMCQ0gxCzAJBgNVBAgMAlpIMRIwEAYDVQQHDAlEdWJlbmRvcmYxLzAtBgNVBAoMJkVtcGEs
+IE1hdGVyaWFscyBTY2llbmNlIGFuZCBUZWNobm9sb2d5MQ4wDAYDVQRhDAVHT1ZDSDEtMCsGA1UE
+BRMkNjc4ZWI0ODYtNDNkMS00NDJkLWEwM2YtNjllNjg3MmE0ZWM4MRwwGgYDVQQDDBNBbmRyZWEg
+R29tZXJvIFNvcmlhMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA9xDGODbzCVC8AAcZ
+oVxWgSOVpZFfa1yM6tHq8FhMnzsbsx37TgrEPLWu6FKJ1kvCYuB6NGdRKOmgQACsz9BiUWr3eCNY
+7JJ11uwRM5FBWqv0stt+5pH+MBrJWDyY+kbNXyWIzO696J+q/2IZ/LoU/CBu+ofGZJDSatPY8VGX
+TPW/g8CvnhEuS0BJM6GNU5PVbAOiFmfHAmzvjONNshdUpmThhu3jHG5OxWGUKg08VPLhhBxb/iMF
+Jq1qNE62Q+wENTXkpw5ZqCQK6BrvFfqfrBxJklARpRP1UF8QzWTF3STXcJTnqFrr7z82YEEulKm3
+iDwp/y0QtapBQgM0iOlGdQIDAQABo4ICRjCCAkIwgbIGCCsGAQUFBwEBBIGlMIGiMEwGCCsGAQUF
+BzAChkBodHRwOi8vYWlhLnN3aXNzc2lnbi5jaC9haXItOWM4NjgxODctNmZjYS00MzEzLWFhNWIt
+Y2U1ZmVjODMxMzJmMFIGCCsGAQUFBzABhkZodHRwOi8vb2NzcC5zd2lzc3NpZ24uY2gvc2lnbi9v
+Y3MtYWFjY2NlZDUtNjZlOC00MDY5LTliMWItZmQyOWFiNzNlZmVjMHIGA1UdIARrMGkwCQYHZ4EM
+AQUDATAIBgYEAI96AQEwUgYIYIV0AVkCAQwwRjBEBggrBgEFBQcCARY4aHR0cHM6Ly9yZXBvc2l0
+b3J5LnN3aXNzc2lnbi5jb20vU3dpc3NTaWduX0NQU19TTUlNRS5wZGYwUQYDVR0fBEowSDBGoESg
+QoZAaHR0cDovL2NybC5zd2lzc3NpZ24uY2gvY2RwLTU2MzljZTg4LTVkYTktNDA4Zi1iMjVkLTY4
+NWQxZTNlMDIwYTATBgNVHSUEDDAKBggrBgEFBQcDBDAOBgNVHQ8BAf8EBAMCBaAwIAYDVR0RBBkw
+F4EVYW5kcmVhLmdvbWVyb0BlbXBhLmNoMB0GA1UdDgQWBBTmq/xxTtKCqg7Jv0Stl7ZsF6Fv/jAf
+BgNVHSMEGDAWgBTkvsdgp4KjGOhk/OIWUwWH1GrpjjA9BgkrBgEEAYI3FQcEMDAuBiYrBgEEAYI3
+FQiHy61k64JsgqjrJoafuEmEvJo4gRqB9JI/g9bOOwIBZAIBATANBgkqhkiG9w0BAQsFAAOCAgEA
+sqUmS+rPuSCR9bxcPKCmamPmZc/NUP9efPoVEfuWtRQrHqxHxqNkWeDupy49Exkwjkc7FCtVh9Wq
+EqfFqvjgSzMU8xfyFvvN/N8l6D3VdG8QFTOQYvXbzPOvZldz95ZJyac+V+I7fiN1EpFpaBsiEezc
+jJcq5X5Mihr4TLDlaPMWIHUAdPvOhKSRg8YsYu1ij1aTFqh6X/w1aHTzIxH8r7odww44QUQYFpWN
+TJtdC35gaV0L7Uc1CpYZVU+OwiYOfAiuveZKl/p9Fcu85+l8NFNTHLq/YkzN8JltBjt3QelG30VV
+cQjHLKLenqJr33uHQDp75jA9MvwuuXTLR0CAoHiR13dXD1h4i3Es7W4qaNFhZewZnzSZ9nrHbpuA
+OKF1hkfdUPKQcxJ19znbLppynjjzRgAaTAeqIMmP9I+50WU9K2KOXnobhc+i4vcsQzOPq/QMGgXT
+X2smJpVyRRULa7r2mrHI5smr0ObEFXWEZKOrS52ZS+aRXLcAj1qJ6tkGwB9kXrifZ0LxoJve/E5+
+VOcT7AGH2VcL+Fp4BMwEvMxrvqzrPUvLa0CgvqnwpE1y+QXsU4/LtByWW+a7FtAYqH0DjNw8VDX0
+bD4q/KsRftnDcubaWfW99yNcfqVux77nOZ+ojXG9XocUxcCPZUAz4XvA0C9b5Up5+Iq1i0135EQx
+ggODMIIDfwIBATBrMFMxCzAJBgNVBAYTAkNIMRUwEwYDVQQKEwxTd2lzc1NpZ24gQUcxLTArBgNV
+BAMTJFN3aXNzU2lnbiBSU0EgU01JTUUgTkNQIElDQSAyMDIyIC0gMQIUF49IJ8y7IXprppAS1GNo
+UfLbFi0wCQYFKw4DAhoFAKCCAe0wGAYJKoZIhvcNAQkDMQsGCSqGSIb3DQEHATAcBgkqhkiG9w0B
+CQUxDxcNMjQwODI3MDcwMTM0WjAjBgkqhkiG9w0BCQQxFgQUhz/yW9zKu33THyr06ibMAYPrtSUw
+egYJKwYBBAGCNxAEMW0wazBTMQswCQYDVQQGEwJDSDEVMBMGA1UEChMMU3dpc3NTaWduIEFHMS0w
+KwYDVQQDEyRTd2lzc1NpZ24gUlNBIFNNSU1FIE5DUCBJQ0EgMjAyMiAtIDECFBePSCfMuyF6a6aQ
+EtRjaFHy2xYtMHwGCyqGSIb3DQEJEAILMW2gazBTMQswCQYDVQQGEwJDSDEVMBMGA1UEChMMU3dp
+c3NTaWduIEFHMS0wKwYDVQQDEyRTd2lzc1NpZ24gUlNBIFNNSU1FIE5DUCBJQ0EgMjAyMiAtIDEC
+FBePSCfMuyF6a6aQEtRjaFHy2xYtMIGTBgkqhkiG9w0BCQ8xgYUwgYIwCwYJYIZIAWUDBAEqMAsG
+CWCGSAFlAwQBFjAKBggqhkiG9w0DBzALBglghkgBZQMEAQIwDgYIKoZIhvcNAwICAgCAMA0GCCqG
+SIb3DQMCAgFAMAcGBSsOAwIaMAsGCWCGSAFlAwQCAzALBglghkgBZQMEAgIwCwYJYIZIAWUDBAIB
+MA0GCSqGSIb3DQEBAQUABIIBAMBoKGpcAJnMAlssHEL/7tpBRyA6SJsm/P5lH2fbGg4WMHEsO9P+
+xKGI3ZpWQLeq8U6D4Td19/H2QCW2aamhSVywOIxHHxyvtifIRBFapLi3eEj3uSLAgktfH0kmmT8B
+WzaColgjAcuT8Lx28gydsHhC9lDg4DjAV3YeG0ddJTgkYXS3RI0uKVMsojfIHq7Zw1ie21qyLhSS
+PdOXA0lVsI0FbPGX+Sj2/iGBjLvPYGedzBtsqDp1cK8bIW5rxTRa00gtU8Qu1Who7doqig80QX58
+SWLev1mtH+xicDAXrMryeUBkTxdQlKWqd3t4xQJKq9nNav9nr0YtHJrX/HsmGtYAAAAAAAA=
+
+------=_NextPart_000_0036_01DAF84E.F3DC2780--

@@ -1,0 +1,424 @@
+Received: from mailm117.d.ethz.ch (2001:67c:10ec:5602::29) by
+ mailm115.d.ethz.ch (2001:67c:10ec:5602::27) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256) id
+ 15.1.2507.39 via Mailbox Transport; Mon, 2 Sep 2024 09:36:18 +0200
+Received: from mailm111.d.ethz.ch (2001:67c:10ec:5602::23) by
+ mailm117.d.ethz.ch (2001:67c:10ec:5602::29) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256) id
+ 15.1.2507.39; Mon, 2 Sep 2024 09:36:18 +0200
+Received: from mailg110.ethz.ch (2001:67c:10ec:5605::21) by mailm111.d.ethz.ch
+ (2001:67c:10ec:5602::23) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256) id 15.1.2507.39 via Frontend
+ Transport; Mon, 2 Sep 2024 09:36:18 +0200
+Received: from ethz.ch (129.132.162.68) by mailg110.ethz.ch (129.132.162.66)
+ with Microsoft SMTP Server id 15.1.2507.39; Mon, 2 Sep 2024 09:36:19 +0200
+Received: from mail-switzerlandnorthazon11021124.outbound.protection.outlook.com ([40.107.167.124] helo=ZRZP278CU001.outbound.protection.outlook.com)
+	by ethz.ch stage1 with esmtps 
+	(Exim MailCleaner) 
+	id 1sl1bW-00000000CL9-2O0n 
+	for <hopf@imes.mavt.ethz.ch> 
+	from <david.sachs@citus-ag.com>;
+	Mon, 02 Sep 2024 09:36:02 +0200
+X-MailCleaner-SPF: pass
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector10001; d=microsoft.com; cv=none;
+ b=BEEuDoMo700VuYKlEP3T1/I/OQuSbdzF2Zy/rZFoqPp3BBeEgYroaiiEqMA/IjhUg1CJgycnOZlCCcj+Hj2BmCcqAMXeQQgxDYzfn5Ky85Z4aKRxebV1ZMn0HMhOEEUzOhEBrQfvvm1JTYeuKBrRsMlsZ8rf5o7bD2N9Iim0HuvbPPiYQMht1324QRGfJxNdMk9+IV46OfS/DR4ZRY3kE7TrAkws2edhbeRJdec3/ZeJuxqIv43sr4/ernQO43Rs3yxrjvJzPI8rbD04fWStHw101VPk2uuhMcX5lI3Sa2UVAx/QdJ5YqkDhGJJZa7TYmno9Zj1C+9bOzv83we58mw==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector10001;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=fegW1+yqx3Je47QdEnIeE0rKg7lo2ltfXc9NGxFd3GY=;
+ b=ev2JuUvw5IS4H68Td9Nr1zncvrOlB2gvykUy3fGv54mdONqx6/DPs24yVUxW1XlO98H/T9OUw0mZM6itU1boWdX58qFx3sw+j2RaeocUZkAYtpsfVyynU0j6OLc863LLuVjDyVmexoy/+nrxC0aF5TTcwcRgBZ6X2c31C9ud6ZCOW/gaKScUQ6i64V9+2tepvBmIgog1/Ur3Qx9ipPizfXji3VgRElU0zF/TTwSdc8Cc0segCx2pXAFiLZOXFUF3AhouI+Tx6QZgMLHVl92NnWU7pv8KvDcLBPKKiVshDuyBZUEdq/yzU5h4/+2hmRX9fA9ssizIl+DwaZgR5sRMJQ==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=pass
+ smtp.mailfrom=citus-ag.com; dmarc=pass action=none header.from=citus-ag.com;
+ dkim=pass header.d=citus-ag.com; arc=none
+Received: from GVAP278MB0709.CHEP278.PROD.OUTLOOK.COM (2603:10a6:710:48::13)
+ by ZR1P278MB1641.CHEP278.PROD.OUTLOOK.COM (2603:10a6:910:a6::11) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.7918.24; Mon, 2 Sep
+ 2024 07:36:00 +0000
+Received: from GVAP278MB0709.CHEP278.PROD.OUTLOOK.COM
+ ([fe80::dab8:78f2:5fd6:485a]) by GVAP278MB0709.CHEP278.PROD.OUTLOOK.COM
+ ([fe80::dab8:78f2:5fd6:485a%7]) with mapi id 15.20.7918.024; Mon, 2 Sep 2024
+ 07:35:59 +0000
+From: David Sachs <david.sachs@citus-ag.com>
+To: "Hopf  Raoul" <hopf@imes.mavt.ethz.ch>
+Subject: Simulationen
+Thread-Topic: Simulationen
+Thread-Index: Adr9Cnp/Az1QX5R8Q1WLZdQlwnklfg==
+Date: Mon, 2 Sep 2024 07:35:58 +0000
+Message-ID: <GVAP278MB07096B80A1F56E2B3D001CCDDC922@GVAP278MB0709.CHEP278.PROD.OUTLOOK.COM>
+Accept-Language: de-CH, de-DE, en-US
+Content-Language: de-DE
+X-MS-Has-Attach: yes
+X-MS-TNEF-Correlator:
+authentication-results: dkim=none (message not signed)
+ header.d=none;dmarc=none action=none header.from=citus-ag.com;
+x-ms-publictraffictype: Email
+x-ms-traffictypediagnostic: GVAP278MB0709:EE_|ZR1P278MB1641:EE_
+x-ms-office365-filtering-correlation-id: 396ca424-bf6b-46a7-b7b9-08dccb21e385
+x-ms-exchange-senderadcheck: 1
+x-ms-exchange-antispam-relay: 0
+x-microsoft-antispam: BCL:0;ARA:13230040|376014|1800799024|366016|38070700018;
+x-microsoft-antispam-message-info: =?iso-8859-1?Q?Xm2EmQ1z5D7ar6sKZNYSnCtnz2KTrqLZ0LTvf9nVtrQLtHn/9Nj+oj/emJ?=
+ =?iso-8859-1?Q?vv/B77bWzcj1dph4dYhqIgPfzNPsnvySSwgwWE5XbXuSwZGjkPiE0D/jRF?=
+ =?iso-8859-1?Q?iArHGsBwkpqqZPdXugSx8BYducwF9RPDRyKWTrl4YtJ9CW07S4QQ7I2uJZ?=
+ =?iso-8859-1?Q?HUtydcckaHK3wXQDLKWV7EDMPtV/HXiaZLk8toQC4Z8LKMee1QWT9A8Shr?=
+ =?iso-8859-1?Q?4yiYuX9yIXLpVZl2aQpSJu2/pKjlGd2Vp6uQqfU34FYXYAgE2t3NH3DMEq?=
+ =?iso-8859-1?Q?WJO1bYdcCCpCMsvaOWlpSkKEalhuMevi2giTEG51x5/r1KoIUUx3WMgLJu?=
+ =?iso-8859-1?Q?WxTgbdUXC0Jt4AiG6Iyx+OmV0VMxpynSUYkxtzPtGF2XiMx1KYT/QS2Lh/?=
+ =?iso-8859-1?Q?h+HM5zKENiKxUzIOyyvzxploPCmh3GK4JrVfuVb391VSj0ooFQSwCmZyOH?=
+ =?iso-8859-1?Q?zPbanBfHHHaNVhMDOl2sPOaaPbUx8GOh0DmTvJ7Z+l75SiWBt9x12OeDmr?=
+ =?iso-8859-1?Q?a+Ql36nzoJPBrLj0NBdq6BWq/zzq+FOrWKF6558UAA0gwfgxgAKkjiyh36?=
+ =?iso-8859-1?Q?9jzK1prd5NzgxDAC6m9iyk3pxV7FNWtQCH8sWbw5zAUIXODfP9U0cKev7Q?=
+ =?iso-8859-1?Q?xkimoity8C9aRQOQ74fo2BeepZnb4B/whBX0QxO8rfpTatZNckZ8UWkPvY?=
+ =?iso-8859-1?Q?hw3ljcD7WpMp5qPO7i4CRdq/WCKQI0gnHoro2R75RVom51T64u2HWZr4D1?=
+ =?iso-8859-1?Q?rNn9YQAGrZnGn6REJJDP3M6UrSb98PGDMXklQUX0X044q+drizGvi6sEbu?=
+ =?iso-8859-1?Q?M8UJ+H9cwFabJlYcJccgAb3AAEWRgUdMRfIqy3ZlcQ3ie4r3f9gDJKpmeP?=
+ =?iso-8859-1?Q?5OKjbCLXJp2cPLUazEcmCP50G3A5BWBM9TdsMpGc8CDGqg2pdBZOgcMbcB?=
+ =?iso-8859-1?Q?xXxVQYv3mPYaPDbAJHRGmZX7MhahfgTk6KuhW0XrCrsxslZLQicd1/d8jF?=
+ =?iso-8859-1?Q?KcnZDseOPmAKpdVRhoNghfgmaTg0xrIs1wyDb0YvBHZ7U/+2fooj4u+puW?=
+ =?iso-8859-1?Q?Clhka0Cd22dxzSN2Q985kMiqHVramPEW2YgHVTvr0BZWu/dOUIMe5eAcKW?=
+ =?iso-8859-1?Q?qgcJjv5kfr74dlfv1hFeCG1kpci6fT6xqfIKe8vIYxcplMyas69HQEVtsf?=
+ =?iso-8859-1?Q?gKFxtHDiXysOaiD2nUiAAY3Y5naQsZ1jmjL/PHVTX++cS6n3JWtCAOqql0?=
+ =?iso-8859-1?Q?UFbdBxB0EibKj0dB10HSf9mJ/ORBTjS3t10cr5x+dKV0u6mhpy/eneJbJO?=
+ =?iso-8859-1?Q?kkjyFWl+o5rw2FRuiMkl6Gmr/oggcTfEtId1vq/vsVAXFx8qVLb6n9q6cx?=
+ =?iso-8859-1?Q?9uJqCBFjj1xNzKBOTzwLxl7IiQBW88Kiuaa3ePaDlpUyHlOtf6LCbHVbXH?=
+ =?iso-8859-1?Q?3THt1tsoZLSNfo3QbnQA9Q3DmAC8ZeEA9LMVPQ=3D=3D?=
+x-forefront-antispam-report: CIP:255.255.255.255;CTRY:;LANG:en;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:GVAP278MB0709.CHEP278.PROD.OUTLOOK.COM;PTR:;CAT:NONE;SFS:(13230040)(376014)(1800799024)(366016)(38070700018);DIR:OUT;SFP:1102;
+x-ms-exchange-antispam-messagedata-chunkcount: 1
+x-ms-exchange-antispam-messagedata-0: =?iso-8859-1?Q?fJ0EjvqMnA3tN/vkVpkruA6DryCtgDi4vhbnZll4a5RgVEjMTGt8n6EWbv?=
+ =?iso-8859-1?Q?/nVfhhpVdYzbxjf5eGqbxhX5W9eruo42TSQTeJOwBOTwR32lPFuNchEsFB?=
+ =?iso-8859-1?Q?XpRAI/z/S0H4QTyNOCvyngfS6VG4FMckdgqT5r9oDHszC/kyrKOVlcmmvY?=
+ =?iso-8859-1?Q?bRrvcGYeG2rLxaYg31efpHZ2X+HBnnfUKfpJWiBd6VsO4Aj4mPzXoTs4Jf?=
+ =?iso-8859-1?Q?iwOyfJvFiv5ND7HeTq+sH/4NYE2EY6NweA1/Ictyr36KqV5dY62kXYWr5J?=
+ =?iso-8859-1?Q?7/pf13R31iyCzLoUbe+bnKPjejNQPQhZh2a4E3wNU+qJ2yGpyn9HBfSXiJ?=
+ =?iso-8859-1?Q?eA/x5WmHYvkYyJ+1Qkwa0hSZebQpm8Z0vog8a2BC1v5IfDSzN2IXXpXBbK?=
+ =?iso-8859-1?Q?NuW6BchQk1xt0Ah4bbS93IgGqsufvUSq+tkIbbd+M90GVqgYB5TmLhlF1O?=
+ =?iso-8859-1?Q?jv3GCGptYxRAFGDMDyx4FiYWCuYyvZqTeRuHJchajIxfzCtVeRxOlQsag2?=
+ =?iso-8859-1?Q?7C2EereVy+HEZyHvMz0KWi1fPPbeWK8/qWqmVRCWvcRE2lqw4KEcMFRZ5D?=
+ =?iso-8859-1?Q?g0BicnYDWwR6ZuR7dDXF8KpwD8B/G9Ka8m826ACMFUZAGD/c9zQHf/M9MW?=
+ =?iso-8859-1?Q?9Xx2OYVzXZgTRXYh2cu4h1hNqkbSebVrbwfT0mmuexXNDb2ChaIzXBNN6Z?=
+ =?iso-8859-1?Q?8x8H7VNuUTVjqaU6XyposzQEjEpgRWISySA2mLmSTJ1Ffc462ik+22mW4n?=
+ =?iso-8859-1?Q?/qXKAZTfL/6a/uZ5UXwCiB814JziWnEvxA9N+rbAT3SAuPealkhcX6Fczc?=
+ =?iso-8859-1?Q?3ChG9U58aP08QjagJtBoFg0/f1/3g2fMZfX4NfP6NA7khGv+DsOfl0969y?=
+ =?iso-8859-1?Q?oeT2aSL4W4vzLL3FW8ov6BPikXJoBoEMOwaSzqcIdWd1CRal827cPU1GEQ?=
+ =?iso-8859-1?Q?I34GHVUerAefbgeTrrxFSylVWLSjwBzKR9Fe3KW61n1oOqk05V6h+Hi9J5?=
+ =?iso-8859-1?Q?pAsi8DBbm5kgoc4vhnAbZkFNBTX2IdrI6ZKupovkV2K/0O79+gsXomn0ir?=
+ =?iso-8859-1?Q?9ITfwhRHneIxuyjx9q53GBRzr46VzODNs8E3cM0z8bLI+Lh5oHgYs1wpqs?=
+ =?iso-8859-1?Q?2AGGCdDA9DlFPa76tM1X0c0QZEkyh645NwfLywexNhvnAxJzTy1/cwI4p8?=
+ =?iso-8859-1?Q?nQ/VTkSDxp2ei/WvfREiiqxYUOumQ8Uzq7iSOGZyRCKVb0QQKmS2u/5zgC?=
+ =?iso-8859-1?Q?AKOdXL3ZPKyy8cO5o4dEMGXCjxrCdMlRgwvMhUn/dL4GP9hFwRiZTCK4mP?=
+ =?iso-8859-1?Q?QVExRq2wGg/v1wNnurUIlOryMoXDTHDlnn8KKGpnhzO28irHpSvIwq4kfy?=
+ =?iso-8859-1?Q?QEAdU5fkM32pQzsTLEKbBj5FWQJQgPNblNOLU7etYP28U+0mQ8st5A+ACx?=
+ =?iso-8859-1?Q?uD8jq9nEQcJve2HO2/mOjeQINFEdav9/o1vLq+aqUwzSG404zqWvpG7H74?=
+ =?iso-8859-1?Q?SR5F/CvYOInrcoHw0BbnCg4pSM3Gyk0CcFfDEFzNKhewPtNZGi5Wm8z/55?=
+ =?iso-8859-1?Q?Zf6IRWXb/qOgYfoNBwOQAmKNpEhB9fn5PYdGiJm0NwrOf/SpNjW420AgQZ?=
+ =?iso-8859-1?Q?KFI9ix/S4ZOEcQAFIuVRG0wfFLjCIjDcvC?=
+Content-Type: multipart/related;
+	boundary="_004_GVAP278MB07096B80A1F56E2B3D001CCDDC922GVAP278MB0709CHEP_";
+	type="multipart/alternative"
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-AuthSource: GVAP278MB0709.CHEP278.PROD.OUTLOOK.COM
+X-MS-Exchange-CrossTenant-Network-Message-Id: 396ca424-bf6b-46a7-b7b9-08dccb21e385
+X-MS-Exchange-CrossTenant-originalarrivaltime: 02 Sep 2024 07:35:59.0962
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: 70b3b4c8-09d8-406b-9aac-4339a00932fa
+X-MS-Exchange-CrossTenant-mailboxtype: HOSTED
+X-MS-Exchange-CrossTenant-userprincipalname: IEA3EQYRoeiJEL8TXOfDGydwwQwdnoLfM0GpOmDBaqv0eyLcEUba1FpnPqs1IC3B1uVWlF+njA/IJIQHwNPBLhnuvLtxBCjTSu1vCwEX1Dk=
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: ZR1P278MB1641
+X-Newsl: is not newsletter (0.0/5.0) position : 0, not decisive
+X-MailCleaner-MachineLearning0: is not spam (51.051515340805054%) (200728-ALL-10L) (en)
+X-MailCleaner-MachineLearning1: is not spam (81.32961988449097%) (200728-ALL-50S) (en)
+X-NiceBayes: is not spam (31.3%) position : 3, not decisive
+X-Spamc: is not spam (-3.7/5.0) position : 7, ham decisive
+X-MailCleaner-Information: Please contact servicedesk@id.ethz.ch for more information
+X-MailCleaner-ID: 1sl1bW-00000000CLH-2jHP
+X-MailCleaner: Found to be clean
+X-MailCleaner-SpamCheck: not spam, Newsl (score=0.0, required=5.0, NONE,
+	position : 0, not decisive), MachineLearning (51.051515340805054% en,
+	position : 2, not decisive), MachineLearning (81.32961988449097% en,
+	position : 2, not decisive), NiceBayes (31.3%, position : 3,
+	not decisive), Spamc (score=-3.7, required=5.0,
+	RCVD_IN_MSPIKE_H2 -0.0, BAYES_20 -0.0, HTML_MESSAGE 0.0,
+	RCVD_IN_RP_RNBL 1.3, MC_SPF_PASS -0.0, MC_CLIENT_CERT_VALID 0.0,
+	RCVD_IN_RP_SAFE -2.0, URIBL_BLOCKED 0.0, RCVD_IN_RP_CERTIFIED -3.0,
+	position : 7, ham decisive)
+X-MailCleaner-ReportURL: https://mailcleaner.ethz.ch/rs.php
+Return-Path: david.sachs@citus-ag.com
+X-MS-Exchange-Organization-Network-Message-Id: 327ef2e5-c24b-4d71-b369-08dccb21efbd
+X-MS-Exchange-Organization-AVStamp-Mailbox: SMEXJnq?;1956500;0;This mail has
+ been scanned by Trend Micro ScanMail for Microsoft Exchange;
+X-MS-Exchange-Organization-SCL: 0
+X-MS-Exchange-Organization-AuthSource: mailg110.ethz.ch
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Exchange-Processed-By-BccFoldering: 15.01.2507.039
+MIME-Version: 1.0
+
+--_004_GVAP278MB07096B80A1F56E2B3D001CCDDC922GVAP278MB0709CHEP_
+Content-Type: multipart/alternative;
+	boundary="_000_GVAP278MB07096B80A1F56E2B3D001CCDDC922GVAP278MB0709CHEP_"
+
+--_000_GVAP278MB07096B80A1F56E2B3D001CCDDC922GVAP278MB0709CHEP_
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+Hi Raoul,
+
+Ich habe jetzt alle Simulationen in einen Ordner =ABF:\dsachs\ModelGelContr=
+action=BB getan.
+
+Hast du heute oder morgen 20 min Zeit. Dann kann ich dir eine kleine Einf=
+=FChrung dazu geben. Ich bin am Mittwoch f=FCr die restliche Woche unterweg=
+s.
+
+Viele Gr=FCsse
+
+David
+
+
+David Sachs
+CTO and Co-Founder
+david.sachs@citus-ag.com<mailto:david.sachs@citus-ag.com>
++41 78 320 28 80
+[Image]
+
+Citus AG
+c/o EMPA
+=DCberlandstrasse 129
+CH - 8600 D=FCbendorf
+This e-mail and any attachments are confidential and intended solely for th=
+e addressees.
+If you receive this message in error, please delete the e-mail and do not d=
+isclose its contents to any person.
+Immediately notify the sender. If the reader of this message is not the int=
+ended recipient, you are hereby notified that any unauthorized use, copying=
+ or dissemination is prohibited.
+
+
+--_000_GVAP278MB07096B80A1F56E2B3D001CCDDC922GVAP278MB0709CHEP_
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-micr=
+osoft-com:office:office" xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" xmlns=3D"http:=
+//www.w3.org/TR/REC-html40"><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-=
+1">
+<meta name=3D"Generator" content=3D"Microsoft Word 15 (filtered medium)">
+<!--[if !mso]><style>v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style><![endif]--><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:Helvetica;
+	panose-1:2 11 6 4 2 2 2 2 2 4;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Aptos;}
+@font-face
+	{font-family:Rubik-SemiBold;}
+@font-face
+	{font-family:Rubik-Italic;}
+@font-face
+	{font-family:Rubik-Regular;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	font-size:12.0pt;
+	font-family:"Aptos",sans-serif;
+	mso-ligatures:standardcontextual;
+	mso-fareast-language:EN-US;}
+span.E-MailFormatvorlage17
+	{mso-style-type:personal-compose;
+	font-family:"Aptos",sans-serif;
+	color:windowtext;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	mso-fareast-language:EN-US;}
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:70.85pt 70.85pt 2.0cm 70.85pt;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang=3D"DE-CH" link=3D"#467886" vlink=3D"#96607D" style=3D"word-wrap:=
+break-word">
+<div class=3D"WordSection1">
+<p class=3D"MsoNormal"><span lang=3D"EN-US">Hi Raoul,<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal">Ich habe jetzt alle Simulationen in einen Ordner =AB=
+F:\dsachs\ModelGelContraction=BB getan.<o:p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal">Hast du heute oder morgen 20 min Zeit. Dann kann ich=
+ dir eine kleine Einf=FChrung dazu geben. Ich bin am Mittwoch f=FCr die res=
+tliche Woche unterwegs.<o:p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal">Viele Gr=FCsse<o:p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal">David<o:p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal"><span style=3D"mso-ligatures:none;mso-fareast-langua=
+ge:DE-CH"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal"><b><span lang=3D"EN-US" style=3D"font-size:9.0pt;fon=
+t-family:Rubik-SemiBold;color:black;mso-fareast-language:DE">David Sachs</s=
+pan></b><span lang=3D"EN-US" style=3D"font-size:9.0pt;font-family:&quot;Hel=
+vetica&quot;,sans-serif;color:black;mso-fareast-language:DE"><br>
+</span><i><span lang=3D"EN-US" style=3D"font-size:9.0pt;font-family:Rubik-I=
+talic;color:black;mso-fareast-language:DE">CTO and Co-Founder</span></i><sp=
+an lang=3D"EN-US" style=3D"font-size:9.0pt;font-family:&quot;Helvetica&quot=
+;,sans-serif;color:black;mso-fareast-language:DE"><br>
+</span><span style=3D"mso-fareast-language:DE-CH"><a href=3D"mailto:david.s=
+achs@citus-ag.com"><span lang=3D"EN-US" style=3D"font-size:9.0pt;font-famil=
+y:&quot;Helvetica&quot;,sans-serif;color:blue;mso-fareast-language:DE">davi=
+d.sachs@citus-ag.com</span></a></span><span lang=3D"EN-US" style=3D"font-si=
+ze:9.0pt;font-family:&quot;Helvetica&quot;,sans-serif;color:black;mso-farea=
+st-language:DE"><br>
+</span><span lang=3D"EN-US" style=3D"mso-fareast-language:DE-CH">&#43;41 78=
+ 320 28 80</span><span lang=3D"EN-US" style=3D"font-size:9.0pt;font-family:=
+&quot;Helvetica&quot;,sans-serif;color:black;mso-fareast-language:DE"><o:p>=
+</o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"color:#212121;mso-fareast-language:DE=
+"><img border=3D"0" width=3D"137" height=3D"31" style=3D"width:1.427in;heig=
+ht:.3177in" id=3D"Bild_x0020_1" src=3D"cid:image001.png@01DAFD1B.862580C0" =
+alt=3D"Image"></span><span lang=3D"EN-US" style=3D"color:#212121;mso-fareas=
+t-language:DE"><br>
+<br>
+<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><b><span lang=3D"EN-US" style=3D"font-size:9.0pt;fon=
+t-family:Rubik-SemiBold;color:black;mso-fareast-language:DE">Citus AG</span=
+></b><span lang=3D"EN-US" style=3D"font-size:9.0pt;font-family:&quot;Helvet=
+ica&quot;,sans-serif;color:black;mso-fareast-language:DE"><br>
+</span><span lang=3D"EN-US" style=3D"font-size:9.0pt;font-family:Rubik-Regu=
+lar;color:black;mso-fareast-language:DE">c/o EMPA</span><span lang=3D"EN-US=
+" style=3D"font-size:9.0pt;font-family:&quot;Helvetica&quot;,sans-serif;col=
+or:black;mso-fareast-language:DE"><br>
+</span><span lang=3D"EN-US" style=3D"font-size:9.0pt;font-family:Rubik-Regu=
+lar;color:black;mso-fareast-language:DE">=DCberlandstrasse 129</span><span =
+lang=3D"EN-US" style=3D"font-size:9.0pt;font-family:&quot;Helvetica&quot;,s=
+ans-serif;color:black;mso-fareast-language:DE"><br>
+</span><span lang=3D"EN-US" style=3D"font-size:9.0pt;font-family:Rubik-Regu=
+lar;color:black;mso-fareast-language:DE">CH - 8600 D=FCbendorf</span><span =
+lang=3D"EN-US" style=3D"font-size:9.0pt;font-family:&quot;Helvetica&quot;,s=
+ans-serif;color:black;mso-fareast-language:DE"><br>
+</span><span lang=3D"EN-US" style=3D"font-size:6.0pt;font-family:Rubik-Regu=
+lar;color:black;mso-fareast-language:DE">This e-mail and any attachments ar=
+e confidential and intended solely for the addressees.&nbsp;</span><span la=
+ng=3D"EN-US" style=3D"font-size:9.0pt;font-family:&quot;Helvetica&quot;,san=
+s-serif;color:black;mso-fareast-language:DE"><br>
+</span><span lang=3D"EN-US" style=3D"font-size:6.0pt;font-family:Rubik-Regu=
+lar;color:black;mso-fareast-language:DE">If you receive this message in err=
+or, please delete the e-mail and do not disclose its contents to any person=
+.&nbsp;</span><span lang=3D"EN-US" style=3D"font-size:9.0pt;font-family:&qu=
+ot;Helvetica&quot;,sans-serif;color:black;mso-fareast-language:DE"><br>
+</span><span lang=3D"EN-US" style=3D"font-size:6.0pt;font-family:Rubik-Regu=
+lar;color:black;mso-fareast-language:DE">Immediately notify the sender. If =
+the reader of this message is not the intended recipient, you are hereby no=
+tified that any unauthorized use, copying
+ or dissemination is prohibited.&nbsp;</span><span lang=3D"EN-US" style=3D"=
+font-size:9.0pt;font-family:&quot;Helvetica&quot;,sans-serif;color:black;ms=
+o-fareast-language:DE"><o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US"><o:p>&nbsp;</o:p></span></p>
+</div>
+</body>
+</html>
+
+--_000_GVAP278MB07096B80A1F56E2B3D001CCDDC922GVAP278MB0709CHEP_--
+
+--_004_GVAP278MB07096B80A1F56E2B3D001CCDDC922GVAP278MB0709CHEP_
+Content-Type: image/png; name="image001.png"
+Content-Description: image001.png
+Content-Disposition: inline; filename="image001.png"; size=4280;
+	creation-date="Mon, 02 Sep 2024 07:35:58 GMT";
+	modification-date="Mon, 02 Sep 2024 07:35:58 GMT"
+Content-ID: <image001.png@01DAFD1B.862580C0>
+Content-Transfer-Encoding: base64
+
+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
+RK5CYII=
+
+--_004_GVAP278MB07096B80A1F56E2B3D001CCDDC922GVAP278MB0709CHEP_--

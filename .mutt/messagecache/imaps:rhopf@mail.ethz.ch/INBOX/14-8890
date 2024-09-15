@@ -1,0 +1,171 @@
+Received: from MBX10.d.ethz.ch ([169.254.1.14]) by CAS12.d.ethz.ch
+ ([fe80::7861:4ecb:7c42:cad4%10]) with mapi id 14.01.0339.001; Thu, 22 Sep
+ 2011 09:04:59 +0200
+From: "Kaufmann  Stephan" <kaufmann@imes.mavt.ethz.ch>
+To: "Hopf  Raoul" <hopf@imes.mavt.ethz.ch>
+Subject: =?iso-8859-1?Q?RE:_Passwortschutz_f=FCr_Homepage?=
+Thread-Topic: =?iso-8859-1?Q?Passwortschutz_f=FCr_Homepage?=
+Thread-Index: Acx4aQSxjlkls7t8Qtqvug0tT2kKogAixJiA
+X-MS-Exchange-MessageSentRepresentingType: 1
+Date: Thu, 22 Sep 2011 09:04:58 +0200
+Message-ID: <193960ECBB21594FB10C5F5B4F9FB54F0FF3F965@MBX10.d.ethz.ch>
+References: <4074476F6FE9EF4DBCC2D0ADEA25FCA40B7CDE@MBX12.d.ethz.ch>
+In-Reply-To: <4074476F6FE9EF4DBCC2D0ADEA25FCA40B7CDE@MBX12.d.ethz.ch>
+Accept-Language: en-US, de-CH
+Content-Language: en-US
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-AuthSource: CAS12.d.ethz.ch
+X-MS-Has-Attach: yes
+X-MS-Exchange-Organization-SCL: -1
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+Content-Type: multipart/mixed;
+	boundary="_002_193960ECBB21594FB10C5F5B4F9FB54F0FF3F965MBX10dethzch_"
+MIME-Version: 1.0
+
+--_002_193960ECBB21594FB10C5F5B4F9FB54F0FF3F965MBX10dethzch_
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-micr=
+osoft-com:office:office" xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" xmlns=3D"http:=
+//www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-=
+1">
+<meta name=3D"Generator" content=3D"Microsoft Word 14 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:purple;
+	text-decoration:underline;}
+span.EmailStyle17
+	{mso-style-type:personal;
+	font-family:"Calibri","sans-serif";
+	color:windowtext;}
+span.EmailStyle18
+	{mso-style-type:personal-reply;
+	font-family:"Calibri","sans-serif";
+	color:#1F497D;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:70.85pt 70.85pt 56.7pt 70.85pt;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang=3D"DE-CH" link=3D"blue" vlink=3D"purple">
+<div class=3D"WordSection1">
+<p class=3D"MsoNormal"><span style=3D"color:#1F497D">Wenn du das beiliegend=
+e acl-File in das zu sch=FCtzende Verzeichnis legst, so ist der =FCbliche P=
+asswortschutz f=FCr unsere =DCbungsdaten aktiviert (Login: student, Passwor=
+t: mech-2).<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"color:#1F497D"><o:p>&nbsp;</o:p></spa=
+n></p>
+<p class=3D"MsoNormal"><span style=3D"color:#1F497D">Normalerweise w=E4re e=
+s das Unterverzeichnis _private\hidden. In MSA hat es noch das Verzeichnis =
+&#8222;transfer&#8220;, welches wohl auch zu sch=FCtzen w=E4re.<o:p></o:p><=
+/span></p>
+<p class=3D"MsoNormal"><span style=3D"color:#1F497D"><o:p>&nbsp;</o:p></spa=
+n></p>
+<p class=3D"MsoNormal"><span style=3D"color:#1F497D">Falls ein spezielles L=
+ogin f=FCr MSA ben=F6tigt wird, so mache ich das gerne und schicke dir dann=
+ das entsprechende acl-File. Du musst mir aber den gew=FCnschten Loginnamen=
+ und das Passwort mitteilen. Ich kann nur
+ ein gemeinsames Login f=FCr die ganze Gruppe bieten. (ETH-Logins funktioni=
+eren nicht.)<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"color:#1F497D"><o:p>&nbsp;</o:p></spa=
+n></p>
+<p class=3D"MsoNormal"><span style=3D"color:#1F497D">F=FCr differenzierten =
+Zugriffsschutz via ETH-Login w=FCrde man besser auf das ETH-Moodle z=FCgeln=
+ oder die neuen Mechanismen in eDoz (via ILIAS) verwenden (<a href=3D"http:=
+//www.let.ethz.ch/services/applications">http://www.let.ethz.ch/services/ap=
+plications</a>
+ ).<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"color:#1F497D"><o:p>&nbsp;</o:p></spa=
+n></p>
+<p class=3D"MsoNormal"><span style=3D"color:#1F497D">Etwas veraltete Infos =
+zu unserem System:<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"color:#1F497D"><a href=3D"http://www.=
+zfm.ethz.ch/d/int/sta/web-general.htm#Zugriffsbeschraenkungen">http://www.z=
+fm.ethz.ch/d/int/sta/web-general.htm#Zugriffsbeschraenkungen</a><o:p></o:p>=
+</span></p>
+<p class=3D"MsoNormal"><span style=3D"color:#1F497D"><o:p>&nbsp;</o:p></spa=
+n></p>
+<p class=3D"MsoNormal"><span style=3D"color:#1F497D">Gruss, Stephan<o:p></o=
+:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"color:#1F497D"><o:p>&nbsp;</o:p></spa=
+n></p>
+<p class=3D"MsoNormal"><span style=3D"color:#1F497D"><o:p>&nbsp;</o:p></spa=
+n></p>
+<div>
+<div style=3D"border:none;border-top:solid #B5C4DF 1.0pt;padding:3.0pt 0in =
+0in 0in">
+<p class=3D"MsoNormal"><b><span lang=3D"EN-US" style=3D"font-size:10.0pt;fo=
+nt-family:&quot;Tahoma&quot;,&quot;sans-serif&quot;">From:</span></b><span =
+lang=3D"EN-US" style=3D"font-size:10.0pt;font-family:&quot;Tahoma&quot;,&qu=
+ot;sans-serif&quot;"> Hopf Raoul
+<br>
+<b>Sent:</b> 21 September, 2011 16:20<br>
+<b>To:</b> Neu<br>
+<b>Subject:</b> Passwortschutz f=FCr Homepage<o:p></o:p></span></p>
+</div>
+</div>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal">Guten &nbsp;Tag,<o:p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal">Edo m=F6chte, dass die Files der Homepage f=FCr &#82=
+22;Methoden der Strukturanalyse&#8220; passwortgesch=FCtzt werden. K=F6nnte=
+ man das irgendwie einrichten?<o:p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal">Danke und Liebe Gr=FCsse,<o:p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal">Raoul<o:p></o:p></p>
+</div>
+</body>
+</html>
+
+--_002_193960ECBB21594FB10C5F5B4F9FB54F0FF3F965MBX10dethzch_
+Content-Type: text/plain; name="_acl.txt"
+Content-Description: _acl.txt
+Content-Disposition: attachment; filename="_acl.txt"; size=3960;
+	creation-date="Thu, 22 Sep 2011 06:54:13 GMT";
+	modification-date="Wed, 10 Aug 2011 07:58:42 GMT"
+Content-Transfer-Encoding: base64
+
+QXV0aFVzZXJGaWxlICJDOi9Eb2N1bWVudHMgYW5kIFNldHRpbmdzL0FkbWluaXN0cmF0b3IvTXkg
+RG9jdW1lbnRzL1dlYi9ldGMvdXNlcnMudHh0Ig0KQXV0aEdyb3VwRmlsZSAvZGV2L251bGwNCkF1
+dGhOYW1lICJJbSBNZWNoYW5pay1VbnRlcnJpY2h0IGJla2FubnQgZ2VnZWJlbmVzIExvZ2luIHZl
+cndlbmRlbi4iDQpBdXRoVHlwZSBCYXNpYw0Kb3JkZXIgZGVueSxhbGxvdw0KZGVueSBmcm9tIGFs
+bA0KYWxsb3cgZnJvbSBldGh6LmNoDQpyZXF1aXJlIHVzZXIgc3R1ZGVudA0Kc2F0aXNmeSBhbnkN
+Cg==
+
+--_002_193960ECBB21594FB10C5F5B4F9FB54F0FF3F965MBX10dethzch_--

@@ -1,0 +1,61 @@
+Received: from edge20.ethz.ch (82.130.99.26) by CAS12.d.ethz.ch
+ (172.31.38.212) with Microsoft SMTP Server (TLS) id 14.1.339.1; Mon, 26 Sep
+ 2011 14:53:35 +0200
+Received: from phil3.ethz.ch (129.132.202.239) by edge20.ethz.ch
+ (82.130.99.26) with Microsoft SMTP Server id 14.1.339.1; Mon, 26 Sep 2011
+ 14:53:33 +0200
+Received: from mail-yx0-f177.google.com ([209.85.213.177])	by phil3.ethz.ch
+ with esmtp (Exim 4.69)	(envelope-from <jonasfis@gmail.com>)	id
+ 1R8Agf-0001Jz-Bk	for rhopf@ethz.ch; Mon, 26 Sep 2011 14:53:35 +0200
+Received: by yxi11 with SMTP id 11so5111580yxi.36        for <rhopf@ethz.ch>;
+ Mon, 26 Sep 2011 05:53:32 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=gamma;
+        h=mime-version:date:message-id:subject:from:to:content-type;
+        bh=b7SKyqF7HlAgs/rtQR3j89q18wa/5ZuJNt4SAZONfVY=;
+        b=jnFQkkA7y6KEVcrSVf5mVmcbJ3SKIxJxnxDPX9cNBEZF4n4Ur/tx9nHRFDh56aM2x2
+         RmzCvhirBxk2c/8yX1WHsGTH/3E0UJZdTkTjnahQhsBoZIFut8OFiUBN91Ol6TItyXcn
+         pzkSskYIXjzMFJMDR8CgsLK0ebtEEpFxgi+vg=
+Received: by 10.100.82.5 with SMTP id f5mr906107anb.144.1317041612909; Mon, 26
+ Sep 2011 05:53:32 -0700 (PDT)
+Received: by 10.100.45.9 with HTTP; Mon, 26 Sep 2011 05:53:32 -0700 (PDT)
+Date: Mon, 26 Sep 2011 14:53:32 +0200
+Message-ID: <CA+17DGaovbEBV2RCp9MR9gNgbrGs5aji8HgPWnRonm5BCu=-2Q@mail.gmail.com>
+Subject: hahahah
+From: jonas fischer <jonasfis@gmail.com>
+To: Raoul Hopf <rhopf@ethz.ch>
+Content-Type: multipart/alternative; boundary="0050450170307dea8404add7a509"
+X-Filter-Node: phil3.ethz.ch
+X-Spam-Level:
+X-Spam-Status: hits=-0.7 tests=FREEMAIL_FROM,HTML_MESSAGE,RCVD_IN_DNSWL_LOW,SPF_PASS,T_DKIM_INVALID
+X-Spam-Flag: NO
+Return-Path: jonasfis@gmail.com
+X-MS-Exchange-Organization-AuthSource: edge20.ethz.ch
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Exchange-Organization-AVStamp-Mailbox: SMEXkv@];845500;0;This mail has
+ been scanned by Trend Micro ScanMail for Microsoft Exchange;
+X-MS-Exchange-Organization-SCL: 0
+MIME-Version: 1.0
+
+--0050450170307dea8404add7a509
+Content-Type: text/plain; charset="ISO-8859-1"
+
+und itz lug mau was usem mozart isch worde :)
+
+
+http://www.la-cappella.ch/cappella_content/02_programm/programm_eintraege/Ammazza_caffe/Castelli_und_Ammazza.jpg
+
+--0050450170307dea8404add7a509
+Content-Type: text/html; charset="ISO-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-=
+1"><div>und itz lug mau was usem mozart isch worde :) </div>
+<div>&nbsp;</div>
+<div>&nbsp;</div>
+<div><a href=3D"http://www.la-cappella.ch/cappella_content/02_programm/prog=
+ramm_eintraege/Ammazza_caffe/Castelli_und_Ammazza.jpg">http://www.la-cappel=
+la.ch/cappella_content/02_programm/programm_eintraege/Ammazza_caffe/Castell=
+i_und_Ammazza.jpg</a></div>
+
+--0050450170307dea8404add7a509--

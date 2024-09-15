@@ -1,0 +1,206 @@
+Received: from edge10.ethz.ch (82.130.75.186) by CAS22.d.ethz.ch
+ (172.31.51.112) with Microsoft SMTP Server (TLS) id 14.1.339.1; Tue, 13 Sep
+ 2011 21:54:50 +0200
+Received: from phil1.ethz.ch (129.132.202.242) by edge10.ethz.ch
+ (82.130.75.186) with Microsoft SMTP Server id 14.1.289.1; Tue, 13 Sep 2011
+ 21:54:45 +0200
+Received: from smtp.ee.ethz.ch ([129.132.2.219])	by phil1.ethz.ch with esmtp
+ (Exim 4.69)	(envelope-from <gessat@vision.ee.ethz.ch>)	id 1R3Z4D-0004K9-5w
+	for hopf@imes.mavt.ethz.ch; Tue, 13 Sep 2011 21:54:49 +0200
+Received: from localhost (localhost [127.0.0.1])	by smtp.ee.ethz.ch (Postfix)
+ with ESMTP id C4A39D9308	for <hopf@imes.mavt.ethz.ch>; Tue, 13 Sep 2011
+ 21:54:49 +0200 (MEST)
+Received: from smtp.ee.ethz.ch ([127.0.0.1])	by localhost (.ee.ethz.ch
+ [127.0.0.1]) (amavisd-new, port 10024)	with LMTP id vJhTcZCEP4bb for
+ <hopf@imes.mavt.ethz.ch>;	Tue, 13 Sep 2011 21:54:49 +0200 (MEST)
+Received: from ul30v (77-56-138-125.dclient.hispeed.ch [77.56.138.125])	(using
+ TLSv1 with cipher AES128-SHA (128/128 bits))	(No client certificate
+ requested)	(Authenticated sender: mgessat)	by smtp.ee.ethz.ch (Postfix) with
+ ESMTPSA id 68618D9305	for <hopf@imes.mavt.ethz.ch>; Tue, 13 Sep 2011 21:54:49
+ +0200 (MEST)
+From: Michael Gessat <gessat@vision.ee.ethz.ch>
+To: "Hopf  Raoul" <hopf@imes.mavt.ethz.ch>
+Subject: vtk Format
+Thread-Topic: vtk Format
+Thread-Index: AcxyTwEzzeQ0+0OZRHKFlpDn+CxaXQ==
+X-MS-Exchange-MessageSentRepresentingType: 1
+Date: Tue, 13 Sep 2011 21:54:53 +0200
+Message-ID: <000501cc724f$01c91540$055b3fc0$@ee.ethz.ch>
+Reply-To: "Gessat  Michael"
+	<IMCEAEX-_o=ETHZ_ou=First+20Administrative+20Group_cn=Recipients_cn=gessat+40vision+2Eee+2Eethz+2Ech@intern.ethz.ch>
+Content-Language: de-CH
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Exchange-Organization-AuthSource: edge10.ethz.ch
+X-MS-Has-Attach:
+X-MS-Exchange-Organization-SCL: 0
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+Content-Type: text/html; charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-micr=
+osoft-com:office:office" xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" xmlns=3D"http:=
+//www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DWindows-1=
+252">
+<meta name=3D"Generator" content=3D"Microsoft Word 12 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+@font-face
+	{font-family:Consolas;
+	panose-1:2 11 6 9 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:purple;
+	text-decoration:underline;}
+span.E-MailFormatvorlage17
+	{mso-style-type:personal-compose;
+	font-family:"Calibri","sans-serif";
+	color:windowtext;}
+.MsoChpDefault
+	{mso-style-type:export-only;}
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:70.85pt 70.85pt 2.0cm 70.85pt;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang=3D"DE-CH" link=3D"blue" vlink=3D"purple">
+<div class=3D"WordSection1">
+<p class=3D"MsoNormal">Ach so, jetzt hab ich ganz vergessen noch ein Wort z=
+um Thema Dateiformat zu verlieren. Im Grunde ist das ziemlich straight-forw=
+ard, aber der Teufel sitzt dann ja doch immer im Detail. Also hier mal ein =
+paar Infos. Die Datei ist wie folgt
+ aufgebaut:<o:p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><span lang=3D"EN-US" s=
+tyle=3D"font-size:9.5pt;font-family:Consolas"># vtk DataFile Version 3.0<o:=
+p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><span lang=3D"EN-US" s=
+tyle=3D"font-size:9.5pt;font-family:Consolas">vtk output<o:p></o:p></span><=
+/p>
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><span lang=3D"EN-US" s=
+tyle=3D"font-size:9.5pt;font-family:Consolas">ASCII<o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><span style=3D"font-si=
+ze:9.5pt;font-family:Consolas">DATASET UNSTRUCTURED_GRID&nbsp; //heisst so =
+viel wie =93Punkte beliebig im Raum verteilt mit einer beliebigen Topologie=
+=93<o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><span style=3D"font-si=
+ze:9.5pt;font-family:Consolas">POINTS 53280 float&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp; //Koordinaten einer Punktwolke mit 53280 Punkten in =
+drei Dimensionen, fliesspunktcodiert.<o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><span style=3D"font-si=
+ze:9.5pt;font-family:Consolas">X0 y0 z0 x1 y1 z1 x2 y2 z2 //Koordinate der =
+Punkte 0 bis 2<o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><span style=3D"font-si=
+ze:9.5pt;font-family:Consolas">usw.<o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><span style=3D"font-si=
+ze:9.5pt;font-family:Consolas"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><span style=3D"font-si=
+ze:9.5pt;font-family:Consolas">CELLS 13740 123660&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp; //Es folgt die Definition von 13740 Topologieelement=
+en, diese Liste besteht aus 9 * 12740 =3D 123660 Integerwerten<o:p></o:p></=
+span></p>
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><span style=3D"font-si=
+ze:9.5pt;font-family:Consolas">8 id00 id01 id02 =85 id07&nbsp;&nbsp;&nbsp; =
+//die erste Zelle verweist auf 8 Knoten, die Knotenreferenzen beziehen sich=
+ auf die Reihenfolge der Punktdefinitionen oben (nullbasiert)<o:p></o:p></s=
+pan></p>
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><span style=3D"font-si=
+ze:9.5pt;font-family:Consolas">usw.<o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><span style=3D"font-si=
+ze:9.5pt;font-family:Consolas"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><span style=3D"font-si=
+ze:9.5pt;font-family:Consolas">CELL_TYPES 13740&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; //Es folgt f=FCr jede der 13740 Zellen die=
+ Angabe eines Typs (eine Zelle mit 8 Elementen kann ja z.B. ein Polygon ode=
+r ein Hexaeder
+ sein)<o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><span style=3D"font-si=
+ze:9.5pt;font-family:Consolas">12&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp; //Der Type 12 definiert einen Hexaeder. Siehe: =
+http://davis.lbl.gov/Manuals/VTK-4.5/classvtkHexahedron.html<o:p></o:p></sp=
+an></p>
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><span style=3D"font-si=
+ze:9.5pt;font-family:Consolas"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><span style=3D"font-si=
+ze:9.5pt;font-family:Consolas">Die Knotenreihenfolge jedes Hexaeders siehst=
+ Du hier:
+<a href=3D"http://www.fh-kl.de/~brill/vr/Assets/downloads/vtk_intro.pdf">ht=
+tp://www.fh-kl.de/~brill/vr/Assets/downloads/vtk_intro.pdf</a> auf Folie 33=
+.<o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><span style=3D"font-si=
+ze:9.5pt;font-family:Consolas"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><span style=3D"font-si=
+ze:9.5pt;font-family:Consolas">Hier noch ein paar Links zu Readern/Konverte=
+rn<o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><span style=3D"font-si=
+ze:9.5pt;font-family:Consolas">http://people.sc.fsu.edu/~jburkardt/data/vtk=
+/vtk.html<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal">Noch Fragen? Einfach fragen! <span style=3D"font-fam=
+ily:Wingdings">
+J</span><o:p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal">Michael<o:p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US">--<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US">Dr.-Ing. Michael GESSAT<o:p></o=
+:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US">University Hospital Zurich, Div=
+. of Cardiac and Vascular Surgery,<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US">ETH Zurich, Computer Vision Lab=
+oratory<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US">mail:<o:p></o:p></span></p>
+<p class=3D"MsoNormal">Institut f=FCr Bildverarbeitung<o:p></o:p></p>
+<p class=3D"MsoNormal">ETH Z=FCrich, ETF D 113.1<o:p></o:p></p>
+<p class=3D"MsoNormal">Sternwartstrasse 7<o:p></o:p></p>
+<p class=3D"MsoNormal">8092 Z=FCrich<o:p></o:p></p>
+<p class=3D"MsoNormal">Switzerland<o:p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal">phone:&nbsp; &#43;41 44 6320566<o:p></o:p></p>
+<p class=3D"MsoNormal">mobile: <span style=3D"font-size:10.0pt;font-family:=
+&quot;Tahoma&quot;,&quot;sans-serif&quot;;color:black">
+&#43;41 78 6120767<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US">email: <a href=3D"mailto:gessat=
+@vision.ee.ethz.ch">
+<span style=3D"color:windowtext;text-decoration:none">gessat@vision.ee.ethz=
+.ch</span></a><o:p></o:p></span></p>
+</div>
+</body>
+</html>

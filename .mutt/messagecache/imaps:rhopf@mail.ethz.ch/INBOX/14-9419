@@ -1,0 +1,146 @@
+Received: from MBX11.d.ethz.ch ([fe80::25ef:802e:3bf1:31e5]) by
+ CAS12.d.ethz.ch ([fe80::7861:4ecb:7c42:cad4%10]) with mapi id 14.01.0339.001;
+ Mon, 3 Oct 2011 11:16:42 +0200
+From: "Mazza  Edoardo" <mazza@imes.mavt.ethz.ch>
+To: "Gessat  Michael" <gessat@vision.ee.ethz.ch>, "Hopf  Raoul"
+	<hopf@imes.mavt.ethz.ch>
+Subject: entwurf
+Thread-Topic: entwurf
+Thread-Index: AcyBqUWHQstVqt34Q3Sx2F59Ebg3RA==
+X-MS-Exchange-MessageSentRepresentingType: 1
+Date: Mon, 3 Oct 2011 11:16:41 +0200
+Message-ID: <58750D97EBD3E646B266E730A0CB3FF3EE4D5B@MBX11.d.ethz.ch>
+Accept-Language: en-GB, de-CH, en-US
+Content-Language: en-GB
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-AuthSource: CAS12.d.ethz.ch
+X-MS-Has-Attach:
+X-MS-Exchange-Organization-SCL: -1
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+Content-Type: text/plain; charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Hoi z=E4me
+
+anbei einige Kommentare-Aenderungen zum Entwurf.
+ich glaube es sieht schon sehr gut aus.
+Ciao
+Edoardo
+
+Part A)
+
+4) Which specific experiments have been carried out to prove the principle =
+of the invention or how do you plan to do so (indicate milestones and estim=
+ated time frame)?
+
+Deformation modeling has been performed in seven patients.
+No proof of concept for the inverse mechanics computation has been performe=
+d yet.
+We expect that a quantitative proof of principle will require approximately=
+ 1 year:
+It will take approximately 6 months to establish a procedure for 3D mechani=
+cal modeling and to create a reliable mechanical model of a stent.
+The following determination of a corresponding deformation and stress field=
+ from a few (say 10) cases of in vivo imaging will take additional 3 months=
+.
+Finally, an error analysis should be performed leadign to the level of unce=
+rtainity associated with the determined stress field in the biological tiss=
+ue adjacent to the implant (additional 3 months).
+
+Part B)
+
+1b) Has the idea behind your invention ever been published, publicly discus=
+sed, or patented by others? Pls. provide literature search (and patent sear=
+ch if available).
+
+The proposed approach consists of 3 steps:
+(i) The reconstruction of the (detailed) geometry of the medical device bef=
+ore and after insertion, in order to characterize the in-vivo state of defo=
+rmation of the device.
+(ii) The mechanical characterization of the device and the determination of=
+ a corresponding 3D continuum model.
+(iii) The implementation of the information from (i) and (ii) into a numeri=
+cal model to derive the stress field at the biological tissue adjacent to t=
+he implant.
+There are previous publications on (i) and (ii) above.  HERE WE SHOUDL PROV=
+IDE A LIST, RAOUL TO SEARCH FOR (ii).
+However, the idea behind this invention is mainly represented by step (iii)=
+ which was never opublished before, to the best of oru knowledge.
+
+2a) Describe any existing technology in the field of your invention (state-=
+of-the art) and/or provide recent review article. What alternatives to your=
+ invention do exist in the same field?
+
+A group in Palo Alto recently published two papers proposing a related idea=
+: in their work the global load on a vascular stent was estimated based on =
+findings in image data and a global force-deformation relationship of the s=
+tent [gangu-ly2011a, ganguly2011b].
+Several methods were proposed to obtain information on the deformation char=
+acteristics of soft biological tissue. Among these are all recent developme=
+nts in the field of elastography, elastoimaging [REF]. In addition, a few d=
+evices were developed to directly measure the mechanical response of tissue=
+ in-vivo [REF; REF; REF]. None of these methods could be used to provide th=
+e state of stress in the tissue adjacent to a medical device implanted in t=
+he human body.
+
+4) Has any proprietary material (e.g. cell line, antibody, plasmid, compute=
+r software, or chemical compound) obtained from outside your laboratory bee=
+n used to develop this invention under a restrictive written or oral transf=
+er agreement (other than a normal purchasing agreement)? If yes, pls. speci=
+fy and attach a copy.
+
+Was ist mit dem verwendeten CoreValve Stent, von dem wir das =B5CT gemacht =
+haben? F=E4llt das da drunter? Ein wirkliches Agreement gab es nie, wir hab=
+en das Ding =84for good=93 bekommen um damit rumzuspielen. Wir haben aber g=
+laub mit Medtronic einen NDA. ICH WURDE DIE GESCHICHTE KURZ ERKLAREN. SIE W=
+ERDEN UNS SAGEN, OB WIR DA PROBLEME HABEN (ICH GLAUBE ES WIRKLICH NICHT...)
+
+
+Part C)
+
+1) What is the commercial use of your invention?
+What is/will be the marketable product?
+
+The proposed procedure could be realized within an algorithm to be combined=
+ with the software available for analysis of medical images (as part of the=
+ MRI or CT system).
+It would require creating a databank with the mechanical models of each ste=
+nt (but the creation of these mechanical models could also represent a lucr=
+ative service provided to the companies producing the implants).
+The main commercial product of the invention would be a software providing =
+(i) a robust and rapid extraction of the current position of all reference =
+points of the implanted device, (ii) the combination with the mechanical mo=
+del and  (iii) the real-time visualization of the corresponding stress vect=
+or field in the soft tissue.
+
+2) What is the market need that your product fulfils? Why should somebody b=
+uy your product?
+Knowledge of the stress state caused by the insertion of an implant in the =
+adjacent biological tissue forms an integral part of the evaluation of its =
+performance. No alternative method for determination of the stress state in=
+ soft tissues adjacent to the medical device is available today.
+
+3) What is the estimated market size?
+ MICHAEL: Some number related to implanted vascular stents and meshes would=
+ be useful here.
+
+4) How long will it take to develop a marketable product and what are the e=
+stimated development costs?
+Estimation of time and development costs is difficult at this stage.
+
+5) What competitive products exist already?
+None
+
+6) Which potential licensees do you know? Name companies and contact person=
+s that are active in the field of your invention.
+ MICHAEL: any idea? I think here we think about stent producers? or medical=
+ imaging software producers?
+
+7) What is or might be the greatest obstacle to the commercial adoption of =
+your invention?
+Acceptance on the mdeical side. Definition of criteria for exploitation of =
+the new information provided by this idea.
+

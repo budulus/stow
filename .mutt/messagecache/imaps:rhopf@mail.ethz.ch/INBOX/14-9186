@@ -1,0 +1,61 @@
+Received: from edge20.ethz.ch (82.130.99.26) by CAS22.d.ethz.ch
+ (172.31.51.112) with Microsoft SMTP Server (TLS) id 14.1.339.1; Wed, 28 Sep
+ 2011 08:17:36 +0200
+Received: from phil2.ethz.ch (129.132.202.240) by edge20.ethz.ch
+ (82.130.99.26) with Microsoft SMTP Server id 14.1.339.1; Wed, 28 Sep 2011
+ 08:17:33 +0200
+Received: from mail-fx0-f52.google.com ([209.85.161.52])	by phil2.ethz.ch with
+ esmtp (Exim 4.69)	(envelope-from <marc.immer@gmail.com>)	id 1R8nSZ-000644-7e
+	for hopf@imes.mavt.ethz.ch; Wed, 28 Sep 2011 08:17:35 +0200
+Received: by fxe23 with SMTP id 23so406572fxe.39        for
+ <hopf@imes.mavt.ethz.ch>; Tue, 27 Sep 2011 23:17:35 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=gamma;
+        h=mime-version:in-reply-to:references:from:date:message-id:subject:to
+         :content-type;
+        bh=1aMXeHhwjCB+XeiNSqXK9Vm6MiLiQREr8z6NfvHwr5E=;
+        b=jvO7k+9okJq6INTuR8qmip2E69BRvjpWM0Q4Vb6v+VlXRc0cQ64K3zEx1Zc8OMPAsq
+         lfWtzxx2ofV6E8ab1GUh2HI7offDxAzEzeQXpfTTAUE/8BzSldqLj1DBtoeEL6bjEkcs
+         RLsy6utGVYK6WF5VtjRcEpflYW3M3Smhic+Vc=
+Received: by 10.223.58.198 with SMTP id i6mr10065589fah.91.1317190655159; Tue,
+ 27 Sep 2011 23:17:35 -0700 (PDT)
+Received: by 10.223.75.197 with HTTP; Tue, 27 Sep 2011 23:17:15 -0700 (PDT)
+In-Reply-To: <AADA0106-89F9-4E43-8737-B07BC02A98E8@imes.mavt.ethz.ch>
+References: <AADA0106-89F9-4E43-8737-B07BC02A98E8@imes.mavt.ethz.ch>
+From: Marc Immer <marc.immer@gmail.com>
+Date: Wed, 28 Sep 2011 08:17:15 +0200
+Message-ID: <CAFwF4fOErsCARWkWwy_Tpf86DAGdSmqZfY9UR=54gnLir2AzoA@mail.gmail.com>
+Subject: Re: shiiiit
+To: Hopf Raoul <hopf@imes.mavt.ethz.ch>
+Content-Type: multipart/alternative; boundary="0015174481781a2dd604adfa5933"
+X-Filter-Node: phil2.ethz.ch
+X-Spam-Level:
+X-Spam-Status: hits=-0.7 tests=FREEMAIL_FROM,HTML_MESSAGE,RCVD_IN_DNSWL_LOW,SPF_PASS,T_DKIM_INVALID
+X-Spam-Flag: NO
+Return-Path: marc.immer@gmail.com
+X-MS-Exchange-Organization-AuthSource: edge20.ethz.ch
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Exchange-Organization-AVStamp-Mailbox: SMEXkv@];845900;0;This mail has
+ been scanned by Trend Micro ScanMail for Microsoft Exchange;
+X-MS-Exchange-Organization-SCL: 0
+MIME-Version: 1.0
+
+--0015174481781a2dd604adfa5933
+Content-Type: text/plain; charset="ISO-8859-1"
+
+scho wieder? isch ja scho letscht wuche gsi?
+
+On Wed, Sep 28, 2011 at 8:16 AM, Hopf Raoul <hopf@imes.mavt.ethz.ch> wrote:
+
+> ooooooohhhhh.....einstein isch in gfahr 0.o
+>
+
+--0015174481781a2dd604adfa5933
+Content-Type: text/html; charset="ISO-8859-1"
+
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">scho wieder? isch ja scho letscht wuche gsi?<br><br><div class="gmail_quote">On Wed, Sep 28, 2011 at 8:16 AM, Hopf  Raoul <span dir="ltr">&lt;<a href="mailto:hopf@imes.mavt.ethz.ch">hopf@imes.mavt.ethz.ch</a>&gt;</span> wrote:<br>
+
+<blockquote class="gmail_quote" style="margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex;">ooooooohhhhh.....einstein isch in gfahr 0.o<br>
+</blockquote></div><br>
+
+--0015174481781a2dd604adfa5933--

@@ -1,0 +1,74 @@
+Received: from edge20.ethz.ch (82.130.99.26) by CAS21.d.ethz.ch
+ (172.31.51.111) with Microsoft SMTP Server (TLS) id 14.1.339.1; Mon, 3 Oct
+ 2011 21:55:57 +0200
+Received: from vphil1.ethz.ch (129.132.202.247) by edge20.ethz.ch
+ (82.130.99.26) with Microsoft SMTP Server id 14.1.339.1; Mon, 3 Oct 2011
+ 21:55:57 +0200
+Received: from ides.ethz.ch ([129.132.1.65])	by vphil1.ethz.ch with esmtp
+ (Exim 4.69)	(envelope-from <apache@ides.ethz.ch>)	id 1RAocH-00009y-Fb	for
+ hopf@imes.mavt.ethz.ch; Mon, 03 Oct 2011 21:55:57 +0200
+Received: from ides.ethz.ch (localhost.localdomain [127.0.0.1])	by
+ ides.ethz.ch (8.13.8/8.13.8) with ESMTP id p93JtvuY032275	for
+ <hopf@imes.mavt.ethz.ch>; Mon, 3 Oct 2011 21:55:57 +0200
+Received: (from apache@localhost)	by ides.ethz.ch (8.13.8/8.13.8/Submit) id
+ p93JtvsV032274;	Mon, 3 Oct 2011 21:55:57 +0200
+Message-ID: <201110031955.p93JtvsV032274@ides.ethz.ch>
+Content-Transfer-Encoding: binary
+Content-Type: multipart/mixed; boundary="_----------=_1317671757319250"
+X-Mailer: MIME::Lite 3.027 (F2.74; A2.07; B3.07; Q3.07)
+Date: Mon, 3 Oct 2011 21:55:57 +0200
+From: <lizenz@id.ethz.ch>
+To: <hopf@imes.mavt.ethz.ch>
+Subject: [IDES] Zugriffsrecht auf MathType
+Return-Path: apache@ides.ethz.ch
+X-MS-Exchange-Organization-AuthSource: edge20.ethz.ch
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Exchange-Organization-AVStamp-Mailbox: SMEXkv@];846900;0;This mail has
+ been scanned by Trend Micro ScanMail for Microsoft Exchange;
+X-MS-Exchange-Organization-SCL: 0
+MIME-Version: 1.0
+
+--_----------=_1317671757319250
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain; charset="iso8859-1"
+X-Mailer: MIME::Lite 3.027 (F2.74; A2.07; B3.07; Q3.07)
+Date: Mon, 3 Oct 2011 21:55:57 +0200
+
+Bestellung erledigt: 1 Produkte geliefert
+
+Produkt:                        MathType 6.x Stud
+Betriebssystem:                 Mac
+Sprache:                        EN
+Anzahl Lizenzen:                1
+
+
+----
+
+Ihre Stud-IDES-Bestellung: MathType 6.x Stud
+
+----
+
+Hier finden Sie die generelle Anleitung zur Installation ab IDES:
+https://ides.ethz.ch/cgi-bin/copy_skeleton.fastpl?skeleton=3Dinstall_softwa=
+re
+
+Der notwendige Lizenz-Key ist dieser Mail als Attachment angefuegt (license=
+.txt).
+
+Mit freundlichen Gruessen
+Lizenzadministration der Informatikdienste der ETHZ
+lizenz@id.ethz.ch
+
+--_----------=_1317671757319250
+Content-Disposition: attachment; filename="licence.txt"
+Content-Transfer-Encoding: base64
+Content-Type: application/octet-stream; name="licence.txt"
+X-Mailer: MIME::Lite 3.027 (F2.74; A2.07; B3.07; Q3.07)
+Date: Mon, 3 Oct 2011 21:55:57 +0200
+
+TGl6ZW56LUtleSBNYXRoVHlwZSA2LjAgU3R1ZCBFbmdsaXNjaDoKTVRNRTYwMS0wMDAyOTAtM1Ay
+UzQKTGl6ZW56LUtleSBNYXRoVHlwZSA2LjcgU3R1ZCBFbmdsaXNjaDoKTVRNRTY3MS0wMDAxMDQt
+UjFKMlgK
+
+--_----------=_1317671757319250--

@@ -1,0 +1,132 @@
+Received: from mailm111.d.ethz.ch (2001:67c:10ec:5602::23) by
+ mailm115.d.ethz.ch (2001:67c:10ec:5602::27) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256) id
+ 15.1.2507.39 via Mailbox Transport; Mon, 2 Sep 2024 11:16:38 +0200
+Received: from mailm110.d.ethz.ch (2001:67c:10ec:5602::22) by
+ mailm111.d.ethz.ch (2001:67c:10ec:5602::23) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256) id
+ 15.1.2507.39; Mon, 2 Sep 2024 11:16:38 +0200
+Received: from mailg110.ethz.ch (2001:67c:10ec:5605::21) by mailm110.d.ethz.ch
+ (2001:67c:10ec:5602::22) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256) id 15.1.2507.39 via Frontend
+ Transport; Mon, 2 Sep 2024 11:16:38 +0200
+Received: from ethz.ch (129.132.198.195) by mailg110.ethz.ch (129.132.162.66)
+ with Microsoft SMTP Server id 15.1.2507.39; Mon, 2 Sep 2024 11:16:39 +0200
+Authentication-Results: mc3.ethz.ch;
+	iprev=pass (mailr110.ethz.ch) smtp.remote-ip=82.130.69.114;
+	spf=pass smtp.mailfrom=id.ethz.ch;
+	dkim=pass header.d=id.ethz.ch header.s=key1-q2-2022 header.a=rsa-sha256;
+	dmarc=skipped
+Received: from mailr110.ethz.ch ([82.130.69.114])
+	by ethz.ch stage1 with esmtps 
+	(Exim MailCleaner) 
+	id 1sl3Ai-00000000AjY-2XS8 
+	for <hopf@imes.mavt.ethz.ch> 
+	from <noreply@id.ethz.ch>;
+	Mon, 02 Sep 2024 11:16:28 +0200
+X-MailCleaner-SPF: pass
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=id.ethz.ch;
+ s=key1-q2-2022; t=1725268588; h=From:Subject:Date:Message-ID:To
+ :MIME-Version:Content-Type:Content-Transfer-Encoding; bh=Z8hRFHLtnJEOiFPF
+ rbKQPNna9MPqSZn8zK1ydPxKezA=; b=GLwH85ZmsPwn38l4ujzEm4ArHbyL5JBe5f6SVLPzk
+ Ygx+Bsuejv6/t7neuDxXlCT9BQbyotbZauMx++bmscUu/bHBuclo+fj9Nd3OPsRk82g78mhcg
+ z3TTCdhXwryiHqS7y9udA56gvRKD/QqvLXnEKUFk3qFg7t9OZv/TjEczdB786qj1qlu7ZzAV/
+ Jm2pg7BFbp2Uq4QHV0y5VlIe04kAN3nMr0ElmThjtsclBPdbwdVECK2KBcbbB9mgEqIpvNHm+
+ 21VR/xDDk7B2nKVJf2qlRnfZcb1EgoaTGxQw2FV8w6iTDLhGnidcPcZX8Q6625SdmQa5JYw/u
+ VozuM24Ag==;
+Received: from vmiam202.ethz.ch (129.132.42.140) by mailr110.ethz.ch
+ (82.130.69.114) with Microsoft SMTP Server id 15.1.2507.39; Mon, 2 Sep 2024
+ 11:16:28 +0200
+Date: Mon, 2 Sep 2024 11:16:28 +0200
+From: <noreply@id.ethz.ch>
+To: <hopf@imes.mavt.ethz.ch>
+Message-ID: <1954682896.858.1725268588454.JavaMail."LOCAL SERVICE"@vmiam202>
+Subject: MFA registration
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+X-Mailer: QRCode
+X-DKIM-Signer: DkimX (v3.20.320)
+X-MailCleaner-TrustedIPs: Ok
+X-MailCleaner-HTML-WL: Ok
+X-Newsl: is not newsletter (2.0/5.0) position : 0, not decisive
+X-MailCleaner-Information: Please contact servicedesk@id.ethz.ch for more information
+X-MailCleaner-ID: 1sl3Ai-00000000Aji-2fnU
+X-MailCleaner: Found to be clean
+X-MailCleaner-SpamCheck: not spam, Newsl (score=2.0, required=5.0,
+	MC_NEWS_HFRMNOREPLY=2, position : 0, not decisive),
+	TrustedIPs (sending IP is in Trusted IPs, position : 0,
+	ham decisive)
+X-MailCleaner-ReportURL: https://mailcleaner.ethz.ch/rs.php
+Return-Path: noreply@id.ethz.ch
+X-MS-Exchange-Organization-Network-Message-Id: fda11cc0-8265-466c-2a5b-08dccb2ff39c
+X-MS-Exchange-Organization-AVStamp-Mailbox: SMEXJnq?;1956500;0;This mail has
+ been scanned by Trend Micro ScanMail for Microsoft Exchange;
+X-MS-Exchange-Organization-SCL: -1
+X-MS-Exchange-Organization-AuthSource: mailg110.ethz.ch
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Exchange-Processed-By-BccFoldering: 15.01.2507.039
+MIME-Version: 1.0
+
+<html lang=3D"en" xmlns=3D"http://www.w3.org/1999/xhtml" xmlns:o=3D"urn:sch=
+emas-microsoft-com:office:office"><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8"><t=
+itle></title>
+		<meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+	=09
+	=09
+		<meta name=3D"viewport" content=3D"width=3Ddevice-width,initial-scale=3D1=
+">
+		<meta name=3D"x-apple-disable-message-reformatting">
+		<!--[if mso]>
+			<noscript>
+				<xml>
+					<o:OfficeDocumentSettings>
+						<o:PixelsPerInch>96</o:PixelsPerInch>
+					</o:OfficeDocumentSettings>
+				</xml>
+			</noscript>
+		<![endif]-->
+	</head>
+	<body>
+		<div>
+			Dear recipient
+		</div><br>
+		<div>
+			Quick question: Was it you?<br>
+			We have noticed that a QR code has recently been generated for your acco=
+unt, which is required for MFA registration.<br>=20
+			This can be due to a first-time registration or by means of the  'MFA re=
+set process'. &nbsp;For more detailed information, please refer to the <a h=
+ref=3D"https://unlimited.ethz.ch/x/WwZaBg">IT Knowledge Base</a>.<br>
+		</div>
+		<br>
+		<div>
+			Details of the transaction:<br>
+			Timestamp: Mon Sep 02 11:16:28 CEST 2024<br>
+			Username: rhopf<br>
+		</div>
+		<div>
+		<br>
+			If this is an action you have performed yourself, you can ignore this me=
+ssage.<br>
+		</div>
+		<div>
+		<br>
+			If you did not perform these activities (MFA registration or MFA reset) =
+yourself, we recommend that you change your password and reset your MFA reg=
+istration immediately to protect your account.
+		</div>
+		<br>
+		<div>
+			If you have any questions, please contact the Service Desk of IT Service=
+s. <br><br>
+		</div>
+		<div>
+		Kind regards
+           IT Services of ETH Zurich
+
+           ***Please do not answer to this email. If you have a question co=
+ntact the Service Desk: www.its.ethz.ch/servicedesk
+           </div>
+	</body>
+</html>

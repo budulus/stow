@@ -1,0 +1,102 @@
+Received: from GWS01.d.ethz.ch (82.130.70.78) by CAS22.d.ethz.ch
+ (172.31.51.112) with Microsoft SMTP Server (TLS) id 14.1.289.1; Thu, 19 May
+ 2011 17:27:36 +0200
+Received: from edge10.ethz.ch (82.130.75.186) by gws01.d.ethz.ch
+ (129.132.178.238) with Microsoft SMTP Server (TLS) id 8.2.254.0; Thu, 19 May
+ 2011 17:27:35 +0200
+Received: from phil3.ethz.ch (129.132.202.239) by edge10.ethz.ch
+ (82.130.75.186) with Microsoft SMTP Server id 14.1.289.1; Thu, 19 May 2011
+ 17:27:31 +0200
+Received: from mail14.admin.ch ([162.23.32.14])	by phil3.ethz.ch with esmtp
+ (Exim 4.69)	(envelope-from <bestellung@schweizerpass.ch>)	id 1QN58N-0003dc-CP
+	for rhopf@ethz.ch; Thu, 19 May 2011 17:27:34 +0200
+Received: from mail01.admin.ch (mail01.admin.ch [162.23.97.166])	(using TLSv1
+ with cipher ADH-CAMELLIA256-SHA (256/256 bits))	(No client certificate
+ requested)	by mail14.admin.ch (mailout) with ESMTPS id BCECA200A487	for
+ <rhopf@ethz.ch>; Thu, 19 May 2011 17:27:31 +0200 (CEST)
+Received: from mail43.admin.ch (mail43.admin.ch [162.23.97.187])	by
+ mail01.admin.ch (mailhub) with ESMTP id B7C4C4800040	for <rhopf@ethz.ch>;
+ Thu, 19 May 2011 17:27:31 +0200 (CEST)
+X-TM-IMSS-Message-ID: <9bd070ce006410ec@admin.ch>
+Received: from mail03.admin.ch ([162.23.97.168]) by admin.ch ([162.23.97.187])
+ with ESMTP (TREND IMSS SMTP Service 7.1; TLSv1/SSLv3 ADH-AES256-SHA
+ (256/256)) id 9bd070ce006410ec ; Thu, 19 May 2011 17:27:31 +0200
+Received: from ejpdxm0049.isc-ejpd.admin.ch (ejpdxm0049-mgt.isc.ejpd.admin.ch
+ [194.11.240.215])	by mail03.admin.ch (mailhost) with ESMTP id B7D62400A09F
+	for <rhopf@ethz.ch>; Thu, 19 May 2011 17:27:30 +0200 (CEST)
+Received: from ejpdvx4501 (ejpdvx4501 [172.24.246.181])	by
+ ejpdxm0049.isc-ejpd.admin.ch (Postfix) with ESMTP id AC33C1C40AC	for
+ <rhopf@ethz.ch>; Thu, 19 May 2011 17:27:30 +0200 (CEST)
+Date: Thu, 19 May 2011 17:27:30 +0200
+From: <az.biel@pom.be.ch>
+Sender: <bestellung@schweizerpass.ch>
+To: <rhopf@ethz.ch>
+Message-ID: <9862860.473891305818850696.JavaMail.weblogic@194.11.240.215>
+Subject: Ausweisbestellung via Internet (Terminreservation)
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+X-Filter-Node: phil3.ethz.ch
+X-Spam-Level: -----
+X-Spam-Status: hits=-5.0 tests=RCVD_IN_DNSWL_HI
+X-Spam-Flag: NO
+Return-Path: bestellung@schweizerpass.ch
+X-MS-Exchange-Organization-AVStamp-Mailbox: SMEXawoY;816500;0;This mail has
+ been scanned by Trend Micro ScanMail for Microsoft Exchange;
+X-MS-Exchange-Organization-SCL: 0
+X-MS-Exchange-Organization-AuthSource: edge10.ethz.ch
+X-MS-Exchange-Organization-AuthAs: Anonymous
+MIME-Version: 1.0
+
+Sehr geehrter Herr Raoul Michael Hopf,
+
+Ihre Antragsdaten wurden gepr=C3=BCft. Sie k=C3=B6nnen sich jetzt einen Ter=
+min reservieren, indem Sie auf folgenden Link
+"https://www.ch-edoc-reservation.admin.ch/ispid/signin?otp=3D41cb31b8-91e7-=
+4596-90aa-bb93bdc1fb6c" klicken.
+
+Weitere mitzubringende Dokumente:
+alte ID
+
+Bei Fragen oder Problemen wenden Sie sich bitte direkt an Ihr zust=C3=A4ndi=
+ges Passb=C3=BCro.
+
+Freundliche Gr=C3=BCsse
+
+Amt f=C3=BCr Migration und
+Personenstand des Kantons Bern
+Pass- und Identit=C3=A4tskartendienst
+Laupenstrasse 18a
+3008 Bern
+
+
+E-Mail: az.biel@pom.be.ch
+Tel: 031 635'40'00
+Fax: 031 635'40'59
+Internetadresse: www.pom.be.ch/site/mip
+
+=C3=96ffnungszeiten:
+Montag-Mittwoch: 08:00-17:00
+Donnerstag: 10:00 - 19:00
+Freitag: 08:00 - 16:00
+Samstag: 08:30 - 13:00
+
+
+
+
+Weitere Bemerkungen:
+
+Ausweiszentren
+
+Bern: Laupenstrasse 18a (Parkhaus City West ben=C3=BCtzen)
+
+Biel: Kontrollstrasse 20
+
+Thun: Scheibenstrasse 3 (Parkhaus City West ben=C3=BCtzen)
+
+Courtelary: Rue de la Pr=C3=A9fecture 2c
+
+Interlaken: Schloss 8 (hinter der Kirche)
+
+Langenthal: Melchnaustrasse 28 (Haltestelle R=C3=B6ssli)
+
+Langnau i.E.: Marktstrasse 7 (vis-a-vis Manor)

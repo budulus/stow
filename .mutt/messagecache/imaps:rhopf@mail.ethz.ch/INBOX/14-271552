@@ -1,0 +1,666 @@
+Received: from mailm111.d.ethz.ch (2001:67c:10ec:5602::23) by
+ mailm115.d.ethz.ch (2001:67c:10ec:5602::27) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256) id
+ 15.1.2507.39 via Mailbox Transport; Mon, 26 Aug 2024 09:11:51 +0200
+Received: from mailm110.d.ethz.ch (2001:67c:10ec:5602::22) by
+ mailm111.d.ethz.ch (2001:67c:10ec:5602::23) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256) id
+ 15.1.2507.39; Mon, 26 Aug 2024 09:09:20 +0200
+Received: from mailm110.d.ethz.ch ([fe80::c430:c62a:4d17:d8a6]) by
+ mailm110.d.ethz.ch ([fe80::c430:c62a:4d17:d8a6%4]) with mapi id
+ 15.01.2507.039; Mon, 26 Aug 2024 09:09:20 +0200
+From: ETH Zuerich Informatikdienste <noreply@id.ethz.ch>
+Subject: Migration Mailfilter nach Exchange Online Protection (EOP) / email
+ migration mail filter to Exchange Online Protection (EOP)
+Thread-Topic: Migration Mailfilter nach Exchange Online Protection (EOP) /
+ email migration mail filter to Exchange Online Protection (EOP)
+Thread-Index: Adr3hplHG0Gb+MaUSoCS1T5NUdRCJA==
+Date: Mon, 26 Aug 2024 09:09:20 +0200
+Message-ID: <7cd4cdbeb6ef472a851e8c48b05fa582@id.ethz.ch>
+Accept-Language: de-CH, en-US
+Content-Language: en-US
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-AuthSource: mailm110.d.ethz.ch
+X-MS-Has-Attach: yes
+X-Auto-Response-Suppress: DR, RN, NRN, OOF, AutoReply
+X-MS-Exchange-Organization-Network-Message-Id:
+	88f2ca3e-4544-4ec6-618b-08dcc59e01f2
+X-MS-Exchange-Organization-SCL: -1
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature";
+	micalg=2.16.840.1.101.3.4.2.1;
+	boundary="----=_NextPart_000_0040_01DAF797.A26EE570"
+MIME-Version: 1.0
+
+------=_NextPart_000_0040_01DAF797.A26EE570
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_001_0041_01DAF797.A26EE570"
+
+
+------=_NextPart_001_0041_01DAF797.A26EE570
+Content-Type: text/plain;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+Geht an: alle Nutzenden des E-Mail-Services der ETH Z=FCrich
+To: all users of the ETH Zurich email service
+
+See English below (translated with DeepL)
+
+
+Migration Mailfilter nach Exchange Online Protection (EOP)
+
+
+Liebe ETH-Angeh=F6rige
+
+Im Zuge der kommenden Migration Ihrer pers=F6nlichen Mailbox in die =
+Cloud
+(siehe Intern aktuell =ABE-Mails neu in der Cloud
+<https://ethz.ch/staffnet/de/news-und-veranstaltungen/intern-aktuell/arch=
+iv/
+2024/06/e-mails-neu-in-der-cloud.html> =BB vom 4.6.2024) wird der =
+Mailfilter
+(Spam-Filter) von MailCleaner auf Exchange Online Protection (EOP)
+umgestellt.
+
+Die E-Mail Dom=E4nen gess.ethz.ch und id.ethz.ch wurden schon in den
+vergangenen Monaten erfolgreich umgestellt.
+
+
+Was =E4ndert sich durch die Migration zu =ABExchange Online =
+Protection=BB?
+
+
+EOP verf=FCgt =FCber modernste KI-unterst=FCtzte Filtermechanismen und =
+wird 7 =D7 24
+den aktuellen Bedrohungslagen angepasst. Allerdings sind die
+Eingriffsm=F6glichkeiten in die Konfiguration des Filters auf unserer =
+Seite
+beschr=E4nkt.
+
+
+Wann geht es los?
+
+
+Der Mailfilter wird am Montag, dem 24. September 2024, von MailCleaner =
+auf
+Exchange Online Protection umgestellt.=20
+
+
+Was muss ich nach der Mailfilter-Migration erledigen / wissen?
+
+
+=B7         Die neue Quarant=E4neseite erreichen Sie =FCber:
+=ABhttps://security.microsoft.com/=BB
+- Email & collaboration =96 Review =96 Quarantine oder direkt via:
+=ABhttps://security.microsoft.com/quarantine=BB
+
+=B7         Quarant=E4ne-E-Mails enthalten wie bisher einen direkten =
+Link auf
+die Quarant=E4ne-Webseite.
+
+=B7         Der Zugriff auf die alte Quarant=E4ne von MailCleaner bleibt
+vorl=E4ufig bestehen und ist nach wie vor voll funktional.
+
+=B7         ACHTUNG: Die Einstellungen in MailCleaner werden nicht nach =
+EOP
+migriert. Allf=E4llig gemachte Anpassungen m=FCssen, sofern das =
+m=F6glich ist,
+unter EOP erneut eingerichtet werden.
+
+=B7         Das Tag-Only Feature steht bei EOP nicht mehr zur =
+Verf=FCgung.
+
+=B7         Pers=F6nliche Allow- und Deny-Lists werden in Outlook oder =
+Webmail
+verwaltet (Junk-Mail-Einstellungen).
+
+=B7         Im Gegensatz zu MailCleaner werden nicht nur eingehende, =
+sondern
+auch ausgehende E-Mails gefiltert. Selbst der interne E-Mailverkehr wird
+einigen grundlegenden Pr=FCfungen unterzogen.=20
+
+
+Fragen?
+
+
+Informationen zum neuen Mailfilter finden Sie in dieser =
+Online-Dokumentation
+(https://u.ethz.ch/R8Et0) inkl. FAQ. Ausserdem steht Ihnen der =
+Servicedesk
+der Informatikdienste gerne f=FCr weitere Ausk=FCnfte zur Verf=FCgung.
+
+Freundliche Gr=FCsse
+Informatikdienste der ETH Z=FCrich
+
+
+
+
+Migration mail filter to Exchange Online Protection (EOP)
+
+
+Dear ETH members
+
+As part of the upcoming migration of your personal mailbox to the cloud =
+(see
+Internal news "
+<https://ethz.ch/staffnet/en/news-und-veranstaltungen/intern-aktuell/arch=
+iv/
+2024/06/e-mails-neu-in-der-cloud.html> Emails to be in the cloud" from 4
+June 2024), the mail filter (spam filter) will be switched from =
+MailCleaner
+to Exchange Online Protection (EOP).
+
+The email domains gess.ethz.ch and id.ethz.ch were already successfully
+migrated in past months.
+
+
+What will change with the migration to "Exchange Online Protection"?
+
+
+EOP has state-of-the-art AI-supported filter mechanisms and is adapted =
+24/7
+to the current threat situation. However, the options for intervening in =
+the
+configuration of the filter on our side are limited.
+
+
+When does it start?
+
+
+The mail filter will be switched from MailCleaner to Exchange Online
+Protection on Monday, 24 September 2024.=20
+
+
+What do I need to do / know after the mail filter migration?
+
+
+=B7         You can access the new quarantine page via:
+<https://security.microsoft.com/> https://security.microsoft.com/
+Email & collaboration - Review - Quarantine or directly via: "
+<https://security.microsoft.com/quarantine>
+https://security.microsoft.com/quarantine"
+
+=B7         As before, quarantine emails contain a direct link to the
+quarantine website.
+
+=B7         Access to the old MailCleaner quarantine remains available =
+for the
+time being and is still fully functional.
+
+=B7         ATTENTION: The settings in MailCleaner will not be migrated =
+to
+EOP. Any adjustments made must be set up again under EOP, if this is
+possible.
+
+=B7         The tag-only feature is no longer available in EOP.
+
+=B7         Personal Allow and Deny lists are managed in Outlook or =
+Webmail
+(junk mail settings).
+
+=B7         In contrast to MailCleaner, not only incoming but also =
+outgoing
+emails are filtered. Even internal e-mail traffic is subjected to some =
+basic
+checks.=20
+
+
+Questions?
+
+
+Information on the new mail filter can be found in this online =
+documentation
+( <https://u.ethz.ch/Q0jPf> https://u.ethz.ch/Q0jPf) including FAQ. The =
+IT
+Services service desk will also be happy to provide you with further
+information.
+
+Kind regards
+ETH Zurich IT Services=20
+
+
+------=_NextPart_001_0041_01DAF797.A26EE570
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" =
+xmlns:o=3D"urn:schemas-microsoft-com:office:office" =
+xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" =
+xmlns=3D"http://www.w3.org/TR/REC-html40"><head><meta =
+http-equiv=3DContent-Type content=3D"text/html; =
+charset=3Diso-8859-1"><meta name=3DGenerator content=3D"Microsoft Word =
+15 (filtered medium)"><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:"Calibri Light";
+	panose-1:2 15 3 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-fareast-language:JA;}
+h2
+	{mso-style-priority:9;
+	mso-style-link:"Heading 2 Char";
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	page-break-after:avoid;
+	font-size:16.0pt;
+	font-family:"Calibri Light",sans-serif;
+	color:#2E74B5;
+	mso-fareast-language:JA;
+	font-weight:normal;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:#0563C1;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:#954F72;
+	text-decoration:underline;}
+p.MsoNoSpacing, li.MsoNoSpacing, div.MsoNoSpacing
+	{mso-style-priority:1;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+span.EmailStyle17
+	{mso-style-type:personal-compose;
+	font-family:"Calibri",sans-serif;
+	color:windowtext;}
+span.Heading2Char
+	{mso-style-name:"Heading 2 Char";
+	mso-style-priority:9;
+	mso-style-link:"Heading 2";
+	font-family:"Calibri Light",sans-serif;
+	color:#2E74B5;
+	mso-fareast-language:JA;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-family:"Calibri",sans-serif;}
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 72.0pt 72.0pt 72.0pt;}
+div.WordSection1
+	{page:WordSection1;}
+/* List Definitions */
+@list l0
+	{mso-list-id:809789894;
+	mso-list-type:hybrid;
+	mso-list-template-ids:825416150 134807553 134807555 134807557 134807553 =
+134807555 134807557 134807553 134807555 134807557;}
+@list l0:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l0:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l0:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l0:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l0:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l0:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l0:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l0:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l0:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]--></head><body lang=3DEN-US =
+link=3D"#0563C1" vlink=3D"#954F72"><div class=3DWordSection1><p =
+class=3DMsoNormal>Geht an: alle Nutzenden des E-Mail-Services der ETH =
+Z=FCrich<br>To: all users of the ETH Zurich email =
+service<o:p></o:p></p><p class=3DMsoNormal>See English below (translated =
+with DeepL)<o:p></o:p></p><h2><span lang=3DDE-CH>Migration Mailfilter =
+nach Exchange Online Protection (EOP)<o:p></o:p></span></h2><p =
+class=3DMsoNormal><span lang=3DDE-CH>Liebe =
+ETH-Angeh=F6rige<o:p></o:p></span></p><p class=3DMsoNormal><span =
+lang=3DDE-CH>Im Zuge der kommenden Migration Ihrer pers=F6nlichen =
+Mailbox in die Cloud (siehe Intern aktuell =AB<a =
+href=3D"https://ethz.ch/staffnet/de/news-und-veranstaltungen/intern-aktue=
+ll/archiv/2024/06/e-mails-neu-in-der-cloud.html">E-Mails neu in der =
+Cloud</a>=BB vom 4.6.2024) wird der Mailfilter (Spam-Filter) von =
+MailCleaner auf Exchange Online Protection (EOP) =
+umgestellt.<o:p></o:p></span></p><p class=3DMsoNormal><span =
+lang=3DDE-CH>Die E-Mail Dom=E4nen gess.ethz.ch und id.ethz.ch wurden =
+schon in den vergangenen Monaten erfolgreich =
+umgestellt.<o:p></o:p></span></p><h2><span lang=3DDE-CH>Was =E4ndert =
+sich durch die Migration zu =ABExchange Online =
+Protection=BB?<o:p></o:p></span></h2><p class=3DMsoNoSpacing><span =
+lang=3DDE-CH>EOP verf=FCgt =FCber modernste KI-unterst=FCtzte =
+Filtermechanismen und wird 7&nbsp;=D7&nbsp;24 den aktuellen =
+Bedrohungslagen angepasst. Allerdings sind die Eingriffsm=F6glichkeiten =
+in die Konfiguration des Filters auf unserer Seite =
+beschr=E4nkt.<o:p></o:p></span></p><h2><span lang=3DDE-CH>Wann geht es =
+los?<o:p></o:p></span></h2><p class=3DMsoNormal><span lang=3DDE-CH>Der =
+Mailfilter wird am Montag, dem 24. September 2024, von MailCleaner auf =
+Exchange Online Protection umgestellt. <o:p></o:p></span></p><h2><span =
+lang=3DDE-CH>Was muss ich nach der Mailfilter-Migration erledigen / =
+wissen?<o:p></o:p></span></h2><p class=3DMsoNoSpacing =
+style=3D'margin-left:36.0pt;text-indent:-18.0pt;mso-list:l0 level1 =
+lfo1'><![if !supportLists]><span lang=3DDE-CH =
+style=3D'font-family:Symbol'><span style=3D'mso-list:Ignore'>=B7<span =
+style=3D'font:7.0pt "Times New =
+Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+</span></span></span><![endif]><span lang=3DDE-CH>Die neue =
+Quarant=E4neseite erreichen Sie =FCber: =AB<a =
+href=3D"https://security.microsoft.com/">https://security.microsoft.com/<=
+/a>=BB<br>- Email &amp; collaboration &#8211; Review &#8211; Quarantine =
+oder direkt via: =AB<a =
+href=3D"https://security.microsoft.com/quarantine">https://security.micro=
+soft.com/quarantine</a>=BB<o:p></o:p></span></p><p class=3DMsoNoSpacing =
+style=3D'margin-left:36.0pt;text-indent:-18.0pt;mso-list:l0 level1 =
+lfo1'><![if !supportLists]><span lang=3DDE-CH =
+style=3D'font-family:Symbol'><span style=3D'mso-list:Ignore'>=B7<span =
+style=3D'font:7.0pt "Times New =
+Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+</span></span></span><![endif]><span lang=3DDE-CH>Quarant=E4ne-E-Mails =
+enthalten wie bisher einen direkten Link auf die =
+Quarant=E4ne-Webseite.<o:p></o:p></span></p><p class=3DMsoNoSpacing =
+style=3D'margin-left:36.0pt;text-indent:-18.0pt;mso-list:l0 level1 =
+lfo1'><![if !supportLists]><span lang=3DDE-CH =
+style=3D'font-family:Symbol'><span style=3D'mso-list:Ignore'>=B7<span =
+style=3D'font:7.0pt "Times New =
+Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+</span></span></span><![endif]><span lang=3DDE-CH>Der Zugriff auf die =
+alte Quarant=E4ne von MailCleaner bleibt vorl=E4ufig bestehen und ist =
+nach wie vor voll funktional.<o:p></o:p></span></p><p =
+class=3DMsoNoSpacing =
+style=3D'margin-left:36.0pt;text-indent:-18.0pt;mso-list:l0 level1 =
+lfo1'><![if !supportLists]><span lang=3DDE-CH =
+style=3D'font-family:Symbol'><span style=3D'mso-list:Ignore'>=B7<span =
+style=3D'font:7.0pt "Times New =
+Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+</span></span></span><![endif]><span lang=3DDE-CH>ACHTUNG: Die =
+Einstellungen in MailCleaner werden <b>nicht </b>nach EOP migriert. =
+Allf=E4llig gemachte Anpassungen m=FCssen, sofern das m=F6glich ist, =
+unter EOP erneut eingerichtet werden.<o:p></o:p></span></p><p =
+class=3DMsoNoSpacing =
+style=3D'margin-left:36.0pt;text-indent:-18.0pt;mso-list:l0 level1 =
+lfo1'><![if !supportLists]><span lang=3DDE-CH =
+style=3D'font-family:Symbol'><span style=3D'mso-list:Ignore'>=B7<span =
+style=3D'font:7.0pt "Times New =
+Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+</span></span></span><![endif]><span lang=3DDE-CH>Das Tag-Only Feature =
+steht bei EOP nicht mehr zur Verf=FCgung.<o:p></o:p></span></p><p =
+class=3DMsoNoSpacing =
+style=3D'margin-left:36.0pt;text-indent:-18.0pt;mso-list:l0 level1 =
+lfo1'><![if !supportLists]><span lang=3DDE-CH =
+style=3D'font-family:Symbol'><span style=3D'mso-list:Ignore'>=B7<span =
+style=3D'font:7.0pt "Times New =
+Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+</span></span></span><![endif]><span lang=3DDE-CH>Pers=F6nliche Allow- =
+und Deny-Lists werden in Outlook oder Webmail verwaltet =
+(Junk-Mail-Einstellungen).<o:p></o:p></span></p><p class=3DMsoNoSpacing =
+style=3D'margin-left:36.0pt;text-indent:-18.0pt;mso-list:l0 level1 =
+lfo1'><![if !supportLists]><span lang=3DDE-CH =
+style=3D'font-family:Symbol'><span style=3D'mso-list:Ignore'>=B7<span =
+style=3D'font:7.0pt "Times New =
+Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+</span></span></span><![endif]><span lang=3DDE-CH>Im Gegensatz zu =
+MailCleaner werden nicht nur eingehende, sondern auch ausgehende E-Mails =
+gefiltert. Selbst der interne E-Mailverkehr wird einigen grundlegenden =
+Pr=FCfungen unterzogen. <o:p></o:p></span></p><h2><span =
+lang=3DDE-CH>Fragen?<o:p></o:p></span></h2><p class=3DMsoNoSpacing><span =
+lang=3DDE-CH>Informationen zum neuen Mailfilter finden Sie in dieser =
+Online-Dokumentation (<a =
+href=3D"https://u.ethz.ch/R8Et0">https://u.ethz.ch/R8Et0</a>) inkl. FAQ. =
+Ausserdem steht Ihnen der Servicedesk der Informatikdienste gerne f=FCr =
+weitere Ausk=FCnfte zur Verf=FCgung.<o:p></o:p></span></p><div =
+style=3D'mso-element:para-border-div;border:none;border-bottom:solid =
+black 1.0pt;padding:0cm 0cm 1.0pt 0cm'><p class=3DMsoNoSpacing =
+style=3D'border:none;padding:0cm'><span lang=3DDE-CH>Freundliche =
+Gr=FCsse<br></span><span lang=3DDE-CH =
+style=3D'background:white'>Informatikdienste der ETH =
+Z=FCrich</span><span =
+lang=3DDE-CH><br><br><o:p></o:p></span></p></div><h2>Migration mail =
+filter to Exchange Online Protection (EOP)<o:p></o:p></h2><p =
+class=3DMsoNormal>Dear ETH members<o:p></o:p></p><p class=3DMsoNormal>As =
+part of the upcoming migration of your personal mailbox to the cloud =
+(see Internal news &quot;<span lang=3DDE-CH><a =
+href=3D"https://ethz.ch/staffnet/en/news-und-veranstaltungen/intern-aktue=
+ll/archiv/2024/06/e-mails-neu-in-der-cloud.html"><span =
+lang=3DEN-US>Emails to be in the cloud</span></a></span>&quot; from 4 =
+June 2024), the mail filter (spam filter) will be switched from =
+MailCleaner to Exchange Online Protection (EOP).<o:p></o:p></p><p =
+class=3DMsoNormal>The email domains gess.ethz.ch and id.ethz.ch were =
+already successfully migrated in past months.<o:p></o:p></p><h2>What =
+will change with the migration to &quot;Exchange Online =
+Protection&quot;?<o:p></o:p></h2><p class=3DMsoNormal>EOP has =
+state-of-the-art AI-supported filter mechanisms and is adapted 24/7 to =
+the current threat situation. However, the options for intervening in =
+the configuration of the filter on our side are =
+limited.<o:p></o:p></p><h2>When does it start?<o:p></o:p></h2><p =
+class=3DMsoNormal>The mail filter will be switched from MailCleaner to =
+Exchange Online Protection on Monday, 24 September 2024. =
+<o:p></o:p></p><h2>What do I need to do / know after the mail filter =
+migration?<o:p></o:p></h2><p class=3DMsoNoSpacing =
+style=3D'margin-left:36.0pt;text-indent:-18.0pt;mso-list:l0 level1 =
+lfo1'><![if !supportLists]><span style=3D'font-family:Symbol'><span =
+style=3D'mso-list:Ignore'>=B7<span style=3D'font:7.0pt "Times New =
+Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+</span></span></span><![endif]>You can access the new quarantine page =
+via: <span lang=3DDE-CH><a =
+href=3D"https://security.microsoft.com/"><span =
+lang=3DEN-US>https://security.microsoft.com/</span></a></span><br>Email =
+&amp; collaboration - Review - Quarantine or directly via: &quot;<span =
+lang=3DDE-CH><a href=3D"https://security.microsoft.com/quarantine"><span =
+lang=3DEN-US>https://security.microsoft.com/quarantine</span></a></span>&=
+quot;<o:p></o:p></p><p class=3DMsoNoSpacing =
+style=3D'margin-left:36.0pt;text-indent:-18.0pt;mso-list:l0 level1 =
+lfo1'><![if !supportLists]><span style=3D'font-family:Symbol'><span =
+style=3D'mso-list:Ignore'>=B7<span style=3D'font:7.0pt "Times New =
+Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+</span></span></span><![endif]>As before, quarantine emails contain a =
+direct link to the quarantine website.<o:p></o:p></p><p =
+class=3DMsoNoSpacing =
+style=3D'margin-left:36.0pt;text-indent:-18.0pt;mso-list:l0 level1 =
+lfo1'><![if !supportLists]><span style=3D'font-family:Symbol'><span =
+style=3D'mso-list:Ignore'>=B7<span style=3D'font:7.0pt "Times New =
+Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+</span></span></span><![endif]>Access to the old MailCleaner quarantine =
+remains available for the time being and is still fully =
+functional.<o:p></o:p></p><p class=3DMsoNoSpacing =
+style=3D'margin-left:36.0pt;text-indent:-18.0pt;mso-list:l0 level1 =
+lfo1'><![if !supportLists]><span style=3D'font-family:Symbol'><span =
+style=3D'mso-list:Ignore'>=B7<span style=3D'font:7.0pt "Times New =
+Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+</span></span></span><![endif]>ATTENTION: The settings in MailCleaner =
+will not be migrated to EOP. Any adjustments made must be set up again =
+under EOP, if this is possible.<o:p></o:p></p><p class=3DMsoNoSpacing =
+style=3D'margin-left:36.0pt;text-indent:-18.0pt;mso-list:l0 level1 =
+lfo1'><![if !supportLists]><span style=3D'font-family:Symbol'><span =
+style=3D'mso-list:Ignore'>=B7<span style=3D'font:7.0pt "Times New =
+Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+</span></span></span><![endif]>The tag-only feature is no longer =
+available in EOP.<o:p></o:p></p><p class=3DMsoNoSpacing =
+style=3D'margin-left:36.0pt;text-indent:-18.0pt;mso-list:l0 level1 =
+lfo1'><![if !supportLists]><span style=3D'font-family:Symbol'><span =
+style=3D'mso-list:Ignore'>=B7<span style=3D'font:7.0pt "Times New =
+Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+</span></span></span><![endif]>Personal Allow and Deny lists are managed =
+in Outlook or Webmail (junk mail settings).<o:p></o:p></p><p =
+class=3DMsoNoSpacing =
+style=3D'margin-left:36.0pt;text-indent:-18.0pt;mso-list:l0 level1 =
+lfo1'><![if !supportLists]><span style=3D'font-family:Symbol'><span =
+style=3D'mso-list:Ignore'>=B7<span style=3D'font:7.0pt "Times New =
+Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+</span></span></span><![endif]>In contrast to MailCleaner, not only =
+incoming but also outgoing emails are filtered. Even internal e-mail =
+traffic is subjected to some basic checks. =
+<o:p></o:p></p><h2>Questions?<o:p></o:p></h2><p =
+class=3DMsoNormal>Information on the new mail filter can be found in =
+this online documentation (<span lang=3DDE-CH><a =
+href=3D"https://u.ethz.ch/Q0jPf"><span =
+lang=3DEN-US>https://u.ethz.ch/Q0jPf</span></a></span>) including FAQ. =
+The IT Services service desk will also be happy to provide you with =
+further information.<o:p></o:p></p><p class=3DMsoNormal =
+style=3D'margin:0cm;margin-bottom:.0001pt'>Kind regards<br>ETH Zurich IT =
+Services<span style=3D'font-family:"Times New =
+Roman",serif;mso-fareast-language:EN-US'> =
+<o:p></o:p></span></p></div></body></html>
+------=_NextPart_001_0041_01DAF797.A26EE570--
+
+------=_NextPart_000_0040_01DAF797.A26EE570
+Content-Type: application/pkcs7-signature; name="smime.p7s"
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="smime.p7s"
+
+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
+Q2VydEFzc3VyZWRJRENsaWVudENBRzIuY3JsMD6gPKA6hjhodHRwOi8vY3JsNC5kaWdpY2VydC5j
+b20vRGlnaUNlcnRBc3N1cmVkSURDbGllbnRDQUcyLmNybDB9BggrBgEFBQcBAQRxMG8wJAYIKwYB
+BQUHMAGGGGh0dHA6Ly9vY3NwLmRpZ2ljZXJ0LmNvbTBHBggrBgEFBQcwAoY7aHR0cDovL2NhY2Vy
+dHMuZGlnaWNlcnQuY29tL0RpZ2lDZXJ0QXNzdXJlZElEQ2xpZW50Q0FHMi5jcnQwDQYJKoZIhvcN
+AQELBQADggEBAGWjTmY41VCVoFf5EGA7X7ku0xxEZSCUvdCDC3d41Umb/5ZpfdhbW+uhu/WqD2Dr
+51lV3anCbqnJCTXK68F6/5eKAhHTnOO1ezspz9Vr/iDeKyaREE+I2nnyeFgO/wzo6HG09uQIMLKK
+bVpeNk3O62R8Bt4XP7+inPivHHL8ZVGw1K/323/YwuPLe1xHCTTpYyaPA7pRoeQwDj/qUddqPKbm
+V4m3KtnzglGTxjkjkZ55kMgzNx8kCMCVctltoRRb12Tv8un2s6xIRXlVk7Bvsdw0a1vXQE8RRH2h
+L4gWoxl70ypu+Pt8D/4VQXKS7m34vkOvZxkQZDggjuVwcjnUSRowggVfMIIER6ADAgECAhAP+uHz
+GitDPD2a4W1kO1iLMA0GCSqGSIb3DQEBCwUAMGUxCzAJBgNVBAYTAlVTMRUwEwYDVQQKEwxEaWdp
+Q2VydCBJbmMxGTAXBgNVBAsTEHd3dy5kaWdpY2VydC5jb20xJDAiBgNVBAMTG0RpZ2lDZXJ0IEFz
+c3VyZWQgSUQgUm9vdCBHMjAeFw0xOTA5MjMxMjI1MzJaFw0zNDA5MjMxMjI1MzJaMGoxCzAJBgNV
+BAYTAlVTMRUwEwYDVQQKEwxEaWdpQ2VydCBJbmMxGTAXBgNVBAsTEHd3dy5kaWdpY2VydC5jb20x
+KTAnBgNVBAMTIERpZ2lDZXJ0IEFzc3VyZWQgSUQgQ2xpZW50IENBIEcyMIIBIjANBgkqhkiG9w0B
+AQEFAAOCAQ8AMIIBCgKCAQEA6rFFrTqsvAoG+sNv+pDxG1d94oD2jQDjahlssXgZivhd230kTyvc
+8lEg5RkPVTeYSWfhL9pmhLnhD7kRyzerYYZP9nzZV4A8t4a8mhPQtLm3/Nd5Rxsy4MVaDKPfeSJ6
+ye66yc5a+khKjE36gEfiijT6hSIcjrmYyMwCVv3fHqxpuH2Qq8dC8cLjHa7vBi/n41eOds6ElL/U
+2Mar66Asxd6V0UzPQ7moUgOmfdpAZTSG3IlDZJnLESqVSuC6eytiP3CB9bte6ECLaPTLl32gxPRK
+5V4oUWdCFMSTkHd+r44E5bQBTYl1bWv3b1S1FsCvxGku3TlYjYbZE1VWUdhpTQIDAQABo4ICBDCC
+AgAwHQYDVR0OBBYEFKViIFDcu1tXl60jjzXiVGypfvlOMB8GA1UdIwQYMBaAFM7DSrmZVfK422C/
+qX69VrWXNqfWMA4GA1UdDwEB/wQEAwIBhjBMBgNVHSUERTBDBggrBgEFBQcDAgYIKwYBBQUHAwQG
+CisGAQQBgjcKAwQGCisGAQQBgjcUAgIGCisGAQQBgjcKAwwGCSqGSIb3LwEBBTASBgNVHRMBAf8E
+CDAGAQH/AgEAMDQGCCsGAQUFBwEBBCgwJjAkBggrBgEFBQcwAYYYaHR0cDovL29jc3AuZGlnaWNl
+cnQuY29tMEUGA1UdHwQ+MDwwOqA4oDaGNGh0dHA6Ly9jcmwzLmRpZ2ljZXJ0LmNvbS9EaWdpQ2Vy
+dEFzc3VyZWRJRFJvb3RHMi5jcmwwgc4GA1UdIASBxjCBwzCBwAYEVR0gADCBtzAoBggrBgEFBQcC
+ARYcaHR0cHM6Ly93d3cuZGlnaWNlcnQuY29tL0NQUzCBigYIKwYBBQUHAgIwfgx8QW55IHVzZSBv
+ZiB0aGlzIENlcnRpZmljYXRlIGNvbnN0aXR1dGVzIGFjY2VwdGFuY2Ugb2YgdGhlIFJlbHlpbmcg
+UGFydHkgQWdyZWVtZW50IGxvY2F0ZWQgYXQgaHR0cHM6Ly93d3cuZGlnaWNlcnQuY29tL3JwYS11
+YTANBgkqhkiG9w0BAQsFAAOCAQEAdmtsJAKjcwAipHSR6QZisLvQQAZENGrXUI6580ReFym/dgfo
+EyFShWKc882B+jkc+tkAWssr8o9dh0l2CQBIawg1psB9jaWNRonAqWkh7DCNLoq4YSfn0yCJ1oBQ
++HqVt60ihGwuEKoLMCdfVov31+MIx/g0xYtQLxOqi2eeso27DglKPHh9xCz5TlPVtuCfIPH7zJs4
+24gQO+Kcd0oO7ZWOgQLN7PbL/UhVM+WHnvMF+MclAWotbMd2i7wz65x0m2vazBcgjqzeeSril8Sf
+sqdvMxL2q4VK7I4YgtyD/epXBoc0szlH7ycHmA8jn67lSHnrDWL70OzWmNgCJMd15TGCA9AwggPM
+AgEBMH4wajELMAkGA1UEBhMCVVMxFTATBgNVBAoTDERpZ2lDZXJ0IEluYzEZMBcGA1UECxMQd3d3
+LmRpZ2ljZXJ0LmNvbTEpMCcGA1UEAxMgRGlnaUNlcnQgQXNzdXJlZCBJRCBDbGllbnQgQ0EgRzIC
+EAqPvMa3RXrUHuE5Veu1dyIwDQYJYIZIAWUDBAIBBQCgggIjMBgGCSqGSIb3DQEJAzELBgkqhkiG
+9w0BBwEwHAYJKoZIhvcNAQkFMQ8XDTI0MDgyNjA3MDkxOVowLwYJKoZIhvcNAQkEMSIEIF0w3OU3
+mG04TySMYOtr8Lx8E3pKQIzdHN0eTZhr40nIMIGOBgkrBgEEAYI3EAQxgYAwfjBqMQswCQYDVQQG
+EwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMRkwFwYDVQQLExB3d3cuZGlnaWNlcnQuY29tMSkw
+JwYDVQQDEyBEaWdpQ2VydCBBc3N1cmVkIElEIENsaWVudCBDQSBHMgIQCo+8xrdFetQe4TlV67V3
+IjCBkAYLKoZIhvcNAQkQAgsxgYCgfjBqMQswCQYDVQQGEwJVUzEVMBMGA1UEChMMRGlnaUNlcnQg
+SW5jMRkwFwYDVQQLExB3d3cuZGlnaWNlcnQuY29tMSkwJwYDVQQDEyBEaWdpQ2VydCBBc3N1cmVk
+IElEIENsaWVudCBDQSBHMgIQCo+8xrdFetQe4TlV67V3IjCBkwYJKoZIhvcNAQkPMYGFMIGCMAsG
+CWCGSAFlAwQBKjALBglghkgBZQMEARYwCgYIKoZIhvcNAwcwCwYJYIZIAWUDBAECMA4GCCqGSIb3
+DQMCAgIAgDANBggqhkiG9w0DAgIBQDALBglghkgBZQMEAgEwCwYJYIZIAWUDBAIDMAsGCWCGSAFl
+AwQCAjAHBgUrDgMCGjANBgkqhkiG9w0BAQEFAASCAQCc90f9IUfQptYmwhG/a7CCJeouhiqBm3MT
+q9hGft0K+EIXB4cUcbCzCPF5SBT+crDeqqDi5N/0uD13HjiCZsDibMLUdm1/XFb2YMT57kaD3DRu
+sij2Xg42dkDXLP49gU3ZWCicyOPjcESc0MblQRqp2ow81E7NO5jXYOMdnqQDAfN3skaHsyoEdhcv
+Pk1ST/L4+68ocR9cWCGgmV3OfKNZoNjzM5rs0h0oHAzNmcTjzgAE4d5uHBcYTsQQ/3E9RH/uqZ8v
+HCh3kYVS+C/oslHQUwgRG4CG/IMTciq9RHyIHYZqDjF4OQIRX8SRhmTM+ZWXr/aqskojc+5Q4i7n
+KBL5AAAAAAAA
+
+------=_NextPart_000_0040_01DAF797.A26EE570--

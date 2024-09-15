@@ -1,0 +1,247 @@
+Received: from mailm214.d.ethz.ch (2001:67c:10ec:5603::28) by
+ mailm115.d.ethz.ch (2001:67c:10ec:5602::27) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256) id
+ 15.1.2507.39 via Mailbox Transport; Sat, 24 Aug 2024 10:40:11 +0200
+Received: from mailm111.d.ethz.ch (2001:67c:10ec:5602::23) by
+ mailm214.d.ethz.ch (2001:67c:10ec:5603::28) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256) id
+ 15.1.2507.39; Sat, 24 Aug 2024 10:40:10 +0200
+Received: from mailg210.ethz.ch (2001:67c:10ec:5606::21) by mailm111.d.ethz.ch
+ (2001:67c:10ec:5602::23) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256) id 15.1.2507.39 via Frontend
+ Transport; Sat, 24 Aug 2024 10:40:10 +0200
+Received: from ethz.ch (129.132.198.196) by mailg210.ethz.ch (129.132.198.194)
+ with Microsoft SMTP Server id 15.1.2507.39; Sat, 24 Aug 2024 10:40:09 +0200
+Authentication-Results: mc4.ethz.ch;
+	iprev=pass (a89-130.smtp-out.eu-west-1.amazonses.com) smtp.remote-ip=54.240.89.130;
+	spf=pass smtp.mailfrom=eu-west-1.amazonses.com;
+	dkim=pass header.d=instructure.com header.s=nazgvfit4bwza3fg6jmezacbrxtyflmk header.a=rsa-sha256;
+	dkim=pass header.d=amazonses.com header.s=uku4taia5b5tsbglxyj6zym32efj7xqv header.a=rsa-sha256;
+	dmarc=pass header.from=instructure.com
+Received: from a89-130.smtp-out.eu-west-1.amazonses.com ([54.240.89.130])
+	by ethz.ch stage1 with esmtps 
+	(Exim MailCleaner) 
+	id 1shmJX-00000000DyN-2HTg 
+	for <hopf@imes.mavt.ethz.ch> 
+	from <01020191838ae1af-b0dc8452-09ca-4b55-b95f-b83eeeb7d257-000000@eu-west-1.amazonses.com>;
+	Sat, 24 Aug 2024 10:40:03 +0200
+X-MailCleaner-SPF: pass
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=nazgvfit4bwza3fg6jmezacbrxtyflmk; d=instructure.com;
+	t=1724488802;
+	h=Date:From:Reply-To:To:Message-ID:Subject:Mime-Version:Content-Type:Content-Transfer-Encoding;
+	bh=2RxtUzqAG9ZwdP06Bdpx5kte6wlspCs/JTLvcHV/giw=;
+	b=Djwf8KsjFAu6qmhebFv/l18V6gAlLVOkhZd0DsurlJ/SJsGgnQMRQs8eqMZMaOD7
+	jL2MYjXMWSFT4x4V1d/7BrmamtSCP+eBe6zpPVGXSUdz4087J5we5XtLHW/FWSFeJwQ
+	/hxtJGOrWnXpdvTHL5OlHi+UA6rG2PzyDXie+hQ0=
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=uku4taia5b5tsbglxyj6zym32efj7xqv; d=amazonses.com; t=1724488802;
+	h=Date:From:Reply-To:To:Message-ID:Subject:Mime-Version:Content-Type:Content-Transfer-Encoding:Feedback-ID;
+	bh=2RxtUzqAG9ZwdP06Bdpx5kte6wlspCs/JTLvcHV/giw=;
+	b=AJiOyAkbrxpcAPz/HFwqoFxRSgNKITuBoILdyu+SKNGzOnEAyRZCmjtCPyf/v+mw
+	cIMQwj00mEw99bM4OchqGLo/unEAOFsyPdO1eEbq/NltfrYBIgR2L1icPldGXKSdTx5
+	SbN0MokJBYEJ0MAJ8l4ZkX753guLLu3adDTgAfI8=
+X-On-bounce-route-to: notification-service-failures-dub-prod
+Date: Sat, 24 Aug 2024 08:40:02 +0000
+From: Ashesi Canvas LMS <notifications@instructure.com>
+Reply-To: reply+d3a104139503e328-15363~6565016-1724488802@eu.notifications.canvaslms.com
+To: hopf@imes.mavt.ethz.ch
+Message-ID: <01020191838ae1af-b0dc8452-09ca-4b55-b95f-b83eeeb7d257-000000@eu-west-1.amazonses.com>
+Subject: Recent Canvas notifications
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_66c99c62a2e0f_43b1c2b3429a8";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Auto-Submitted: auto-generated
+Feedback-ID: ::1.eu-west-1.CDFBpfQ07SahGQPZB7Ir4JqPGHM3SOPZFkMN2i69bek=:AmazonSES
+X-SES-Outgoing: 2024.08.24-54.240.89.130
+X-Newsl: is not newsletter (0.0/5.0) position : 0, not decisive
+X-MailCleaner-MachineLearning0: is not spam (93.82078051567078%) (200728-ALL-50S) (en)
+X-MailCleaner-MachineLearning1: is not spam (98.98538589477539%) (200728-ALL-10L) (en)
+X-NiceBayes: is not spam (38.14%) position : 3, not decisive
+X-Spamc: is not spam (-4.6/5.0) position : 7, ham decisive
+X-MailCleaner-Information: Please contact servicedesk@id.ethz.ch for more information
+X-MailCleaner-ID: 1shmJX-00000000DyQ-2cdC
+X-MailCleaner: Found to be clean
+X-MailCleaner-SpamCheck: not spam, Newsl (score=0.0, required=5.0, NONE,
+	position : 0, not decisive), MachineLearning (93.82078051567078% en,
+	position : 2, not decisive), MachineLearning (98.98538589477539% en,
+	position : 2, not decisive), NiceBayes (38.14%, position : 3,
+	not decisive), Spamc (score=-4.6, required=5.0, DKIM_SIGNED 0.6,
+	MC_SPF_PASS -0.0, EZ_FHA_amazonses 0.0, RCVD_IN_RP_SAFE -2.0,
+	EZURItest_nonethz_a 0.0, EZ_FHA_exception 0.0, DKIM_VALID_AU -0.3,
+	URIBL_BLOCKED 0.0, RCVD_IN_RP_RNBL 1.3, BOTNET_IPINHOSTNAME 1.0,
+	MC_DKIM_OK_NO_FREEMAIL -0.5, RCVD_IN_DNSWL_NONE -0.0,
+	DKIM_VALID -0.3, HTML_MESSAGE 0.0, EZURL 0.0,
+	ezML_Neg_eu_west_1_amazonses -1.8, MC_CLIENT_CERT_NONE 0.1,
+	RCVD_IN_RP_CERTIFIED -3.0, MC_ML1_98 0.3, EthURLb 0.0,
+	EZURItest_nonethz_b 0.0, position : 7, ham decisive)
+X-MailCleaner-ReportURL: https://mailcleaner.ethz.ch/rs.php
+Return-Path: 01020191838ae1af-b0dc8452-09ca-4b55-b95f-b83eeeb7d257-000000@eu-west-1.amazonses.com
+X-MS-Exchange-Organization-Network-Message-Id: 4abe1a54-a03e-4e33-729c-08dcc4185cb6
+X-MS-Exchange-Organization-AVStamp-Mailbox: SMEXJnq?;1954700;0;This mail has
+ been scanned by Trend Micro ScanMail for Microsoft Exchange;
+X-MS-Exchange-Organization-SCL: 0
+X-MS-Exchange-Organization-AuthSource: mailg210.ethz.ch
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:01.8594203
+X-MS-Exchange-Processed-By-BccFoldering: 15.01.2507.039
+MIME-Version: 1.0
+
+----==_mimepart_66c99c62a2e0f_43b1c2b3429a8
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+  You're signed up to receive a weekly report of some notifications from your Canvas account.  Below is the report for the week ending 24 Aug:
+
+--------------------------------
+
+Assignment created - Coding Assignment, Statics and Solid Mechanics
+
+    due: 19 Aug at 23:59
+
+    https://ashesi.instructure.com/courses/2050/assignments/50436
+
+
+You can change your notification settings by visiting the following page:
+https://ashesi.instructure.com/profile/communication
+
+
+
+
+
+
+________________________________________
+
+You received this email because you are participating in one or more classes using Canvas.  To change or turn off email notifications, visit: 
+https://ashesi.instructure.com/profile/communication
+
+
+----==_mimepart_66c99c62a2e0f_43b1c2b3429a8
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html><html dir="ltr" lang="en-GB"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"><meta name="viewport" content="width=device-width">
+  
+  <style type="text/css">
+/*
+Changes to font size (14->16) for smaller screens
+table[class=body] is the only selector that works for all vendors
+*/
+@media only screen and (max-width: 620px) {
+  table[class=body] p,
+  table[class=body] ul,
+  table[class=body] ol,
+  table[class=body] td,
+  table[class=body] span,
+  table[class=body] a {
+    font-size: 16px !important;
+  }
+  /* remove padding for mobile so no gray shows */
+  table[class=body] .bodycell {
+    padding: 0 !important;
+    width: 100% !important;
+  }
+  /* reduce padding from 20->10 for mobile */
+  table[class=body] .maincell {
+    padding: 10px !important;
+  }
+}
+/*
+ExternalClass fixes Outlook.com / Hotmail emails
+*/
+@media all {
+  .ExternalClass {
+    width: 100%;
+  }
+  .ExternalClass,
+  .ExternalClass p,
+  .ExternalClass span,
+  .ExternalClass font,
+  .ExternalClass td,
+  .ExternalClass div {
+    line-height: 100%;
+  }
+}
+  </style>
+</head>
+<!--
+background: white (could be gray)
+default sans serif fonts, 14px, 1.3, #444444
+vendor prefixes for Outlook (-ms) and iOS (-webkit)
+Margin is capitalized to fix Outlook.com
+-->
+<body class="" style="background-color:#ffffff; font-family:'Open Sans', 'Lucida Grande', 'Segoe UI', Arial, Verdana, 'Lucida Sans Unicode', Tahoma, 'Sans Serif'; font-size:14px; color: #444444; line-height:1.3; Margin:0; padding:0; -ms-text-size-adjust:100%; -webkit-font-smoothing:antialiased; -webkit-text-size-adjust:100%;">
+
+  <!-- body: background table (if body has a color, this should match) -->
+  <table border="0" cellpadding="0" cellspacing="0" class="body" style="border-collapse:separate; background-color:#ffffff; width:100%; box-sizing:border-box; mso-table-lspace:0pt; mso-table-rspace:0pt;">
+    <tr>
+      <!-- width and max-width so it can scale for mobile -->
+      <td class="bodycell" style="max-width:600px; width:100%; font-family:'Open Sans', 'Lucida Grande', 'Segoe UI', Arial, Verdana, 'Lucida Sans Unicode', Tahoma, 'Sans Serif'; font-size:14px; vertical-align:top; display:block; box-sizing:border-box; padding:10px; Margin:0 auto !important;">
+
+<!-- for older versions of Outlook that don't support max-width -->
+<!--[if (gte mso 9)|(IE)]>
+<table width="600" align="center" cellpadding="0" cellspacing="0" border="0"><tr><td>
+<![endif]-->
+
+        <!-- main: white box for content -->
+        <table class="main" style="background:#fff; width:100%; border-collapse:separate; mso-table-lspace:0pt; mso-table-rspace:0pt; ">
+          <tr>
+            <td class="maincell" style="font-family:sans-serif; font-size:14px; vertical-align:top; box-sizing:border-box; padding:20px;">
+
+                    
+  <p>You're signed up to receive a weekly report of some notifications from your Canvas account. Below is the report for the week ending 24 Aug:</p>
+
+  <p><strong>Assignment created - Coding Assignment, Statics and Solid Mechanics</strong></p>
+  <p>
+
+
+due: 19 Aug at 23:59
+</p>
+  <p><a href="https://ashesi.instructure.com/courses/2050/assignments/50436">Click to view</a></p>
+
+
+            </td>
+          </tr>
+        </table>
+        <!-- /.main -->
+
+        <!-- logo: branding -->
+        <table class="logo" style="width:100%; box-sizing:border-box; border-collapse:separate; mso-table-lspace:0pt; mso-table-rspace:0pt; ">
+          <tr>
+            <td class="logocell" style="text-align:center; vertical-align:top; box-sizing:border-box; padding:10px;">
+              <img src="https://du11hjcvx0uqb.cloudfront.net/dist/images/email_signature-d2c5880612.png" alt="">
+            </td>
+          </tr>
+        </table>
+        <!-- /.logo -->
+
+        <!-- footer: gray text below main -->
+        <table class="footer" style="width:100%; box-sizing:border-box; border-collapse:separate; mso-table-lspace:0pt; mso-table-rspace:0pt; ">
+          <tr>
+            <td class="footercell" style="font-family:sans-serif; font-size:14px; vertical-align:top; color:#a8b9c6; font-size:12px; text-align:center; padding:10px; box-sizing:border-box; ">
+
+
+                <a href="https://ashesi.instructure.com/profile/communication" style="white-space: nowrap;">Update your notification settings</a>
+
+            </td>
+          </tr>
+        </table>
+        <!-- /.footer -->
+
+<!--[if (gte mso 9)|(IE)]>
+</td></tr></table>
+<![endif]-->
+
+      </td>
+    </tr>
+  </table>
+  <!-- /.body -->
+
+</body>
+</html>
+
+----==_mimepart_66c99c62a2e0f_43b1c2b3429a8--

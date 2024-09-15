@@ -1,0 +1,115 @@
+Received: from mailm210.d.ethz.ch (2001:67c:10ec:5603::24) by
+ mailm115.d.ethz.ch (2001:67c:10ec:5602::27) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256) id
+ 15.1.2507.39 via Mailbox Transport; Mon, 2 Sep 2024 10:17:14 +0200
+Received: from mailm210.d.ethz.ch (2001:67c:10ec:5603::24) by
+ mailm210.d.ethz.ch (2001:67c:10ec:5603::24) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256) id
+ 15.1.2507.39; Mon, 2 Sep 2024 10:17:14 +0200
+Received: from mailg110.ethz.ch (2001:67c:10ec:5605::21) by mailm210.d.ethz.ch
+ (2001:67c:10ec:5603::24) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256) id 15.1.2507.39 via Frontend
+ Transport; Mon, 2 Sep 2024 10:17:14 +0200
+Received: from ethz.ch (129.132.162.68) by mailg110.ethz.ch (129.132.162.66)
+ with Microsoft SMTP Server id 15.1.2507.39; Mon, 2 Sep 2024 10:17:15 +0200
+Authentication-Results: mc1;
+	iprev=pass (mailr110.ethz.ch) smtp.remote-ip=82.130.69.114;
+	spf=pass smtp.mailfrom=id.ethz.ch;
+	dkim=pass header.d=id.ethz.ch header.s=key1-q2-2022 header.a=rsa-sha256;
+	dmarc=skipped
+Received: from mailr110.ethz.ch ([82.130.69.114])
+	by ethz.ch stage1 with esmtps 
+	(Exim MailCleaner) 
+	id 1sl2EI-000000003d5-18dg 
+	for <hopf@imes.mavt.ethz.ch> 
+	from <no_reply@id.ethz.ch>;
+	Mon, 02 Sep 2024 10:16:06 +0200
+X-MailCleaner-SPF: pass
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=id.ethz.ch;
+ s=key1-q2-2022; t=1725264966; h=From:Subject:Date:Message-ID:To
+ :MIME-Version:Content-Type:Content-Transfer-Encoding; bh=LvoA9jkcsxXkcES0
+ sCNwcXK4aupXYssCFT9kjjqb334=; b=XDs9jjaQViK5l9GftryzmmCAEH7Qs3KdqB/C6+V24
+ cDA3KkBaJV9kXlR3CAT5IZn07U1KX95t3chIybI67BkZnWGargNWY2YgoRhbZioA6q//07Q8Y
+ efoVIJPbInPPHMEgJCSA5iZjRlF6ZNYpbloQ2JF9LtywqwUJ10O041cIVP0afnxOk35FKyYdY
+ dJcRXCMMtXVY+SR/qzGKDqS4j0BzLrQ97ERnoi4AVF819WyatL/kqHkLceDUCvVsXA7BX2+qp
+ P4ApmU4IV5qMDarWvXw0pkPAPesCwmFAHBCCAxb7asjHbVBaSkhSrWvwkjE1pH+LKFnC82pyQ
+ PT0XlClOg==;
+Received: from vmiam200.d.ethz.ch (129.132.165.132) by mailr110.ethz.ch
+ (82.130.69.114) with Microsoft SMTP Server id 15.1.2507.39; Mon, 2 Sep 2024
+ 10:16:06 +0200
+From: <no_reply@id.ethz.ch>
+To: <hopf@imes.mavt.ethz.ch>
+Message-ID: <280070446.2433.1725264966106@vmiam200>
+Subject: =?utf-8?Q?IAM_-_Kontaktdaten_f=C3=BCr_Passwort-Reset_?=
+ =?utf-8?Q?/_IAM_=E2=80=93_Contact_data_for_password_reset?=
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+Date: Mon, 2 Sep 2024 10:16:06 +0200
+X-DKIM-Signer: DkimX (v3.20.320)
+X-MailCleaner-TrustedIPs: Ok
+X-MailCleaner-HTML-WL: Ok
+X-Newsl: is not newsletter (0.0/5.0) position : 0, not decisive
+X-MailCleaner-Information: Please contact servicedesk@id.ethz.ch for more information
+X-MailCleaner-ID: 1sl2EI-000000003dE-1GXE
+X-MailCleaner: Found to be clean
+X-MailCleaner-SpamCheck: not spam, Newsl (score=0.0, required=5.0, NONE,
+	position : 0, not decisive),
+	TrustedIPs (sending IP is in Trusted IPs, position : 0,
+	ham decisive)
+X-MailCleaner-ReportURL: https://mailcleaner.ethz.ch/rs.php
+Return-Path: no_reply@id.ethz.ch
+X-MS-Exchange-Organization-Network-Message-Id: 052eabb1-739b-4f04-1532-08dccb27a775
+X-MS-Exchange-Organization-AVStamp-Mailbox: SMEXJnq?;1956500;0;This mail has
+ been scanned by Trend Micro ScanMail for Microsoft Exchange;
+X-MS-Exchange-Organization-SCL: -1
+X-MS-Exchange-Organization-AuthSource: mailg110.ethz.ch
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Exchange-Processed-By-BccFoldering: 15.01.2507.039
+MIME-Version: 1.0
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"><html><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8"><m=
+eta http=E2=80=93equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF=
+-8">
+	<meta http=E2=80=93equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+	<meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D1=
+.0">
+</head>
+<body>
+<p>
+Guten Tag<br><br>
+
+Die Daten f=C3=BCr das Passwort-Reset wurden ge=C3=A4ndert. Die neuen Konta=
+ktdaten sind:<br><br>
+
+Handynummer : &#43;41794869441<br>
+E-Mail      : raul.hopf@gmail.com<br>
+</p>
+
+<p>
+Freundliche Gr=C3=BCsse<br>
+Informatikdienste der ETH Z=C3=BCrich<br><br>
+*** Bitte antworten Sie nicht auf dieses E-Mail. Bei Fragen steht der Servi=
+ce Desk zur Verf=C3=BCgung: <a href=3D"https://www.id.ethz.ch/servicedesk">=
+www.id.ethz.ch/servicedesk</a>
+</p>
+
+<br><br> *** English version ***<br><br>
+<p>
+Dear recipient<br><br>
+
+The contact data for password reset has been changed. The new data is:<br><=
+br>
+
+Mobile Nummber : &#43;41794869441<br>
+E-Mail         : raul.hopf@gmail.com<br>
+</p>
+<p>
+Kind regards,<br>
+IT Services of ETH Zurich<br><br>
+*** Please do not answer to this email. If you have a question contact the =
+Service Desk: <a href=3D"https://www.its.ethz.ch/servicedesk">www.its.ethz.=
+ch/servicedesk</a>
+</p>
+</body>
+</html>

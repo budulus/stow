@@ -1,0 +1,49 @@
+Received: from GWS00.d.ethz.ch (82.130.70.77) by CAS12.d.ethz.ch
+ (172.31.38.212) with Microsoft SMTP Server (TLS) id 14.1.339.1; Mon, 26 Sep
+ 2011 11:12:12 +0200
+Received: from edge10.ethz.ch (82.130.75.186) by gws00.d.ethz.ch
+ (129.132.178.237) with Microsoft SMTP Server (TLS) id 8.2.254.0; Mon, 26 Sep
+ 2011 11:12:12 +0200
+Received: from phil1.ethz.ch (129.132.202.242) by edge10.ethz.ch
+ (82.130.75.186) with Microsoft SMTP Server id 14.1.339.1; Mon, 26 Sep 2011
+ 11:12:11 +0200
+Received: from edge10s.ethz.ch ([82.130.75.187])	by phil1.ethz.ch with esmtp
+ (Exim 4.69)	(envelope-from <roger.zuest@math.ethz.ch>)	id 1R87ES-0002zv-3H
+	for hopf@imes.mavt.ethz.ch; Mon, 26 Sep 2011 11:12:12 +0200
+Received: from ois-prd-red3.ethz.ch (129.132.122.135) by edge10s.ethz.ch
+ (82.130.75.187) with Microsoft SMTP Server id 14.1.339.1; Mon, 26 Sep 2011
+ 11:12:13 +0200
+Date: Mon, 26 Sep 2011 11:12:11 +0200
+From: <roger.zuest@math.ethz.ch>
+To: <roger.zuest@math.ethz.ch>
+Message-ID: <36853758.79286.1317028331801.JavaMail.wls1032@ois-prd-red3.ethz.ch>
+Subject: Exercises DGI
+Content-Type: text/plain; charset="ISO-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Return-Path: roger.zuest@math.ethz.ch
+X-MS-Exchange-Organization-AuthSource: edge10.ethz.ch
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Exchange-Organization-AVStamp-Mailbox: SMEXkv@];845500;0;This mail has
+ been scanned by Trend Micro ScanMail for Microsoft Exchange;
+X-MS-Exchange-Organization-SCL: 0
+MIME-Version: 1.0
+
+
+Hi,
+
+there is a new distribution into exercise classes for differential geometry=
+ I. On this Wednesday 15-16 those with a surname starting with A-Ga should =
+go to the room HG G 3 instead of HG G 26.1. All others should follow the ta=
+ble below:
+
+A-Ga:   We 15-16, HG G 26.1
+Ge-Lei: We 15-16, HG G 3
+Leo-Re: We 15-16, CAB G 57
+Ro-Z:           Fr   09-10, HG G 26.1
+
+The first exercises are now on the course homepage:
+http://www.math.ethz.ch/education/bachelor/lectures/hs2011/math/diff_geomet=
+rie
+
+Best Regards
+Roger Z=FCst

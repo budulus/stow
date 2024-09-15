@@ -1,0 +1,76 @@
+Received: from GWS00.d.ethz.ch (82.130.70.77) by CAS22.d.ethz.ch
+ (172.31.51.112) with Microsoft SMTP Server (TLS) id 14.1.339.1; Sun, 2 Oct
+ 2011 20:38:48 +0200
+Received: from edge10.ethz.ch (82.130.75.186) by gws00.d.ethz.ch
+ (129.132.178.237) with Microsoft SMTP Server (TLS) id 8.2.254.0; Sun, 2 Oct
+ 2011 20:38:48 +0200
+Received: from phil2.ethz.ch (129.132.202.240) by edge10.ethz.ch
+ (82.130.75.186) with Microsoft SMTP Server id 14.1.339.1; Sun, 2 Oct 2011
+ 20:38:32 +0200
+Received: from mail-bw0-f52.google.com ([209.85.214.52])	by phil2.ethz.ch with
+ esmtp (Exim 4.69)	(envelope-from <808930@gmail.com>)	id 1RAQw2-0004e9-6e	for
+ hopf@imes.mavt.ethz.ch; Sun, 02 Oct 2011 20:38:48 +0200
+Received: by bke5 with SMTP id 5so6176421bke.39        for
+ <hopf@imes.mavt.ethz.ch>; Sun, 02 Oct 2011 11:38:45 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=gamma;
+        h=mime-version:in-reply-to:references:date:message-id:subject:from:to
+         :content-type;
+        bh=11RP2DIH/j7v42nLgm7CzwvEtsWvnkw4GOoHtQCNaS0=;
+        b=W8OcQd1xQ+o/Sz+6rSLun880FlwDWA59FQ6JB9faIEn7T8RpOfQVMka2sBJGwmprCB
+         Krt6ad3G22QIyyRpEOFJXj/stVWBBcwvdrY0s/MUpI/gHSE5QfB60rmM6AxVxliQNXoL
+         K2yhokpE4Wn/PSwIryW68Fvl7AunPV01uL8Ms=
+Received: by 10.223.55.146 with SMTP id u18mr8238348fag.108.1317580725592;
+ Sun, 02 Oct 2011 11:38:45 -0700 (PDT)
+Received: by 10.223.116.67 with HTTP; Sun, 2 Oct 2011 11:38:45 -0700 (PDT)
+In-Reply-To: <7DA07D56-8508-4A91-A759-4EF8487A4B0F@imes.mavt.ethz.ch>
+References: <7DA07D56-8508-4A91-A759-4EF8487A4B0F@imes.mavt.ethz.ch>
+Date: Sun, 2 Oct 2011 20:38:45 +0200
+Message-ID: <CAOF+YKzj+WwPskEt=JV6u5ZM5KfE76mGCvQMys02KwMtBqB2Vg@mail.gmail.com>
+Subject: Re:
+From: dominique koevoets <808930@gmail.com>
+To: Hopf Raoul <hopf@imes.mavt.ethz.ch>
+Content-Type: multipart/alternative; boundary="001517447f961ca38504ae552b80"
+X-Filter-Node: phil2.ethz.ch
+X-Spam-Level:
+X-Spam-Status: hits=-0.6 tests=FREEMAIL_ENVFROM_END_DIGIT,FREEMAIL_FROM,HTML_MESSAGE,RCVD_IN_DNSWL_LOW,SPF_PASS,T_DKIM_INVALID
+X-Spam-Flag: NO
+Return-Path: 808930@gmail.com
+X-MS-Exchange-Organization-AuthSource: edge10.ethz.ch
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Exchange-Organization-AVStamp-Mailbox: SMEXkv@];846700;0;This mail has
+ been scanned by Trend Micro ScanMail for Microsoft Exchange;
+X-MS-Exchange-Organization-SCL: 0
+MIME-Version: 1.0
+
+--001517447f961ca38504ae552b80
+Content-Type: text/plain; charset="ISO-8859-1"
+
+http://www.booking.com/hotel/nl/mandarin.nl.html?label=gog235jc;sid=1c5e36853d38e6ced39a980526a3fa9e;checkin=2011-12-27;checkout=2012-01-03;srfid=a212c51a3690ccc1cd35d7a7f5ffd096X3
+
+2011/10/1 Hopf Raoul <hopf@imes.mavt.ethz.ch>
+
+>
+>
+>
+
+--001517447f961ca38504ae552b80
+Content-Type: text/html; charset="ISO-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-=
+1"><a href=3D"http://www.booking.com/hotel/nl/mandarin.nl.html?label=3Dgog2=
+35jc;sid=3D1c5e36853d38e6ced39a980526a3fa9e;checkin=3D2011-12-27;checkout=
+=3D2012-01-03;srfid=3Da212c51a3690ccc1cd35d7a7f5ffd096X3">http://www.bookin=
+g.com/hotel/nl/mandarin.nl.html?label=3Dgog235jc;sid=3D1c5e36853d38e6ced39a=
+980526a3fa9e;checkin=3D2011-12-27;checkout=3D2012-01-03;srfid=3Da212c51a369=
+0ccc1cd35d7a7f5ffd096X3</a><br>
+<br><div class=3D"gmail_quote">2011/10/1 Hopf  Raoul <span dir=3D"ltr">&lt;=
+<a href=3D"mailto:hopf@imes.mavt.ethz.ch">hopf@imes.mavt.ethz.ch</a>&gt;</s=
+pan><br><blockquote class=3D"gmail_quote" style=3D"margin: 0pt 0pt 0pt 0.8e=
+x; border-left: 1px solid rgb(204, 204, 204); padding-left: 1ex;">
+<br>
+<br>
+</blockquote></div><br>
+
+--001517447f961ca38504ae552b80--

@@ -1,0 +1,46 @@
+Received: from edge10.ethz.ch (82.130.75.186) by CAS20.d.ethz.ch
+ (172.31.51.110) with Microsoft SMTP Server (TLS) id 14.1.289.1; Fri, 5 Aug
+ 2011 13:59:39 +0200
+Received: from vphil1.ethz.ch (129.132.202.247) by edge10.ethz.ch
+ (82.130.75.186) with Microsoft SMTP Server id 14.1.289.1; Fri, 5 Aug 2011
+ 13:59:38 +0200
+Received: from mail-fx0-f52.google.com ([209.85.161.52])	by vphil1.ethz.ch
+ with esmtp (Exim 4.69)	(envelope-from <marc.immer@gmail.com>)	id
+ 1QpJ3v-0003cL-FR	for hopf@imes.mavt.ethz.ch; Fri, 05 Aug 2011 13:59:39 +0200
+Received: by fxd18 with SMTP id 18so5379495fxd.39        for
+ <hopf@imes.mavt.ethz.ch>; Fri, 05 Aug 2011 04:59:35 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=gamma;
+        h=from:mime-version:date:message-id:subject:to:content-type;
+        bh=XaY+yUqLy2kxK247ut7RnL19TXEV9+kvz5Xmi6w84YA=;
+        b=EUAashplKeLK9qctugxx2oIQIABRqg1098lhMht51M+LbJbR3F/CGVrKojNNaTywxR
+         I4+k+eToUQA5tzVsSdTQ8X07NbxxRFA9zS7mfVjmVww7B81A058moaJk101Ng4294bOw
+         piMnwn1UOWL3Hle1ZL8V9G6Yj7TAwTnxeN/GQ=
+Received: by 10.223.93.201 with SMTP id w9mr2833527fam.52.1312545575496; Fri,
+ 05 Aug 2011 04:59:35 -0700 (PDT)
+From: Marc Immer <marc.immer@gmail.com>
+Date: Fri, 5 Aug 2011 13:59:55 +0200
+Message-ID: <-7372403160475049957@unknownmsgid>
+Subject: Re: hahaha
+To: Hopf Raoul <hopf@imes.mavt.ethz.ch>
+Content-Type: text/plain; charset="ISO-8859-1"
+X-Filter-Node: vphil1.ethz.ch
+X-Spam-Level:
+X-Spam-Status: hits=-0.7 tests=FREEMAIL_FROM,RCVD_IN_DNSWL_LOW,SPF_PASS,T_DKIM_INVALID
+X-Spam-Flag: NO
+Return-Path: marc.immer@gmail.com
+X-MS-Exchange-Organization-AuthSource: edge10.ethz.ch
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Exchange-Organization-AVStamp-Mailbox: SMEXawoY;833300;0;This mail has
+ been scanned by Trend Micro ScanMail for Microsoft Exchange;
+X-MS-Exchange-Organization-SCL: 0
+MIME-Version: 1.0
+
+E ornihopter???
+
+
+
+On 05.08.2011, at 13:39, "Hopf  Raoul" <hopf@imes.mavt.ethz.ch> wrote:
+
+>
+>

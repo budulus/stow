@@ -1,0 +1,156 @@
+Received: from GWS00.d.ethz.ch (82.130.70.77) by CAS22.d.ethz.ch
+ (172.31.51.112) with Microsoft SMTP Server (TLS) id 14.1.289.1; Thu, 12 May
+ 2011 23:41:16 +0200
+Received: from edge20.ethz.ch (82.130.99.26) by gws00.d.ethz.ch
+ (129.132.178.237) with Microsoft SMTP Server (TLS) id 8.2.254.0; Thu, 12 May
+ 2011 23:41:16 +0200
+Received: from phil2.ethz.ch (129.132.202.240) by edge20.ethz.ch
+ (82.130.99.26) with Microsoft SMTP Server id 14.1.289.1; Thu, 12 May 2011
+ 23:41:07 +0200
+Received: from mail-fx0-f52.google.com ([209.85.161.52])	by phil2.ethz.ch with
+ esmtp (Exim 4.69)	(envelope-from <simon.winterberg@gmail.com>)	id
+ 1QKddC-00006H-7f	for hopf@imes.mavt.ethz.ch; Thu, 12 May 2011 23:41:15 +0200
+Received: by fxm6 with SMTP id 6so2438034fxm.39        for
+ <hopf@imes.mavt.ethz.ch>; Thu, 12 May 2011 14:41:14 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=gamma;
+        h=domainkey-signature:mime-version:sender:in-reply-to:references:from
+         :date:x-google-sender-auth:message-id:subject:to:content-type;
+        bh=voEarme4/bvy8dBwKK9XcTU9LiS+/GyZx/nbb24VZlc=;
+        b=Gb4bfFVpyGN+OFi3Z+Npe8KfMftR9r1uLgZhR6pZ1E/AOMAZLUJjIPDkAMJ39rVtps
+         uh3bFpDurG8AvdAIALvv7jboCeyOGDKZyvhajK9AhfwKD9VpMqmhzLu7tvZXgy+i8F3F
+         uG6Eb15HkYVQhRt2rte+2N7CcZ3Ja1iL1/KsI=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=gmail.com; s=gamma;
+        h=mime-version:sender:in-reply-to:references:from:date
+         :x-google-sender-auth:message-id:subject:to:content-type;
+        b=bodxif19G5oVpcyj6Da1lK/+1jUt7O7xkmsXhE+G2spfULo46Y2V1AZfORCgnNi0ur
+         iSSzwbfyzla9cpNtP1/oJUKopYf2Ck/hLzxMv+eQ3SgK+6HyB5RsmBhK3XiYmOK/QSx3
+         4dDWYzOp57ofq8ODYg6+sM70dG9SaUGYoZaXo=
+Received: by 10.223.14.137 with SMTP id g9mr868258faa.8.1305236474155; Thu, 12
+ May 2011 14:41:14 -0700 (PDT)
+Sender: <simon.winterberg@gmail.com>
+Received: by 10.223.108.138 with HTTP; Thu, 12 May 2011 14:40:54 -0700 (PDT)
+In-Reply-To: <4074476F6FE9EF4DBCC2D0ADEA25FCA4F4AF@MBX22.d.ethz.ch>
+References: <AcwJp0WZc11fwtneSh+dmPOyNkqg/A==> <4074476F6FE9EF4DBCC2D0ADEA25FCA4F4AF@MBX22.d.ethz.ch>
+From: Simon Winterberg <wsimon@student.ethz.ch>
+Date: Thu, 12 May 2011 23:40:54 +0200
+X-Google-Sender-Auth: r8LvmKNph4iMqN2Ubw8rtGR74Ys
+Message-ID: <BANLkTik6pjRrX9W+scvMSq1hPSBinctrBQ@mail.gmail.com>
+Subject: Re: ETH
+To: Hopf Raoul <hopf@imes.mavt.ethz.ch>
+Content-Type: multipart/alternative; boundary="00151747af3e63d2f104a31b0c6d"
+X-Filter-Node: phil2.ethz.ch
+X-Spam-Level:
+X-Spam-Status: hits=-0.7 tests=DKIM_SIGNED,DKIM_VALID,FREEMAIL_FROM,HTML_MESSAGE,RCVD_IN_DNSWL_LOW,RFC_ABUSE_POST,SPF_PASS
+X-Spam-Flag: NO
+Return-Path: simon.winterberg@gmail.com
+X-MS-Exchange-Organization-AVStamp-Mailbox: SMEXawoY;815100;0;This mail has
+ been scanned by Trend Micro ScanMail for Microsoft Exchange;
+X-MS-Exchange-Organization-SCL: 0
+X-MS-Exchange-Organization-AuthSource: edge20.ethz.ch
+X-MS-Exchange-Organization-AuthAs: Anonymous
+MIME-Version: 1.0
+
+--00151747af3e63d2f104a31b0c6d
+Content-Type: text/plain; charset="ISO-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+Hehe... du bisch bi mir im SPAM glandet...
+Gruess
+
+2011/5/3 Hopf Raoul <hopf@imes.mavt.ethz.ch>
+
+>  Chum doch mau im b=FCro verbi ;)
+>
+>
+>
+> --
+>
+>
+>
+> Raoul Hopf
+>
+>
+>
+> Center of Mechanics
+>
+> CLA G34
+>
+> Tannenstrasse 3
+>
+> 8092 Zurich, Switzerland
+>
+>
+>
+> Email: *hopf@imes.mavt.ethz.ch*
+>
+> Phone: +41 44 632 77 62
+>
+>
+>
+
+--00151747af3e63d2f104a31b0c6d
+Content-Type: text/html; charset="ISO-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-=
+1">Hehe... du bisch bi mir im SPAM glandet...<div>Gruess<br><br><div class=
+=3D"gmail_quote">2011/5/3 Hopf  Raoul <span dir=3D"ltr">&lt;<a href=3D"mail=
+to:hopf@imes.mavt.ethz.ch">hopf@imes.mavt.ethz.ch</a>&gt;</span><br><blockq=
+uote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc =
+solid;padding-left:1ex;">
+
+
+
+
+
+
+
+<div lang=3D"DE-CH" link=3D"blue" vlink=3D"purple">
+<div>
+<p class=3D"MsoNormal">Chum doch mau im b=FCro verbi ;)</p>
+<p class=3D"MsoNormal">&nbsp;</p>
+<p>
+<span lang=3D"EN-US" style=3D"font-size:10.0pt;font-family:&quot;Times New =
+Roman&quot;,&quot;serif&quot;">--</span></p>
+<p>
+<span lang=3D"EN-US" style=3D"font-size:10.0pt;font-family:&quot;Times New =
+Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+<p>
+<span lang=3D"EN-US" style=3D"font-size:10.0pt;font-family:&quot;Times New =
+Roman&quot;,&quot;serif&quot;">Raoul Hopf</span></p>
+<p>
+<span lang=3D"EN-US" style=3D"font-size:10.0pt;font-family:&quot;Times New =
+Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+<p>
+<span lang=3D"EN-US" style=3D"font-size:10.0pt;font-family:&quot;Times New =
+Roman&quot;,&quot;serif&quot;">Center of Mechanics</span></p>
+<p>
+<span lang=3D"EN-US" style=3D"font-size:10.0pt;font-family:&quot;Times New =
+Roman&quot;,&quot;serif&quot;">CLA G34</span></p>
+<p>
+<span style=3D"font-size:10.0pt;font-family:&quot;Times New Roman&quot;,&qu=
+ot;serif&quot;">Tannenstrasse 3</span></p>
+<p>
+<span style=3D"font-size:10.0pt;font-family:&quot;Times New Roman&quot;,&qu=
+ot;serif&quot;">8092 Zurich, Switzerland</span></p>
+<p>
+<span style=3D"font-size:10.0pt;font-family:&quot;Times New Roman&quot;,&qu=
+ot;serif&quot;">&nbsp;</span></p>
+<p>
+<span style=3D"font-size:10.0pt;font-family:&quot;Times New Roman&quot;,&qu=
+ot;serif&quot;">Email:
+<u><span style=3D"color:blue"><a href=3D"mailto:hopf@imes.mavt.ethz.ch" tar=
+get=3D"_blank"><span style=3D"color:blue">hopf@imes.mavt.ethz.ch</span></a>=
+</span></u></span></p>
+<p>
+<span style=3D"font-size:10.0pt;font-family:&quot;Times New Roman&quot;,&qu=
+ot;serif&quot;">Phone: &#43;41 44 632 77 62</span></p>
+<p class=3D"MsoNormal">&nbsp;</p>
+</div>
+</div>
+
+</blockquote></div><br></div>
+
+--00151747af3e63d2f104a31b0c6d--

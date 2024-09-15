@@ -1,0 +1,128 @@
+Received: from edge10.ethz.ch (82.130.75.186) by CAS20.d.ethz.ch
+ (172.31.51.110) with Microsoft SMTP Server (TLS) id 14.1.339.1; Tue, 13 Sep
+ 2011 15:16:07 +0200
+Received: from vphil1.ethz.ch (129.132.202.247) by edge10.ethz.ch
+ (82.130.75.186) with Microsoft SMTP Server id 14.1.289.1; Tue, 13 Sep 2011
+ 15:16:04 +0200
+Received: from smtp1.stanford.edu ([171.67.219.81] helo=smtp.stanford.edu)	by
+ vphil1.ethz.ch with esmtp (Exim 4.69)	(envelope-from <ekuhl@stanford.edu>)	id
+ 1R3SqH-0001Yv-Ff; Tue, 13 Sep 2011 15:16:07 +0200
+Received: from smtp.stanford.edu (localhost.localdomain [127.0.0.1])	by
+ localhost (Postfix) with SMTP id AF12B470281;	Tue, 13 Sep 2011 06:16:00 -0700
+ (PDT)
+Received: from [192.168.73.33] (77-58-244-79.dclient.hispeed.ch
+ [77.58.244.79])	(using TLSv1 with cipher AES128-SHA (128/128 bits))	(No
+ client certificate requested)	(Authenticated sender: ekuhl)	by
+ smtp.stanford.edu (Postfix) with ESMTPSA id 0F021470225;	Tue, 13 Sep 2011
+ 06:15:58 -0700 (PDT)
+Subject: Re: hm....
+Content-Type: text/plain; charset="windows-1252"
+From: Ellen Kuhl <ekuhl@stanford.edu>
+In-Reply-To: <58750D97EBD3E646B266E730A0CB3FF3EA3E48@MBX11.d.ethz.ch>
+Date: Tue, 13 Sep 2011 06:15:54 -0700
+CC: "Gessat  Michael" <mgessat@ethz.ch>, "Hopf  Raoul"
+	<hopf@imes.mavt.ethz.ch>, "Kuhl  Ellen" <kuhl@imes.mavt.ethz.ch>
+Content-Transfer-Encoding: quoted-printable
+Message-ID: <140CFD3B-7619-417A-80A0-33EEF11491FD@stanford.edu>
+References: <87BB32727DCCE548949DE8407E66DF3905FADA8A@MBX12.d.ethz.ch> <58750D97EBD3E646B266E730A0CB3FF3E9FC5D@MBX11.d.ethz.ch>,<000801cc6f1b$3ee077c0$bca16740$@ee.ethz.ch> <58750D97EBD3E646B266E730A0CB3FF3EA3E48@MBX11.d.ethz.ch>
+To: "Mazza  Edoardo" <mazza@imes.mavt.ethz.ch>
+X-Mailer: Apple Mail (2.1084)
+X-Filter-Node: vphil1.ethz.ch
+X-Spam-Level: --
+X-Spam-Status: hits=-2.8 tests=RCVD_IN_DNSWL_MED,RP_MATCHES_RCVD,SPF_PASS
+X-Spam-Flag: NO
+Return-Path: ekuhl@stanford.edu
+X-MS-Exchange-Organization-AuthSource: edge10.ethz.ch
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Exchange-Organization-AVStamp-Mailbox: SMEXawoY;842300;0;This mail has
+ been scanned by Trend Micro ScanMail for Microsoft Exchange;
+X-MS-Exchange-Organization-SCL: 0
+MIME-Version: 1.0
+
+... fuer mich sieht das so aus, als wuerden die hier einige wenige globale =
+kinematische Groessen des Stents mit globalen Kraeften vergleichen. Das ans=
+ich ist hilfreich, und koennte auch als globale Validierung von Edo's Metho=
+de dienen. Lokale Maxima und Minima gibt es hier allerdings nicht, eben ein=
+fach nur eine integrale Methode, schnell, gute Ueberschlagsberechnung, aber=
+ nicht wirklich lokal hochaufgeloest.
+
+Wenn ich Edo richtig verstanden habe, dann wollt Ihr eine inverse Modellier=
+ung mit Kontinuumsmechanik und FEM nachschalten, das wuerde lokale Spannung=
+sspitzen vorhersagen und lokale Dehnungsmaxima, eben allgemein Kontourplots=
+ fuer Feldgroessen. Wenn man soetwas "umsonst" mitbekommt, waere das natuer=
+lich genial!
+
+Klar, Montag um 16 Uhr passt.
+Ellen
+
+
+
+On Sep 13, 2011, at 5:47 AM, Mazza Edoardo wrote:
+
+> ich glaube nicht wirklich, dass diese leute das gleiche machen.
+> Ziel und Methoden sind eindeutig unterschiedlich!
+> Wir sollten das besprechen.
+> Ellen: k=F6nnten wir Deine Meinung dazu haben? Wir haben geplant am n=E4c=
+hsten Montag um 4 dar=FCber zu sprechen. H=E4ttest Du Zeit?
+> HG
+> Edo
+>
+> ________________________________________
+> From: Michael Gessat [gessat@vision.ee.ethz.ch]
+> Sent: 09 September 2011 20:06
+> To: Mazza  Edoardo
+> Subject: AW: hm....
+>
+> Ja, habs aus Versehen nur an Raoul geschickt. Hier sind beide, es ist im
+> Grunde das gleiche 2x, einmal in vitro, einmal in vivo gemessen
+>
+> Sieht f=FCr mich so aus, als haben die uns knapp abgeh=E4ngt. =C4rgerlich=
+.
+>
+> Gr=FCsse,
+> Michael
+>
+> -----Urspr=FCngliche Nachricht-----
+> Von: Mazza Edoardo [mailto:mazza@imes.mavt.ethz.ch]
+> Gesendet: Freitag, 9. September 2011 18:25
+> An: Gessat Michael; Hopf Raoul
+> Betreff: RE: hm....
+>
+>
+>
+> wenn es so ist...sind wir wenige monate zu sp=E4t...!
+>
+> hast du das paper gefunden?
+>
+> HG edoardo
+>
+>
+>
+> ________________________________
+> From: Gessat Michael
+> Sent: 09 September 2011 10:51
+> To: Mazza Edoardo; Hopf Raoul
+> Subject: hm....
+>
+> http://www.sciencedirect.com/science/article/pii/S1051044310010183
+> Ich habe bisher nur den Abstract, das Paper versuche ich noch zu bekommen=
+.
+> Aber ich f=FCrchte, die sind verflucht nah dran=85
+>
+>
+> --
+> Dr.-Ing. Michael GESSAT
+> University Hospital Zurich, Div. of Cardiac and Vascular Surgery,
+> ETH Zurich, Computer Vision Laboratory
+>
+> mail:
+> Institut f=FCr Bildverarbeitung
+> ETH Z=FCrich, ETF D 113.1
+> Sternwartstrasse 7
+> 8092 Z=FCrich
+> Switzerland
+>
+> phone:  +41 44 63 20566
+> email: gessat@vision.ee.ethz.ch<mailto:gessat@vision.ee.ethz.ch><sdarticl=
+e.pdf><sdarticle.pdf>
+

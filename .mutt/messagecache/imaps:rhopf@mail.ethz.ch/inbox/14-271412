@@ -1,0 +1,209 @@
+Received: from mailm117.d.ethz.ch (2001:67c:10ec:5602::29) by
+ mailm115.d.ethz.ch (2001:67c:10ec:5602::27) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256) id
+ 15.1.2507.39 via Mailbox Transport; Fri, 23 Aug 2024 18:40:11 +0200
+Received: from mailm213.d.ethz.ch (2001:67c:10ec:5603::27) by
+ mailm117.d.ethz.ch (2001:67c:10ec:5602::29) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256) id
+ 15.1.2507.39; Fri, 23 Aug 2024 18:40:11 +0200
+Received: from mailg210.ethz.ch (2001:67c:10ec:5606::21) by mailm213.d.ethz.ch
+ (2001:67c:10ec:5603::27) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256) id 15.1.2507.39 via Frontend
+ Transport; Fri, 23 Aug 2024 18:40:11 +0200
+Received: from ethz.ch (129.132.198.195) by mailg210.ethz.ch (129.132.198.194)
+ with Microsoft SMTP Server id 15.1.2507.39; Fri, 23 Aug 2024 18:40:09 +0200
+Received: from mail-vi1eur02on2091.outbound.protection.outlook.com ([40.107.241.91] helo=EUR02-VI1-obe.outbound.protection.outlook.com)
+	by ethz.ch stage1 with esmtps 
+	(Exim MailCleaner) 
+	id 1shXKM-000000000E0-1U7Q  
+	from <hillary.ndeda@ashesi.edu.gh>;
+	Fri, 23 Aug 2024 18:39:54 +0200
+X-MailCleaner-SPF: pass
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector10001; d=microsoft.com; cv=none;
+ b=ez0T8YaWigyjV/x4ZTAyyIBR96eQayW+XGvG3ylvzMEylAoPkq85gz6+VObUT5JXsZFwBUfqZktYyAy0UbUy2ie87gmczdM+H5237VcNN5wF1KTS0pm59NCaq16iYYllneHxrmUwbQjWzwiBrAF0xWdzwZhfRyPE0K1F7czyxqFrdQnnohM+ypj1NfccyLFlMFekZfs9i6jugqDU7XznH/KCN4VWGoT/2VN8G1TdaF5YYIdkfQRbZp5v+l0/m0gD/NYUP4S/gorwHqowAYzh6cLyf6Bb0aTmJyPeslw2l2SfhyaRBd2q4Aswt0r0aHvQ3ErbaVQQ6P8ZJc2dmPAEwQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector10001;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=1t0KRsNQASJoqBwDY+oc6LXtcOJXV0g56NSPpPU6tPU=;
+ b=F+E2u2HFVRp/SPesvJjhXI9x/WRZgeh7tZYw/2aOdWtNj/ycMPiAulkpPxcm5awVShHY7S9ReOzdBvLH/6jtxWDxo+R5T3d3oeSWDrkPPCt8mku4LX0vF73t3D6jqHVjnHeHUyeZnsEo3CmQaI+5NRQpckzvEYHdQ+KAewfTxMzzoCmF9a79dTD1F/0KMT5iuI/9NFdh+qarjSU9LgnZLAf/BxYtHR7FJio977FIvpkd0fxa8M08dWhTIxhxK0eS14VAJGcfgyZdBCYfnlJ7sruCdBuZKAwtxidC1oCmSMMxrhgQpUDqR8sknOtPcgNP7M+tHpzfrZHMjfqT6ooDSQ==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=pass
+ smtp.mailfrom=ashesi.edu.gh; dmarc=pass action=none
+ header.from=ashesi.edu.gh; dkim=pass header.d=ashesi.edu.gh; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+ d=aucampus.onmicrosoft.com; s=selector1-aucampus-onmicrosoft-com;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=1t0KRsNQASJoqBwDY+oc6LXtcOJXV0g56NSPpPU6tPU=;
+ b=D0U9FRbGIeD+hoFu8bqniCisqD6F+l0KDmYAWAmACoGuBhzgT57wVngKi9FJKw9sQ30ip5Pu+se25kQu+yDuvtCtE83gIgCr6P3LNuebi8LIAJLvr0VHXyJXT8seblr7opS3Q3t9MJjKfDe/jSFrrUSohh1F1+hGkkkLgJ119x0=
+Received: from AM9P190MB1569.EURP190.PROD.OUTLOOK.COM (2603:10a6:20b:3e7::18)
+ by DBBP190MB2058.EURP190.PROD.OUTLOOK.COM (2603:10a6:10:52f::17) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.7875.21; Fri, 23 Aug
+ 2024 16:39:52 +0000
+Received: from AM9P190MB1569.EURP190.PROD.OUTLOOK.COM
+ ([fe80::2801:6561:f76f:67aa]) by AM9P190MB1569.EURP190.PROD.OUTLOOK.COM
+ ([fe80::2801:6561:f76f:67aa%5]) with mapi id 15.20.7897.014; Fri, 23 Aug 2024
+ 16:39:51 +0000
+From: Hillary Kiduhu Ndeda <hillary.ndeda@ashesi.edu.gh>
+To: "andrea.gomero@empa.ch" <andrea.gomero@empa.ch>, "hopf@imes.mavt.ethz.ch"
+	<hopf@imes.mavt.ethz.ch>, "dkromer@ethz.ch" <dkromer@ethz.ch>,
+	"mazza@imes.mavt.ethz.ch" <mazza@imes.mavt.ethz.ch>,
+	"olaf.kuebler@sl.ethz.ch" <olaf.kuebler@sl.ethz.ch>, Acheampong Antwi Afari
+	<aantwi@aucampus.onmicrosoft.com>
+CC: Bright Edudzi Gershon Kordorwu <bright.kordorwu@ashesi.edu.gh>, "Jamiu
+ Olamide Afolayan" <jamiu.afolayan@ashesi.edu.gh>
+Subject: Statics & Solid Mechanics Class photos
+Thread-Topic: Statics & Solid Mechanics Class photos
+Thread-Index: AQHa9XmrIfYz0zIoakuqUfs2oqhtng==
+Date: Fri, 23 Aug 2024 16:39:51 +0000
+Message-ID: <AM9P190MB1569B2DD3B16934913F52998AB882@AM9P190MB1569.EURP190.PROD.OUTLOOK.COM>
+Accept-Language: en-US
+Content-Language: en-GB
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+authentication-results: dkim=none (message not signed)
+ header.d=none;dmarc=none action=none header.from=ashesi.edu.gh;
+x-ms-publictraffictype: Email
+x-ms-traffictypediagnostic: AM9P190MB1569:EE_|DBBP190MB2058:EE_
+x-ms-office365-filtering-correlation-id: 59c0be91-e108-41fb-d08f-08dcc39235ac
+x-ms-exchange-senderadcheck: 1
+x-ms-exchange-antispam-relay: 0
+x-microsoft-antispam: BCL:0;ARA:13230040|1800799024|376014|366016|38070700018;
+x-microsoft-antispam-message-info: =?us-ascii?Q?M6g+K/vth1m5aNrB/0S6v0dQvqigwX9C+H87Zh0CphUH7TrCUuec3ckencJI?=
+ =?us-ascii?Q?DwysSTk7SFNuH2kDTewp3U+wMKaCUbwfb0lAwpr6A1VMTzsOnbd3iG901c9C?=
+ =?us-ascii?Q?3M/0NT2lzcq8F2K4mdt6D5udUGI067W2+CjpwE2eNy6ZVpfAnBhP9fsWsBrT?=
+ =?us-ascii?Q?bzV/BC0S12PLBOOLhSiJIPN1BwqeVgby5Cf6XYPCrxwpObzwCfSKf+4ghN51?=
+ =?us-ascii?Q?ZcFHNQc9G0yXw91oh/pbBz71ZjknisDlIlJXhctNTs0Wuc8jrq3oBif/YJep?=
+ =?us-ascii?Q?M8chToBG0qY0vdWGt+Mg2owFBuow0L9UVgwWTvUh2oLxD/4TrdEAUAVfaMZQ?=
+ =?us-ascii?Q?fN7okTpNFjuVGhiGJGRfOtMiMeZ+fSac3WVvkE6Hic3EN+r189tJ/kprZTBX?=
+ =?us-ascii?Q?LA82UObzuKtx7Aw21BqInPWQ/Anu5UOZ4/bOBuHfJa6A36HksmLHrs4wu3p1?=
+ =?us-ascii?Q?T2lICwz9Y12kBpoEEgK1AZxXOqW4zbnsOH6XPIupJY71pMAedxZhdgsq3nrJ?=
+ =?us-ascii?Q?mPlUCKUoocLUNxf6JkQ8n2IITBr914x6oO08N99DgdO0+PQ10Yt3Vm+2tP8D?=
+ =?us-ascii?Q?a9X+fmV9BJWyUdJlT5DBUjc4dR4qltRg1WtgUfBa8F430oVdp52Y8eXk6e+e?=
+ =?us-ascii?Q?j4j6BUJpoSdePRZnhmikU8EPWQGKgrsh6AkQ2AJ5ma9CKWTb8IK47t4hzIJd?=
+ =?us-ascii?Q?voa7KKl/QZPXh7C/ogN0oNStg3J41cBwIAC5/dZ9YWCGEWX83+3V8+s5WOIq?=
+ =?us-ascii?Q?8FPyFLiaVCTs0MZpDRtCv/C9LR4kq6jcRDnYVB+Wd7wCRjAXT78T6VvhanDC?=
+ =?us-ascii?Q?M2sLqBjunBvqW+bunT4daF3VfM1UDm8BkbEwVTUSoexcvbB9ansqKNDcoYR0?=
+ =?us-ascii?Q?r3sUoIVzpQxdhuMmVIRb61dcwL+jXgwwbqHLp1dw24IKq4qkMxgrK5wNCCmP?=
+ =?us-ascii?Q?OTF/LBAotX4YZepOSNs9/6IATRgL+iWTlhSqTBUS1YOctwZZbgfhj/fsngTv?=
+ =?us-ascii?Q?4vOfeW3nhQO89bcVln6+6VOjeeA94oclTl7dwJw5wPEtm+w1SaQg6Z5WQBrM?=
+ =?us-ascii?Q?qB6udH0EisVQwvbuQiLsMYusuvRHIk8IStqX8beq4obhzu4YHpQlW73z0wY+?=
+ =?us-ascii?Q?h5mRLcQTPtimvB3SCXB1hk6xuWjLb41WrTqK/FYu1g0wZ7Wf7d77B6HajRp6?=
+ =?us-ascii?Q?SNyTy82aRG0pHj4AhgNf9NZj6bm8h0uq0Ce6+RKtyYRS0LCc+2vOPrPT0TbL?=
+ =?us-ascii?Q?i4Ey2SQDKBmvNLXKyWg6/5dDVxZvDRvRbx7yNpZ7ZxcQkq/xExzFeNU/Jvh9?=
+ =?us-ascii?Q?Z2unuPtWRaNbM8uxqBmMt8z6h0T+IjKMzF2umOkMPdyQas9ug89vZenAvDnQ?=
+ =?us-ascii?Q?otSaXOI=3D?=
+x-forefront-antispam-report: CIP:255.255.255.255;CTRY:;LANG:en;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:AM9P190MB1569.EURP190.PROD.OUTLOOK.COM;PTR:;CAT:NONE;SFS:(13230040)(1800799024)(376014)(366016)(38070700018);DIR:OUT;SFP:1102;
+x-ms-exchange-antispam-messagedata-chunkcount: 1
+x-ms-exchange-antispam-messagedata-0: =?us-ascii?Q?BtPqwbZwA7CjFEwVBiUTXtO8aEZRV5TRog7cBLgp09jGz96y9vrRMECvBmA0?=
+ =?us-ascii?Q?Mh8GiuIptyBQNBbyUzZFfSxE2JbcsmfUlB7jXi2CcYdSt9RT0U1+5Cve8Xmk?=
+ =?us-ascii?Q?zbVft84qrRR5vcAxIe7F3K21m6n7AUfe1Dr6R/9sikLxEwysyvCnOX07rIop?=
+ =?us-ascii?Q?1ZqZ23YXk2MmJms9FoF0qID0s6halc2VOpvc2eWp0j/Kgh7maDcj0C0qRZIg?=
+ =?us-ascii?Q?iZXvtGpRst5AudYpzPha9rdSBhV9DT/ihAMPKzNVeZoXhBnVtcV8duHyLFCr?=
+ =?us-ascii?Q?xOjeUWWJgFbBxtzLqIW+iEAr0+btO+bFiAKFqve1Q3iXm2jyYrKyhlJOvEmW?=
+ =?us-ascii?Q?rFj7aDp057E3lwyC50yViGLj0t+mcGNnKMqB2kkEZhQZFg9USPVlCZ7UBtDI?=
+ =?us-ascii?Q?w6yPg7EoU6oCib3275OwUqwbQE+fIE82RGZO8wOe/hxCYuRgKAFxg1h2QBZu?=
+ =?us-ascii?Q?nx2RyZ+1kai4g18WeWYgSUqmgw5qodXA3qsasSvqbkI+Paw4I35PYSUBVI6g?=
+ =?us-ascii?Q?YPXCx5qAVVpl0uTyvU0bhkEprdwZV5khmmTnmGnZ10nfqODt+9hinSgMGLn5?=
+ =?us-ascii?Q?SMJSQ6M0SbypQktGsXjDklOXXJlKmn9oeqhzVIbvJv/15bGc5TRTA6P826/L?=
+ =?us-ascii?Q?KEF49TObnlQISbR82LAm+Efw1c/EOsT8HZKdJRC1yb7hWo+kIBaYqatrFap9?=
+ =?us-ascii?Q?f29J9vXgTdYueD9lAXvImbIH2U6H3LPxqYlhkpMSabX1OH5NhJuD68ycTdK8?=
+ =?us-ascii?Q?ponO+4qqZBBjhdRtFgZ1QS6HSW7Cq35w9ulGq68JLfjrybyocV4+vkBPRMIy?=
+ =?us-ascii?Q?ePxTKIStCur6a6RvU8FnsPJ0ExLmt4kamjN1DPFl9BmNCH26OKkUL7Jq6TIq?=
+ =?us-ascii?Q?nLeVihgz53J2AFj3UiYafjOvE6O8/7bnVtRzCDi+K6Phm2oLKo7yHtfvsTe+?=
+ =?us-ascii?Q?QOLyfXxItC/z4OwidjD/f4e1AAKhnsCtPUr0LGJtUkcOhisjjNmxWP34qIEp?=
+ =?us-ascii?Q?A/Yk2cy8BvV/DSSKeVXWZyYkBPBIXU/ElgV+8FzZCKzwQqvcIueEhlwS7rVI?=
+ =?us-ascii?Q?zX/EnZfOkR6J+V4FPRCbOkAmvUqBbzm4o8I9RDT2iMTxxxXzH08IoqIzK+Bi?=
+ =?us-ascii?Q?kJzgl1hp2B/n/SvweAAilkGPkJv5ETo6frbFvYRLny62foiTq/yQGcu56Mh7?=
+ =?us-ascii?Q?fmtDtBcBZHEdDvI6u3xz/OQuRnP7uQyUPZHxH/3UeOaLNnGpfZrABR1spYpm?=
+ =?us-ascii?Q?TPNw222hth8PmgvUOFjh7i1rNAegjpGdl0NmyYd3t4B/qf5aTjzaVUsBlqY/?=
+ =?us-ascii?Q?rUofsh35M0UfNS19uUTCP1NfMv1NFynbID2GVTwm3Ib6cbDxo0jj2h+YFb8/?=
+ =?us-ascii?Q?U/Kc53klzuU1NulGrzJJkB3isbWC2Bmrv0968RuJGt4ZbD++/WkPMNwsAR+i?=
+ =?us-ascii?Q?QnIEUJRGSHyOFNMDZSP0bjTq8ovjTw2Ag9KDn29xSNqwTG+OVaYJ2yZiuRP3?=
+ =?us-ascii?Q?zyCmVyXNlCSz1niFi69CDuhbYl4sdYQo6ypvwLpRxtSpJZMdoQHOUk85GDHG?=
+ =?us-ascii?Q?KvWBh+PM+F9EM/6jiA6saijlBy5mAKYjiXGNz3MUo8S89lMFsgSrC3FCpr+q?=
+ =?us-ascii?Q?tA=3D=3D?=
+Content-Type: multipart/alternative;
+	boundary="_000_AM9P190MB1569B2DD3B16934913F52998AB882AM9P190MB1569EURP_"
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-AuthSource: AM9P190MB1569.EURP190.PROD.OUTLOOK.COM
+X-MS-Exchange-CrossTenant-Network-Message-Id: 59c0be91-e108-41fb-d08f-08dcc39235ac
+X-MS-Exchange-CrossTenant-originalarrivaltime: 23 Aug 2024 16:39:51.2540
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: 6dc661f5-ee0c-460e-bdb4-034aeb3f3670
+X-MS-Exchange-CrossTenant-mailboxtype: HOSTED
+X-MS-Exchange-CrossTenant-userprincipalname: JvcB5o1f7+OFFAPr1J2K/sYpTbpUmYJ77vk1vTitpKsrQti1d2ho8cW6FQt6ibwk0++Uq7X9V/80ZBO/rZcfhM+YVnDx6iJiTpx5XpFmjaU=
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: DBBP190MB2058
+X-Newsl: is not newsletter (0.0/5.0) position : 0, not decisive
+X-NiceBayes: is not spam (0.4%) position : 3, not decisive
+X-Spamc: is not spam (-3.3/5.0) position : 7, ham decisive
+X-MailCleaner-Information: Please contact servicedesk@id.ethz.ch for more information
+X-MailCleaner-ID: 1shXKM-000000000E9-1mRQ
+X-MailCleaner: Found to be clean
+X-MailCleaner-SpamCheck: not spam, Newsl (score=0.0, required=5.0, NONE,
+	position : 0, not decisive), NiceBayes (0.4%, position : 3,
+	not decisive), Spamc (score=-3.3, required=5.0, HTML_MESSAGE 0.0,
+	DKIM_VALID -0.3, MC_SPF_PASS -0.0, RCVD_IN_MSPIKE_H2 -0.0, EZURL 0.0,
+	MC_URLSHORTENER 0.1, EthURLb 0.0, EZURItest_nonethz_a 0.0,
+	URIBL_BLOCKED 0.0, RCVD_IN_RP_RNBL 1.3, EZURItest_nonethz_b 0.0,
+	MC_CLIENT_CERT_VALID 0.0, RCVD_IN_RP_CERTIFIED -3.0, DKIM_SIGNED 0.6,
+	RCVD_IN_DNSWL_NONE -0.0, RCVD_IN_RP_SAFE -2.0, position : 7,
+	ham decisive)
+X-MailCleaner-ReportURL: https://mailcleaner.ethz.ch/rs.php
+Return-Path: hillary.ndeda@ashesi.edu.gh
+X-MS-Exchange-Organization-Network-Message-Id: b825891b-5eaa-458e-7b3d-08dcc39240aa
+X-MS-Exchange-Organization-AVStamp-Mailbox: SMEXJnq?;1954500;0;This mail has
+ been scanned by Trend Micro ScanMail for Microsoft Exchange;
+X-MS-Exchange-Organization-SCL: 0
+X-MS-Exchange-Organization-AuthSource: mailg210.ethz.ch
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:01.6283742
+X-MS-Exchange-Processed-By-BccFoldering: 15.01.2507.039
+MIME-Version: 1.0
+
+--_000_AM9P190MB1569B2DD3B16934913F52998AB882AM9P190MB1569EURP_
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+Hello. Thank you so much for taking time to teach and guide us in this cour=
+se. Kindly find in the link below photos taken during the course.
+
+https://photos.app.goo.gl/8HpmpaaUosSJXwyR9
+
+Regards,
+Hillary
+
+Get Outlook for iOS<https://aka.ms/o0ukef>
+
+--_000_AM9P190MB1569B2DD3B16934913F52998AB882AM9P190MB1569EURP_
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dus-ascii"=
+>
+</head>
+<body>
+<div dir=3D"ltr">
+<div dir=3D"ltr">Hello. Thank you so much for taking time to teach and guid=
+e us in this course. Kindly find in the link below photos taken during the =
+course.<span></span><span></span></div>
+<div dir=3D"ltr"><br>
+</div>
+<div dir=3D"ltr"><a rel=3D"noreferrer noopener" href=3D"https://photos.app.=
+goo.gl/8HpmpaaUosSJXwyR9">https://photos.app.goo.gl/8HpmpaaUosSJXwyR9</a><b=
+r>
+</div>
+<div dir=3D"ltr"><br>
+</div>
+<div dir=3D"ltr">Regards,</div>
+<div dir=3D"ltr">Hillary</div>
+<div id=3D"ms-outlook-mobile-signature">
+<div><br>
+</div>
+Get <a href=3D"https://aka.ms/o0ukef">Outlook for iOS</a></div>
+</div>
+</body>
+</html>
+
+--_000_AM9P190MB1569B2DD3B16934913F52998AB882AM9P190MB1569EURP_--

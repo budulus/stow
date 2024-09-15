@@ -1,0 +1,81 @@
+Received: from edge20.ethz.ch (82.130.99.26) by CAS21.d.ethz.ch
+ (172.31.51.111) with Microsoft SMTP Server (TLS) id 14.1.339.1; Tue, 4 Oct
+ 2011 15:00:07 +0200
+Received: from phil2.ethz.ch (129.132.202.240) by edge20.ethz.ch
+ (82.130.99.26) with Microsoft SMTP Server id 14.1.339.1; Tue, 4 Oct 2011
+ 15:00:06 +0200
+Received: from edge10s.ethz.ch ([82.130.75.187])	by phil2.ethz.ch with esmtp
+ (Exim 4.69)	(envelope-from <apache@ois-p-apa2.ethz.ch>)	id 1RB4bP-0006XD-7y
+	for rhopf@ethz.ch; Tue, 04 Oct 2011 15:00:07 +0200
+Received: from ois-p-apa2.ethz.ch (129.132.220.180) by edge10s.ethz.ch
+ (82.130.75.187) with Microsoft SMTP Server id 14.1.339.1; Tue, 4 Oct 2011
+ 15:00:09 +0200
+Received: from ois-p-apa2.ethz.ch (localhost.localdomain [127.0.0.1])	by
+ ois-p-apa2.ethz.ch (8.13.8/8.13.8) with ESMTP id p94D07Cc006833	for
+ <rhopf@ethz.ch>; Tue, 4 Oct 2011 15:00:07 +0200
+Received: (from apache@localhost)	by ois-p-apa2.ethz.ch (8.13.8/8.13.8/Submit)
+ id p94D07S5006832;	Tue, 4 Oct 2011 15:00:07 +0200
+Date: Tue, 4 Oct 2011 15:00:07 +0200
+Message-ID: <201110041300.p94D07S5006832@ois-p-apa2.ethz.ch>
+To: <rhopf@ethz.ch>
+Subject: Bestellung Visitenkarten
+X-PHP-Originating-Script: 1001:ii_mail.inc.php
+Content-Type: text/plain; charset="UTF-8"
+From: <visitenkarten@ad.ethz.ch>
+Return-Path: apache@ois-p-apa2.ethz.ch
+X-MS-Exchange-Organization-AuthSource: edge20.ethz.ch
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Exchange-Organization-AVStamp-Mailbox: SMEXkv@];847100;0;This mail has
+ been scanned by Trend Micro ScanMail for Microsoft Exchange;
+X-MS-Exchange-Organization-SCL: 0
+MIME-Version: 1.0
+
+Wir haben Ihre Visitenkartenbestellung mit folgenden Angaben erhalten:
+**********************************************************************
+
+Bestelldatum:  04.10.2011 15:00
+
+Nachname:      Hopf
+Vorname:       Raoul
+Titel:
+Funktion:      MSc ETH ME
+Institut:      Center of Mechanics
+
+Adresse:
+ETH Zürich
+CLA G21.2
+Tannenstrasse 3
+8092 Zürich
+
+Telefon:       +41 44 632 28 86
+Mobile:
+Fax:           +41 44 632 11 45
+Mail:          rhopf@ethz.ch
+WWW:           www.zfm.ethz.ch
+
+Privatadresse:
+Seidenweg 20
+3012 Bern
+Switzerland
+
+mobile +41 79 486 94 41
+
+----------------------------------------------------------------------
+
+Anzahl Karten: 100
+Fonds:
+Kostenstelle:
+Kontokorrent:
+Barzahlung:    ja
+Mail GzD:      rhopf@ethz.ch
+
+Lieferadresse:
+
+
+Bemerkungen:
+Neben ETH-Kopf: "Institute of Mechanical Systems" und IMES-LOGO einfügen.
+
+
+Mit freundlichen Grüssen
+Grafikbüro, Abteilung Dienste
+

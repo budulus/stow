@@ -1,0 +1,56 @@
+Received: from MBX10.d.ethz.ch ([169.254.1.202]) by CAS21.d.ethz.ch
+ ([fe80::55ba:c4a5:d8a7:ab62%10]) with mapi id 14.01.0289.001; Thu, 1 Sep 2011
+ 14:24:05 +0200
+From: "Kaufmann  Stephan" <kaufmann@imes.mavt.ethz.ch>
+To: MECH_ALL <mech-all@imes.mavt.ethz.ch>
+Subject: Currently no backup of file servers
+Thread-Topic: Currently no backup of file servers
+Thread-Index: Acxooe1DpLvKi8UqR+OoQnMDp9o2CQ==
+X-MS-Exchange-MessageSentRepresentingType: 1
+Date: Thu, 1 Sep 2011 14:24:04 +0200
+Message-ID: <193960ECBB21594FB10C5F5B4F9FB54F0FEDADAF@MBX10.d.ethz.ch>
+Accept-Language: en-US, de-CH
+Content-Language: en-US
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-AuthSource: CAS21.d.ethz.ch
+X-MS-Has-Attach:
+X-Auto-Response-Suppress: DR, OOF, AutoReply
+X-MS-Exchange-Organization-SCL: -1
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Dear ZfM people,
+
+Very unfortunately, the ETH Netbackup system is down. According to informat=
+ion from Informatikdienste, this state could continue until next week. Ther=
+efore, the backup of file servers currently is impossible.
+
+To assure a reasonable amount of data security,
+
+--> please copy files which you are working on (or which are crucial for yo=
+u these days) to your local C-drive, your USB stick or your USB disk - once=
+ a day.
+
+I will inform you as soon as Netback is operational again and has saved our=
+ data.
+
+Thanks,
+Stephan
+
+----------
+ETH Z=FCrich
+Dr. Stephan Kaufmann
+IMES / Zentrum f=FCr Mechanik
+CLA J 21.1
+8092 Z=FCrich
+mailto:kaufmann@imes.mavt.ethz.ch
++41 44 632 23 09 Telefon
++41 44 632 11 45 Fax
+
+
+
+
